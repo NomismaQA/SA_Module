@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional Suite">
+  <test thread-count="5" name="Test">
+  <test name="Reimbursement section-add new reimbursement for allowance type">
+    <classes>
+      <class name="tests.Reimbursementscenario2_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Sales section-add invoice">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="purchase section-upload supplier csv">
+      <classes>
+      <class name="tests.Logintouploadsuppliercsv_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Director balance-verification of director amount">
+      <classes>
+      <class name="tests.Directorbalance_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="purchase section-add supplier">
+      <classes>
+      <class name="tests.Logintoaddsupplierbill_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Reimbursement section-add new reimbursement for Mileage type">
+      <classes>
+      <class name="tests.reimbursementscenario1_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Reimbursement section-add new reimbursement for payment type">
+      <classes>
+      <class name="tests.reimbursementscenario3_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      <class name="tests.Logintoupload_DefaultProfile"/>
+      <class name="tests.logintoinvoiceneg_DefaultProfile"/>
+      <class name="tests.Logintoaddcustomer_DefaultProfile"/>
+      <class name="tests.logintouploadexpense_DefaultProfile"/>
+      
+      <class name="tests.samples.Login_DefaultProfile"/>
+      <class name="tests.fullprocess_DefaultProfile"/>
+      <class name="tests.logintoaddsupplier_DefaultProfile"/>
+      <class name="tests.Logintounpaidamountsupplier_DefaultProfile"/>
+      <class name="tests.Logintounpaidamountverification_DefaultProfile"/>
+      <class name="tests.Signuptestforexistinguser_DefaultProfile"/>
+      
+      <class name="tests.reimbursementscenario4_DefaultProfile"/>
+      <class name="tests.LogintoNewdepartment_DefaultProfile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Functional Suite -->

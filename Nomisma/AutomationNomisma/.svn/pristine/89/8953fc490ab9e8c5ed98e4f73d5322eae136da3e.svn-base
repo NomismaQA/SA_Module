@@ -1,0 +1,325 @@
+<html>
+<head>
+<title>TestNG:  Test4-CheckingExpensesAuto</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test4-CheckingExpensesAuto</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 10 13:33:20 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>275 seconds (275660 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.businesstypeScripts.VerifyExpensesPTRFull.funcVerifyBoxesPTRFull()'><b>funcVerifyBoxesPTRFull</b><br>Test class: com.nomisma.businesstypeScripts.VerifyExpensesPTRFull<br/>
+<a href="#Output-1738784081" onClick='toggleBox("Output-1738784081", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1738784081" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1738784081">
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //table//tbody//tr//td[contains(text(),'testingPTR')]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //table//tbody//tr//td[contains(text(),'testingPTR')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //table//tbody//tr//td[contains(text(),'testingPTR')]] clicked<br/>
+Agent window is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Businesses')]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Businesses')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Businesses')]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlType]] -> xpath: .//option[normalize-space(.) = "Partnership"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlType]] -> xpath: .//option[normalize-space(.) = "Partnership"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlType]] -> xpath: .//option[normalize-space(.) = "Partnership"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //tr[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_rowCompany']/td[1]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //tr[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_rowCompany']/td[1]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //tr[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_rowCompany']/td[1]] clicked<br/>
+opening searched business<br/>
+Nomisma1Partnership<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Income')]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ddlFinancialYear]] -> xpath: .//option[normalize-space(.) = "Jan 2018 - Dec 2018"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ddlFinancialYear]] -> xpath: .//option[normalize-space(.) = "Jan 2018 - Dec 2018"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ddlFinancialYear]] -> xpath: .//option[normalize-space(.) = "Jan 2018 - Dec 2018"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //div[@id='ctl00_divMainContent']/header/div[1]/div[2]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //div[@id='ctl00_divMainContent']/header/div[1]/div[2]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //div[@id='ctl00_divMainContent']/header/div[1]/div[2]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //div[@id='ctl00_cPH_Headerpnl']/div/div/div/div/div/div/a/p]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //div[@id='ctl00_cPH_Headerpnl']/div/div/div/div/div/div/a/p]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //div[@id='ctl00_cPH_Headerpnl']/div/div/div/div/div/div/a/p] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_txtInvoiceDate]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_txtInvoiceDate]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_txtInvoiceDate] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDescription]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDescription]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDescription] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //input[@id='ctl00_cPH_rptrProduct_ctl00_txtUnitPrice']]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //input[@id='ctl00_cPH_rptrProduct_ctl00_txtUnitPrice']]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //input[@id='ctl00_cPH_rptrProduct_ctl00_txtUnitPrice']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //input[@id='ctl00_cPH_rptrProduct_ctl00_txtQuantity']]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //input[@id='ctl00_cPH_rptrProduct_ctl00_txtQuantity']]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //input[@id='ctl00_cPH_rptrProduct_ctl00_txtQuantity']] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHFooter_btnSave] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Accountant')]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Accountant')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Accountant')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnAddJournalEntry]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnAddJournalEntry]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnAddJournalEntry] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl00_AccountUC1_txtAccount]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl00_AccountUC1_txtAccount]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl00_AccountUC1_txtAccount] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl01_AccountUC1_txtAccount]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl01_AccountUC1_txtAccount]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl01_AccountUC1_txtAccount] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnAddJournalEntry]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnAddJournalEntry]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnAddJournalEntry] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl00_AccountUC1_txtAccount]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl00_AccountUC1_txtAccount]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl00_AccountUC1_txtAccount] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl01_AccountUC1_txtAccount]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl01_AccountUC1_txtAccount]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl01_AccountUC1_txtAccount] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnAddJournalEntry]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnAddJournalEntry]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_btnAddJournalEntry] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl00_AccountUC1_txtAccount]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl00_AccountUC1_txtAccount]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl00_AccountUC1_txtAccount] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl01_AccountUC1_txtAccount]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl01_AccountUC1_txtAccount]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cPH_rptRecord_ctl01_AccountUC1_txtAccount] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cphFooter_btnSave] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Income')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Final Accounts')]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Final Accounts')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Final Accounts')]] clicked<br/>
+Sales amount for turnover is Verified successfully<br/>
+Stock amount of Balance sheet is Verified successfully<br/>
+discount amount of Balance sheet is Verified successfully<br/>
+Gross amount of Balance sheet is Verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Partnership Tax Return')]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Partnership Tax Return')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Partnership Tax Return')]] clicked<br/>
+Nomisma1Partnership<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ddlTaxYear]] -> xpath: .//option[@value = "6"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ddlTaxYear]] -> xpath: .//option[@value = "6"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_ddlTaxYear]] -> xpath: .//option[@value = "6"]] clicked<br/>
+Dashboard of Partnership Tax Return opened successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Partnership - SA800')]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Partnership - SA800')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //span[contains(text(),'Partnership - SA800')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //ul/li/a[contains(text(),'Trading & Professional Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //ul/li/a[contains(text(),'Trading & Professional Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> xpath: //ul/li/a[contains(text(),'Trading & Professional Income')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_btnEdit] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_btnEdit] clicked<br/>
+edit button not clicked in first go<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_rdbManualAuto_0]<br/>
+After click [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_rdbManualAuto_0]<br/>
+WebElement [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -> id: ctl00_cpHeaderRight_rdbManualAuto_0] clicked<br/>
+Test execution is in onTestFailure method<br/>
+<img src=".\..\screenshots\Failure\VerifyExpensesPTRFull.funcVerifyBoxesPTRFull - 10-Feb-2020__01_37_55PM.png" style=width:400px><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -&gt; id: ctl00_cPH_btnOk] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NOM_ANJALI&apos;, ip: &apos;192.168.1.126&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;10.0.1&apos;
+Driver info: com.sun.proxy.$Proxy13
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4525}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: a7a42dcdd0f1987ccae82912c4bb8b3e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.nomisma.generic.NomismaProjectListeners.beforeClickOn(NomismaProjectListeners.java:263)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:82)
+	at com.sun.proxy.$Proxy12.beforeClickOn(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:379)
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at com.nomisma.pom.AddBusinessPages.VerifyTotalExpensesPTRFull(AddBusinessPages.java:2683)
+	at com.nomisma.businesstypeScripts.VerifyExpensesPTRFull.funcVerifyBoxesPTRFull(VerifyExpensesPTRFull.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1738784081", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1738784081'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (a7a42dcdd0f1987ccae82912c4bb8b3e)] -&gt; id: ctl00_cPH_btnOk] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NOM_ANJALI&apos;, ip: &apos;192.168.1.126&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;10.0.1&apos;
+Driver info: com.sun.proxy.$Proxy13
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4525}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: a7a42dcdd0f1987ccae82912c4bb8b3e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.nomisma.generic.NomismaProjectListeners.beforeClickOn(NomismaProjectListeners.java:263)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:82)
+	at com.sun.proxy.$Proxy12.beforeClickOn(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:379)
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at com.nomisma.pom.AddBusinessPages.VerifyTotalExpensesPTRFull(AddBusinessPages.java:2683)
+	at com.nomisma.businesstypeScripts.VerifyExpensesPTRFull.funcVerifyBoxesPTRFull(VerifyExpensesPTRFull.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>257</td>
+<td>com.nomisma.businesstypeScripts.VerifyExpensesPTRFull@ffaa6af</td></tr>
+</table><p>
+</body>
+</html>

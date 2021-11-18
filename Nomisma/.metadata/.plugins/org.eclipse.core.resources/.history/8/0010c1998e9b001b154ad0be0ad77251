@@ -1,0 +1,679 @@
+package pages;
+
+import pages.BasePage;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import ie.curiositysoftware.testmodeller.TestModellerModule;
+import utilities.reports.ExtentReportManager;
+import utilities.testmodeller.TestModellerLogger;
+
+// https://nomisma.cloud.testinsights.io/app/#!/module-collection/guid/78bb8910-b486-45b1-aca3-01b23101f3d3
+@TestModellerModule(guid = "78bb8910-b486-45b1-aca3-01b23101f3d3")
+public class Testcase_1 extends BasePage
+{
+	public Testcase_1 (WebDriver driver)
+	{
+		super(driver);
+	}
+
+
+	
+	private By SA100_Interest_from_Banks_building_societiesElem = By.xpath("//A[contains(text(),'(SA100) Interest from Banks & building societies')]");
+
+	private By _EditElem = By.xpath("//A[@id='ctl00_cpHeaderRight_btnEdit']");
+
+	private By Interest_from_UK_banks_and_building_societies_Elem = By.xpath("//SPAN[@id='__tab_ctl00_cPH_tbContainer_ctl00']");
+
+	private By ctl00cPHtbContainerctl00txtUntaxedUKinterestElem = By.xpath("//INPUT[@name='ctl00$cPH$tbContainer$ctl00$txtUntaxedUKinterest']");
+
+	private By _SaveElem = By.xpath("//A[@id='ctl00_cPH_tbContainer_ctl00_btnSaveBank']");
+
+	private By DividendElem = By.xpath("//SPAN[@id='__tab_ctl00_cPH_tbContainer_ctl01']");
+
+	private By Manual_EntryElem = By.xpath("//A[@id='ctl00_cPH_tbContainer_ctl01_btnMannualDividend']");
+
+	private By ctl00cPHrptrDividendTypectl00txtCompanyName1Elem = By.xpath("//INPUT[@name='ctl00$cPH$rptrDividendType$ctl00$txtCompanyName1']");
+
+	private By ctl00cPHrptrDividendTypectl00txtAmountElem = By.xpath("//INPUT[@name='ctl00$cPH$rptrDividendType$ctl00$txtAmount']");
+
+	private By SaveElem = By.xpath("//A[@id='ctl00_cpHFooter_btnSave']");
+
+	private By _Elem = By.xpath("//BUTTON[@id='sadividendmodalclose']");
+
+	private By _Save_1Elem = By.xpath("//A[@id='ctl00_cPH_tbContainer_ctl01_btnSaveDividend']");
+
+	private By _Income_Elem = By.xpath("//LI[@class='have_sub have_sub_active']/A");
+
+	private By Income_from_PropertyElem = By.xpath("//A[@id='ctl00_SideMenu1_hrefProperty']");
+
+	private By _SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_Elem = By.xpath("//DIV[@id='ctl00_cPH_tbContainer_header']");
+
+	private By _Edit_1Elem = By.xpath("//A[@id='ctl00_cpHeaderRight_btnEdit']");
+
+	private By ctl00cPHtbContainerctl00txtNumberOfPropertiesElem = By.xpath("//INPUT[@name='ctl00$cPH$tbContainer$ctl00$txtNumberOfProperties']");
+
+	private By _Dashboard_Elem = By.xpath("//A[@href='Default.aspx?SAPersonCode=6iDp/lN0Hx00P7silrI+Bg==&SATaxYearCode=8']");
+
+	private By SA100_Pension_ContributionsElem = By.xpath("//A[contains(text(),'(SA100) Pension Contributions')]");
+
+	private By ctl00cPHtbContainerctl00txtPensionSchemesElem = By.xpath("//INPUT[@name='ctl00$cPH$tbContainer$ctl00$txtPensionSchemes']");
+
+	private By SA100_Marriage_AllowanceElem = By.xpath("//A[@id='ctl00_cPH_hrefMarriageAllowance']");
+
+	private By ctl00cPHtbContainertabMAtxtSpouseFirstNameElem = By.xpath("//INPUT[@name='ctl00$cPH$tbContainer$tabMA$txtSpouseFirstName']");
+
+
+	
+	public void GoToUrl()
+	{
+		m_Driver.get("http://sandboxpre.nomismasolution.co.uk/SAUI/TaxRelief.aspx?menuid=103&SAPersonCode=6iDp/lN0Hx00P7silrI+Bg==&SATaxYearCode=8&action=Edit");
+
+		ExtentReportManager.passStepWithScreenshot(m_Driver, "Go to URL", "Go to URL - http://sandboxpre.nomismasolution.co.uk/SAUI/TaxRelief.aspx?menuid=103&SAPersonCode=6iDp/lN0Hx00P7silrI+Bg==&SATaxYearCode=8&action=Edit");
+		
+		TestModellerLogger.PassStepWithScreenshot(m_Driver, "Go to URL", "Go to URL - http://sandboxpre.nomismasolution.co.uk/SAUI/TaxRelief.aspx?menuid=103&SAPersonCode=6iDp/lN0Hx00P7silrI+Bg==&SATaxYearCode=8&action=Edit");
+	}
+
+     
+	/**
+ 	 * AssertUrl
+     * @name AssertUrl
+     */
+   public void AssertUrl()
+    {
+        String currentUrl = m_Driver.getCurrentUrl();
+        String expectedUrl = "http://sandboxpre.nomismasolution.co.uk/SAUI/TaxRelief.aspx?menuid=103&SAPersonCode=6iDp/lN0Hx00P7silrI+Bg==&SATaxYearCode=8&action=Edit";
+
+        if (!currentUrl.equals("http://sandboxpre.nomismasolution.co.uk/SAUI/TaxRelief.aspx?menuid=103&SAPersonCode=6iDp/lN0Hx00P7silrI+Bg==&SATaxYearCode=8&action=Edit")) {
+            Assert.fail("Expecting URL - "  + expectedUrl + " Found " + currentUrl);
+        }
+    }
+
+     
+	/**
+ 	 * Click (SA100) Interest from Banks & building societies
+     * @name Click (SA100) Interest from Banks & building societies
+     */
+	public void Click_SA100_Interest_from_Banks_building_societies()
+	{
+        
+		WebElement elem = getWebElement(SA100_Interest_from_Banks_building_societiesElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_SA100_Interest_from_Banks_building_societies", "Click_SA100_Interest_from_Banks_building_societies failed. Unable to locate object: " + SA100_Interest_from_Banks_building_societiesElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_SA100_Interest_from_Banks_building_societies", "Click_SA100_Interest_from_Banks_building_societies failed. Unable to locate object: " + SA100_Interest_from_Banks_building_societiesElem.toString());
+
+			Assert.fail("Unable to locate object: " + SA100_Interest_from_Banks_building_societiesElem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_SA100_Interest_from_Banks_building_societies");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_SA100_Interest_from_Banks_building_societies");
+	}
+
+     
+	/**
+ 	 * Click  Edit
+     * @name Click  Edit
+     */
+	public void Click__Edit()
+	{
+        
+		WebElement elem = getWebElement(_EditElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__Edit", "Click__Edit failed. Unable to locate object: " + _EditElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__Edit", "Click__Edit failed. Unable to locate object: " + _EditElem.toString());
+
+			Assert.fail("Unable to locate object: " + _EditElem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click__Edit");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__Edit");
+	}
+
+     
+	/**
+ 	 * Click Interest from UK banks and building societies 
+     * @name Click Interest from UK banks and building societies 
+     */
+	public void Click_Interest_from_UK_banks_and_building_societies_()
+	{
+        
+		WebElement elem = getWebElement(Interest_from_UK_banks_and_building_societies_Elem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Interest_from_UK_banks_and_building_societies_", "Click_Interest_from_UK_banks_and_building_societies_ failed. Unable to locate object: " + Interest_from_UK_banks_and_building_societies_Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Interest_from_UK_banks_and_building_societies_", "Click_Interest_from_UK_banks_and_building_societies_ failed. Unable to locate object: " + Interest_from_UK_banks_and_building_societies_Elem.toString());
+
+			Assert.fail("Unable to locate object: " + Interest_from_UK_banks_and_building_societies_Elem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_Interest_from_UK_banks_and_building_societies_");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Interest_from_UK_banks_and_building_societies_");
+	}
+
+      
+	/**
+ 	 * Enter ctl00$cPH$tbContainer$ctl00$txtUntaxedUKinterest
+     * @name Enter ctl00$cPH$tbContainer$ctl00$txtUntaxedUKinterest
+     */
+ 	public void Enter_ctl00cPHtbContainerctl00txtUntaxedUKinterest(String ctl00cPHtbContainerctl00txtUntaxedUKinterest)
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(ctl00cPHtbContainerctl00txtUntaxedUKinterestElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHtbContainerctl00txtUntaxedUKinterest", "Enter_ctl00cPHtbContainerctl00txtUntaxedUKinterest failed. Unable to locate object: " + ctl00cPHtbContainerctl00txtUntaxedUKinterestElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHtbContainerctl00txtUntaxedUKinterest", "Enter_ctl00cPHtbContainerctl00txtUntaxedUKinterest failed. Unable to locate object: " + ctl00cPHtbContainerctl00txtUntaxedUKinterestElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHtbContainerctl00txtUntaxedUKinterestElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHtbContainerctl00txtUntaxedUKinterest);
+ 		
+ 		
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHtbContainerctl00txtUntaxedUKinterest " + ctl00cPHtbContainerctl00txtUntaxedUKinterest);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHtbContainerctl00txtUntaxedUKinterest " + ctl00cPHtbContainerctl00txtUntaxedUKinterest);
+ 	}
+
+     
+	/**
+ 	 * Click  Save
+     * @name Click  Save
+     */
+	public void Click__Save()
+	{
+        
+		WebElement elem = getWebElement(_SaveElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__Save", "Click__Save failed. Unable to locate object: " + _SaveElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__Save", "Click__Save failed. Unable to locate object: " + _SaveElem.toString());
+
+			Assert.fail("Unable to locate object: " + _SaveElem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click__Save");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__Save");
+	}
+
+     
+	/**
+ 	 * Click Dividend
+     * @name Click Dividend
+     */
+	public void Click_Dividend()
+	{
+        
+		WebElement elem = getWebElement(DividendElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Dividend", "Click_Dividend failed. Unable to locate object: " + DividendElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Dividend", "Click_Dividend failed. Unable to locate object: " + DividendElem.toString());
+
+			Assert.fail("Unable to locate object: " + DividendElem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_Dividend");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Dividend");
+	}
+
+     
+	/**
+ 	 * Click Manual Entry
+     * @name Click Manual Entry
+     */
+	public void Click_Manual_Entry()
+	{
+        
+		WebElement elem = getWebElement(Manual_EntryElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Manual_Entry", "Click_Manual_Entry failed. Unable to locate object: " + Manual_EntryElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Manual_Entry", "Click_Manual_Entry failed. Unable to locate object: " + Manual_EntryElem.toString());
+
+			Assert.fail("Unable to locate object: " + Manual_EntryElem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_Manual_Entry");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Manual_Entry");
+	}
+
+      
+	/**
+ 	 * Enter ctl00$cPH$rptrDividendType$ctl00$txtCompanyName1
+     * @name Enter ctl00$cPH$rptrDividendType$ctl00$txtCompanyName1
+     */
+ 	public void Enter_ctl00cPHrptrDividendTypectl00txtCompanyName1(String ctl00cPHrptrDividendTypectl00txtCompanyName1)
+ 	{
+ 	    
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[3]/div[3]/div/div[3]/div/div/div/div[2]/div[2]/div[2]/div/div[1]/div[2]/div[1]/div/div/div[2]/iframe")));
+
+ 		WebElement elem = getWebElement(ctl00cPHrptrDividendTypectl00txtCompanyName1Elem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHrptrDividendTypectl00txtCompanyName1", "Enter_ctl00cPHrptrDividendTypectl00txtCompanyName1 failed. Unable to locate object: " + ctl00cPHrptrDividendTypectl00txtCompanyName1Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHrptrDividendTypectl00txtCompanyName1", "Enter_ctl00cPHrptrDividendTypectl00txtCompanyName1 failed. Unable to locate object: " + ctl00cPHrptrDividendTypectl00txtCompanyName1Elem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHrptrDividendTypectl00txtCompanyName1Elem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHrptrDividendTypectl00txtCompanyName1);
+ 		
+		m_Driver.switchTo().defaultContent();
+
+ 		
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHrptrDividendTypectl00txtCompanyName1 " + ctl00cPHrptrDividendTypectl00txtCompanyName1);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHrptrDividendTypectl00txtCompanyName1 " + ctl00cPHrptrDividendTypectl00txtCompanyName1);
+ 	}
+
+      
+	/**
+ 	 * Enter ctl00$cPH$rptrDividendType$ctl00$txtAmount
+     * @name Enter ctl00$cPH$rptrDividendType$ctl00$txtAmount
+     */
+ 	public void Enter_ctl00cPHrptrDividendTypectl00txtAmount(String ctl00cPHrptrDividendTypectl00txtAmount)
+ 	{
+ 	    
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[3]/div[3]/div/div[3]/div/div/div/div[2]/div[2]/div[2]/div/div[1]/div[2]/div[1]/div/div/div[2]/iframe")));
+
+ 		WebElement elem = getWebElement(ctl00cPHrptrDividendTypectl00txtAmountElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHrptrDividendTypectl00txtAmount", "Enter_ctl00cPHrptrDividendTypectl00txtAmount failed. Unable to locate object: " + ctl00cPHrptrDividendTypectl00txtAmountElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHrptrDividendTypectl00txtAmount", "Enter_ctl00cPHrptrDividendTypectl00txtAmount failed. Unable to locate object: " + ctl00cPHrptrDividendTypectl00txtAmountElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHrptrDividendTypectl00txtAmountElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHrptrDividendTypectl00txtAmount);
+ 		
+		m_Driver.switchTo().defaultContent();
+
+ 		
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHrptrDividendTypectl00txtAmount " + ctl00cPHrptrDividendTypectl00txtAmount);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHrptrDividendTypectl00txtAmount " + ctl00cPHrptrDividendTypectl00txtAmount);
+ 	}
+
+     
+	/**
+ 	 * Click Save
+     * @name Click Save
+     */
+	public void Click_Save()
+	{
+        
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[3]/div[3]/div/div[3]/div/div/div/div[2]/div[2]/div[2]/div/div[1]/div[2]/div[1]/div/div/div[2]/iframe")));
+
+		WebElement elem = getWebElement(SaveElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Save", "Click_Save failed. Unable to locate object: " + SaveElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Save", "Click_Save failed. Unable to locate object: " + SaveElem.toString());
+
+			Assert.fail("Unable to locate object: " + SaveElem.toString());
+        }
+
+		elem.click();
+        
+		m_Driver.switchTo().defaultContent();
+  	
+
+		ExtentReportManager.passStep(m_Driver, "Click_Save");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Save");
+	}
+
+     
+	/**
+ 	 * Click  × 
+     * @name Click  × 
+     */
+	public void Click__()
+	{
+        
+		WebElement elem = getWebElement(_Elem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__", "Click__ failed. Unable to locate object: " + _Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__", "Click__ failed. Unable to locate object: " + _Elem.toString());
+
+			Assert.fail("Unable to locate object: " + _Elem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click__");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__");
+	}
+
+     
+	/**
+ 	 * Click  Save
+     * @name Click  Save
+     */
+	public void Click__Save_1()
+	{
+        
+		WebElement elem = getWebElement(_Save_1Elem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__Save_1", "Click__Save_1 failed. Unable to locate object: " + _Save_1Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__Save_1", "Click__Save_1 failed. Unable to locate object: " + _Save_1Elem.toString());
+
+			Assert.fail("Unable to locate object: " + _Save_1Elem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click__Save_1");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__Save_1");
+	}
+
+     
+	/**
+ 	 * Click  Income 
+     * @name Click  Income 
+     */
+	public void Click__Income_()
+	{
+        
+		WebElement elem = getWebElement(_Income_Elem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__Income_", "Click__Income_ failed. Unable to locate object: " + _Income_Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__Income_", "Click__Income_ failed. Unable to locate object: " + _Income_Elem.toString());
+
+			Assert.fail("Unable to locate object: " + _Income_Elem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click__Income_");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__Income_");
+	}
+
+     
+	/**
+ 	 * Click Income from Property
+     * @name Click Income from Property
+     */
+	public void Click_Income_from_Property()
+	{
+        
+		WebElement elem = getWebElement(Income_from_PropertyElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Income_from_Property", "Click_Income_from_Property failed. Unable to locate object: " + Income_from_PropertyElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Income_from_Property", "Click_Income_from_Property failed. Unable to locate object: " + Income_from_PropertyElem.toString());
+
+			Assert.fail("Unable to locate object: " + Income_from_PropertyElem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_Income_from_Property");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Income_from_Property");
+	}
+
+     
+	/**
+ 	 * Click  SummaryFurnished Holiday LettingsProperty Income & Expenses Taxable Profit or Loss 
+     * @name Click  SummaryFurnished Holiday LettingsProperty Income & Expenses Taxable Profit or Loss 
+     */
+	public void Click__SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_()
+	{
+        
+		WebElement elem = getWebElement(_SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_Elem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_", "Click__SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_ failed. Unable to locate object: " + _SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_", "Click__SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_ failed. Unable to locate object: " + _SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_Elem.toString());
+
+			Assert.fail("Unable to locate object: " + _SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_Elem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click__SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__SummaryFurnished_Holiday_LettingsProperty_Income_Expenses_Taxable_Profit_or_Loss_");
+	}
+
+     
+	/**
+ 	 * Click  Edit
+     * @name Click  Edit
+     */
+	public void Click__Edit_1()
+	{
+        
+		WebElement elem = getWebElement(_Edit_1Elem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__Edit_1", "Click__Edit_1 failed. Unable to locate object: " + _Edit_1Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__Edit_1", "Click__Edit_1 failed. Unable to locate object: " + _Edit_1Elem.toString());
+
+			Assert.fail("Unable to locate object: " + _Edit_1Elem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click__Edit_1");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__Edit_1");
+	}
+
+      
+	/**
+ 	 * Enter ctl00$cPH$tbContainer$ctl00$txtNumberOfProperties
+     * @name Enter ctl00$cPH$tbContainer$ctl00$txtNumberOfProperties
+     */
+ 	public void Enter_ctl00cPHtbContainerctl00txtNumberOfProperties(String ctl00cPHtbContainerctl00txtNumberOfProperties)
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(ctl00cPHtbContainerctl00txtNumberOfPropertiesElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHtbContainerctl00txtNumberOfProperties", "Enter_ctl00cPHtbContainerctl00txtNumberOfProperties failed. Unable to locate object: " + ctl00cPHtbContainerctl00txtNumberOfPropertiesElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHtbContainerctl00txtNumberOfProperties", "Enter_ctl00cPHtbContainerctl00txtNumberOfProperties failed. Unable to locate object: " + ctl00cPHtbContainerctl00txtNumberOfPropertiesElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHtbContainerctl00txtNumberOfPropertiesElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHtbContainerctl00txtNumberOfProperties);
+ 		
+ 		
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHtbContainerctl00txtNumberOfProperties " + ctl00cPHtbContainerctl00txtNumberOfProperties);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHtbContainerctl00txtNumberOfProperties " + ctl00cPHtbContainerctl00txtNumberOfProperties);
+ 	}
+
+     
+	/**
+ 	 * Click  Dashboard 
+     * @name Click  Dashboard 
+     */
+	public void Click__Dashboard_()
+	{
+        
+		WebElement elem = getWebElement(_Dashboard_Elem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__Dashboard_", "Click__Dashboard_ failed. Unable to locate object: " + _Dashboard_Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__Dashboard_", "Click__Dashboard_ failed. Unable to locate object: " + _Dashboard_Elem.toString());
+
+			Assert.fail("Unable to locate object: " + _Dashboard_Elem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click__Dashboard_");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__Dashboard_");
+	}
+
+     
+	/**
+ 	 * Click (SA100) Pension Contributions
+     * @name Click (SA100) Pension Contributions
+     */
+	public void Click_SA100_Pension_Contributions()
+	{
+        
+		WebElement elem = getWebElement(SA100_Pension_ContributionsElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_SA100_Pension_Contributions", "Click_SA100_Pension_Contributions failed. Unable to locate object: " + SA100_Pension_ContributionsElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_SA100_Pension_Contributions", "Click_SA100_Pension_Contributions failed. Unable to locate object: " + SA100_Pension_ContributionsElem.toString());
+
+			Assert.fail("Unable to locate object: " + SA100_Pension_ContributionsElem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_SA100_Pension_Contributions");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_SA100_Pension_Contributions");
+	}
+
+      
+	/**
+ 	 * Enter ctl00$cPH$tbContainer$ctl00$txtPensionSchemes
+     * @name Enter ctl00$cPH$tbContainer$ctl00$txtPensionSchemes
+     */
+ 	public void Enter_ctl00cPHtbContainerctl00txtPensionSchemes(String ctl00cPHtbContainerctl00txtPensionSchemes)
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(ctl00cPHtbContainerctl00txtPensionSchemesElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHtbContainerctl00txtPensionSchemes", "Enter_ctl00cPHtbContainerctl00txtPensionSchemes failed. Unable to locate object: " + ctl00cPHtbContainerctl00txtPensionSchemesElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHtbContainerctl00txtPensionSchemes", "Enter_ctl00cPHtbContainerctl00txtPensionSchemes failed. Unable to locate object: " + ctl00cPHtbContainerctl00txtPensionSchemesElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHtbContainerctl00txtPensionSchemesElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHtbContainerctl00txtPensionSchemes);
+ 		
+ 		
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHtbContainerctl00txtPensionSchemes " + ctl00cPHtbContainerctl00txtPensionSchemes);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHtbContainerctl00txtPensionSchemes " + ctl00cPHtbContainerctl00txtPensionSchemes);
+ 	}
+
+     
+	/**
+ 	 * Click (SA100) Marriage Allowance
+     * @name Click (SA100) Marriage Allowance
+     */
+	public void Click_SA100_Marriage_Allowance()
+	{
+        
+		WebElement elem = getWebElement(SA100_Marriage_AllowanceElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_SA100_Marriage_Allowance", "Click_SA100_Marriage_Allowance failed. Unable to locate object: " + SA100_Marriage_AllowanceElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_SA100_Marriage_Allowance", "Click_SA100_Marriage_Allowance failed. Unable to locate object: " + SA100_Marriage_AllowanceElem.toString());
+
+			Assert.fail("Unable to locate object: " + SA100_Marriage_AllowanceElem.toString());
+        }
+
+		elem.click();
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_SA100_Marriage_Allowance");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_SA100_Marriage_Allowance");
+	}
+
+      
+	/**
+ 	 * Enter ctl00$cPH$tbContainer$tabMA$txtSpouseFirstName
+     * @name Enter ctl00$cPH$tbContainer$tabMA$txtSpouseFirstName
+     */
+ 	public void Enter_ctl00cPHtbContainertabMAtxtSpouseFirstName(String ctl00cPHtbContainertabMAtxtSpouseFirstName)
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(ctl00cPHtbContainertabMAtxtSpouseFirstNameElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHtbContainertabMAtxtSpouseFirstName", "Enter_ctl00cPHtbContainertabMAtxtSpouseFirstName failed. Unable to locate object: " + ctl00cPHtbContainertabMAtxtSpouseFirstNameElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHtbContainertabMAtxtSpouseFirstName", "Enter_ctl00cPHtbContainertabMAtxtSpouseFirstName failed. Unable to locate object: " + ctl00cPHtbContainertabMAtxtSpouseFirstNameElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHtbContainertabMAtxtSpouseFirstNameElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHtbContainertabMAtxtSpouseFirstName);
+ 		
+ 		
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHtbContainertabMAtxtSpouseFirstName " + ctl00cPHtbContainertabMAtxtSpouseFirstName);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHtbContainertabMAtxtSpouseFirstName " + ctl00cPHtbContainertabMAtxtSpouseFirstName);
+ 	}
+}

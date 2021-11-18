@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="4">
+<!-- <suite name="RegressionSuite" parallel="tests" verbose="10"> -->
+<!-- <suite name="Suite" verbose="10"> -->
+<!--  <listeners>
+<listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+
+</listeners>-->
+ 	   <test name= "1. LoginTestCRM">  
+ 		<parameter name= "browser" value="chromeCRM"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCRM.LoginTestCRM"/>
+  			</classes> 
+  	</test> 
+  	
+
+</suite>

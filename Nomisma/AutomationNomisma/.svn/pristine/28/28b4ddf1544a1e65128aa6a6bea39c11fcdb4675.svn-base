@@ -1,0 +1,1185 @@
+﻿[
+	{
+		"TestCaseId": "VerifyCTComputationPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyCTComputationPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Corporation Tax"
+		
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyAboutThisReturnPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyAboutThisReturnPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "About This Return"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTaxCalculationPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyTaxCalculationPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Tax Calculation",
+		"sData6": "Turnover",
+		"sData7": "TAX CALCULATION"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyInformationPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyInformationPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Information",
+		"sData6": "Research and Development (R&D) or creative enhanced expenditure",
+		"sData7": "Allowances and charges in calculation of trading profits and losses"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLossesDeficitsExcessPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyLossesDeficitsExcessPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Losses",
+		"sData6": " deficits and excess amounts",
+		"sData7": "Amount arising"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyOverpaymentsRepaymentsPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyOverpaymentsRepaymentsPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Overpayments and repayments",
+		"sData6": "Small repayments"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyCTAdjustmentsSettingsPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyCTAdjustmentsSettingsPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Adjustments",
+		"sData6": "Profit Adjustment",
+		"sData7": "Losses Schedule",
+		"sData8": "Capital allowance",
+		"sData9": "R&D Claim"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyCTOtherAdjustmentsSettingsPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyCTOtherAdjustmentsSettingsPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Adjustments",
+		"sData6": "Overdrawn Balance Brought Forward"
+	}
+		]
+	},
+	{
+		"TestCaseId": "CTComputationTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "CTComputationTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA11",
+		"sData5": "Corporation Tax",
+		"sData6": "68",
+		"sData7": "2",
+		"sData8": "3",
+		"sData9": "4",
+		"sData10": "5",
+		"sData11": "6",
+		"sData12": "7",
+		"sData13": "8",
+		"sData14": "9",
+		"sData15": "10",
+		"sData16": "11",
+		"sData17": "12",
+		"sData18": "14",
+		"sData19": "17",
+		"sData20": "18",
+		"sData21": "19",
+		"sData22": "20",
+		"sData23": "21",
+		"sData24": "230",
+		"sData25": "1",
+		"sData26": "2",
+		"sData27": "3",
+		"sData28": "4",
+		"sData29": "5",
+		"sData30": "6",
+		"sData31": "7",
+		"sData32": "8",
+		"sData33": "9",
+		"sData34": "10",
+		"sData35": "11",
+		"sData36": "66",
+		"sData37": "232",
+		"sData38": "3",
+		"sData39": "229",
+		"sData40": "21",
+		"sData41": "11",
+		"sData42": "222",
+		"sData43": "2",
+		"sData44": "5",
+		"sData45": "1",
+		"sData46": "4",
+		"sData47": "3",
+		"sData48": "0",
+		"sData49": "44.08",
+		"sData50": "4"
+	}
+		]
+	},
+	{
+		"TestCaseId": "UpdateCTAdjustmentsSettingsPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "UpdateCTAdjustmentsSettingsPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA11",
+		"sData5": "Adjustments",
+		"sData6": "Profit Adjustment",
+		"sData7": "Losses Schedule",
+		"sData8": "Capital allowance",
+		"sData9": "R&D Claim",
+		"sData10": "2",
+		"sData11": "6",
+		"sData12": "11",
+		"sData13": "17",
+		"sData14": "21",
+		"sData15": "1",
+		"sData16": "4",
+		"sData17": "8",
+		"sData18": "11",
+		"sData19": "1",
+		"sData20": "3",
+		"sData21": "5"
+	}
+		]
+	},
+	{
+		"TestCaseId": "CTComputationTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "CTComputationTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA12",
+		"sData5": "Corporation Tax",
+		"sData6": "1500",
+		"sData7": "2",
+		"sData8": "1264",
+		"sData9": "238",
+		"sData10": "5",
+		"sData11": "233",
+		"sData12": "0",
+		"sData13": "233",
+		"sData14": "7300",
+		"sData15": "1470",
+		"sData16": "1745",
+		"sData17": "7025",
+		"sData18": "1264",
+		"sData19": "5761",
+		"sData20": "1264",
+		"sData21": "44.84",
+		"sData22": "Jan 2017 - Dec 2017"
+	}
+		]
+	},
+	{
+		"TestCaseId": "UpdateCTAdjustmentsSettingsPageTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "UpdateCTAdjustmentsSettingsPageTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA12",
+		"sData5": "Adjustments",
+		"sData6": "Capital allowance",
+		"sData7": "Edit Pool Type",
+		"sData8": "8000",
+		"sData9": "18",
+		"sData10": "7300",
+		"sData11": "1470",
+		"sData12": "1745"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyProfitsfromPLReport",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyProfitsfromPLReport",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA16",
+		"sData5": "Invoice",
+		"sData6": "Add Invoice",
+		"sData7": "SA1",
+		"sData8": "7193",
+		"sData9": "Test SA",
+		"sData10": "100",
+		"sData11": "2",
+		"sData12": "10",
+		"sData13": "STD 20%",
+		"sData14": "10",
+		"sData15": "5",
+		"sData16": "YES BANK",
+		"sData17": "Header Footer Image Template",
+		"sData18": "Payment should be made in 21 days",
+		"sData19": "Test SA Test SATest SA"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyProfitsfromPLReport2",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyProfitsfromPLReport2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA16",
+		"sData5": "Profit & Loss Statement From 01 January 2017 to 31 December 2017",
+		"sData6": "Adjustments",
+		"sData7": "Profit Adjustment"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLossesfromPLReport",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyLossesfromPLReport",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA17",
+		"sData5": "Profit & Loss Statement From 01 January 2017 to 31 December 2017",
+		"sData6": "Adjustments",
+		"sData7": "Profit Adjustment"
+	}
+		]
+	},
+	{
+		"TestCaseId": "ValidateCT600Test",
+		"Keys": [
+			{
+		"TestCase_ID": "ValidateCT600Test",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA18",
+		"sData5": "Submit to HMRC",
+		"sData6": "Approved"
+	}
+		]
+	},
+	{
+		"TestCaseId": "SubmitCT600Test",
+		"Keys": [
+			{
+		"TestCase_ID": "SubmitCT600Test",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA18",
+		"sData5": "Submit to HMRC",
+		"sData6": "Submitted"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifySubmittedXMLPageTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifySubmittedXMLPageTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA18",
+		"sData5": "Submitted XML File",
+		"sData6": "Submission Status Report"
+	}
+		]
+	},
+	{
+		"TestCaseId": "CTComputationCapitalAllowanceTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "CTComputationCapitalAllowanceTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA13",
+		"sData5": "Corporation Tax",
+		"sData6": "1500",
+		"sData7": "500",
+		"sData8": "1573",
+		"sData9": "19573",
+		"sData10": "5",
+		"sData11": "233",
+		"sData12": "0",
+		"sData13": "0",
+		"sData14": "9015",
+		"sData15": "1470",
+		"sData16": "1745",
+		"sData17": "8740",
+		"sData18": "1573",
+		"sData19": "7167",
+		"sData20": "1573",
+		"sData21": "0.00",
+		"sData22": "Jan 2017 - Dec 2017",
+		"sData23": "10000",
+		"sData24": "10000",
+		"sData25": "21573"
+	}
+		]
+	},
+	{
+		"TestCaseId": "UpdateCTAdjustmentsSettingsCapAllowPageTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "UpdateCTAdjustmentsSettingsCapAllowPageTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA13",
+		"sData5": "Adjustments",
+		"sData6": "Capital allowance",
+		"sData7": "Edit Pool Type",
+		"sData8": "8000",
+		"sData9": "18",
+		"sData10": "9015",
+		"sData11": "1470",
+		"sData12": "1745",
+		"sData13": "2"
+	}
+		]
+	},
+	{
+		"TestCaseId": "CTComputationCapitalAllowanceTest3",
+		"Keys": [
+			{
+		"TestCase_ID": "CTComputationCapitalAllowanceTest3",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA14",
+		"sData5": "Corporation Tax",
+		"sData6": "1500",
+		"sData7": "500",
+		"sData8": "8740",
+		"sData9": "26740",
+		"sData10": "5",
+		"sData11": "233",
+		"sData12": "0",
+		"sData13": "0",
+		"sData14": "9015",
+		"sData15": "1470",
+		"sData16": "1745",
+		"sData17": "8740",
+		"sData18": "8740",
+		"sData19": "0",
+		"sData20": "8740",
+		"sData21": "0.00",
+		"sData22": "Jan 2017 - Dec 2017",
+		"sData23": "10000",
+		"sData24": "10000",
+		"sData25": "28740"
+	}
+		]
+	},
+	{
+		"TestCaseId": "UpdateCTAdjustmentsSettingsCapAllowPageTest3",
+		"Keys": [
+			{
+		"TestCase_ID": "UpdateCTAdjustmentsSettingsCapAllowPageTest3",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA14",
+		"sData5": "Adjustments",
+		"sData6": "Capital allowance",
+		"sData7": "Edit Pool Type",
+		"sData8": "8000",
+		"sData9": "18",
+		"sData10": "9015",
+		"sData11": "1470",
+		"sData12": "1745",
+		"sData13": "3"
+	}
+		]
+	},
+	{
+		"TestCaseId": "CTComputationCapitalAllowanceTest4",
+		"Keys": [
+			{
+		"TestCase_ID": "CTComputationCapitalAllowanceTest4",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test20",
+		"sData5": "Corporation Tax",
+		"sData6": "1500",
+		"sData7": "500",
+		"sData8": "1887",
+		"sData9": "20932",
+		"sData10": "5",
+		"sData11": "233",
+		"sData12": "0",
+		"sData13": "0",
+		"sData14": "9015",
+		"sData15": "1470",
+		"sData16": "0",
+		"sData17": "10485",
+		"sData18": "1887",
+		"sData19": "8598",
+		"sData20": "2932",
+		"sData21": "0.00",
+		"sData22": "Jan 2017 - Dec 2017",
+		"sData23": "10000",
+		"sData24": "10000",
+		"sData25": "22932",
+		"sData26": "0",
+		"sData27": "5000",
+		"sData28": "0",
+		"sData29": "5000",
+		"sData30": "90",
+		"sData31": "(45)",
+		"sData32": "4910",
+		"sData33": "9015",
+		"sData34": "1470",
+		"sData35": "1745",
+		"sData36": "8740",
+		"sData37": "1000",
+		"sData38": "7740"
+	}
+		]
+	},
+	{
+		"TestCaseId": "UpdateCTAdjustmentsSettingsCapAllowPageTest4",
+		"Keys": [
+			{
+		"TestCase_ID": "UpdateCTAdjustmentsSettingsCapAllowPageTest4",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test20",
+		"sData5": "Adjustments",
+		"sData6": "Capital allowance",
+		"sData7": "Edit Pool Type",
+		"sData8": "8000",
+		"sData9": "18",
+		"sData10": "9015",
+		"sData11": "1470",
+		"sData12": "1745",
+		"sData13": "3"
+	}
+		]
+	},
+	{
+		"TestCaseId": "CTComputationRDClaimTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "CTComputationRDClaimTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test21",
+		"sData5": "Corporation Tax",
+		"sData6": "3500",
+		"sData7": "500",
+		"sData8": "1573",
+		"sData9": "1927",
+		"sData10": "5",
+		"sData11": "233",
+		"sData12": "0",
+		"sData13": "1927",
+		"sData14": "9015",
+		"sData15": "1470",
+		"sData16": "1745",
+		"sData17": "8740",
+		"sData18": "1573",
+		"sData19": "7167",
+		"sData20": "1573",
+		"sData21": "7990.98",
+		"sData22": "Jan 2017 - Dec 2017",
+		"sData23": "10000",
+		"sData24": "10000",
+		"sData25": "22932",
+		"sData26": "1927",
+		"sData27": "(0)",
+		"sData28": "1927",
+		"sData29": "475",
+		"sData30": "95.00",
+		"sData31": "1452",
+		"sData32": "275.88",
+		"sData33": "95.00",
+		"sData34": "275.88",
+		"sData35": "(8361.86)",
+		"sData36": "0.00",
+		"sData37": "(7990.98)",
+		"sData38": "44360",
+		"sData39": "57668",
+		"sData40": "14220",
+		"sData41": "2061.90",
+		"sData42": "6299.96",
+		"sData43": "8361.86",
+		"sData44": "57668",
+		"sData45": "0"
+	}
+		]
+	},
+	{
+		"TestCaseId": "UpdateCTAdjustmentsSettingsRDClaimTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "UpdateCTAdjustmentsSettingsRDClaimTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test21",
+		"sData5": "Adjustments",
+		"sData6": "Capital allowance",
+		"sData7": "Edit Pool Type",
+		"sData8": "Computing costs",
+		"sData9": "9700",
+		"sData10": "65",
+		"sData11": "Consultancy fees",
+		"sData12": "11900",
+		"sData13": "65",
+		"sData14": "Development costs",
+		"sData15": "30320",
+		"sData16": "100"
+	}
+		]
+	},
+	{
+		"TestCaseId": "CTComputationRDClaimTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "CTComputationRDClaimTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test22",
+		"sData5": "Corporation Tax",
+		"sData6": "1000",
+		"sData7": "1000",
+		"sData8": "21887",
+		"sData9": "(19887)",
+		"sData10": "NA",
+		"sData11": "NA",
+		"sData12": "0",
+		"sData13": "0",
+		"sData14": "9015",
+		"sData15": "0",
+		"sData16": "0",
+		"sData17": "9015",
+		"sData18": "21887",
+		"sData19": "-12872",
+		"sData20": "21887",
+		"sData21": "12670.53",
+		"sData22": "Jan 2017 - Dec 2017",
+		"sData23": "10000",
+		"sData24": "10000",
+		"sData25": "22932",
+		"sData26": "0",
+		"sData27": "(0)",
+		"sData28": "0",
+		"sData29": "0",
+		"sData30": "0.00",
+		"sData31": "0",
+		"sData32": "0.00",
+		"sData33": "0.00",
+		"sData34": "0.00",
+		"sData35": "(12670.54)",
+		"sData36": "0.00",
+		"sData37": "(12670.53)",
+		"sData38": "51920",
+		"sData39": "67496",
+		"sData40": "(A) 119416",
+		"sData41": "(B) 87383",
+		"sData42": "19887",
+		"sData43": "12670.54",
+		"sData44": "87383",
+		"sData45": "0"
+	}
+		]
+	},
+	{
+		"TestCaseId": "UpdateCTAdjustmentsSettingsRDClaimTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "UpdateCTAdjustmentsSettingsRDClaimTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test22",
+		"sData5": "Adjustments",
+		"sData6": "Capital allowance",
+		"sData7": "Edit Pool Type",
+		"sData8": "Computing costs",
+		"sData9": "9700",
+		"sData10": "100",
+		"sData11": "Consultancy fees",
+		"sData12": "11900",
+		"sData13": "100",
+		"sData14": "Development costs",
+		"sData15": "30320",
+		"sData16": "100"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyInformationPageValueswithCTComputationTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyInformationPageValueswithCTComputationTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test22",
+		"sData5": "Information",
+		"sData6": "Research and Development (R&D) or creative enhanced expenditure",
+		"sData7": "Allowances and charges in calculation of trading profits and losses",
+		"sData8": "87383.00",
+		"sData9": "21887.00"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyInformationPageValueswithCTComputationTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyInformationPageValueswithCTComputationTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test21",
+		"sData5": "Information",
+		"sData6": "Research and Development (R&D) or creative enhanced expenditure",
+		"sData7": "Allowances and charges in calculation of trading profits and losses",
+		"sData8": "57668.00",
+		"sData9": "1573.00"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTaxCalculationPageValueswithCTComputationTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyTaxCalculationPageValueswithCTComputationTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test22",
+		"sData5": "Tax Calculation",
+		"sData6": "Turnover",
+		"sData7": "TAX CALCULATION",
+		"sData8": "12670.53",
+		"sData9": "12670.53",
+		"sData10": "12670.53",
+		"sData11": "12670.53",
+		"sData12": "2000.00"
+	}
+		]
+	},
+	
+	{
+		"TestCaseId": "VerifyPLTotalTrialBalanceReportTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyPLTotalTrialBalanceReportTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Corporation Tax"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyCustomerBalanceTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyCustomerBalanceTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Customer",
+		"sData8": "Amit Medicose",
+		"sData9": "//a[contains(text()",
+		"sData10": "'Amit Medicose #3652')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'Amit Medicose #3652')]//..//..//td[5]"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyCustomerBalanceTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyCustomerBalanceTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Customer",
+		"sData8": "DANG Medicals",
+		"sData9": "//a[contains(text()",
+		"sData10": "'DANG Medicals #CREF555')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'DANG Medicals #CREF555')]//..//..//td[5]"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBankBalanceTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyBankBalanceTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Bank",
+		"sData8": "State Bank Of India",
+		"sData9": "//a[contains(text()",
+		"sData10": "'State Bank Of India')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'State Bank Of India')]//..//..//td[5]",
+		"sData13": "//td[contains(text()",
+		"sData14": "'Bank')]"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBankBalanceTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyBankBalanceTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Bank",
+		"sData8": "Union Bank of India",
+		"sData9": "//a[contains(text()",
+		"sData10": "'Union Bank of India')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'Union Bank of India')]//..//..//td[5]",
+		"sData13": "//td[contains(text()",
+		"sData14": "'Bank')]"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifySupplierBalanceTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifySupplierBalanceTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Supplier",
+		"sData8": "Cadbury",
+		"sData9": "//a[contains(text()",
+		"sData10": "'Cadbury #VR001')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'Cadbury #VR001')]//..//..//td[5]",
+		"sData13": "//td[contains(text()",
+		"sData14": "'Supplier')]",
+		"sData15": "//td[contains(text()",
+		"sData16": "'CIS')]"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifySupplierBalanceTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifySupplierBalanceTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Supplier",
+		"sData8": "CIPLA LIMITED",
+		"sData9": "//a[contains(text()",
+		"sData10": "'CIPLA LIMITED #SREF456')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'CIPLA LIMITED #SREF456')]//..//..//td[5]",
+		"sData13": "//td[contains(text()",
+		"sData14": "'Supplier')]",
+		"sData15": "//td[contains(text()",
+		"sData16": "'Non-CIS')]"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyCreditCardBalanceTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyCreditCardBalanceTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Credit Card",
+		"sData8": "SBI GOLD Credit Card",
+		"sData9": "//a[contains(text()",
+		"sData10": "'SBI GOLD Credit Card')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'SBI GOLD Credit Card')]//..//..//td[5]",
+		"sData13": "//td[contains(text()",
+		"sData14": "'Credit Card')]"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyCreditCardBalanceTest2",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyCreditCardBalanceTest2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Credit Card",
+		"sData8": "UBI Platinum Credit Card",
+		"sData9": "//a[contains(text()",
+		"sData10": "'UBI Platinum Credit Card')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'UBI Platinum Credit Card')]//..//..//td[5]",
+		"sData13": "//td[contains(text()",
+		"sData14": "'Credit Card')]"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyPLReportTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Supplier",
+		"sData8": "CIPLA LIMITED",
+		"sData9": "//a[contains(text()",
+		"sData10": "'CIPLA LIMITED #SREF456')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'CIPLA LIMITED #SREF456')]//..//..//td[5]",
+		"sData13": "//td[contains(text()",
+		"sData14": "'Supplier')]",
+		"sData15": "//td[contains(text()",
+		"sData16": "'Non-CIS')]",
+		"sData17": "Profit & Loss Report",
+		"sData18": "Final Accounts",
+		"sData19": "FRS 102 1A - Full Accounts",
+		"sData20": "Final Accounts Settings",
+		"sData21": "Final Account Settings",
+		"sData22": "SmallEntity (FRS 102 1A)"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReport_FA3Test",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyPLReport_FA3Test",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Supplier",
+		"sData8": "CIPLA LIMITED",
+		"sData9": "//a[contains(text()",
+		"sData10": "'CIPLA LIMITED #SREF456')]//..//..//td[3]",
+		"sData11": "//a[contains(text()",
+		"sData12": "'CIPLA LIMITED #SREF456')]//..//..//td[5]",
+		"sData13": "//td[contains(text()",
+		"sData14": "'Supplier')]",
+		"sData15": "//td[contains(text()",
+		"sData16": "'Non-CIS')]",
+		"sData17": "Profit & Loss Report",
+		"sData18": "Final Accounts",
+		"sData19": "FRS 105 - Full Accounts"
+	}
+		]
+	},
+	{
+		"TestCaseId": "ChangeFAReportingStandard",
+		"Keys": [
+			{
+		"TestCase_ID": "ChangeFAReportingStandard",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Final Accounts",
+		"sData8": "Final Accounts Settings",
+		"sData9": "Final Account Settings",
+		"sData10": "MicroEntity (FRS 105)",
+		"sData11": "SmallEntity (FRS 102 1A)"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifySalesFRS105_TrialBalance_Test1",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifySalesFRS105_TrialBalance_Test1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Final Accounts",
+		"sData8": "FRS 105 - Full Accounts",
+		"sData9": "(//td[contains(text()",
+		"sData10": "'4000')]//..//td[3])",
+		"sData11": "Final Accounts Settings",
+		"sData12": "Final Account Settings",
+		"sData13": "MicroEntity (FRS 105)"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifySalesFRS1021A_TrialBalance_Test1",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifySalesFRS1021A_TrialBalance_Test1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": "Final Accounts",
+		"sData8": "FRS 102 1A - Full Accounts",
+		"sData9": "(//td[contains(text()",
+		"sData10": "'4000')]//..//td[3])",
+		"sData11": "Final Accounts Settings",
+		"sData12": "Final Account Settings",
+		"sData13": "SmallEntity (FRS 102 1A)"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTransactionsTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyTransactionsTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2017 - Mar 2018",
+		"sData6": "Apr 2017 - Mar 2018",
+		"sData7": " ",
+		"sData8": "FRS 102 1A - Full Accounts",
+		"sData9": "(//td[contains(text()",
+		"sData10": "'4000')]//..//td[3])",
+		"sData11": "Final Accounts Settings",
+		"sData12": "Final Account Settings",
+		"sData13": "SmallEntity (FRS 102 1A)"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportMoveTransactionTest",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyLedgerReportMoveTransactionTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test31",
+		"sData5": "Jan 2019 - Dec 2019",
+		"sData6": "Apr 2017 - Mar 2018"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportMoveTransactionCreditCard",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyLedgerReportMoveTransactionCreditCard",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test32",
+		"sData5": "Jan 2019 - Dec 2019",
+		"sData6": "Apr 2017 - Mar 2018"
+	}
+		]
+	},
+	{
+		"TestCaseId": "RepeatingInvoiceLst",
+		"Keys": [
+			{
+		"TestCase_ID": "RepeatingInvoiceLst",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test33",
+		"sData5": "Jan 2019 - Dec 2019",
+		"sData6": "Jan 2020 - Dec 2020",
+		"sData7": "Repeating Invoice",
+		"sData8": "Edit Repeat Invoice",
+		"sData9": "Add Repeat Invoice",
+		"sData10": "Delete Repeat Invoice"
+	}
+		]
+	},
+	{
+		"TestCaseId": "EmailInvoiceTest",
+		"Keys": [
+			{
+		"TestCase_ID": "EmailInvoiceTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test33",
+		"sData5": "Jan 2019 - Dec 2019",
+		"sData6": "Jan 2020 - Dec 2020",
+		"sData7": "Email Invoices",
+		"sData8": "sudhir@nomismasolution.co.uk",
+		"sData9": "Success! Email Sent Successfully!"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddExpenseTest",
+		"Keys": [
+			{
+		"TestCase_ID": "AddExpenseTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test33",
+		"sData5": "Jan 2019 - Dec 2019",
+		"sData6": "Jan 2020 - Dec 2020",
+		"sData7": "Add Expense Reimbursement",
+		"sData8": "27-02-2019",
+		"sData9": "Accountancy Fee",
+		"sData10": "Test ",
+		"sData11": "100",
+		"sData12": "STD 20%",
+		"sData13": "16.67"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddPaymentTest",
+		"Keys": [
+			{
+		"TestCase_ID": "AddPaymentTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test33",
+		"sData5": "Jan 2019 - Dec 2019",
+		"sData6": "Jan 2020 - Dec 2020",
+		"sData7": "Add Payment made from personal A/c (Supplier",
+		"sData8": " Tax)",
+		"sData9": "27-02-2019",
+		"sData10": "VAT",
+		"sData11": "Test ",
+		"sData12": "100"
+	}
+		]
+	},
+	
+	{
+		"TestCaseId": "VerifyPayrollDashboardTest1",
+		"Keys": [
+			{
+		"TestCase_ID": "VerifyPayrollDashboardTest1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "Test33",
+		"sData5": "Payroll"
+	}
+		]
+	}
+]

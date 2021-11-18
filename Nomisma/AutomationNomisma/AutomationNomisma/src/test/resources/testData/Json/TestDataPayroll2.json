@@ -1,0 +1,1306 @@
+[
+	{
+		"TestCaseId": "CISPayslipByContractor",
+		"Keys": [
+			{
+				"TestCase_ID": "CISPayslipByContractor",
+				"sData1": "admin",
+				"sData2": "admin1",
+				"sData3": "Nomisma",
+				"sData4": "TestContractor",
+				"sData5": "sudhir@nomismasolution.co.uk",
+				"sData6": "Test Description For Email",
+				"sData7": "\\Downloads\\ReportP32.pdf",
+				"sData8": "SubContractor SubContractor"
+			}
+		]
+	},
+	{
+		"TestCaseId": "SubcontractorListReport",
+		"Keys": [
+	{
+		"TestCase_ID": "SubcontractorListReport",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "SubContractor SubContractor",
+		"sData6": "\\Downloads",
+		"sData7": "SubContractorReport_",
+		"sData8": "\\Downloads\\",
+		"sData9": "Sub Contractor List",
+		"sData10": "SubContractor96677376",
+		"sData11": "SubContractorReport_",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "SubContractorsPayTotals",
+		"Keys": [
+	{
+		"TestCase_ID": "SubContractorsPayTotals",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "SubContractor SubContractor",
+		"sData6": "\\Downloads",
+		"sData7": "ALLSubContractorsPayTotalsReport_",
+		"sData8": "\\Downloads\\",
+		"sData9": "ALL Sub Contractors Pay Total Report",
+		"sData10": "Test",
+		"sData11": "ALLSubContractorsPayTotalsReport_",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "SubContractorPayDetails",
+		"Keys": [
+	{
+		"TestCase_ID": "SubContractorPayDetails",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "SubContractor SubContractor",
+		"sData6": "\\Downloads",
+		"sData7": "SubContractorReport",
+		"sData8": "\\Downloads\\",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "PaymentCert",
+		"Keys": [
+	{
+		"TestCase_ID": "PaymentCert",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "SubContractor SubContractor",
+		"sData6": "\\Downloads",
+		"sData7": "SubContractorReport",
+		"sData8": "\\Downloads\\",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "CISVerificationCert",
+		"Keys": [
+	{
+		"TestCase_ID": "CISVerificationCert",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "SubContractor SubContractor",
+		"sData6": "\\Downloads",
+		"sData7": "SubContractorReport",
+		"sData8": "\\Downloads\\",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "CISSubmissionReport",
+		"Keys": [
+	{
+		"TestCase_ID": "CISSubmissionReport",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor2",
+		"sData5": "SubContractor SubContractor",
+		"sData6": "\\Downloads",
+		"sData7": "SubContractorReport",
+		"sData8": "\\Downloads\\",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "CISFailedReport",
+		"Keys": [
+	{
+		"TestCase_ID": "CISFailedReport",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor2",
+		"sData5": "SubContractor SubContractor",
+		"sData6": "\\Downloads",
+		"sData7": "SubContractorReport",
+		"sData8": "\\Downloads\\",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "CIS300MonthlyReturn",
+		"Keys": [
+	{
+		"TestCase_ID": "CIS300MonthlyReturn",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor2",
+		"sData5": "SubContractor SubContractor",
+		"sData6": "\\Downloads",
+		"sData7": "CIS300MonthyReturnReport_",
+		"sData8": "\\Downloads\\",
+		"sData9": "CIS300 Monthly Return Report",
+		"sData10": "2018-19",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "CISSubmissionRptAll",
+		"Keys": [
+	{
+		"TestCase_ID": "CISSubmissionRptAll",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "CountTest",
+		"Keys": [
+	{
+		"TestCase_ID": "CountTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR"
+	}
+		]
+	},
+	{
+		"TestCaseId": "EnableAutoEnrolment",
+		"Keys": [
+	{
+		"TestCase_ID": "EnableAutoEnrolment",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "A Payroll Agent",
+		"sData4": "Agent Configuration",
+		"sData5": "Test For Demo AE",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "PensionConfiguration",
+		"Keys": [
+	{
+		"TestCase_ID": "PensionConfiguration",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "A Payroll Agent",
+		"sData4": "Pension Configuration",
+		"sData5": "EARNING THRESHOLD",
+		"sData6": "ELIGIBILITY CRITERIA",
+		"sData7": "CONTRIBUTION CRITERIA",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "SMTAuthorization",
+		"Keys": [
+	{
+		"TestCase_ID": "SMTAuthorization",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Amigo",
+		"sData5": "Amigo",
+		"sData6": "DanNestTestAccount",
+		"sData7": "P@55word123",
+		"sData8": "SMT AUTHORIZATION",
+		"sData9": "Thank you. Your Payroll Software is approved to send data to NEST.",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "LaunchSMT",
+		"Keys": [
+	{
+		"TestCase_ID": "LaunchSMT",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Amigo",
+		"sData5": "Amigo",
+		"sData6": "Success",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPensionSchemes",
+		"Keys": [
+	{
+		"TestCase_ID": "VerifyPensionSchemes",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA1",
+		"sData5": "TestSA1",
+		"sData6": "Pension Schemes",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddPensionScheme",
+		"Keys": [
+	{
+		"TestCase_ID": "AddPensionScheme",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA1",
+		"sData5": "TestSA1",
+		"sData6": "Pension Schemes",
+		"sData7": "Add Pension Scheme",
+		"sData8": "TestSA",
+		"sData9": "NST",
+		"sData10": "Pensionable Pay",
+		"sData11": "SET2",
+		"sData12": "TRNET",
+		"sData13": "Use Phased Minimum Contribution Rates %",
+		"sData14": "111",
+		"sData15": "10",
+		"sData16": "5",
+		"sData17": "My group",
+		"sData18": "TestSA",
+		"sData19": "Test",
+		"sData20": "NST",
+		"sData21": "Edit Pension Scheme",
+		"sData22": "Delete Pension Scheme"
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyAutoEnrolmentTab",
+		"Keys": [
+	{
+		"TestCase_ID": "VerifyAutoEnrolmentTab",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA1",
+		"sData5": "26/04/2018",
+		"sData6": "26/05/2018",
+		"sData7": "26/08/2018",
+		"sData8": "10",
+		"sData9": "5",
+		"sData10": "Auto Enrolled",
+		"sData11": "My group",
+		"sData12": "NST",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "ContributionProcessingHistory",
+		"Keys": [
+	{
+		"TestCase_ID": "ContributionProcessingHistory",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA1"
+	}
+		]
+	},
+	{
+		"TestCaseId": "Elements_VatReturnScreen",
+		"Keys": [
+	{
+		"TestCase_ID": "Elements_VatReturnScreen",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddCustomerTest",
+		"Keys": [
+	{
+		"TestCase_ID": "AddCustomerTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA2",
+		"sData5": "Customer",
+		"sData6": "Add Customer",
+		"sData7": "TestSA",
+		"sData8": "GBP",
+		"sData9": "1070",
+		"sData10": "UK Customer",
+		"sData11": "Business",
+		"sData12": "123456789",
+		"sData13": "Cash Takings",
+		"sData14": "123456789",
+		"sData15": "sudhir@nomismasolution.co.uk",
+		"sData16": "Test Address 1",
+		"sData17": "Test Address 2",
+		"sData18": "Test Address 3",
+		"sData19": "Test Address 4",
+		"sData20": "121002",
+		"sData21": "India - IN",
+		"sData22": "Test",
+		"sData23": "SA"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddInvoiceTest",
+		"Keys": [
+	{
+		"TestCase_ID": "AddInvoiceTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA2",
+		"sData5": "Invoice",
+		"sData6": "Add Invoice",
+		"sData7": "SA1",
+		"sData8": "6721",
+		"sData9": "Test SA",
+		"sData10": "100",
+		"sData11": "2",
+		"sData12": "10",
+		"sData13": "STD 20%",
+		"sData14": "10",
+		"sData15": "5",
+		"sData16": "YES BANK",
+		"sData17": "Header Footer Image Template",
+		"sData18": "Payment should be made in 21 days",
+		"sData19": "Test SA Test SATest SA",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddCreditNoteTest",
+		"Keys": [
+	{
+		"TestCase_ID": "AddCreditNoteTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA2",
+		"sData5": "Invoice",
+		"sData6": "Add Credit Note",
+		"sData7": "SA1",
+		"sData8": "6721",
+		"sData9": "Test SA",
+		"sData10": "100",
+		"sData11": "2",
+		"sData12": "10",
+		"sData13": "STD 20%",
+		"sData14": "10",
+		"sData15": "5",
+		"sData16": "YES BANK",
+		"sData17": "Header Footer Image Template",
+		"sData18": "Payment should be made in 21 days",
+		"sData19": "Test SA Test SATest SA",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddSupplierBillTest",
+		"Keys": [
+	{
+		"TestCase_ID": "AddSupplierBillTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA2",
+		"sData5": "Supplier Bill",
+		"sData6": "Add Supplier Bill",
+		"sData7": "SASupplier",
+		"sData8": "Insurance",
+		"sData9": "Test Supplier Bill",
+		"sData10": "100",
+		"sData11": "STD 20%",
+		"sData12": "Test SA Test SATest SA",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddDebitNoteTest",
+		"Keys": [
+	{
+		"TestCase_ID": "AddDebitNoteTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA2",
+		"sData5": "Supplier Bill",
+		"sData6": "Add Debit Note",
+		"sData7": "SASupplier",
+		"sData8": "Insurance",
+		"sData9": "Test Supplier Bill",
+		"sData10": "100",
+		"sData11": "STD 20%",
+		"sData12": "Test SA Test SATest SA",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddBankCreditCardTransactionTest",
+		"Keys": [
+	{
+		"TestCase_ID": "AddBankCreditCardTransactionTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA2",
+		"sData5": "Bank & CreditCard Transactions",
+		"sData6": "Add Bank / CreditCard Transaction",
+		"sData7": "Test SA Test SATest SA",
+		"sData8": "Debit(Receipts)",
+		"sData9": "100",
+		"sData10": "STD 20%",
+		"sData11": "Exclusive",
+		"sData12": "7400",
+		"sData13": "Test SA Test SATest SA",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "ReconcileTest",
+		"Keys": [
+	{
+		"TestCase_ID": "ReconcileTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA3",
+		"sData5": "Invoice",
+		"sData6": "Add Invoice",
+		"sData7": "SA1",
+		"sData8": "Sale",
+		"sData9": "Test SA",
+		"sData10": "100",
+		"sData11": "1",
+		"sData12": "0",
+		"sData13": "STD 20%",
+		"sData14": "10",
+		"sData15": "5",
+		"sData16": "YES BANK",
+		"sData17": "Header Footer Image Template",
+		"sData18": "Payment should be made in 21 days",
+		"sData19": "Test SA Test SATest SA",
+		"sData20": "Bank & CreditCard Transactions",
+		"sData21": "Add Bank / CreditCard Transaction",
+		"sData22": "Test SA Test SATest SA",
+		"sData23": "Debit(Receipts)"
+	}
+		]
+	},
+	{
+		"TestCaseId": "UndoReconcileTest",
+		"Keys": [
+	{
+		"TestCase_ID": "UndoReconcileTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA3",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "ReconcileSupplierBillTest",
+		"Keys": [
+	{
+		"TestCase_ID": "ReconcileSupplierBillTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA3",
+		"sData5": "Supplier Bill",
+		"sData6": "Add Supplier Bill",
+		"sData7": "SA2",
+		"sData8": "Insurance",
+		"sData9": "Test Supplier Bill",
+		"sData10": "50",
+		"sData11": "STD 20%",
+		"sData12": "Test SA Test SATest SA",
+		"sData13": "Bank & CreditCard Transactions",
+		"sData14": "Add Bank / CreditCard Transaction",
+		"sData15": "Test SA Test SATest SA",
+		"sData16": "Credit(Payments)",
+		"sData17": "50",
+		"sData18": "STD 20%",
+		"sData19": "Exclusive",
+		"sData20": "SA2",
+		"sData21": "Test SA Test SATest SA",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "DeleteAllRecordsTest",
+		"Keys": [
+	{
+		"TestCase_ID": "DeleteAllRecordsTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA3",
+		"sData5": "Supplier Bill",
+		"sData6": "Invoice",
+		"sData7": "Bank & CreditCard Transactions",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "UndoReconcileSupplierBillTest",
+		"Keys": [
+	{
+		"TestCase_ID": "UndoReconcileSupplierBillTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA3",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "VATReturnsTest",
+		"Keys": [
+	{
+		"TestCase_ID": "VATReturnsTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA3",
+		"sData5": "VAT Returns",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "InvoiceCheckTest",
+		"Keys": [
+	{
+		"TestCase_ID": "InvoiceCheckTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA3",
+		"sData5": "Invoice",
+		"sData6": "Add Invoice",
+		"sData7": "SA1",
+		"sData8": "SA_EU_VAT",
+		"sData9": "SA_EU_NOVAT",
+		"sData10": "SA_EU_NoVAT_NB",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddEUCustomerInvoiceTest",
+		"Keys": [
+	{
+		"TestCase_ID": "AddEUCustomerInvoiceTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA4",
+		"sData5": "Invoice",
+		"sData6": "Add Invoice",
+		"sData7": "SA_UK",
+		"sData8": "SA_EU_VAT",
+		"sData9": "SA_EU_NOVAT",
+		"sData10": "SA_EU_NoVAT_NB",
+		"sData11": "Sale",
+		"sData12": "Test SA",
+		"sData13": "100",
+		"sData14": "1",
+		"sData15": "0",
+		"sData16": "STD 20%",
+		"sData17": "10",
+		"sData18": "5",
+		"sData19": "YES BANK",
+		"sData20": "Header Footer Image Template",
+		"sData21": "Payment should be made in 21 days",
+		"sData22": "Test SA Test SATest SA",
+		"sData23": "Bank & CreditCard Transactions"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddBankCreditCardTransactionTest3",
+		"Keys": [
+	{
+		"TestCase_ID": "AddBankCreditCardTransactionTest3",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA4",
+		"sData5": "Bank & CreditCard Transactions",
+		"sData6": "Add Bank / CreditCard Transaction",
+		"sData7": "Test for adding Bank Transactions for EU Invoices",
+		"sData8": "Debit(Receipts)",
+		"sData9": "120",
+		"sData10": "STD 20%",
+		"sData11": "Exclusive",
+		"sData12": "7400",
+		"sData13": "Test for adding Bank Transactions for EU Invoices",
+		"sData14": "SA_UK",
+		"sData15": "SA_EU_VAT",
+		"sData16": "SA_EU_NOVAT",
+		"sData17": "SA_EU_NoVAT_NB",
+		"sData18": "100",
+		"sData19": "Credit(Payments)",
+		"sData20": "50",
+		"sData21": "SSA_EU_VAT",
+		"sData22": "SSA_EU_NOVAT",
+		"sData23": "SSA_EU_NoVAT_NB"
+	}
+		]
+	},
+	{
+		"TestCaseId": "DeleteAllRecordsTest",
+		"Keys": [
+	{
+		"TestCase_ID": "DeleteAllRecordsTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA4",
+		"sData5": "Supplier Bill",
+		"sData6": "Invoice",
+		"sData7": "Bank & CreditCard Transactions",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "SupplierBillCheckTest",
+		"Keys": [
+	{
+		"TestCase_ID": "SupplierBillCheckTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA4",
+		"sData5": "Supplier Bill",
+		"sData6": "Add Supplier Bill",
+		"sData7": "SSA_UK",
+		"sData8": "SSA_EU_VAT",
+		"sData9": "SSA_EU_NOVAT",
+		"sData10": "SSA_EU_NoVAT_NB",
+		"sData11": "SSA_EU_VAT_Goods",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddEUSupplierBillTest",
+		"Keys": [
+	{
+		"TestCase_ID": "AddEUSupplierBillTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA4",
+		"sData5": "Supplier Bill",
+		"sData6": "Add Supplier Bill",
+		"sData7": "SSA_UK",
+		"sData8": "SSA_EU_VAT",
+		"sData9": "SSA_EU_NOVAT",
+		"sData10": "SSA_EU_NoVAT_NB",
+		"sData11": "SSA_EU_VAT_Goods",
+		"sData12": "Insurance",
+		"sData13": "Test Supplier Bill",
+		"sData14": "50",
+		"sData15": "STD 20%",
+		"sData16": "Test SA Test SATest SA",
+		"sData17": "Bank & CreditCard Transactions",
+		"sData18": "Add Bank / CreditCard Transaction",
+		"sData19": "Test SA Test SATest SA",
+		"sData20": "Credit(Payments)",
+		"sData21": "50",
+		"sData22": "STD 20%",
+		"sData23": "Exclusive"
+	}
+		]
+	},
+	{
+		"TestCaseId": "EditVATReturnsTest",
+		"Keys": [
+	{
+		"TestCase_ID": "EditVATReturnsTest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestAutomation",
+		"sData4": "TestSA5",
+		"sData5": "VAT Returns",
+		"sData6": "VAT Return Report",
+		"sData7": "VAT Return Backup Report",
+		"sData8": "Send Draft Email",
+		"sData9": "sudhir@nomismasolution.co.uk",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	
+	{
+		"TestCaseId": "AddSMPLeaves_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AddSMPLeaves_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Mrs. Anuja Singh",
+		"sData6": "10/10/2019",
+		"sData7": "10/10/2019",
+		"sData8": "334.0985",
+		"sData9": "01/10/2019",
+		"sData10": "90",
+		"sData11": "1"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddSPPLeaves_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AddSPPLeaves_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Mr. Aarush Singh",
+		"sData6": "10/10/2019",
+		"sData7": "334.50",
+		"sData8": "10/10/2019",
+		"sData9": "2",
+		"sData10": "2"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddSSPLeaves_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AddSSPLeaves_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Mr. Aarush Singh",
+		"sData6": "01/03/2020",
+		"sData7": "10/03/2020",
+		"sData8": "350.00",
+		"sData9": "3"
+	}
+		]
+	},
+	
+	{
+		"TestCaseId": "AddMaleEmployee_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AddMaleEmployee_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Aarush",
+		"sData6": "Singh",
+		"sData7": "Software Engineer",
+		"sData8": "12/6/1984",
+		"sData9": "7 Holmbury View",
+		"sData10": "London",
+		"sData11": "test",
+		"sData12": "test1234",
+		"sData13": "E5 9EG",
+		"sData14": "this is comments section",
+		"sData15": "+4482726626",
+		"sData16": "anjali@nomismasolution.co.uk",
+		"sData17": "02/03/2017",
+		"sData18": "1150L",
+		"sData19": "AB164231C",
+		"sData20": "comp001",
+		"sData21": "1750",
+		"sData22": "15/10/2016"
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "EditEmployeeDetails_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "EditEmployeeDetails_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "AB164231C",
+		"sData6": "1600",
+		"sData7": "Nomisma1Lmt"
+		}
+		]
+	}
+	,
+	{
+		"TestCaseId": "DeleteEmployee_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "DeleteEmployee_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "AB164231C"
+		}
+		]
+	},
+	{
+		"TestCaseId": "DeRegistration_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "DeRegistration_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt"
+	}
+		]
+	},
+	{
+	
+		"TestCaseId": "DeleteSMPLeaves_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "DeleteSMPLeaves_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddFemaleEmployee_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AddFemaleEmployee_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Anuja",
+		"sData6": "Singh",
+		"sData7": "Software Engineer",
+		"sData8": "12/6/1984",
+		"sData9": "7 Holmbury View",
+		"sData10": "London",
+		"sData11": "test",
+		"sData12": "test1234",
+		"sData13": "E5 9EG",
+		"sData14": "this is comments section",
+		"sData15": "+4482726626",
+		"sData16": "anjali@nomismasolution.co.uk",
+		"sData17": "02/03/2017",
+		"sData18": "1150L",
+		"sData19": "AB164231C",
+		"sData20": "comp001",
+		"sData21": "1750",
+		"sData22": "15/10/2016"
+	}
+		]
+	}
+		
+]

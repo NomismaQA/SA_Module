@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite" thread-count="4"> -->
+ <suite name="RegressionSuite"  verbose="10">
+<!-- <suite name="Suite" verbose="10"> -->
+<!--  <listeners>
+<listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+
+</listeners>-->
+	 
+
+
+
+ 	  	   	    	<test name= "166. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyPLReportTest">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "167. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyPLReportTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "168. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyPLReportTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "169. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyPLReportTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "170. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyPLReportTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "171. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyPLReportTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "172. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyPLReportTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "173. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyPLReportTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "174. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyPLReportTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "175. LiveNomismaSmokeTests (DNS Group)------------ VerifyPLReportTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest10"/>
+  			</classes> 
+  	</test>  
+  	
+  
+ 	  	   	    	<test name= "176. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyTrialBalanceReportTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  		  	   	    	<test name= "177. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyTrialBalanceReportTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "178. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyTrialBalanceReportTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "179. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyTrialBalanceReportTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "180. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyTrialBalanceReportTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "181. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyTrialBalanceReportTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "182. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyTrialBalanceReportTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "183. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyTrialBalanceReportTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "184. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyTrialBalanceReportTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "185. LiveNomismaSmokeTests (DNS Group)------------ VerifyTrialBalanceReportTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest10"/>
+  			</classes> 
+  	</test>   
+  	
+  	
+  	
+  	  	   	    	<test name= "186. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyLedgerReportTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  		
+  		  	   	    	<test name= "187. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyLedgerReportTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "188. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyLedgerReportTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "189. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyLedgerReportTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "190. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyLedgerReportTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "191. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyLedgerReportTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "192. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyLedgerReportTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "193. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyLedgerReportTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "194. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyLedgerReportTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "195. LiveNomismaSmokeTests (DNS Group)------------ VerifyLedgerReportTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest10"/>
+  			</classes> 
+  	</test> 
+  	
+  	 
+ 	  	   	    	<test name= "196. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyBalanceSheetTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  		
+  		  	   	    	<test name= "197. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyBalanceSheetTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "198. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyBalanceSheetTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "199. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyBalanceSheetTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "200. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyBalanceSheetTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "201. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyBalanceSheetTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "202. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyBalanceSheetTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "203. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyBalanceSheetTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "204. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyBalanceSheetTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "205. LiveNomismaSmokeTests (DNS Group)------------ VerifyBalanceSheetTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest10"/>
+  			</classes> 
+  	</test> 
+  	  
+ 	  	   	    	<test name= "206. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyGeneralLedgerReportTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  		
+  		  	   	    	<test name= "207. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyGeneralLedgerReportTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "208. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyGeneralLedgerReportTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "209. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyGeneralLedgerReportTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "210. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyGeneralLedgerReportTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "211. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyGeneralLedgerReportTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "212. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyGeneralLedgerReportTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "213. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyGeneralLedgerReportTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "214. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyGeneralLedgerReportTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "215. LiveNomismaSmokeTests (DNS Group)------------ VerifyGeneralLedgerReportTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest10"/>
+  			</classes> 
+  	</test> 
+  	
+  	
+  	  	 	  	   	    	<test name= "216. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifySupplierSummaryTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifySupplierSummaryTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "217. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifySupplierSummaryTest2">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifySupplierSummaryTest2"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "218. LiveNomismaSmokeTests (DNS Group)------------ VerifySupplierSummaryTest3">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifySupplierSummaryTest3"/>
+  			</classes> 
+  	</test> 
+  	
+
+</suite>

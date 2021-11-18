@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dividend linking in current and future tax years depending on Work status]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Scenario 2:Dividend linking done in tax year 2018-19 when status is Not started(failed)">
+    <classes>
+      <class name="tests.testcase70_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase70_DefaultProfile2 -->
+    </classes>
+  </test> <!-- Scenario 2:Dividend linking done in tax year 2018-19 when status is Not started(failed) -->
+  <test thread-count="5" name="Scenario 3:Dividend linking done in tax year 2019-20 when status is Not started(failed)">
+    <classes>
+      <class name="tests.testcase76_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase76_DefaultProfile2 -->
+    </classes>
+  </test> <!-- Scenario 3:Dividend linking done in tax year 2019-20 when status is Not started(failed) -->
+</suite> <!-- Failed suite [Dividend linking in current and future tax years depending on Work status] -->

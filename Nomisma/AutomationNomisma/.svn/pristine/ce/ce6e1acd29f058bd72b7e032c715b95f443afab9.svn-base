@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]" verbose="10">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+  </listeners>
+  <test name="EmployeePayDetailsReportTest(failed)(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nomisma.scriptspayrollreports.CompanyPaySummaryReportTest">
+        <methods>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayrollreports.CompanyPaySummaryReportTest -->
+      <class name="com.nomisma.scriptspayrollreports.EmployeePayDetailsReportTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="empPayDetailsReport"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayrollreports.EmployeePayDetailsReportTest -->
+      <class name="com.nomisma.scriptspayrollreports.EmployeePaysummaryReportTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayrollreports.EmployeePaysummaryReportTest -->
+    </classes>
+  </test> <!-- EmployeePayDetailsReportTest(failed)(failed)(failed) -->
+  <test name="EmployeePaysummaryReportTest(failed)(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nomisma.scriptspayrollreports.CompanyPaySummaryReportTest">
+        <methods>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayrollreports.CompanyPaySummaryReportTest -->
+      <class name="com.nomisma.scriptspayrollreports.EmployeePayDetailsReportTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayrollreports.EmployeePayDetailsReportTest -->
+      <class name="com.nomisma.scriptspayrollreports.EmployeePaysummaryReportTest">
+        <methods>
+          <include name="empPaysummaryReport"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayrollreports.EmployeePaysummaryReportTest -->
+    </classes>
+  </test> <!-- EmployeePaysummaryReportTest(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

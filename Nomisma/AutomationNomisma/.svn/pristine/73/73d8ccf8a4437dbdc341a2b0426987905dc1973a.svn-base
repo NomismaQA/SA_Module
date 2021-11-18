@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--  <suite name="Suite" thread-count="4">-->
+<suite name="Suite" verbose="10">
+ <listeners>
+ <listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+<listener class-name="com.nomisma.generic.CustomizedEmailableReport" />
+</listeners>
+<test name= "MTRTestScenario1_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario1"/>
+  			</classes> 
+</test>
+ <!--<test name= "45. P32ReportCISSuffered">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.P32ReportCISSuffered"/>
+  			</classes> 
+  	</test>
+<test name= "MTRTestScenario15_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario15"/>
+  			</classes> 
+</test>
+<test name= "testCaseDelRepeatInvoice">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.Business.DelIRepeatInvoiceCls"/>
+  			</classes> 
+  	</test>
+<test name= "testCaseRepeatInvoice">  
+ 	<parameter name= "browser" value="chrome"/>
+ 		<classes>
+   			<class name= "com.nomisma.Business.RepeatInvoiceCls"/>
+  			</classes> 
+  	</test>  
+
+<test name= "12. EmployeeAllowanceTest">
+   		<parameter name= "browser" value="SandBox"/>
+			<classes>
+   				<class name= "com.nomisma.scriptspayroll.EmployeeAllowanceTest"/>
+   			</classes>
+    	</test>
+<test name= "15. LinkedWithAccountsTest"> 
+  		<parameter name= "browser" value="SandBox"/>
+  			<classes>
+    				<class name= "com.nomisma.scriptspayroll.LinkedWithAccountsTest"/> 
+  			</classes> 
+  			
+	</test>
+<test name= "42. VerifyCalculationDirectorNITest"> 
+   		<parameter name= "browser" value="SandBox"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.VerifyCalculationDirectorNITest"/>
+   			</classes>
+    </test> 
+<test name= "MTRTestScenario244_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario244"/>
+  			</classes> 
+</test>
+
+<test name= "3. AutoEnrolTest">   
+ 		<parameter name= "browser" value="SandBox"/> 
+ 			<classes>    				
+
+	<class name= "com.nomisma.scriptspayroll.AutoEnrolTest"/> 
+  			</classes>  
+	</test>
+<test name= "21. ImportEmployee">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.ImportEmployee"/>
+  			</classes> 
+</test>
+  <test name= "22. PAYELiabilityByTaxMonthReport">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.PAYELiabilityByTaxMonthReport"/>
+  			</classes> 
+  	</test>
+ 
+
+<test name= "4. AddHmrcAdjustmentsTest">
+   		<parameter name= "browser" value="SandBox"/>  
+ 			<classes> 
+   				<class name= "com.nomisma.scriptspayroll.AddHmrcAdjustmentsTest"/>
+ 			</classes> 
+ </test>
+
+<test name= "Payroll-FailedRTITest">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.FailedRTITest"/>
+  			</classes> 
+  	</test>
+
+<test name= "68. Payroll-FailedRTICountCheck">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.FailedRTICountCheck"/>
+  			</classes> 
+  	</test>
+<test name= "17. RunPayrollTest">
+ 		<parameter name= "browser" value="SandBox"/> 
+  			<classes>
+  				<class name= "com.nomisma.scriptspayroll.RunPayrollTest"/>
+ 			</classes> 
+  			
+ 	</test>
+ 	<test name= "18. SubmitRTITest">
+ 		<parameter name= "browser" value="SandBox"/> 
+  			<classes>
+  				<class name= "com.nomisma.scriptspayroll.SubmitRTITest"/>
+ 			</classes> 
+  			
+ 	</test>
+
+<test name= "68. Payroll-FailedRTICountCheck">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.FailedRTICountCheck"/>
+  			</classes> 
+  	</test> 
+<test name= "5. DeleteEmployeeTest">   
+		<parameter name= "browser" value="SandBox"/>
+  			<classes> 
+  				<class name= "com.nomisma.scriptspayroll.DeleteEmployeeTest"/>
+		</classes>  
+     </test>
+     <test name= "2. AddEmployeeTest">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.AddEmployeeTest"/>
+  			</classes> 
+  			
+	</test>
+<test name= "227. Payroll-AddEmployeeTest_BankTerms">
+  		<parameter name= "browser" value="SandBox"/> 
+  			<classes>
+  				<class name= "com.nomisma.scriptspayroll.AddEmployeeTest_BankTerms"/>
+ 			</classes> 
+  			
+ 	</test>
+ 	
+ <test name= "2. AddEmployeeTest">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.AddEmployeeTest"/>
+  			</classes> 
+  			
+	</test>
+ <test name= "5. DeleteEmployeeTest">   
+		<parameter name= "browser" value="SandBox"/>
+  			<classes> 
+  				<class name= "com.nomisma.scriptspayroll.DeleteEmployeeTest"/>
+		</classes>  
+     </test>
+<test name= "227. Payroll-AddEmployeeTest_BankTerms">
+  		<parameter name= "browser" value="SandBox"/> 
+  			<classes>
+  				<class name= "com.nomisma.scriptspayroll.AddEmployeeTest_BankTerms"/>
+ 			</classes> 
+  			
+ 	</test>
+
+<test name= "9. EditEmployeeDetailsTest">
+		<parameter name= "browser" value="SandBox"/>
+		<classes>
+			<class name= "com.nomisma.scriptspayroll.EditEmployeeDetailsTest"/>
+		</classes>
+		</test>
+<test name= "227. Payroll-AddEmployeeTest_BankTerms">
+  		<parameter name= "browser" value="SandBox"/> 
+  			<classes>
+  				<class name= "com.nomisma.scriptspayroll.AddEmployeeTest_BankTerms"/>
+ 			</classes> 
+  			
+ 	</test>
+<test name= "7. DeRegistrationCompanyTest">  
+  		<parameter name= "browser" value="SandBox"/> 
+ 			<classes> 
+    				<class name= "com.nomisma.scriptspayroll.DeRegistrationCompanyTest"/>
+   			</classes> 
+  			
+ 	</test>
+<test name= "1. SearchBusinessAndEditCompanyTest">
+	<parameter name= "browser" value="SandBox"/>
+		<classes>
+    				<class name= "com.nomisma.scriptspayroll.SearchBusinessAndEditCompanyTest"/>
+   		</classes>
+  			
+</test>
+<test name= "2. AddEmployeeTest">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.AddEmployeeTest"/>
+  			</classes> 
+  			
+	</test>
+<test name= "AddEmployeeTest">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.SearchBusinessAndEditCompanyTest"/>
+  			</classes> 
+  			
+	</test>
+<test name= "3. AddEmployeeLeavesTest"> 
+   		<parameter name= "browser" value="SandBox"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.AddEmployeeLeavesFemale"/> 
+   			</classes>
+    </test>
+    <test name= "5. DeleteEmployeeTest">   
+		<parameter name= "browser" value="SandBox"/>
+  			<classes> 
+  				<class name= "com.nomisma.scriptspayroll.DeleteEmployeeTest"/>
+		</classes>  
+     </test>
+ <test name= "6. DeleteEmployeeLeavesTest"> 
+	<parameter name= "browser" value="SandBox"/>  
+		<classes> 
+			<class name= "com.nomisma.scriptspayroll.DeleteEmployeeLeavesTest"/>
+		</classes>
+</test>  
+<test name= "MTRTestScenario1_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario1"/>
+  			</classes> 
+</test>
+<test name= "AddClient_2019live">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019.AddClientInMTRCls_live"/>
+  			</classes> 
+ </test>
+
+
+<test name= "CreateLimitedCompany">  
+ 		<parameter name= "browser" value="sandBox2"/>
+ 			<classes>
+   				<class name= "com.nomisma.Business.CreateBusinessCls"/>
+  			</classes> 
+  	</test> 
+
+ 
+<test name= "AddClient">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts.AddClientInMTRCls"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddClient_2019sandboxPre">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019.AddClientInMTRCls"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddClient_2019_sandbox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019.AddClientInMTRCls"/>
+  			</classes> 
+  	</test>
+  	
+  	--> 
+  
+</suite>

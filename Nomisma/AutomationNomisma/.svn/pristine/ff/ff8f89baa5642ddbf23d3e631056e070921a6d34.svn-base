@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PortalValidation]">
+  <test name="SmokeScenario(failed)">
+    <classes>
+      <class name="com.nomisma.accountsbookkeepingscripts.EditInvoiceTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="Login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nomisma.accountsbookkeepingscripts.EditInvoiceTestCase -->
+    </classes>
+  </test> <!-- SmokeScenario(failed) -->
+</suite> <!-- Failed suite [PortalValidation] -->

@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>TestNG:  SADashBoardStatusTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SADashBoardStatusTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 23 03:07:40 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>45 seconds (45464 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.SelfAssessment.VerifySADashboard.verifyWorkStatus()'><b>verifyWorkStatus</b><br>Test class: com.nomisma.SelfAssessment.VerifySADashboard<br/>
+<a href="#Output-1017793925" onClick='toggleBox("Output-1017793925", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1017793925" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1017793925">
+WebElement to be clicked [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'anjali1')]]<br/>
+After click [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'anjali1')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'anjali1')]] clicked<br/>
+Agent window is displayed<br/>
+Agents page title is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //span[contains(text(),'Self Assessment')]]<br/>
+After click [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //span[contains(text(),'Self Assessment')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //span[contains(text(),'Self Assessment')]] clicked<br/>
+Self assessment Link Opened<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+After click [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //a[contains(text(),'Client List')]] clicked<br/>
+Client Link Clicked<br/>
+Value of Approved Status on First Page of Client List: 18<br/>
+Next Page Exist<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> id: ctl00_ctl00_ParentContent_cpHFooter_PageUC1_rptrPager_ctl03_lnkNext]<br/>
+After click [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> id: ctl00_ctl00_ParentContent_cpHFooter_PageUC1_rptrPager_ctl03_lnkNext]<br/>
+WebElement [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> id: ctl00_ctl00_ParentContent_cpHFooter_PageUC1_rptrPager_ctl03_lnkNext] clicked<br/>
+Next page not available<br/>
+Total No of Client with approved status: 22<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //ul[@id='ctl00_ctl00_ParentContent_SideMenu1_SAMenuChildren']/li/a[contains(text(),'Dashboard')]]<br/>
+After click [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //ul[@id='ctl00_ctl00_ParentContent_SideMenu1_SAMenuChildren']/li/a[contains(text(),'Dashboard')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (d5ec07aac772ac325e95c1c608f69317)] -> xpath: //ul[@id='ctl00_ctl00_ParentContent_SideMenu1_SAMenuChildren']/li/a[contains(text(),'Dashboard')]] clicked<br/>
+Verified Number of Approved Status on Dashboard of SA: 22<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'verifyWorkStatus'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.nomisma.SelfAssessment.VerifySADashboard@48c35007</td></tr>
+</table><p>
+</body>
+</html>

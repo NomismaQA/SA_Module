@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="10">
+  <parameter name="browser" value="SandBox"/>
+  <listeners>
+    <listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+    <listener class-name="com.nomisma.generic.CustomizedEmailableReport"/>
+  </listeners>
+  <test name="MTRTestScenario1_2020(failed)">
+    <parameter name="browser" value="SandBox"/>
+    <classes>
+      <class name="com.nomisma.SAMTR_Scripts2020.MTRTestScenario1">
+        <methods>
+          <include name="funcAddTestCase1"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.SAMTR_Scripts2020.MTRTestScenario1 -->
+    </classes>
+  </test> <!-- MTRTestScenario1_2020(failed) -->
+</suite> <!-- Failed suite [Suite] -->

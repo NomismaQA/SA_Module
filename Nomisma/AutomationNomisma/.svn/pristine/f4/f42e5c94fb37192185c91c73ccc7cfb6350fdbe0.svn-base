@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite" parallel="tests" thread-count="4"> -->
+<!--  <suite name="RegressionSuite" parallel="tests" verbose="10"> -->
+<suite name="Suite" verbose="10"> 
+<!--  <listeners>
+<listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+</listeners>-->
+
+
+	<test name= "1. AddEmployeeTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.AddEmployeeTest"/>
+  			</classes> 
+  			
+	</test>
+	
+	<test name= "2. AddEmployeeLeavesTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.AddEmployeeLeavesTest"/> 
+   			</classes>
+    </test>
+	
+ 	<test name= "4. AddHmrcAdjustmentsTest">
+   		<parameter name= "browser" value="Headlesschrome"/>  
+ 			<classes> 
+   				<class name= "com.nomisma.scriptspayroll.AddHmrcAdjustmentsTest"/><!-- Working fine on 30042018 -->
+ 			</classes> 
+ 	</test>
+
+ 	<test name= "5. DeleteEmployeeTest">   
+		<parameter name= "browser" value="Headlesschrome"/>
+  			<classes> 
+  				<class name= "com.nomisma.scriptspayroll.DeleteEmployeeTest"/><!-- Working fine on 30042018 -->
+		</classes>  
+     </test>
+
+
+ 	<test name= "6. DeleteEmployeeLeavesTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/>  
+ 			<classes> 
+  				<class name= "com.nomisma.scriptspayroll.DeleteEmployeeLeavesTest"/><!-- Working fine on 30042018 -->
+   			</classes>
+    </test> 
+
+	<test name= "7. DeRegistrationCompanyTest">  
+  		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes> 
+    				<class name= "com.nomisma.scriptspayroll.DeRegistrationCompanyTest"/><!-- Working fine on 30042018 -->
+   			</classes> 
+  			
+ 	</test>
+
+<!-- <test name= "8. EditAutoenrollDetailsTest"> -->
+<!--    		<parameter name= "browser" value="chrome"/>  -->
+<!--   			<classes> -->
+<!--    				<class name= "com.nomisma.scriptspayroll.EditAutoenrollDetailsTest"/>Not Working, Input data not exists in Excel sheet -->
+<!--     			</classes> -->
+<!--     </test> -->
+
+		<test name= "9. EditEmployeeDetailsTest">
+		<parameter name= "browser" value="Headlesschrome"/>
+		<classes>
+			<class name= "com.nomisma.scriptspayroll.EditEmployeeDetailsTest"/><!-- Working fine on 30042018 -->
+		</classes>
+		</test>
+
+		<test name= "10. EditEmployeeLeavesTest"> 
+    		<parameter name= "browser" value="Headlesschrome"/>
+			<classes>
+	    		<class name= "com.nomisma.scriptspayroll.EditEmployeeLeavesTest"/><!-- Working fine on 01052018  -->
+	   		</classes>
+    	</test>
+	
+		
+		<test name= "11. EmailPayslipsTest"> 
+    		<parameter name= "browser" value="Headlesschrome"/>
+			<classes>
+    			<class name= "com.nomisma.scriptspayroll.EmailPayslipsTest"/><!-- Working fine on 01052018  -->
+   			</classes>
+    	</test>
+    
+    
+    	<test name= "12. EmployeeAllowanceTest">
+   		<parameter name= "browser" value="Headlesschrome"/>
+			<classes>
+   				<class name= "com.nomisma.scriptspayroll.EmployeeAllowanceTest"/><!-- Working fine on 02052018  -->
+   			</classes>
+    	</test>
+  
+    	<test name= "13. EmployeePayDetailsTest">
+ 		<parameter name= "browser" value="Headlesschrome"/> 
+  			<classes> 
+    			<class name= "com.nomisma.scriptspayroll.EmployeePayDetailsTest"/> <!-- Working fine on 02052018  -->
+   			</classes> 
+  		</test>   
+	
+		<test name= "14. FailedRTITest">
+ 		<parameter name= "browser" value="Headlesschrome"/>
+		<classes>
+    				<class name= "com.nomisma.scriptspayroll.FailedRTITest"/> <!-- Working fine on 02052018  -->
+			</classes>
+    </test>
+    
+    <test name= "15. LinkedWithAccountsTest"> 
+  		<parameter name= "browser" value="Headlesschrome"/>
+  			<classes>
+    				<class name= "com.nomisma.scriptspayroll.LinkedWithAccountsTest"/> <!-- Working fine on 02052018  -->
+  			</classes> 
+  			
+	</test>
+	
+	<!-- 	</test> -->
+<!-- 	<test name= "16. PayrollDashboardTest">  -->
+<!--    		<parameter name= "browser" value="chrome"/>  -->
+<!--  			<classes> -->
+<!--    				<class name= "com.nomisma.scriptspayroll.PayrollDashboardTest"/>--><!-- Bug -->
+<!--    			</classes> -->
+<!--     </test> -->
+
+
+ <test name= "17. RunPayrollTest">
+ 		<parameter name= "browser" value="Headlesschrome"/> 
+  			<classes>
+  				<class name= "com.nomisma.scriptspayroll.RunPayrollTest"/><!-- Working fine on 02052018  -->
+ 			</classes> 
+  			
+ 	</test>
+ 
+    <test name= "18. SearchBusinessAndEditCompanyTest">
+		<parameter name= "browser" value="Headlesschrome"/>
+			<classes>
+    				<class name= "com.nomisma.scriptspayroll.SearchBusinessAndEditCompanyTest"/><!-- Working fine on 02052018  -->
+   			</classes>
+  			
+	</test>
+ 	<test name= "19. UndoPayrollTest"> 
+    		<parameter name= "browser" value="Headlesschrome"/>
+  			<classes>
+   				<class name= "com.nomisma.scriptspayroll.UndoPayrollTest"/><!--Some Fixes needed -->
+   			</classes>
+    </test> 
+    
+   <test name= "20. P32CalcTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.P32CalcTest"/>
+  			</classes> 
+  	</test>
+
+  	 	<test name= "21. ImportEmployee">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.ImportEmployee"/>
+  			</classes> 
+  	</test>
+  	
+  	<test name= "22. PAYELiabilityByTaxMonthReport">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.PAYELiabilityByTaxMonthReport"/>
+  			</classes> 
+  	</test>      
+  	<test name= "23. AccountSubmissionByCompanyReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.AccountSubmissionByCompanyReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "24. CompanyPaySummaryReportTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.CompanyPaySummaryReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+    <test name= "25. EmployeeListReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.EmployeeListReportTest"/> <!-- working fine -->
+  			</classes> 
+  	</test>
+  	
+	<test name= "26. EmployeePayDetailsReportTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.EmployeePayDetailsReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+    	<test name= "27. EmployeePaysummaryReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.EmployeePaysummaryReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "28. P11DeductionsReportTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.P11DeductionsReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "29. P32ReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.P32ReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "30. P45FormsReportTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.P45FormsReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "31. P60FormsReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.P60FormsReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "32. PayslipByCompanyReportTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.PayslipByCompanyReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "33. PendingSubmissionReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.PendingSubmissionReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "34. PeriodTotalReportTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.PeriodTotalReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+<!-- 	<test name= "RTIFailedReportTest">   -->
+<!--  		<parameter name= "browser" value="chrome"/> -->
+<!--  			<classes> -->
+<!--    				<class name= "com.nomisma.scriptspayrollreports.RTIFailedReportTest"/> Some Fixes needed Need to fix these-->
+<!--   			</classes>  -->
+  			
+<!-- 	</test> -->
+	<test name= "35. RTISubmissionReportTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.RTISubmissionReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "36. StatutoryMaternityPayReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.StatutoryMaternityPayReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "39. StatutoryParentingPayReportTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.StatutoryParentingPayReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "40. StatutoryPayRecovaryReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.StatutoryPayRecovaryReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "41. StatutorySickPayReportTest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.StatutorySickPayReportTest"/><!-- working fine -->
+   			</classes>
+    </test>  
+    
+    	<test name= "42. VerifyCalculationDirectorNITest"> 
+   		<parameter name= "browser" value="Headlesschrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.VerifyCalculationDirectorNITest"/><!-- working fine -->
+   			</classes>
+    </test> 
+    
+    	<test name= "43. P32_VerifyTotalTaxDuetoHMRC">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.P32_VerifyTotalTaxDuetoHMRC"/>
+  			</classes> 
+  	</test> 
+  		<test name= "44. RecurringAdditionDeduction">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.RecurringAdditionDeduction"/>
+  			</classes> 
+  	</test>
+  
+  		<test name= "45. P32ReportCISSuffered">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.P32ReportCISSuffered"/>
+  			</classes> 
+  	</test>
+  	
+  	  		<test name= "46. CIS--------- CISDashboardTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.CISDashboardTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  		<test name= "47. CIS--------- CISDashboard">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.CISDashboard"/>
+  			</classes> 
+  	</test>
+  	
+  	  	  		<test name= "48. CIS--------- AddContractorTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.AddContractorTest"/>
+  			</classes> 
+  	</test>
+  	
+   	  	  	 <test name= "49. CIS--------- SubContractorTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.SubContractorTest"/>
+  			</classes> 
+  	</test> 
+     	  	  	 <test name= "50. CIS--------- AddPeriodTest"> 
+     	  	  	 
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.AddPeriodTest"/>
+  			</classes> 
+  	</test>	
+  	
+    	  	 <test name= "51. CIS--------- AddInvoice">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.AddInvoice"/>
+  			</classes> 
+  	</test>  
+  	
+	<test name= "52. CIS--------- CISFiling">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.CISFiling"/>
+  			</classes> 
+  	</test> 
+  	
+  	<test name= "53. CIS--------- SubmitCIS">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.SubmitCIS"/>
+  			</classes> 
+  	</test> 
+  	
+  	<test name= "54. CIS Report--------- PayslipsByContractorReport">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.PayslipsByContractorReport"/>
+  			</classes> 
+  	</test> 
+  	
+   <test name= "55. CIS Report--------- SubcontractorListReport">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.SubcontractorListReport"/>
+  			</classes> 
+  	</test> 
+  	
+  <test name= "56. CIS Report--------- AllSubContractorsPayTotalsReport">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.AllSubContractorsPayTotalsReport"/>
+  			</classes> 
+  	</test> 
+  	
+  	 <test name= "57. CIS Report--------- SubContractorPayDetailsReport">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.SubContractorPayDetailsReport"/>
+  			</classes> 
+  	</test> 
+  	
+  	 <test name= "58. CIS Report--------- PaymentCertificate">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.PaymentCertificate"/>
+  			</classes> 
+  	</test> 
+  	
+  	 <test name= "59. CIS Report--------- CISVerificationCertificate">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.CISVerificationCertificate"/>
+  			</classes> 
+  	</test> 
+  	
+  	<test name= "60. CIS Report--------- CISSubmissionReport">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.CISSubmissionReport"/>
+  			</classes> 
+  	</test> 
+  	
+	 <test name= "61. CIS Report--------- CISFailedReport">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.CISFailedReport"/>
+  			</classes> 
+  	</test> 
+  	
+  	<test name= "62. CIS Report--------- CIS300MonthlyReturnReport">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.CIS300MonthlyReturnReport"/>
+  			</classes> 
+  	</test> 
+  	  	
+	<test name= "63. CIS--------- DeleteContractorTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.DeleteContractorTest"/>
+  			</classes> 
+  	</test>
+  		<test name= "64. CIS Report--------- CISSubmissionReportAll">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.CISSubmissionReportAll"/>
+  			</classes> 
+  	</test> 
+  	
+  	<test name= "65. Payroll--------- PayrollOverdueCountCheck">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.PayrollOverdueCountCheck"/>
+  			</classes> 
+  	</test>  
+  	
+	<test name= "66. Payroll--------- AutoPayrollCountCheck">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.AutoPayrollCountCheck"/>
+  			</classes> 
+  	</test> 
+  	
+  		<test name= "67. Payroll--------- ManualPayrollCountCheck">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.ManualPayrollCountCheck"/>
+  			</classes> 
+  	</test> 
+  	
+  	 	<test name= "68. Payroll--------- FailedRTICountCheck">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.FailedRTICountCheck"/>
+  			</classes> 
+  	</test>  
+  	
+	<test name= "69. Payroll--------- ManualRTIDueCountCheck">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.ManualRTIDueCountCheck"/>
+  			</classes> 
+  	</test> 
+  	
+  		<test name= "70. Payroll--------- AutoRTIDueCountCheck">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.AutoRTIDueCountCheck"/>
+  			</classes> 
+  	</test> 
+
+  		<test name= "71. Payroll--------- TotalCompaniesCountCheck">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.TotalCompaniesCountCheck"/>
+  			</classes> 
+  	</test> 
+  	
+  	 <test name= "72. Auto Enrolment -------- EnableDisableAutoEnrolment">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.EnableDisableAutoEnrolment"/>
+  			</classes> 
+  	</test> 
+  	
+  	  	 <test name= "73. Auto Enrolment -------- PensionConfigurationTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.PensionConfigurationTest"/>
+  			</classes> 
+  		</test> 
+  		
+  		  	 <test name= "74. Auto Enrolment -------- SMTAuthorizationTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.SMTAuthorizationTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	  	 <test name= "75. Auto Enrolment -------- LaunchSMTTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.LaunchSMTTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	  	 <test name= "76. Auto Enrolment -------- VerifyPensionSchemeTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.VerifyPensionSchemeTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	 <test name= "77. Auto Enrolment --------  AddPensionSchemeTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.AddPensionSchemeTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	  	  	 <test name= "78. Auto Enrolment --------  SearchandEditPensionSchemeTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.SearchandEditPensionSchemeTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	  	  	 <test name= "79. Auto Enrolment --------  SearchandDeletePensionSchemeTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.SearchandDeletePensionSchemeTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	  	  	 <test name= "80. Auto Enrolment -------- AutoEnrolmentEditEmployeeTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.AutoEnrolmentEditEmployeeTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	 
+  	  	 <test name= "81. Auto Enrolment -------- AutoEnrolmentDeleteEmployeeTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.AutoEnrolmentDeleteEmployeeTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	  	  	 <test name= "82. Auto Enrolment Report -------- ContributionProcessingHistoryReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAutoEnrolment.ContributionProcessingHistoryReportTest"/>
+  			</classes> 
+  	</test> 
+  	
+  		<test name= "83 Payroll--------- AddMaleEmployeeTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayroll.AddMaleEmployeeTest"/>
+  			</classes> 
+  			
+	</test>
+	
+	 <test name= "84. VAT -------- UndoReconcileInvoiceTest1">  
+  		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.UndoReconcileInvoiceTest"/>
+  			</classes> 
+  	</test>  
+  	
+  	  	 <test name= "85. VAT -------- UndoReconcileSupplierBillTest1">  
+  		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.UndoReconcileSupplierBillTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	<test name= "86. VAT -------- DeleteAllRecordsTest1"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.DeleteAllRecordsTest"/>
+  			</classes> 
+  	</test>
+	
+	  	  	 <test name= "87. VAT -------- AddCustomerTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.AddCustomerTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	   	  	 <test name= "88. VAT -------- AddInvoiceTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.AddInvoiceTest"/>
+  			</classes> 
+  	</test>  
+  		
+  		   	  	 <test name= "89. VAT -------- AddCreditNoteTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.AddCreditNoteTest"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+   	  	 <test name= "90. VAT -------- AddSupplierBillTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.AddSupplierBillTest"/>
+  			</classes> 
+  	</test>
+  	
+  	   	  	 <test name= "91. VAT -------- AddDebitNoteTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.AddDebitNoteTest"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+   	  	 <test name= "92. VAT -------- AddBankCreditCardTransactionTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.AddBankCreditCardTransactionTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	
+   	  	 <test name= "93. VAT -------- ReconcileInvoiceTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.ReconcileInvoiceTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	
+  	  	<test name= "94. VAT ------- ReconcileSupplierBillTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.ReconcileSupplierBillTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	<test name= "95. VAT -------- VATReturnsTest">  
+  			<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.VATReturnsTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	 <test name= "96. VAT -------- UndoReconcileInvoiceTest">  
+  		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.UndoReconcileInvoiceTest"/>
+  			</classes> 
+  	</test>  
+  	
+  	  	 <test name= "97. VAT -------- UndoReconcileSupplierBillTest">  
+  		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.UndoReconcileSupplierBillTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	<test name= "98. VAT -------- DeleteAllRecordsTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.DeleteAllRecordsTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	 	<test name= "99. VAT -------- DeleteAllEUSupplierBillsTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.DeleteAllEUSupplierBillsTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	  	  	<test name= "100. VAT -------- DeleteAllEUInvoicesTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.DeleteAllEUInvoicesTest"/>
+  			</classes> 
+  	</test>
+  	
+  	<test name= "101. VAT -------- InvoiceCheckTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.InvoiceCheckTest"/>
+  			</classes> 
+  	</test>
+  	
+  	 	<test name= "102.------------- VAT AddEUCustomerInvoiceTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.AddEUCustomerInvoiceTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	  	<test name= "103. VAT -------- DeleteAllEUInvoicesTest2"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.DeleteAllEUInvoicesTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	
+  	  	<test name= "104. VAT -------- SupplierBillCheckTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.SupplierBillCheckTest"/>
+  			</classes> 
+  	</test>
+  	
+  	 	  	<test name= "105. VAT -------- AddEUSupplierBillTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.AddEUSupplierBillTest"/>
+  			</classes> 
+  	</test>
+  	
+  	 	<test name= "106. VAT -------- DeleteAllEUSupplierBillsTest2"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.DeleteAllEUSupplierBillsTest"/>
+  			</classes> 
+  	</test>
+  	
+  	
+  	  	 	  	<test name= "107. VAT -------- EditVATReturnsTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.EditVATReturnsTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	 	  	<test name= "108. VAT -------- VATReturnsVerifyDataTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.VATReturnsVerifyDataTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	 	  	<test name= "109. VAT -------- VATReturnBackupReportTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.VATReturnBackupReportTest"/>
+  			</classes> 
+  	</test>
+  	
+  	 <test name= "110. VAT -------- VATReturnsEmailTest"> 
+  	 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsvat.VATReturnsEmailTest"/>
+  			</classes> 
+  	</test>
+  	
+  	<test name= "111. CT600 ------- VerifyCTComputationPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyCTComputationPageTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	<test name= "112. CT600 ------- VerifyAboutThisReturnPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyAboutThisReturnPageTest"/>
+  			</classes> 
+  	</test>
+  	
+  	   	<test name= "113. CT600 ------- VerifyTaxCalculationPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyTaxCalculationPageTest"/>
+  			</classes> 
+  	</test>
+  	
+  	     	<test name= "114. CT600 ------- VerifyInformationPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyInformationPageTest"/>
+  			</classes> 
+  	</test>
+  	
+  	    	<test name= "115. CT600 ------- VerifyLossesDeficitsExcessPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyLossesDeficitsExcessPageTest"/>
+  			</classes> 
+  	</test>
+  	
+  	    	<test name= "116. CT600 ------- VerifyOverpaymentsRepaymentsPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyOverpaymentsRepaymentsPageTest"/>
+  			</classes> 
+  	</test>
+  	
+  	    	<test name= "117. CT600 -------  VerifyCTAdjustmentsSettingsPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyCTAdjustmentsSettingsPageTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	    	<test name= "118. CT600 -------  VerifyCTOtherAdjustmentsSettingsPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyCTOtherAdjustmentsSettingsPageTest"/>
+  			</classes> 
+  	</test>
+  	
+  			<test name= "119. CT600 ------- UpdateCTAdjustmentsSettingsTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.UpdateCTAdjustmentsSettingsTest"/>
+  			</classes> 
+  	</test>
+		
+		
+  	    	<test name= "120. CT600 ------- CTComputationTest1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.CTComputationTest1"/>
+  			</classes> 
+  	</test>
+  	
+  	    	<test name= "121. CT600 ------- UpdateCTAdjustmentsSettingsTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.UpdateCTAdjustmentsSettingsTest2"/>
+  			</classes> 
+  	</test>
+		
+		
+   	    	<test name= "122. CT600 -------- CTComputationTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.CTComputationTest2"/>
+  			</classes> 
+  	</test> 
+  	   	    	<test name= "123. CT600 -------  VerifyProfitsfromPLReport">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyProfitsfromPLReport"/>
+  			</classes> 
+  	</test> 
+  	
+  			
+   	    	<test name= "124. CT600 ---------- VerifyLossesfromPLReport">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyLossesfromPLReport"/>
+  			</classes> 
+  	</test> 
+  	
+  	   	    	<test name= "125. CT600 -------- ValidateCT600Test">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.ValidateCT600Test"/>
+  			</classes> 
+  	</test> 
+  	
+   	   	    	<test name= "126. CT600 --------- SubmitCT600Test">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.SubmitCT600Test"/>
+  			</classes> 
+  	</test> 
+  	
+  	   	    	<test name= "127. CT600 -----------  VerifySubmittedXMLPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifySubmittedXMLPageTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	   	    	<test name= "128. CT600 -----------  VerifySubmissionReportPageTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifySubmissionReportPageTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	 	     	<test name= "129. CT600 ---------  UpdateCTAdjustmentsSettingsCapAllowTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.UpdateCTAdjustmentsSettingsCapAllowTest2"/>
+  			</classes> 
+  	</test> 
+		
+		
+   	    	<test name= "130.CT600 -------- CTComputationCapitalAllowanceTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.CTComputationCapitalAllowanceTest2"/>
+  			</classes> 
+  	</test> 
+  	
+  		     	<test name= "131. CT600 --------  UpdateCTAdjustmentsSettingsCapAllowTest3">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.UpdateCTAdjustmentsSettingsCapAllowTest3"/>
+  			</classes> 
+  	</test>  
+		
+		
+   	    	<test name= "132. CT600  -------- CTComputationCapitalAllowanceTest3">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.CTComputationCapitalAllowanceTest3"/>
+  			</classes> 
+  	</test>
+  	
+  	   	    	<test name= "133. CT600  -------- CTComputationCapitalAllowanceTest4">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.CTComputationCapitalAllowanceTest4"/>
+  			</classes> 
+  	</test>
+  	
+  	   	    	<test name= "134. CT600  -------- UpdateCTAdjustmentsSettingsRDClaimTest1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.UpdateCTAdjustmentsSettingsRDClaimTest1"/>
+  			</classes> 
+  	</test>
+  	
+  	   	    	<test name= "135. CT600  -------- CTComputationRDClaimTest1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.CTComputationRDClaimTest1"/>
+  			</classes> 
+  	</test>
+  	
+  	  	   	    	<test name= "136. CT600  -------- UpdateCTAdjustmentsSettingsRDClaimTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.UpdateCTAdjustmentsSettingsRDClaimTest2"/>
+  			</classes> 
+  	</test>
+		
+		
+  	   	    	<test name= "137. CT600  -------- CTComputationRDClaimTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.CTComputationRDClaimTest2"/>
+  			</classes> 
+  	</test>
+  	
+  	
+  	  	   	    	<test name= "141. CT600  -------- VerifyInformationPageValueswithCTComputationTest1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyInformationPageValueswithCTComputationTest1"/>
+  			</classes> 
+  	</test>
+  	
+  	
+  	  	   	    	<test name= "142. CT600  -------- VerifyInformationPageValueswithCTComputationTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyInformationPageValueswithCTComputationTest2"/>
+  			</classes> 
+  	</test>
+  	
+  	  	   	    	<test name= "143. CT600  -------- VerifyTaxCalculationPageValueswithCTComputationTest1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsCT600.VerifyTaxCalculationPageValueswithCTComputationTest1"/>
+  			</classes> 
+  	</test>
+  	
+  	
+  	  	  <test name= "144. AccountingReports  -------- VerifyPLTotalTrialBalanceReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyPLTotalTrialBalanceReportTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	   	    	<test name= "145. AccountingScenarios  -------- VerifyCustomerBalanceTest1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyCustomerBalanceTest1"/>
+  			</classes> 
+  	</test>
+  	
+  	  	  	   	    	<test name= "146. AccountingScenarios  -------- VerifyCustomerBalanceTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyCustomerBalanceTest2"/>
+  			</classes> 
+  	</test>
+  	
+  	  	   	    	<test name= "147. AccountingScenarios  -------- VerifyBankBalanceTest1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyBankBalanceTest1"/>
+  			</classes> 
+  	</test>
+  	  	
+  	   	    	<test name= "148. AccountingScenarios  -------- VerifyBankBalanceTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyBankBalanceTest2"/>
+  			</classes> 
+  	</test>
+  	
+  	  	   	    	<test name= "149. AccountingScenarios  -------- VerifySupplierBalanceTest1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifySupplierBalanceTest1"/>
+  			</classes> 
+  	</test>
+  	   	    	<test name= "150. AccountingScenarios  -------- VerifySupplierBalanceTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifySupplierBalanceTest2"/>
+  			</classes> 
+  	</test>
+  	
+  	  	   	    	<test name= "151. AccountingScenarios  -------- VerifyCreditCardBalanceTest1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyCreditCardBalanceTest1"/>
+  			</classes> 
+  	</test>
+  	
+  	  	   	    	<test name= "152. AccountingScenarios  -------- VerifyCreditCardBalanceTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyCreditCardBalanceTest2"/>
+  			</classes> 
+  	</test>
+  	
+  	<test name= "156. AccountingScenarios -----------  ChangeFAReportingStandard2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.ChangeFAReportingStandard2"/>
+  			</classes> 
+  	</test> 
+  	
+  	  	  	   	    	<test name= "153. AccountingScenarios ---------  VerifyPLReportTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyPLReportTest"/>
+  			</classes> 
+  	</test>
+  	
+  	  	  	  	   	    	<test name= "154. AccountingScenarios ---------------  VerifyPLReportTest2">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyPLReportTest2"/>
+  			</classes> 
+  	</test>
+  	
+  	 	  	   	    	<test name= "155. AccountingScenarios ---------- ChangeFAReportingStandard1">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.ChangeFAReportingStandard1"/>
+  			</classes> 
+  	</test> 
+  	
+
+  	
+   	  	  	   	    	<test name= "157. AccountingScenarios ---------- VerifyPLReport_FATest3">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyPLReport_FATest3"/>
+  			</classes> 
+  	</test> 
+  	
+  	 	  	   	    	<test name= "158. AccountingScenarios -------- VerifySalesFRS105_TrialBalance_Test1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifySalesFRS105_TrialBalance_Test1"/>
+  			</classes> 
+  	</test> 
+  	
+  	
+  	 	  	   	    	<test name= "159. AccountingScenarios --------- VerifyCostOfSalesFRS105_TrialBalance_Test1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyCostOfSalesFRS105_TrialBalance_Test1"/>
+  			</classes> 
+  	</test> 
+  	
+  	 	  	   	    	<test name= "160. AccountingScenarios --------- VerifySalesFRS1021A_TrialBalance_Test1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifySalesFRS1021A_TrialBalance_Test1"/>
+  			</classes> 
+  	</test> 
+  	
+  	
+ 	  	   	    	<test name= "161. AccountingScenarios --------- VerifyCostOfSalesFRS1021A_TrialBalance_Test1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyCostOfSalesFRS1021A_TrialBalance_Test1"/>
+  			</classes> 
+  	</test> 
+  	
+  	 	  	   	    	<test name= "162. AccountingScenarios --------- VerifyInvoiceTransactionsTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyInvoiceTransactionsTest"/>
+  			</classes> 
+  	</test> 
+  	
+  		  	   	    	<test name= "163. AccountingScenarios --------  VerifyBankTransactionsTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyBankTransactionsTest"/>
+  			</classes> 
+  	</test> 
+  	
+  	 	<test name= "164. AccountingScenarios ---------- VerifyLedgerReportMoveTransactionTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsAccountingScenarios.VerifyLedgerReportMoveTransactionTest"/>
+  			</classes> 
+  	</test>  
+  	
+  	<test name= "165.  AccountingScenarios --------  testCreditCardMovement">  
+        <parameter name= "browser" value="chrome"/>
+           <classes>
+                 <class name= "com.nomisma.scriptsAccountingScenarios.VerifyLedgerReportMoveTransactionCreditCard"/>
+           </classes> 
+</test> 
+
+
+
+ 	  	   	    	<test name= "166. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyPLReportTest">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "167. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyPLReportTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "168. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyPLReportTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "169. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyPLReportTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "170. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyPLReportTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "171. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyPLReportTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "172. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyPLReportTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "173. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyPLReportTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "174. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyPLReportTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "175. LiveNomismaSmokeTests (DNS Group)------------ VerifyPLReportTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyPLReportTest10"/>
+  			</classes> 
+  	</test>  
+  	
+  
+ 	  	   	    	<test name= "176. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyTrialBalanceReportTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  		  	   	    	<test name= "177. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyTrialBalanceReportTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "178. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyTrialBalanceReportTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "179. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyTrialBalanceReportTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "180. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyTrialBalanceReportTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "181. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyTrialBalanceReportTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "182. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyTrialBalanceReportTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "183. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyTrialBalanceReportTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "184. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyTrialBalanceReportTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "185. LiveNomismaSmokeTests (DNS Group)------------ VerifyTrialBalanceReportTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyTrialBalanceReportTest10"/>
+  			</classes> 
+  	</test>   
+  	
+  	
+  	
+  	  	   	    	<test name= "186. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyLedgerReportTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  		
+  		  	   	    	<test name= "187. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyLedgerReportTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "188. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyLedgerReportTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "189. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyLedgerReportTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "190. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyLedgerReportTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "191. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyLedgerReportTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "192. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyLedgerReportTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "193. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyLedgerReportTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "194. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyLedgerReportTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "195. LiveNomismaSmokeTests (DNS Group)------------ VerifyLedgerReportTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyLedgerReportTest10"/>
+  			</classes> 
+  	</test> 
+  	
+  	 
+ 	  	   	    	<test name= "196. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyBalanceSheetTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  		
+  		  	   	    	<test name= "197. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyBalanceSheetTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "198. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyBalanceSheetTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "199. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyBalanceSheetTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "200. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyBalanceSheetTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "201. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyBalanceSheetTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "202. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyBalanceSheetTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "203. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyBalanceSheetTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "204. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyBalanceSheetTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "205. LiveNomismaSmokeTests (DNS Group)------------ VerifyBalanceSheetTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyBalanceSheetTest10"/>
+  			</classes> 
+  	</test> 
+  	  
+ 	  	   	    	<test name= "206. LiveNomismaSmokeTests (Live.Nomisma)(Maynard Golden Ltd) ------------- VerifyGeneralLedgerReportTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  		
+  		  	   	    	<test name= "207. LiveNomismaSmokeTests (Live.Nomisma)(BRIGHT ACCOUNTING SERVICES LIMITED) ---------  VerifyGeneralLedgerReportTest2">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest2"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "208. LiveNomismaSmokeTests (Live.Nomisma) (Limelight Accountancy Limited) ---------  VerifyGeneralLedgerReportTest3">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest3"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+ 	  	   	    	<test name= "209. LiveNomismaSmokeTests (Live.Nomisma) (Coppersun Accountants)----------- VerifyGeneralLedgerReportTest4">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest4"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "210. LiveNomismaSmokeTests (Live.Nomisma) (Target Accounting)---------- VerifyGeneralLedgerReportTest5">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest5"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "211. LiveNomismaSmokeTests (Live.Nomisma) (CR CONTRACTING NORTH LTD.)---------  VerifyGeneralLedgerReportTest6">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest6"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+  	 	  	   	    	<test name= "212. LiveNomismaSmokeTests (Dns Associates Head office1)------- VerifyGeneralLedgerReportTest7">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest7"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "213. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifyGeneralLedgerReportTest8">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest8"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "214. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifyGeneralLedgerReportTest9">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest9"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "215. LiveNomismaSmokeTests (DNS Group)------------ VerifyGeneralLedgerReportTest10">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifyGeneralLedgerReportTest10"/>
+  			</classes> 
+  	</test> 
+  	
+  	
+  	  	 	  	   	    	<test name= "216. LiveNomismaSmokeTests (Dns Associates Head office2)---------- VerifySupplierSummaryTest1">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifySupplierSummaryTest1"/>
+  			</classes> 
+  	</test>  
+  	
+  	 	  	   	    	<test name= "217. LiveNomismaSmokeTests (DNS Accountants - Bromley)---------- VerifySupplierSummaryTest2">  
+ 		<parameter name= "browser" value="dnsNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifySupplierSummaryTest2"/>
+  			</classes> 
+  	</test>  
+  	  	 	  	   	    	<test name= "218. LiveNomismaSmokeTests (DNS Group)------------ VerifySupplierSummaryTest3">  
+ 		<parameter name= "browser" value="dnsGroupNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsLiveNomisma.VerifySupplierSummaryTest3"/>
+  			</classes> 
+  	</test> 
+  	
+  	 	 	  	   	    	<test name= "219. Bookkeeping -------- RepeatingInvoiceLstTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsBookkeeping.RepeatingInvoiceLst"/>
+  			</classes> 
+  	</test>  
+  	
+  		
+	 	  	   	    	<test name= "220. Bookkeeping --------- EmailInvoiceTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsBookkeeping.EmailInvoiceTest"/>
+  			</classes> 
+  	</test>  
+  	
+  		 	  	   	    	<test name= "221. Bookkeeping --------- InvoiceLinkTest">  
+ 		<parameter name= "browser" value="Headlesschrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsBookkeeping.InvoiceLinkTest"/>
+  			</classes> 
+  	</test>  
+  	
+  	
+</suite>

@@ -1,0 +1,23 @@
+[
+	{
+		"TestCaseId": "addClient",
+		"Keys": [
+			{
+				"username": "admin",
+				"password": "admin1",
+				"agentName": "MTRTestCases2019",
+				"UTRNo": "1000000110",
+				"FirstName": "MTRTestCase40",
+				"LastName": "SA",
+				"Address": "27 Old Gloucester Street, London",
+				"PostCode": "WC1N 3AE",
+				"DateOfBirth": "17/11/1979",
+				"EmailId": "anjali@nomismasolution.co.uk"
+				
+			}
+		]
+	}
+	
+	
+]
+	

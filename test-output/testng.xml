@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional Suite">
+  
+  <test name="Reimbursement section-add new reimbursement for allowance type">
+    <classes>
+      <class name="tests.Reimbursementscenario2_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Sales section-add invoice">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="purchase section-upload supplier csv">
+      <classes>
+      <class name="tests.Logintouploadsuppliercsv_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Director balance-verification of director amount">
+      <classes>
+      <class name="tests.Directorbalance_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="purchase section-add supplier">
+      <classes>
+      <class name="tests.Logintoaddsupplierbill_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Reimbursement section-add new reimbursement for Mileage type">
+      <classes>
+      <class name="tests.reimbursementscenario1_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Reimbursement section-add new reimbursement for payment type">
+      <classes>
+      <class name="tests.reimbursementscenario3_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="sales section-upload invoice csv">
+      <classes>
+      <class name="tests.Logintoupload_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Sales section-add invoice -negative scenario">
+      <classes>
+      <class name="tests.logintoinvoiceneg_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      <test name="Sales section-add customer">
+      <classes>
+      <class name="tests.Logintoaddcustomer_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="purchase section-upload expense csv">
+      <classes>
+      <class name="tests.logintouploadexpense_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      
+      <test name="Purchase section-add supplier">
+      <classes>
+      <class name="tests.logintoaddsupplier_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="purchase section-unpaid amount verification">
+      <classes>
+      <class name="tests.Logintounpaidamountsupplier_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="Sales section-unpaid amount verification">
+       <classes>
+      <class name="tests.Logintounpaidamountverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="Business sign up process">
+       <classes>
+      <class name="tests.fullprocesssubscribe_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="reimbursement section-add new reimbursement for expense type">
+       <classes>
+      <class name="tests.reimbursementscenario4_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="Sales section-add new department">
+      <classes>
+      <class name="tests.LogintoNewdepartment_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="BANK-Add new bank from banking section">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="BANK-Add new bank transaction 1 from banking section">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="BANK-Add new bank transaction 2 from banking section">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="BANK-Add new bank from dashboard">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="BANK-Add new bank transaction from dashboard">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="BANK-verify nomisma balance from dashboard">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="BANK-verify bank balance from dashboard">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="sales section-verify unreconcilled amount">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="dividend  section-verify new dividend add feature">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="dividend  section-verify reserves avaliable amount">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="dividend  section-verify dividend issued amount">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="verify profit and loss amount">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>      
+      
+      <test name="verify balance sheet amount">
+      <classes>
+      <class name="tests.logintoinvoice_DefaultProfile"/>
+      </classes>
+      </test>
+    
+   <!-- Test -->
+</suite> <!-- Functional Suite -->

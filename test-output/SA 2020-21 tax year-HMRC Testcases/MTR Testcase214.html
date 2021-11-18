@@ -1,0 +1,802 @@
+<html>
+<head>
+<title>TestNG:  MTR Testcase214</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MTR Testcase214</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 10 13:54:02 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>85 seconds (85691 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.testcase206_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase206_DefaultProfile2</td>
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59664}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 918ab02e87833ab270914863c1b471ca
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:359)
+	at tests.testcase206_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase206_DefaultProfile2.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1424188812", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1424188812'><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59664}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 918ab02e87833ab270914863c1b471ca
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:359)
+	at tests.testcase206_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase206_DefaultProfile2.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>23</td>
+<td>tests.testcase206_DefaultProfile2@18a136ac</td></tr>
+<tr>
+<td title='tests.testcase211_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase211_DefaultProfile2</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;SAList.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (110, 248). Other element would receive the click: &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59984}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: c5662d8236835fbed676a920f97e7303
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:359)
+	at tests.testcase211_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase211_DefaultProfile2.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1919592808", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1919592808'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;SAList.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (110, 248). Other element would receive the click: &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59984}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: c5662d8236835fbed676a920f97e7303
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:359)
+	at tests.testcase211_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase211_DefaultProfile2.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>24</td>
+<td>tests.testcase211_DefaultProfile2@22875539</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.testcase166_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase166_DefaultProfile2<br/>
+<a href="#Output-1142735456" onClick='toggleBox("Output-1142735456", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1142735456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1142735456">
+Income tax due verified successfully: 14180.0<br/>
+Amount of Relief For deficiency relief is verified successfully3340.0<br/>
+Balance Tax for the year verified successfully: 12910.0<br/>
+</div>
+</td>
+<td></td>
+<td>201</td>
+<td>tests.testcase166_DefaultProfile2@571c5681</td></tr>
+<tr>
+<td title='tests.testcase167_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase167_DefaultProfile2<br/>
+<a href="#Output-755944228" onClick='toggleBox("Output-755944228", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-755944228" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-755944228">
+Income tax due verified successfully: 15888.57<br/>
+Amount of Relief For deficiency relief is verified successfully4886.7<br/>
+Balance Tax for the year verified successfully: 13071.87<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>tests.testcase167_DefaultProfile2@31add175</td></tr>
+<tr>
+<td title='tests.testcase168_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase168_DefaultProfile2<br/>
+<a href="#Output-693417450" onClick='toggleBox("Output-693417450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-693417450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-693417450">
+Income tax due verified successfully: 50141.18<br/>
+Balance Tax for the year verified successfully: 57055.78<br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>tests.testcase168_DefaultProfile2@73d983ea</td></tr>
+<tr>
+<td title='tests.testcase169_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase169_DefaultProfile2<br/>
+<a href="#Output-1973491942" onClick='toggleBox("Output-1973491942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1973491942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1973491942">
+Income tax due verified successfully: 4356.0<br/>
+Balance Tax for the year verified successfully: 222.95<br/>
+</div>
+</td>
+<td></td>
+<td>66</td>
+<td>tests.testcase169_DefaultProfile2@5ddcc487</td></tr>
+<tr>
+<td title='tests.testcase170_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase170_DefaultProfile2<br/>
+<a href="#Output-48071225" onClick='toggleBox("Output-48071225", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-48071225" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-48071225">
+Income tax due verified successfully: 46400.0<br/>
+Amount of Notional tax is verified successfully24000.0<br/>
+Balance Tax for the year verified successfully: 5800.0<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>tests.testcase170_DefaultProfile2@7d446ed1</td></tr>
+<tr>
+<td title='tests.testcase171_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase171_DefaultProfile2<br/>
+<a href="#Output-888378046" onClick='toggleBox("Output-888378046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-888378046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-888378046">
+Income tax due verified successfully: 0.0<br/>
+Balance Tax for the year verified successfully: 624.2<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>tests.testcase171_DefaultProfile2@19c65cdc</td></tr>
+<tr>
+<td title='tests.testcase173_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase173_DefaultProfile2<br/>
+<a href="#Output-1858779250" onClick='toggleBox("Output-1858779250", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1858779250" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1858779250">
+Income tax due verified successfully: 5225.5<br/>
+Balance Tax for the year verified successfully: 4137.38<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>tests.testcase173_DefaultProfile2@7164ca4c</td></tr>
+<tr>
+<td title='tests.testcase174_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase174_DefaultProfile2<br/>
+<a href="#Output-749362556" onClick='toggleBox("Output-749362556", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749362556" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749362556">
+Income tax due verified successfully: 19789.6<br/>
+Balance Tax for the year verified successfully: 19376.5<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>tests.testcase174_DefaultProfile2@62010f5c</td></tr>
+<tr>
+<td title='tests.testcase175_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase175_DefaultProfile2<br/>
+<a href="#Output-902654164" onClick='toggleBox("Output-902654164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-902654164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-902654164">
+Income tax due verified successfully: 57509.7<br/>
+Amount of Notional tax is verified successfully27000.0<br/>
+Balance Tax for the year verified successfully: 13734.71<br/>
+</div>
+</td>
+<td></td>
+<td>83</td>
+<td>tests.testcase175_DefaultProfile2@6cc558c6</td></tr>
+<tr>
+<td title='tests.testcase176_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase176_DefaultProfile2<br/>
+<a href="#Output-832322085" onClick='toggleBox("Output-832322085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-832322085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-832322085">
+Income tax due verified successfully: 74749.0<br/>
+Balance Tax for the year verified successfully: 74749.0<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>tests.testcase176_DefaultProfile2@492691d7</td></tr>
+<tr>
+<td title='tests.testcase177_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase177_DefaultProfile2<br/>
+<a href="#Output-1041611526" onClick='toggleBox("Output-1041611526", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1041611526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1041611526">
+Income tax due verified successfully: 556.4<br/>
+Balance Tax for the year verified successfully: 1400.0<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>tests.testcase177_DefaultProfile2@4716be8b</td></tr>
+<tr>
+<td title='tests.testcase178_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase178_DefaultProfile2<br/>
+<a href="#Output-494266287" onClick='toggleBox("Output-494266287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-494266287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-494266287">
+Income tax due verified successfully: 3107.8<br/>
+Balance Tax for the year verified successfully: 1523.8<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>tests.testcase178_DefaultProfile2@5505ae1a</td></tr>
+<tr>
+<td title='tests.testcase179_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase179_DefaultProfile2<br/>
+<a href="#Output-69670055" onClick='toggleBox("Output-69670055", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-69670055" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-69670055">
+Income tax due verified successfully: 556.4<br/>
+Balance Tax for the year verified successfully: 1400.0<br/>
+</div>
+</td>
+<td></td>
+<td>82</td>
+<td>tests.testcase179_DefaultProfile2@1800a575</td></tr>
+<tr>
+<td title='tests.testcase180_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase180_DefaultProfile2<br/>
+<a href="#Output-1102181662" onClick='toggleBox("Output-1102181662", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1102181662" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1102181662">
+Income tax due verified successfully: 556.4<br/>
+Balance Tax for the year verified successfully: 1077.6<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>tests.testcase180_DefaultProfile2@3abada5a</td></tr>
+<tr>
+<td title='tests.testcase181_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase181_DefaultProfile2<br/>
+<a href="#Output-1041255755" onClick='toggleBox("Output-1041255755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1041255755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1041255755">
+Income tax due verified successfully: 12967.6<br/>
+Balance Tax for the year verified successfully: 6955.8<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>tests.testcase181_DefaultProfile2@4b41dd5c</td></tr>
+<tr>
+<td title='tests.testcase182_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase182_DefaultProfile2<br/>
+<a href="#Output-1681434622" onClick='toggleBox("Output-1681434622", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1681434622" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1681434622">
+Income tax due verified successfully: 2883.0<br/>
+Balance Tax for the year verified successfully: 2240.0<br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>tests.testcase182_DefaultProfile2@13ad5cd3</td></tr>
+<tr>
+<td title='tests.testcase183_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase183_DefaultProfile2<br/>
+<a href="#Output-140110402" onClick='toggleBox("Output-140110402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-140110402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-140110402">
+Income tax due verified successfully: 4581.85<br/>
+Balance Tax for the year verified successfully: 4581.85<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>tests.testcase183_DefaultProfile2@764faa6</td></tr>
+<tr>
+<td title='tests.testcase185_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase185_DefaultProfile2<br/>
+<a href="#Output-2015521846" onClick='toggleBox("Output-2015521846", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2015521846" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2015521846">
+Income tax due verified successfully: 23568.88<br/>
+Amount of Notional tax is verified successfully2000.0<br/>
+Balance Tax for the year verified successfully: 16887.71<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>tests.testcase185_DefaultProfile2@32c726ee</td></tr>
+<tr>
+<td title='tests.testcase186_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase186_DefaultProfile2<br/>
+<a href="#Output-459030111" onClick='toggleBox("Output-459030111", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-459030111" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-459030111">
+Income tax due verified successfully: 1487.6<br/>
+Balance Tax for the year verified successfully: 1337.19<br/>
+</div>
+</td>
+<td></td>
+<td>84</td>
+<td>tests.testcase186_DefaultProfile2@49ff7d8c</td></tr>
+<tr>
+<td title='tests.testcase187_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase187_DefaultProfile2<br/>
+<a href="#Output-2089636626" onClick='toggleBox("Output-2089636626", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2089636626" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2089636626">
+Income tax due verified successfully: 6501.8<br/>
+Balance Tax for the year verified successfully: 30676.7<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>tests.testcase187_DefaultProfile2@e70f13a</td></tr>
+<tr>
+<td title='tests.testcase188_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase188_DefaultProfile2<br/>
+<a href="#Output-950729555" onClick='toggleBox("Output-950729555", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-950729555" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-950729555">
+Income tax due verified successfully: 28808.8<br/>
+Balance Tax for the year verified successfully: 181914.8<br/>
+</div>
+</td>
+<td></td>
+<td>94</td>
+<td>tests.testcase188_DefaultProfile2@31c7528f</td></tr>
+<tr>
+<td title='tests.testcase189_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase189_DefaultProfile2<br/>
+<a href="#Output-1694408103" onClick='toggleBox("Output-1694408103", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1694408103" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1694408103">
+Income tax due verified successfully: 1273.0<br/>
+Balance Tax for the year verified successfully: 5899.0<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>tests.testcase189_DefaultProfile2@39a2bb97</td></tr>
+<tr>
+<td title='tests.testcase190_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase190_DefaultProfile2<br/>
+<a href="#Output-2025928493" onClick='toggleBox("Output-2025928493", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2025928493" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2025928493">
+Income tax due verified successfully: 19659.4<br/>
+Balance Tax for the year verified successfully: 16948.07<br/>
+</div>
+</td>
+<td></td>
+<td>82</td>
+<td>tests.testcase190_DefaultProfile2@3c7c886c</td></tr>
+<tr>
+<td title='tests.testcase191_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase191_DefaultProfile2<br/>
+<a href="#Output-72615125" onClick='toggleBox("Output-72615125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-72615125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-72615125">
+Income tax due verified successfully: 19659.4<br/>
+Balance Tax for the year verified successfully: 13948.07<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>tests.testcase191_DefaultProfile2@21fd5faa</td></tr>
+<tr>
+<td title='tests.testcase192_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase192_DefaultProfile2<br/>
+<a href="#Output-788592721" onClick='toggleBox("Output-788592721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-788592721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-788592721">
+Income tax due verified successfully: 2100.2<br/>
+Balance Tax for the year verified successfully: 3367.05<br/>
+</div>
+</td>
+<td></td>
+<td>79</td>
+<td>tests.testcase192_DefaultProfile2@72437d8d</td></tr>
+<tr>
+<td title='tests.testcase193_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase193_DefaultProfile2<br/>
+<a href="#Output-732277370" onClick='toggleBox("Output-732277370", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-732277370" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-732277370">
+Income tax due verified successfully: 20172.0<br/>
+Balance Tax for the year verified successfully: 14110.3<br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>tests.testcase193_DefaultProfile2@4ed5eb72</td></tr>
+<tr>
+<td title='tests.testcase194_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase194_DefaultProfile2<br/>
+<a href="#Output-1913386579" onClick='toggleBox("Output-1913386579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1913386579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1913386579">
+Income tax due verified successfully: 7423.85<br/>
+Balance Tax for the year verified successfully: 2010.85<br/>
+</div>
+</td>
+<td></td>
+<td>92</td>
+<td>tests.testcase194_DefaultProfile2@2631f68c</td></tr>
+<tr>
+<td title='tests.testcase195_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase195_DefaultProfile2<br/>
+<a href="#Output-289281017" onClick='toggleBox("Output-289281017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-289281017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-289281017">
+Income tax due verified successfully: 11016.0<br/>
+Balance Tax for the year verified successfully: 3652.6<br/>
+</div>
+</td>
+<td></td>
+<td>92</td>
+<td>tests.testcase195_DefaultProfile2@5443d039</td></tr>
+<tr>
+<td title='tests.testcase196_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase196_DefaultProfile2<br/>
+<a href="#Output-2026706491" onClick='toggleBox("Output-2026706491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2026706491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2026706491">
+Income tax due verified successfully: 6341.85<br/>
+Balance Tax for the year verified successfully: 462.85<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>tests.testcase196_DefaultProfile2@4b6e2263</td></tr>
+<tr>
+<td title='tests.testcase197_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase197_DefaultProfile2<br/>
+<a href="#Output-1193939374" onClick='toggleBox("Output-1193939374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1193939374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1193939374">
+Income tax due verified successfully: 333591.38<br/>
+Balance Tax for the year verified successfully: 318257.38<br/>
+</div>
+</td>
+<td></td>
+<td>80</td>
+<td>tests.testcase197_DefaultProfile2@1f3f02ee</td></tr>
+<tr>
+<td title='tests.testcase198_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase198_DefaultProfile2<br/>
+<a href="#Output-864657274" onClick='toggleBox("Output-864657274", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864657274" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864657274">
+Income tax due verified successfully: 0.0<br/>
+Balance Tax for the year verified successfully: 570.54<br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>tests.testcase198_DefaultProfile2@6138e79a</td></tr>
+<tr>
+<td title='tests.testcase199_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase199_DefaultProfile2<br/>
+<a href="#Output-1407986024" onClick='toggleBox("Output-1407986024", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1407986024" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1407986024">
+Income tax due verified successfully: 1853.1<br/>
+Balance Tax for the year verified successfully: 7104.7<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>tests.testcase199_DefaultProfile2@25aca718</td></tr>
+<tr>
+<td title='tests.testcase200_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase200_DefaultProfile2<br/>
+<a href="#Output-1431244283" onClick='toggleBox("Output-1431244283", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1431244283" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1431244283">
+Income tax due verified successfully: 0.0<br/>
+Balance Tax for the year verified successfully: 4368.6<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>tests.testcase200_DefaultProfile2@3a0baae5</td></tr>
+<tr>
+<td title='tests.testcase204_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase204_DefaultProfile2<br/>
+<a href="#Output-720803395" onClick='toggleBox("Output-720803395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-720803395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-720803395">
+Income tax due verified successfully: 15925.6<br/>
+Balance Tax for the year verified successfully: 1157.05<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>tests.testcase204_DefaultProfile2@71c27ee8</td></tr>
+<tr>
+<td title='tests.testcase205_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase205_DefaultProfile2<br/>
+<a href="#Output-1179244298" onClick='toggleBox("Output-1179244298", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1179244298" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1179244298">
+Income tax due verified successfully: 3340.0<br/>
+Balance Tax for the year verified successfully: 51658.6<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>tests.testcase205_DefaultProfile2@525575</td></tr>
+<tr>
+<td title='tests.testcase207_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase207_DefaultProfile2<br/>
+<a href="#Output-783172425" onClick='toggleBox("Output-783172425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-783172425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-783172425">
+Income tax due verified successfully: 25784.8<br/>
+Balance Tax for the year verified successfully: 31227.64<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>tests.testcase207_DefaultProfile2@4fad9bb2</td></tr>
+<tr>
+<td title='tests.testcase208_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase208_DefaultProfile2<br/>
+<a href="#Output-1644987969" onClick='toggleBox("Output-1644987969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1644987969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1644987969">
+Income tax due verified successfully: 4106.4<br/>
+Balance Tax for the year verified successfully: 0.0<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>tests.testcase208_DefaultProfile2@4f1bfe23</td></tr>
+<tr>
+<td title='tests.testcase209_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase209_DefaultProfile2<br/>
+<a href="#Output-1054913783" onClick='toggleBox("Output-1054913783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1054913783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1054913783">
+Income tax due verified successfully: 150375.0<br/>
+Balance Tax for the year verified successfully: 163057.12<br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>tests.testcase209_DefaultProfile2@5dcd8c7a</td></tr>
+<tr>
+<td title='tests.testcase210_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase210_DefaultProfile2<br/>
+<a href="#Output-1828676092" onClick='toggleBox("Output-1828676092", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1828676092" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1828676092">
+Income tax due verified successfully: 35856.4<br/>
+Balance Tax for the year verified successfully: 37722.4<br/>
+</div>
+</td>
+<td></td>
+<td>64</td>
+<td>tests.testcase210_DefaultProfile2@59b38691</td></tr>
+<tr>
+<td title='tests.testcase212_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase212_DefaultProfile2<br/>
+<a href="#Output-1842102517" onClick='toggleBox("Output-1842102517", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1842102517" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1842102517">
+Income tax due verified successfully: 0.0<br/>
+Balance Tax for the year verified successfully: 20.25<br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>tests.testcase212_DefaultProfile2@530712d</td></tr>
+<tr>
+<td title='tests.testcase213_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase213_DefaultProfile2<br/>
+<a href="#Output-1128600792" onClick='toggleBox("Output-1128600792", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1128600792" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1128600792">
+Income tax due verified successfully: 66650.8<br/>
+Balance Tax for the year verified successfully: 67300.0<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>tests.testcase213_DefaultProfile2@126945f9</td></tr>
+<tr>
+<td title='tests.testcase214_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase214_DefaultProfile2<br/>
+<a href="#Output-1144979403" onClick='toggleBox("Output-1144979403", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1144979403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1144979403">
+Income tax due verified successfully: 69651.38<br/>
+Balance Tax for the year verified successfully: 21420.13<br/>
+</div>
+</td>
+<td></td>
+<td>79</td>
+<td>tests.testcase214_DefaultProfile2@2da59753</td></tr>
+</table><p>
+</body>
+</html>

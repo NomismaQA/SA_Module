@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th># passed</th><th># skipped</th><th># failed</th><th>Start<br/>Time</th><th>End<br/>Time</th><th>Total<br/>Time(hh:mm:ss)</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><th colspan="10">Suite</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1"><b>MTRTestScenario1_2020</b></a></td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">20:42:53</td></td>
+<td class="numi">20:44:06</td></td>
+<td class="numi">00:01:12</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Exception & screenshot</th><th>Start Time </th><th>Time<br/>(hh:mm:ss)</th></tr>
+<tr><th colspan="5">Suite</th></tr>
+<tr id="t1"><th colspan="5">MTRTestScenario1_2020 &#8212; passed</th></tr>
+<tr class="passedodd"><td>com.nomisma.SAMTR_Scripts2020.MTRTestScenario1</td><td><a href="#m1"><b>funcSubmissionTestCase1</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">20:43:14</td><td class="numi">00:00:49</td></tr>
+</table>
+<h1>MTRTestScenario1_2020</h1>
+<h2 id="m1">com.nomisma.SAMTR_Scripts2020.MTRTestScenario1:funcSubmissionTestCase1</h2>
+<div>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2020')]]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2020')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2020')]] clicked<br/>
+Agent window is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Self Assessment')]]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Self Assessment')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Self Assessment')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]] clicked<br/>
+Client Link Clicked<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'MTRTestCase1')]]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'MTRTestCase1')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'MTRTestCase1')]] clicked<br/>
+Client Selected for Test Case 1<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Tax Return')]]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Tax Return')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Tax Return')]] clicked<br/>
+Tax Return Link clicked first time only<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_SideMenu1_hrefXML]<br/>
+After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_SideMenu1_hrefXML]<br/>
+WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_SideMenu1_hrefXML] clicked<br/>
+GovTalkMessage<br/>
+Class: HMRC-SA-SA100-TIL<br/>
+Qualifier: request<br/>
+Function: submit<br/>
+Transformation: XML<br/>
+----------------------------<br/>
+Sender ID: SA0110<br/>
+----------------------------<br/>
+Method: clear<br/>
+Value: testing1<br/>
+----------------------------<br/>
+Key URL: 1000000110<br/>
+----------------------------<br/>
+URI: 7246<br/>
+Product: NOMISMA<br/>
+Version: 2.0<br/>
+----------------------------<br/>
+Period End: 2020-04-05<br/>
+Default Currency: GBP<br/>
+Sender: Individual<br/>
+----------------------------<br/>
+Date of Birth: 1979-05-05<br/>
+National Insurance Number: SE913963D<br/>
+Taxpayer Status: S<br/>
+----------------------------<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'funcSubmissionTestCase1'  /Status--->Pass :)<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<center> Emailable Report </center>
+</body></html>

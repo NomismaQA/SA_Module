@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>TestNG:  MTRTestScenario34_2020</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MTRTestScenario34_2020</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 02 20:28:34 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>115 seconds (115272 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario34.funcTestCase34()'><b>funcTestCase34</b><br>Test class: com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario34<br/>
+<a href="#Output-77811359" onClick='toggleBox("Output-77811359", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-77811359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-77811359">
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //table//tbody//tr//td[contains(text(),'test2020')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //table//tbody//tr//td[contains(text(),'test2020')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //table//tbody//tr//td[contains(text(),'test2020')]] clicked<br/>
+Agent window is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Self Assessment')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Self Assessment')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Self Assessment')]] clicked<br/>
+Self assessment Link is opened in first click<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Client List')]] clicked<br/>
+Client Link Clicked<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'MTRTestCase34')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'MTRTestCase34')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'MTRTestCase34')]] clicked<br/>
+Client Selected for Test Case 34<br/>
+Exceuting MTR Test Case 34<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //main/div/div[2]/ul/li[5]/a/span]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //main/div/div[2]/ul/li[5]/a/span]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //main/div/div[2]/ul/li[5]/a/span] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Self Employment')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Self Employment')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Self Employment')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_img1]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_img1]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_img1] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_btnSave] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //main/div/div[2]/ul/li[5]/a/span]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //main/div/div[2]/ul/li[5]/a/span]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //main/div/div[2]/ul/li[5]/a/span] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Dividend, Bank Interest, Pensions & Other UK Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Dividend, Bank Interest, Pensions & Other UK Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Dividend, Bank Interest, Pensions & Other UK Income')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: (//div[@class='infoNote-top']/a)[3]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: (//div[@class='infoNote-top']/a)[3]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: (//div[@class='infoNote-top']/a)[3]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_ddlBanksMaster]] -> xpath: .//option[normalize-space(.) = "Bank of America"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_ddlBanksMaster]] -> xpath: .//option[normalize-space(.) = "Bank of America"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_ddlBanksMaster]] -> xpath: .//option[normalize-space(.) = "Bank of America"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSave] clicked<br/>
+Page Refreshed<br/>
+Bank name added successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: img5]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: img5]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: img5] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_rBtnListInterestType_1]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_rBtnListInterestType_1]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_rBtnListInterestType_1] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSave] clicked<br/>
+Page Refreshed<br/>
+UnTaxed income added successfully<br/>
+Interest added Successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: img4]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: img4]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: img4] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSave] clicked<br/>
+Dividend Income added Successfully<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //main/div/div[2]/ul/li[5]/a/span]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //main/div/div[2]/ul/li[5]/a/span]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //main/div/div[2]/ul/li[5]/a/span] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Tax Reliefs')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Tax Reliefs')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Tax Reliefs')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_img2]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_img2]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_img2] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSavePension]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSavePension]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHFooter_btnSavePension] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Additional Information')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Additional Information')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Additional Information')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHeaderRight_btnEditIncome]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHeaderRight_btnEditIncome]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cpHeaderRight_btnEditIncome] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_btnSaveIncome]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_btnSaveIncome]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> id: ctl00_cPH_btnSaveIncome] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Tax Return')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Tax Return')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //span[contains(text(),'Tax Return')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Tax Calculation Summary')]]<br/>
+After click [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Tax Calculation Summary')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (4c09cd69ab551522ecc8a1eb069a5d76)] -> xpath: //a[contains(text(),'Tax Calculation Summary')]] clicked<br/>
+Profit From Self Employment verified: £104,298.00<br/>
+Amount of Interest From UK banks and Building is Verified: £10,120.00<br/>
+Dividends from UK Companies verified:  (UK: £828,319.10) £828,319.00<br/>
+Total Income Received verified: £942,737.00<br/>
+Payments into a retirement annuity contract etc. is Verified: £10,010.00<br/>
+Amount of Income tax relief is Verified: £7,295.00<br/>
+Total Income On Which Tax is Due verified: £925,432.00<br/>
+Started Rate of Pay Pension: 389.31<br/>
+Basic Rate of Pay Pension: 2079.0<br/>
+Intermediate Rate of Pay Pension: 3882.06<br/>
+Heigher Rate of Pay Pension: 22985.83<br/>
+Heigher Rate of Saving: 4048.0<br/>
+Heigher Rate of Dividends: 16538.28<br/>
+Additional Rate of Dividends: 295439.59<br/>
+Income Tax Due is: 345362.07<br/>
+Income Tax Due is Verified: £345,362.07<br/>
+Total Amount of Relief :7295.0<br/>
+Amount of Deficiency Relief is Verified: £3,688.75<br/>
+Income Tax due after allowances and reliefs: 341673.32<br/>
+Upper rate amount of Class 4 National Insurance contributions verified:3723.12<br/>
+Upper rate amount of Class 4 National Insurance contributions verified:940.06<br/>
+Class 2 National Insurance contributions: 156.0<br/>
+Total of Class 2 and Class 4 National Insurance contributions due verified successfully4819.18<br/>
+Income Tax Cls 2 and Cls 4 National Insurrance Contribution Minus tax deducted is verified:346492.5<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'funcTestCase34'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>99</td>
+<td>com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario34@52815fa3</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,1357 @@
+[
+	{
+		"TestCaseId": "EmailInvoiceTest",
+		"Keys": [
+			{
+				"LoginUserName": "admin",
+				"LoginUserPassword": "admin1",
+				"AgentToBeSearched": "TestAutomation",
+				"Company": "Test33",
+				"TimeFrame1": "Jan 2019 - Dec 2019",
+				"TimeFrame2": "Jan 2020 - Dec 2020",
+				"InvoiceTitle": "Email Invoices",
+				"EmailId": "sudhir@nomismasolution.co.uk",
+				"SuccessMessage": "Success! Email Sent Successfully!"
+			}
+		]
+	},
+	
+	{
+		"TestCaseId": "Login_Pass",
+		"Keys": [
+	
+	{
+		"TestCase_ID": "Login_Pass",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "",
+		"sData4": "",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Login_Fail",
+		"Keys": [
+	
+	{
+		"TestCase_ID": "Login_Fail",
+		"sData1": "admin",
+		"sData2": "ad",
+		"sData3": "",
+		"sData4": "",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Add_Agent",
+		"Keys": [
+	
+	{
+		"TestCase_ID": "Add_Agent",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR16",
+		"sData4": "",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Search_Agent",
+		"Keys": [
+	{
+		"TestCase_ID": "Search_Agent",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR13",
+		"sData4": "testingPTR13",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Add_LtdCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "Add_LtdCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR13",
+		"sData4": "Nomisma1Lmt3",
+		"sData5": "test1234",
+		"sData6": "11/12/2016",
+		"sData7": "Sumit",
+		"sData8": "Agarwal",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Search_LtdCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "Search_LtdCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR13",
+		"sData4": "Nomisma1Lmt3",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Search_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "Search_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "10/8/2016",
+		"sData6": "A635",
+		"sData7": "635",
+		"sData8": "635PC00000000",
+		"sData9": "AB123456Z",
+		"sData10": "E6543212A",
+		"sData11": "anjali@nomismasolution.co.uk",
+		"sData12": "Anu",
+		"sData13": "06/04/2017",
+		"sData14": "7 Holmbury View,",
+		"sData15": "London",
+		"sData16": "E5 9EG",
+		"sData17": "Nomisma1Lmt"
+	}
+		]
+	},
+	{
+		"TestCaseId": "Elements_BalanceSheet",
+		"Keys": [
+	{
+		"TestCase_ID": "Elements_BalanceSheet",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "L&T",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddMaleEmployee_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AddMaleEmployee_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Sudhir",
+		"sData6": "Ahuja",
+		"sData7": "Software Engineer",
+		"sData8": "12/6/1984",
+		"sData9": "7 Holmbury View",
+		"sData10": "London",
+		"sData11": "test",
+		"sData12": "test1234",
+		"sData13": "E5 9EG",
+		"sData14": "this is comments section",
+		"sData15": "+4482726626",
+		"sData16": "sudhir@nomismasolution.co.uk",
+		"sData17": "02/03/2017",
+		"sData18": "1150L",
+		"sData19": "AB164231C",
+		"sData20": "comp001",
+		"sData21": "1750",
+		"sData22": "15/10/2016",
+		"sData23": "Nomisma1Lmt"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddFemaleEmployee_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AddFemaleEmployee_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Rofila",
+		"sData6": "Massey",
+		"sData7": "Developer",
+		"sData8": "22/4/1982",
+		"sData9": "7 Holmbury View",
+		"sData10": "London",
+		"sData11": "test",
+		"sData12": "test1234",
+		"sData13": "E5 9EG",
+		"sData14": "this is comments section",
+		"sData15": "+4482726626",
+		"sData16": "sudhir@nomismasolution.co.uk",
+		"sData17": "06/04/2017",
+		"sData18": "1150L",
+		"sData19": "AB164231C",
+		"sData20": "comp002",
+		"sData21": "1350",
+		"sData22": "15/10/2016",
+		"sData23": "Nomisma1Lmt"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddSMPLeaves_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AddSMPLeaves_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "10/10/2017",
+		"sData6": "10/10/2017",
+		"sData7": "334.0985",
+		"sData8": "01/10/2017",
+		"sData9": "20",
+		"sData10": "Nomisma1Lmt",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddSPPLeaves_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AddSPPLeaves_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Justin Beeber",
+		"sData6": " Mr.",
+		"sData7": "Justin Beeber",
+		"sData8": " Mr.",
+		"sData9": "05/02/2018",
+		"sData10": "05/02/2018",
+		"sData11": "2",
+		"sData12": "Nomisma1Lmt",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "EditLeaves_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "EditLeaves_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "22",
+		"sData6": "Nomisma1Lmt",
+		"sData7": "2",
+		"sData8": "100",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "DeleteSMPLeaves_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "DeleteSMPLeaves_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Nomisma1Lmt",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": "",
+		"sData19": "",
+		"sData20": "",
+		"sData21": "",
+		"sData22": "",
+		"sData23": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AutoEnrolment_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "AutoEnrolment_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "06/04/2020",
+		"sData6": "06/04/2020",
+		"sData7": "Nomisma1Lmt",
+		"sData8": "Anjali",
+		"sData9": "Director",
+		"sData10": "anjali@nomismasolution.co.uk",
+		"sData11": "99999999999",
+		"sData12": "1234"
+		}
+		]
+	},
+	{
+		"TestCaseId": "EmpAllowanceEnable_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "EmpAllowanceEnable_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "4000",
+		"sData6": "Nomisma1Lmt"
+	}
+		]
+	},
+	{
+		"TestCaseId": "LinkedWithAccounts_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "LinkedWithAccounts_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "User1 Nomisma",
+		"sData6": "Nomisma1Lmt"
+	}
+		]
+	},
+	{
+		"TestCaseId": "DeRegistration_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "DeRegistration_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Nomisma1Lmt",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "RunPayroll_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "RunPayroll_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "31 March 2019",
+		"sData6": "Nomisma1Lmt"
+	}
+		]
+	},
+	{
+		"TestCaseId": "SubmitRTI",
+		"Keys": [
+	{
+		"TestCase_ID": "SubmitRTI",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Submitting RTI"
+	}
+		]
+	},
+	{
+		"TestCaseId": "UndoPayroll_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "UndoPayroll_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Nomisma1Lmt",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Stautory_Pay",
+		"Keys": [
+	{
+		"TestCase_ID": "Stautory_Pay",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "2017-2018",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Stautory_Sick Pay",
+		"Keys": [
+	{
+		"TestCase_ID": "Stautory_Sick Pay",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Micromax",
+		"sData5": "raj kumar, Mr.",
+		"sData6": "2017-2018"
+	}
+		]
+	},
+	{
+		"TestCaseId": "RTI_Submission",
+		"Keys": [
+	{
+		"TestCase_ID": "RTI_Submission",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Micromax",
+		"sData5": "2017-2018",
+		"sData6": "30/06/2017",
+		"sData7": "6/4/2017",
+		"sData8": "5/4/2018",
+		"sData9": "Micromax",
+		"sData10": "2017-2018"
+	}
+		]
+	},
+	{
+		"TestCaseId": "Payslip_company",
+		"Keys": [
+	{
+		"TestCase_ID": "Payslip_company",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "2017-2018",
+		"sData6": "2017-12-22",
+		"sData7": "sudhir@nomismasolution.co.uk",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Account_Submission",
+		"Keys": [
+	{
+		"TestCase_ID": "Account_Submission",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "2017-2018",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Company_Pay summary",
+		"Keys": [
+	{
+		"TestCase_ID": "Company_Pay summary",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "2017-2018",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Period_Total",
+		"Keys": [
+	{
+		"TestCase_ID": "Period_Total",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "2017-2018",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Pending_Submission",
+		"Keys": [
+	{
+		"TestCase_ID": "Pending_Submission",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "2017-2018",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Emplyee_List",
+		"Keys": [
+	{
+		"TestCase_ID": "Emplyee_List",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "All Employees",
+		"sData6": "Current Employees",
+		"sData7": "Left Employees",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Employee_Pay Details",
+		"Keys": [
+	{
+		"TestCase_ID": "Employee_Pay Details",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Mr. Preetam Kaur",
+		"sData6": "2017-2018",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Employee_Pay Summary",
+		"Keys": [
+	{
+		"TestCase_ID": "Employee_Pay Summary",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Mr. Preetam Kaur",
+		"sData6": "2017-2018",
+		"sData7": "sudhir@nomismasolution.co.uk",
+		"sData8": "",
+		"sData9": "",
+		"sData10": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "P60_Forms",
+		"Keys": [
+	{
+		"TestCase_ID": "P60_Forms",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "2017-2018",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "P11_Deductions",
+		"Keys": [
+	{
+		"TestCase_ID": "P11_Deductions",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Mr. Preetam Kaur",
+		"sData6": "2017-2018",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "P32",
+		"Keys": [
+	{
+		"TestCase_ID": "P32",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Micromax",
+		"sData5": "2017-2018",
+		"sData6": "All",
+		"sData7": "sudhir@nomismasolution.co.uk",
+		"sData8": "2017-2018",
+		"sData9": "April",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Stautory_Parenting Pay",
+		"Keys": [
+	{
+		"TestCase_ID": "Stautory_Parenting Pay",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Mr. Preetam Kaur",
+		"sData6": "2017-2018",
+		"sData7": "\\Downloads",
+		"sData8": "\\Downloads\\",
+		"sData9": "ReportStatutoryParentingPay",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Stautory_Maternity Pay",
+		"Keys": [
+	{
+		"TestCase_ID": "Stautory_Maternity Pay",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Micromax",
+		"sData5": "Mrs. Vandana Sachdev",
+		"sData6": "2017-2018",
+		"sData7": "\\Downloads",
+		"sData8": "\\Downloads\\",
+		"sData9": "ReportStatutoryMaternityPay",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Edit_Employee Pay",
+		"Keys": [
+	{
+		"TestCase_ID": "Edit_Employee Pay",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "1500",
+		"sData6": "Addition",
+		"sData7": "Test",
+		"sData8": "1000",
+		"sData9": "Net",
+		"sData10": "Testing",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "RTI_Failed",
+		"Keys": [
+	{
+		"TestCase_ID": "RTI_Failed",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "Panasonic",
+		"sData5": "Auto Run",
+		"sData6": "Testing",
+		"sData7": "Notional payment: Payment to Expat by third party or overseas employer"
+
+	}
+		]
+	},
+	{
+		"TestCaseId": "HMRC_Adjustments",
+		"Keys": [
+	{
+		"TestCase_ID": "HMRC_Adjustments",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "1500",
+		"sData6": "Nomisma1Lmt"
+	}
+		]
+	},
+	{
+		"TestCaseId": "EditEmployeeDetails_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "EditEmployeeDetails_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "SC 79 59 10 J",
+		"sData6": "1600",
+		"sData7": "1760.32",
+		"sData8": "Nomisma1Lmt"
+		}
+		]
+	},
+	{
+		"TestCaseId": "DeleteEmployee_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "DeleteEmployee_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "AB164231C",
+		"sData6": "TestSA1",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+		}
+		]
+	},
+	{
+		"TestCaseId": "current_status",
+		"Keys": [
+	{
+		"TestCase_ID": "current_status",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "All",
+		"sData5": "AirIndia",
+		"sData6": "COSCO India Limited",
+		"sData7": "ACCA",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Failed_RTI",
+		"Keys": [
+	{
+		"TestCase_ID": "Failed_RTI",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "All",
+		"sData5": "Test",
+		"sData6": "Notional payment: Payment to Expat by third party or overseas employer"
+		}
+		]
+	},
+	{
+		"TestCaseId": "Invoice_Pagination",
+		"Keys": [
+	{
+		"TestCase_ID": "Invoice_Pagination",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AN Enterprises",
+		"sData5": "Apr 2016 - Mar 2017",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "P32_Calculations",
+		"Keys": [
+	{
+		"TestCase_ID": "P32_Calculations",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "DirectorTableMethod",
+		"sData5": "2017-2018",
+		"sData6": "All",
+		"sData7": "sudhir@nomismasolution.co.uk",
+		"sData8": "2017-2018",
+		"sData9": "April",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "ImportEmployee",
+		"Keys": [
+	{
+		"TestCase_ID": "ImportEmployee",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "AB164231A",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "Paye_LiabilityReport",
+		"Keys": [
+	{
+		"TestCase_ID": "Paye_LiabilityReport",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Nomisma1Lmt",
+		"sData6": "2020-2021",
+		"sData7": "April",
+		"sData8": "1500.00",
+		"sData9": "May",
+		"sData10": "655.62",
+		"sData11": "June",
+		"sData12": "188.76"
+	}
+		]
+	},
+	{
+		"TestCaseId": "verifyTableMethodDirectorNITest_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "verifyTableMethodDirectorNITest_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Mr. Aarush Singh",
+		"sData6": "1500",
+		"sData7": "Nomisma1Lmt",
+		"sData8": "rdoDirectorTableMethod",
+		"sData9": "A",
+		"sData10": "Mr. Aarush Singh",
+		"sData11": "ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_imgEdit"
+		
+	}
+		]
+	},
+	{
+		"TestCaseId": "verifyCummulativeMethodDirectorNITest_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "verifyCummulativeMethodDirectorNITest_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Mrs. Anuja Singh",
+		"sData6": "2500",
+		"sData7": "Nomisma1Lmt",
+		"sData8": "rdoDirectorCumulativeMethod",
+		"sData9": "A",
+		"sData10": "Mrs. Anuja Singh",
+		"sData11": "ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl01_imgEdit"
+		
+		
+	}
+		]
+	},
+	{
+		"TestCaseId": "verifyTaxFreePayTest_PayrollCompany",
+		"Keys": [
+	{
+		"TestCase_ID": "verifyTaxFreePayTest_PayrollCompany",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "DirectorNIMethodTest",
+		"sData5": "BG 79 29 10 A",
+		"sData6": "999.5",
+		"sData7": "DirectorNIMethodTest",
+		"sData8": "rdoDirectorTableMethod",
+		"sData9": "A",
+		"sData10": "div[@class='main_content invoiceMain']//div//table//tbody//tr[2]//td//a[contains(text(),'Direct On Table Mehtod,Mr.'",
+		"sData11": "ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_imgEdit",
+		"sData12": "rdoDirectorTableMethod"
+
+	}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTotalTaxtoHMRC",
+		"Keys": [
+	{
+		"TestCase_ID": "VerifyTotalTaxtoHMRC",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "DirectorTableMethod",
+		"sData5": "DirectorTableMethod",
+		"sData6": "2018-2019",
+		"sData7": "-1",
+		"sData8": "845.95",
+		"sData9": "3",
+		"sData10": "655.10",
+		"sData11": "2",
+		"sData12": "283.12",
+		"sData13": "\\Downloads\\ReportP32.pdf",
+		"sData14": "",
+		"sData15": "",
+		"sData16": "",
+		"sData17": "",
+		"sData18": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "RecurringAddition",
+		"Keys": [
+	{
+		"TestCase_ID": "RecurringAddition",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA1",
+		"sData5": "TestSA1",
+		"sData6": "Addition",
+		"sData7": "Test Description For Recurring Addition",
+		"sData8": "100",
+		"sData9": "Gross",
+		"sData10": "Monthly",
+		"sData11": "Addition",
+		"sData12": "Test Description For Recurring Addition again",
+		"sData13": "50",
+		"sData14": "Net",
+		"sData15": "Monthly"
+	}
+		]
+	},
+	{
+		"TestCaseId": "RecurringDeduction",
+		"Keys": [
+	{
+		"TestCase_ID": "RecurringDeduction",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA1",
+		"sData5": "TestSA1",
+		"sData6": "Deduction",
+		"sData7": "Test Description For Recurring Deduction",
+		"sData8": "50",
+		"sData9": "Gross",
+		"sData10": "Monthly",
+		"sData11": "Deduction",
+		"sData12": "Test Description For Recurring Deduction again",
+		"sData13": "75",
+		"sData14": "Net",
+		"sData15": "Monthly"
+	}
+		]
+	},
+	{
+		"TestCaseId": "P32ReportCISSuffered",
+		"Keys": [
+	{
+		"TestCase_ID": "P32ReportCISSuffered",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "Nomisma1Lmt",
+		"sData6": "2020-2021",
+		"sData7": "15",
+		"sData8": "-15.00",
+		"sData9": "",
+		"sData10": "\\Downloads\\ReportP32.pdf"
+	}
+		]
+	},
+	{
+		"TestCaseId": "CISDashboard",
+		"Keys": [
+	{
+		"TestCase_ID": "CISDashboard",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestSA1",
+		"sData5": "CIS Dashboard",
+		"sData6": "Emaar Group1",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddContractor",
+		"Keys": [
+	{
+		"TestCase_ID": "AddContractor",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "TestSA"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddSubContractor",
+		"Keys": [
+	{
+		"TestCase_ID": "AddSubContractor",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "AutoSubContractor",
+		"sData5": "TestSA",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddPeriod",
+		"Keys": [
+	{
+		"TestCase_ID": "AddPeriod",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "SubContractor",
+		"sData6": "Mr.",
+		"sData7": "Male",
+		"sData8": "Company",
+		"sData9": "BACS",
+		"sData10": "Monthly",
+		"sData11": "Unmatched = 30%",
+		"sData12": "06/04/2018",
+		"sData13": "05/05/2018",
+		"sData14": "",
+		"sData15": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "CISAddInvoice",
+		"Keys": [
+	{
+		"TestCase_ID": "CISAddInvoice",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "SubContractor",
+		"sData6": "Mr.",
+		"sData7": "Male",
+		"sData8": "Company",
+		"sData9": "BACS",
+		"sData10": "Monthly",
+		"sData11": "Unmatched = 30%",
+		"sData12": "06/04/2018",
+		"sData13": "05/05/2018",
+		"sData14": "",
+		"sData15": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "CISFiling",
+		"Keys": [
+	{
+		"TestCase_ID": "CISFiling",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": ""
+	}
+		]
+	},
+	{
+		"TestCaseId": "SubmitCIS",
+		"Keys": [
+	{
+		"TestCase_ID": "SubmitCIS",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "Nomisma",
+		"sData4": "TestContractor",
+		"sData5": "",
+		"sData6": "",
+		"sData7": "",
+		"sData8": "",
+		"sData9": "",
+		"sData10": "",
+		"sData11": "",
+		"sData12": "",
+		"sData13": "",
+		"sData14": "",
+		"sData15": ""
+	}
+		]
+	}
+	
+]

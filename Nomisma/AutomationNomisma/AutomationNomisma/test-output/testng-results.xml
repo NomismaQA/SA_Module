@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Suite Execution started: 2020-04-14 20:42:53.822]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser is Launched]]>
+    </line>
+    <line>
+      <![CDATA[Before Navigating To: http://sandbox.nomismasolution.co.uk, my url was: data:,]]>
+    </line>
+    <line>
+      <![CDATA[Navigated To : http://sandbox.nomismasolution.co.uk]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the Sandbox URL]]>
+    </line>
+    <line>
+      <![CDATA[Test execution has been started: 2020-04-14 20:43:14.611]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin] clicked]]>
+    </line>
+    <line>
+      <![CDATA[Page Refreshed]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPHFilter_btnSearch]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPHFilter_btnSearch]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPHFilter_btnSearch] clicked]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2020')]]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2020')]]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2020')]] clicked]]>
+    </line>
+    <line>
+      <![CDATA[Agent window is displayed]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Self Assessment')]]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Self Assessment')]]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Self Assessment')]] clicked]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]] clicked]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]] clicked]]>
+    </line>
+    <line>
+      <![CDATA[Client Link Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Page Refreshed]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1] clicked]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch] clicked]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'MTRTestCase1')]]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'MTRTestCase1')]]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'MTRTestCase1')]] clicked]]>
+    </line>
+    <line>
+      <![CDATA[Client Selected for Test Case 1]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Tax Return')]]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Tax Return')]]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Tax Return')]] clicked]]>
+    </line>
+    <line>
+      <![CDATA[Tax Return Link clicked first time only]]>
+    </line>
+    <line>
+      <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_SideMenu1_hrefXML]]]>
+    </line>
+    <line>
+      <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_SideMenu1_hrefXML]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_SideMenu1_hrefXML] clicked]]>
+    </line>
+    <line>
+      <![CDATA[GovTalkMessage]]>
+    </line>
+    <line>
+      <![CDATA[Class: HMRC-SA-SA100-TIL]]>
+    </line>
+    <line>
+      <![CDATA[Qualifier: request]]>
+    </line>
+    <line>
+      <![CDATA[Function: submit]]>
+    </line>
+    <line>
+      <![CDATA[Transformation: XML]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Sender ID: SA0110]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Method: clear]]>
+    </line>
+    <line>
+      <![CDATA[Value: testing1]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Key URL: 1000000110]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------]]>
+    </line>
+    <line>
+      <![CDATA[URI: 7246]]>
+    </line>
+    <line>
+      <![CDATA[Product: NOMISMA]]>
+    </line>
+    <line>
+      <![CDATA[Version: 2.0]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Period End: 2020-04-05]]>
+    </line>
+    <line>
+      <![CDATA[Default Currency: GBP]]>
+    </line>
+    <line>
+      <![CDATA[Sender: Individual]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Date of Birth: 1979-05-05]]>
+    </line>
+    <line>
+      <![CDATA[National Insurance Number: SE913963D]]>
+    </line>
+    <line>
+      <![CDATA[Taxpayer Status: S]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Test execution completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[TestScript Name: 'funcSubmissionTestCase1'  /Status--->Pass :)]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test MTRTestScenario1_2020]]>
+    </line>
+    <line>
+      <![CDATA[Test Suite execution finished: 2020-04-14 20:44:07.001]]>
+    </line>
+    <line>
+      <![CDATA[Total time for test suite execution: 73.224seconds]]>
+    </line>
+    <line>
+      <![CDATA[Running after suite:]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-04-14T15:12:53Z" name="Suite" finished-at="2020-04-14T15:14:06Z" duration-ms="72880">
+    <groups>
+    </groups>
+    <test started-at="2020-04-14T15:12:53Z" name="MTRTestScenario1_2020" finished-at="2020-04-14T15:14:06Z" duration-ms="72880">
+      <class name="com.nomisma.SAMTR_Scripts2020.MTRTestScenario1">
+        <test-method is-config="true" signature="configBeforeTest()[pri:0, instance:com.nomisma.SAMTR_Scripts2020.MTRTestScenario1@13df2a8c]" started-at="2020-04-14T20:42:53Z" name="configBeforeTest" finished-at="2020-04-14T20:42:53Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeTest -->
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.nomisma.SAMTR_Scripts2020.MTRTestScenario1@13df2a8c]" started-at="2020-04-14T20:42:53Z" name="preCondition" finished-at="2020-04-14T20:43:14Z" duration-ms="20509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SandBox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser is Launched]]>
+            </line>
+            <line>
+              <![CDATA[Before Navigating To: http://sandbox.nomismasolution.co.uk, my url was: data:,]]>
+            </line>
+            <line>
+              <![CDATA[Navigated To : http://sandbox.nomismasolution.co.uk]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the Sandbox URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="funcSubmissionTestCase1()[pri:0, instance:com.nomisma.SAMTR_Scripts2020.MTRTestScenario1@13df2a8c]" started-at="2020-04-14T20:43:14Z" name="funcSubmissionTestCase1" finished-at="2020-04-14T20:44:03Z" duration-ms="49560" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin] clicked]]>
+            </line>
+            <line>
+              <![CDATA[Page Refreshed]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPHFilter_btnSearch]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPHFilter_btnSearch]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPHFilter_btnSearch] clicked]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2020')]]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2020')]]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2020')]] clicked]]>
+            </line>
+            <line>
+              <![CDATA[Agent window is displayed]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Self Assessment')]]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Self Assessment')]]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Self Assessment')]] clicked]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]] clicked]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'Client List')]] clicked]]>
+            </line>
+            <line>
+              <![CDATA[Client Link Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Page Refreshed]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1] clicked]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch] clicked]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'MTRTestCase1')]]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'MTRTestCase1')]]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //a[contains(text(),'MTRTestCase1')]] clicked]]>
+            </line>
+            <line>
+              <![CDATA[Client Selected for Test Case 1]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Tax Return')]]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Tax Return')]]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> xpath: //span[contains(text(),'Tax Return')]] clicked]]>
+            </line>
+            <line>
+              <![CDATA[Tax Return Link clicked first time only]]>
+            </line>
+            <line>
+              <![CDATA[WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_SideMenu1_hrefXML]]]>
+            </line>
+            <line>
+              <![CDATA[After click [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_SideMenu1_hrefXML]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_SideMenu1_hrefXML] clicked]]>
+            </line>
+            <line>
+              <![CDATA[GovTalkMessage]]>
+            </line>
+            <line>
+              <![CDATA[Class: HMRC-SA-SA100-TIL]]>
+            </line>
+            <line>
+              <![CDATA[Qualifier: request]]>
+            </line>
+            <line>
+              <![CDATA[Function: submit]]>
+            </line>
+            <line>
+              <![CDATA[Transformation: XML]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Sender ID: SA0110]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Method: clear]]>
+            </line>
+            <line>
+              <![CDATA[Value: testing1]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Key URL: 1000000110]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------]]>
+            </line>
+            <line>
+              <![CDATA[URI: 7246]]>
+            </line>
+            <line>
+              <![CDATA[Product: NOMISMA]]>
+            </line>
+            <line>
+              <![CDATA[Version: 2.0]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Period End: 2020-04-05]]>
+            </line>
+            <line>
+              <![CDATA[Default Currency: GBP]]>
+            </line>
+            <line>
+              <![CDATA[Sender: Individual]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Date of Birth: 1979-05-05]]>
+            </line>
+            <line>
+              <![CDATA[National Insurance Number: SE913963D]]>
+            </line>
+            <line>
+              <![CDATA[Taxpayer Status: S]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Test execution completed successfully]]>
+            </line>
+            <line>
+              <![CDATA[TestScript Name: 'funcSubmissionTestCase1'  /Status--->Pass :)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- funcSubmissionTestCase1 -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.nomisma.SAMTR_Scripts2020.MTRTestScenario1@13df2a8c]" started-at="2020-04-14T20:44:03Z" name="postCondition" finished-at="2020-04-14T20:44:06Z" duration-ms="2683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funcSubmissionTestCase1 status=SUCCESS method=MTRTestScenario1.funcSubmissionTestCase1()[pri:0, instance:com.nomisma.SAMTR_Scripts2020.MTRTestScenario1@13df2a8c] output=WebElement to be clicked [[ChromeDriver: chrome on XP (5f66db839d522aec977b55bfd8462497)] -> id: ctl00_cPH_btnLogin]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:com.nomisma.SAMTR_Scripts2020.MTRTestScenario1@13df2a8c]" started-at="2020-04-14T20:44:07Z" name="configAfterSuite" finished-at="2020-04-14T20:44:08Z" duration-ms="1973" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Running after suite:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- com.nomisma.SAMTR_Scripts2020.MTRTestScenario1 -->
+    </test> <!-- MTRTestScenario1_2020 -->
+  </suite> <!-- Suite -->
+</testng-results>

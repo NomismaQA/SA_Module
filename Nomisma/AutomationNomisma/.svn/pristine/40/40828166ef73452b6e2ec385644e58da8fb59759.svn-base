@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>TestNG:  22. PAYELiabilityByTaxMonthReport</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>22. PAYELiabilityByTaxMonthReport</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 24 18:16:52 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>79 seconds (79248 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.scriptspayroll.PAYELiabilityByTaxMonthReport.PAYELiabilityByTaxMonth()'><b>PAYELiabilityByTaxMonth</b><br>Test class: com.nomisma.scriptspayroll.PAYELiabilityByTaxMonthReport<br/>
+<a href="#Output-1833335943" onClick='toggleBox("Output-1833335943", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1833335943" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1833335943">
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //table//tbody//tr//td[contains(text(),'testingPTR')]]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //table//tbody//tr//td[contains(text(),'testingPTR')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //table//tbody//tr//td[contains(text(),'testingPTR')]] clicked<br/>
+Agent window is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(),'Payroll')]]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(),'Payroll')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(),'Payroll')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //ul[@id='ctl00_ctl00_ParentContent_SideMenu1_PRMenuChildren']//..//a[contains(text(),'Dashboard')]]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //ul[@id='ctl00_ctl00_ParentContent_SideMenu1_PRMenuChildren']//..//a[contains(text(),'Dashboard')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //ul[@id='ctl00_ctl00_ParentContent_SideMenu1_PRMenuChildren']//..//a[contains(text(),'Dashboard')]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ui-id-1]] -> tag name: li]<br/>
+After click [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ui-id-1]] -> tag name: li]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ui-id-1]] -> tag name: li] clicked<br/>
+CDwindow-75A6D93DC059A446D57B03FA0FAB56C3<br/>
+Payroll Company window is displayed<br/>
+Payroll Company page opened successfully<br/>
+Payroll page title verified successfully<br/>
+Payroll Page title verified successfully<br/>
+Undo Payroll for the Company<br/>
+Undo Payroll for the Company<br/>
+Undo Payroll Date: 31 Jul 2020<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(), 'Click here to UNDO last payroll run')]]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(), 'Click here to UNDO last payroll run')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(), 'Click here to UNDO last payroll run')]] clicked<br/>
+Alert Accepted<br/>
+Control back on Run Payroll page<br/>
+StartDate on Payroll page: 30 Jun 2020<br/>
+EndDate on Payroll page: 31 May 2020<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(), 'Click here to UNDO last payroll run')]]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(), 'Click here to UNDO last payroll run')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(), 'Click here to UNDO last payroll run')]] clicked<br/>
+Alert Accepted<br/>
+Control back on Run Payroll page<br/>
+StartDate on Payroll page: 31 May 2020<br/>
+EndDate on Payroll page: 31 May 2020<br/>
+Undo Payroll for the Company Successfull<br/>
+Undo Payroll for the Company Successfull<br/>
+Run Payroll for the Company<br/>
+Start Pay Date is: 31 May 2020<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnRunPayroll]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnRunPayroll]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnRunPayroll] clicked<br/>
+Run Payroll screen is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cpHFooter_btnSubmitOnline]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cpHFooter_btnSubmitOnline]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cpHFooter_btnSubmitOnline] clicked<br/>
+Next Pay Date is: 30 Jun 2020<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnRunPayroll]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnRunPayroll]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnRunPayroll] clicked<br/>
+Run Payroll screen is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cpHFooter_btnSubmitOnline]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cpHFooter_btnSubmitOnline]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cpHFooter_btnSubmitOnline] clicked<br/>
+Next Pay Date is: 31 Jul 2020<br/>
+Run Payroll for the Company Successfull<br/>
+Run Payroll for the Company Successfull<br/>
+No of tabs: 3<br/>
+Browser tab closed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(),'Payroll')]]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(),'Payroll')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //span[contains(text(),'Payroll')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //li[@id = 'ctl00_ctl00_ParentContent_SideMenu1_reportsMenu']]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //li[@id = 'ctl00_ctl00_ParentContent_SideMenu1_reportsMenu']]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //li[@id = 'ctl00_ctl00_ParentContent_SideMenu1_reportsMenu']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //a[contains(text(),'PAYE and NI Liability Report')]]<br/>
+After click [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //a[contains(text(),'PAYE and NI Liability Report')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> xpath: //a[contains(text(),'PAYE and NI Liability Report')]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth]] -> xpath: .//option[normalize-space(.) = "April"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth]] -> xpath: .//option[normalize-space(.) = "April"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth]] -> xpath: .//option[normalize-space(.) = "April"]] clicked<br/>
+verPayeeBF: 1500.00<br/>
+Amount is Matching for April. Test Passed<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth]] -> xpath: .//option[normalize-space(.) = "May"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth]] -> xpath: .//option[normalize-space(.) = "May"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth]] -> xpath: .//option[normalize-space(.) = "May"]] clicked<br/>
+verPayeeBF: 655.62<br/>
+Amount is Matching for May. Test Passed<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth]] -> xpath: .//option[normalize-space(.) = "June"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth]] -> xpath: .//option[normalize-space(.) = "June"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (8274cc8a98f95400d8df806cc1125f0d)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth]] -> xpath: .//option[normalize-space(.) = "June"]] clicked<br/>
+verPayeeBF: 188.76<br/>
+Amount is Matching for June. Test Passed<br/>
+TestScript Name: 'PAYELiabilityByTaxMonth'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>62</td>
+<td>com.nomisma.scriptspayroll.PAYELiabilityByTaxMonthReport@693fe6c9</td></tr>
+</table><p>
+</body>
+</html>

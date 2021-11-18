@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--  <suite name="Suite" thread-count="4">-->
+<suite name="Suite" verbose="10">
+ <listeners>
+ <listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+<listener class-name="com.nomisma.generic.CustomizedEmailableReport" />
+</listeners>
+<!-- Adding test cases of 2019-20 with new data --> 	 
+<test name= "MTRTestScenario1_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario1"/>
+  			</classes> 
+</test> 
+<test name= "MTRTestScenario2_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario2"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario7_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario7"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario8_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario8"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario9_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario9"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario16_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario16"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario17_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario17"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario184_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario184"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario127_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario127"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario128_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario128"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario130_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario130"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario133_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario133"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario134_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario134"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario135_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario135"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario5_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario5"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario6_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario6"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario10_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario10"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario12_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario12"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario13_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario13"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario14_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario14"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario15_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario15"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario18_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario18"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario19_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario19"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario20_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario20"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario21_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario21"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario22_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario22"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario23_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario23"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario25_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario25"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario26_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario26"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario28_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario28"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario30_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario30"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario35_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario35"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario36_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario36"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario38_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario38"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario40_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario40"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario41_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario41"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario42_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario42"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario43_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario43"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario45_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario45"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario46_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario46"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario47_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario47"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario48_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario48"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario49_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario49"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario50_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario50"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario53_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario53"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario54_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario54"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario55_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario55"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario56_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario56"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario57_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario57"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario58_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario58"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario59_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario59"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario61_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario61"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario62_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario62"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario63_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario63"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario64_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario64"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario65_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario65"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario66_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario66"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario67_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario67"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario68_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario68"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario69_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario69"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario70_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario70"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario71_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario71"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario72_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario72"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario73_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario73"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario74_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario74"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario75_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario75"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario78_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario78"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario80_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario80"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario81_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario81"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario82_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario82"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario84_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario84"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario85_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario85"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario87_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario87"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario89_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario89"/>
+  			</classes> 
+</test> 
+<test name= "MTRTestScenario90_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario90"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario95_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario95"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario97_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario97"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario98_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario98"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario99_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario99"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario100_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario100"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario101_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario101"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario102_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario102"/>
+  			</classes> 
+</test>
+
+<test name= "MTRTestScenario103_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario103"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario104_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario104"/>
+   				
+  			</classes> 
+</test>
+<test name= "MTRTestScenario105_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario105"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario106_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario106"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario107_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario107"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario109_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario109"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario112_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario112"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario114_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario114"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario115_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario115"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario119_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario119"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario120_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario120"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario121_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario121"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario122_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario122"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario123_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario123"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario124_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario124"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario125_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario125"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario126_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario126"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario131_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario131"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario132_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario132"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario137_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario137"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario157_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario157"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario159_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario159"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario161_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario161"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario164_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario164"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario165_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario165"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario166_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario166"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario171_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario171"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario172_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario172"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario174_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario174"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario177_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario177"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario178_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario178"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario179_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario179"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario180_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario180"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario181_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario181"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario182_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario182"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario183_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario183"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario186_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario186"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario189_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario189"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario190_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario190"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario191_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario191"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario192_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario192"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario193_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario193"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario194_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario194"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario195_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario195"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario196_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario196"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario202_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario202"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario203_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario203"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario207_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario207"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario208_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario208"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario209_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario209"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario212_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario212"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario213_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario213"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario215_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario215"/>
+  			</classes> 
+</test>
+
+<test name= "MTRTestScenario217_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario217"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario218_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario218"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario216_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario216"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario219_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario219"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario220_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario220"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario221_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario221"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario224_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario224"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario225_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario225"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario226_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario226"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario227_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario227"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario228_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario228"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario229_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario229"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario230_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario230"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario231_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario231"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario232_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario232"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario238_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario238"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario240_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario240"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario241_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario241"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario242_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario242"/>
+  			</classes> 
+</test> 
+<test name= "MTRTestScenario244_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario244"/>
+  			</classes> 
+</test> 
+<test name= "MTRTestScenario245_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario245"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario3_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario3"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario4_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario4"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario11_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario11"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario24_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario24"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario29_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario29"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario31_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario31"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario33_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario33"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario37_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario37"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario91_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario91"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario92_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario92"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario93_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario93"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario136_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario136"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario154_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario154"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario155_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario155"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario156_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario156"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario158_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario158"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario160_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario160"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario162_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario162"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario163_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario163"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario167_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario167"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario168_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario168"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario198_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario198"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario214_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario214"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario223_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario223"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario233_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario233"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario234_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario234"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario235_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario235"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario236_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario236"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario237_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario237"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario239_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario239"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario96_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario96"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario27_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario27"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario34_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario34"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario200_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario200"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario206_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario206"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario243_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario243"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario247_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario247"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario248_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario248"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario249_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario249"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario250_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario250"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario251_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario251"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario252_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario252"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario253_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario253"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario254_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario254"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario255_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario255"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario256_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario256"/>
+  			</classes> 
+</test>
+
+<test name= "MTRTestScenario257_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario257"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario258_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario258"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario259_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario259"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario260_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario260"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario261_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario261"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario262_2020">  
+ 		<parameter name= "browser" value="liveNomisma"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_live.MTRTestScenario262"/>
+  			</classes> 
+</test>
+ </suite>

@@ -1,0 +1,288 @@
+<html>
+<head>
+<title>TestNG:  162. AccountingScenarios --------- VerifyInvoiceTransactionsTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>162. AccountingScenarios --------- VerifyInvoiceTransactionsTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 05 20:02:30 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>88 seconds (88559 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.scriptsAccountingScenarios.VerifyInvoiceTransactionsTest.VerifyTransactions()'><b>VerifyTransactions</b><br>Test class: com.nomisma.scriptsAccountingScenarios.VerifyInvoiceTransactionsTest<br/>
+<a href="#Output-1674999797" onClick='toggleBox("Output-1674999797", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1674999797" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1674999797">
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'Nomisma')]]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'Nomisma')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'Nomisma')]] clicked<br/>
+Agent window is displayed<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //a[@id='ui-id-2']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //a[@id='ui-id-2']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //a[@id='ui-id-2']] clicked<br/>
+Company opened successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //span[contains(text(),'Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //span[contains(text(),'Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //span[contains(text(),'Income')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[1]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[1]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[1]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 4<br/>
+a = 1440.00<br/>
+a = <br/>
+a = <br/>
+Debit = 1440.0<br/>
+a = <br/>
+a = 240.00<br/>
+a = 1200.00<br/>
+Credit = 1440.0<br/>
+Debit: 1440.0<br/>
+Credit: 1440.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[2]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[2]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[2]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 4<br/>
+a = 21840.00<br/>
+a = <br/>
+a = <br/>
+Debit = 21840.0<br/>
+a = <br/>
+a = 3640.00<br/>
+a = 18200.00<br/>
+Credit = 21840.0<br/>
+Debit: 21840.0<br/>
+Credit: 21840.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[3]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[3]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[3]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 5<br/>
+a = 6840.00<br/>
+a = <br/>
+a = <br/>
+a = <br/>
+Debit = 6840.0<br/>
+a = <br/>
+a = 1140.00<br/>
+a = 4000.00<br/>
+a = 1700.00<br/>
+Credit = 6840.0<br/>
+Debit: 6840.0<br/>
+Credit: 6840.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[4]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[4]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[4]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 4<br/>
+a = 60000.00<br/>
+a = <br/>
+a = <br/>
+Debit = 60000.0<br/>
+a = <br/>
+a = 10000.00<br/>
+a = 50000.00<br/>
+Credit = 60000.0<br/>
+Debit: 60000.0<br/>
+Credit: 60000.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[5]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[5]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[5]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 4<br/>
+a = 240.00<br/>
+a = <br/>
+a = <br/>
+Debit = 240.0<br/>
+a = <br/>
+a = 40.00<br/>
+a = 200.00<br/>
+Credit = 240.0<br/>
+Debit: 240.0<br/>
+Credit: 240.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[6]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[6]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[6]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 4<br/>
+a = 4800.00<br/>
+a = <br/>
+a = <br/>
+Debit = 4800.0<br/>
+a = <br/>
+a = 800.00<br/>
+a = 4000.00<br/>
+Credit = 4800.0<br/>
+Debit: 4800.0<br/>
+Credit: 4800.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[7]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[7]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[7]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 3<br/>
+a = 140.00<br/>
+a = <br/>
+Debit = 140.0<br/>
+a = <br/>
+a = 140.00<br/>
+Credit = 140.0<br/>
+Debit: 140.0<br/>
+Credit: 140.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[8]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[8]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[8]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 4<br/>
+a = <br/>
+a = 28.00<br/>
+a = 200.00<br/>
+Debit = 228.0<br/>
+a = 228.00<br/>
+a = <br/>
+a = <br/>
+Credit = 228.0<br/>
+Debit: 228.0<br/>
+Credit: 228.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[9]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[9]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[9]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 4<br/>
+a = 456.00<br/>
+a = <br/>
+a = <br/>
+Debit = 456.0<br/>
+a = <br/>
+a = 56.00<br/>
+a = 400.00<br/>
+Credit = 456.0<br/>
+Debit: 456.0<br/>
+Credit: 456.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[10]/td[1]/a[1])]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[10]/td[1]/a[1])]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: (//div[3]/table[1]/tbody[1]/tr[10]/td[1]/a[1])] clicked<br/>
+TableRowCnt = 3<br/>
+a = 200.00<br/>
+a = <br/>
+Debit = 200.0<br/>
+a = <br/>
+a = 200.00<br/>
+Credit = 200.0<br/>
+Debit: 200.0<br/>
+Credit: 200.0<br/>
+Value of Debit is verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+After click [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']]<br/>
+WebElement [[ChromeDriver: chrome on XP (186d65e2e95f48d7b69514878bf4fc92)] -> xpath: //button[@id='cboxClose']] clicked<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'VerifyTransactions'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>80</td>
+<td>com.nomisma.scriptsAccountingScenarios.VerifyInvoiceTransactionsTest@7d286fb6</td></tr>
+</table><p>
+</body>
+</html>

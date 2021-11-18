@@ -1,0 +1,109 @@
+[
+	{
+		"TestCaseId": "EmailInvoiceTest",
+		"Keys": [
+			{
+				"LoginUserName": "admin",
+				"LoginUserPassword": "admin1",
+				"AgentToBeSearched": "TestAutomation",
+				"Company": "Test33",
+				"TimeFrame1": "Jan 2019 - Dec 2019",
+				"TimeFrame2": "Jan 2020 - Dec 2020",
+				"InvoiceTitle": "Email Invoices",
+				"EmailId": "sudhir@nomismasolution.co.uk",
+				"SuccessMessage": "Success! Email Sent Successfully!"
+			}
+		]
+	},
+	
+	{
+		"TestCaseId": "AddExpenseTest",
+		"Keys": [
+			{
+				"LoginUserName": "admin",
+				"LoginUserPassword": "admin1",
+				"AgentToBeSearched": "TestAutomation",
+				"Company": "Test33",
+				"TimeFrame1": "Jan 2019 - Dec 2019",
+				"InvoiceTitle": "Add Expense Reimbursement",
+				"Date": "27-02-2019",
+				"ExpenseHead": "Accountancy Fee",
+				"Description": "Test",
+				"Amount": "100",
+				"VATRate": "STD 20%",
+				"VATAmount0": "0.00",
+				"VATAmount": "16.67"
+
+			}
+		]
+	},
+	
+	{
+		"TestCaseId": "AddPaymentTest",
+		"Keys": [
+			{
+				"LoginUserName": "admin",
+				"LoginUserPassword": "admin1",
+				"AgentToBeSearched": "TestAutomation",
+				"Company": "Test33",
+				"TimeFrame1": "Jan 2019 - Dec 2019",
+				"Title": "Add Payment made from personal A/c (Supplier, Tax)",
+				"Date": "27-02-2019",
+				"PaidTo": "VAT",
+				"Description": "Test",
+				"Total": "100"
+
+			}
+		]
+	},
+	
+	{
+		"TestCaseId": "RepeatingInvoiceLst",
+		"Keys": [
+			{
+				"LoginUserName": "admin",
+				"LoginUserPassword": "admin1",
+				"AgentToBeSearched": "TestAutomation",
+				"Company": "Test33",
+				"TimeFrame1": "Jan 2019 - Dec 2019",
+				"Title1": "Repeating Invoice",
+				"Title2": "Edit Repeat Invoice",
+				"Title3": "Add Repeat Invoice",
+				"Title4": "Delete Repeat Invoice"
+
+			}
+		]
+	},
+	
+		{
+		"TestCaseId": "EmailInvoiceLnk",
+		"Keys": [
+			{
+				"LoginUserName": "admin",
+				"LoginUserPassword": "admin1",
+				"AgentToBeSearched": "TestAutomation",
+				"Company": "Test33",
+				"TimeFrame1": "Jan 2019 - Dec 2019",
+				"TimeFrame2": "Jan 2020 - Dec 2020",
+				"InvoiceTitle": "Email Invoices",
+				"EmailId": "sudhir@nomismasolution.co.uk",
+				"SuccessMessage": "Success! Email Sent Successfully!",
+				"dateFrom": "02-02-2019",
+				"dateTo": "02-06-2019"
+			}
+		]
+	},
+	
+	{
+		"TestCaseId": "test2",
+		"Keys": [
+			{
+				"LoginUserName": "Admin1",
+				"LoginUserPassword": "Admin11",
+				"AgentToBeSearched": "TestAutomation1",
+				"AgentRole": "Test331",
+				"TimeFrame": "Jan 2019 - Dec 2019"
+			}
+		]
+	}
+]

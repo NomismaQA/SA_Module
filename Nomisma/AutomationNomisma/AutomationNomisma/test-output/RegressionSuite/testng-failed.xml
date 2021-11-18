@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [RegressionSuite]" verbose="10">
+  <parameter name="browser" value="chrome"/>
+  <test parallel="tests" name="19. UndoPayrollTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nomisma.scriptspayroll.P32ReportCISSuffered">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.P32ReportCISSuffered -->
+      <class name="com.nomisma.scriptspayroll.RunPayrollTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.RunPayrollTest -->
+      <class name="com.nomisma.scriptspayroll.ImportEmployee">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.ImportEmployee -->
+      <class name="com.nomisma.scriptspayroll.DeRegistrationCompanyTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.DeRegistrationCompanyTest -->
+      <class name="com.nomisma.scriptspayroll.UndoPayrollTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="runPayrollTest"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.UndoPayrollTest -->
+      <class name="com.nomisma.scriptspayroll.AddEmployeeLeavesTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.AddEmployeeLeavesTest -->
+      <class name="com.nomisma.scriptspayroll.LinkedWithAccountsTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.LinkedWithAccountsTest -->
+    </classes>
+  </test> <!-- 19. UndoPayrollTest(failed) -->
+  <test parallel="tests" name="21. ImportEmployee(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nomisma.scriptspayroll.P32ReportCISSuffered">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.P32ReportCISSuffered -->
+      <class name="com.nomisma.scriptspayroll.RunPayrollTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.RunPayrollTest -->
+      <class name="com.nomisma.scriptspayroll.ImportEmployee">
+        <methods>
+          <include name="ImportEmployee1"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.ImportEmployee -->
+      <class name="com.nomisma.scriptspayroll.DeRegistrationCompanyTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.DeRegistrationCompanyTest -->
+      <class name="com.nomisma.scriptspayroll.UndoPayrollTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.UndoPayrollTest -->
+      <class name="com.nomisma.scriptspayroll.AddEmployeeLeavesTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.AddEmployeeLeavesTest -->
+      <class name="com.nomisma.scriptspayroll.LinkedWithAccountsTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.LinkedWithAccountsTest -->
+    </classes>
+  </test> <!-- 21. ImportEmployee(failed) -->
+  <test parallel="tests" name="45. P32ReportCISSuffered(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nomisma.scriptspayroll.P32ReportCISSuffered">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="P32Report"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.P32ReportCISSuffered -->
+      <class name="com.nomisma.scriptspayroll.RunPayrollTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.RunPayrollTest -->
+      <class name="com.nomisma.scriptspayroll.ImportEmployee">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.ImportEmployee -->
+      <class name="com.nomisma.scriptspayroll.DeRegistrationCompanyTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.DeRegistrationCompanyTest -->
+      <class name="com.nomisma.scriptspayroll.UndoPayrollTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.UndoPayrollTest -->
+      <class name="com.nomisma.scriptspayroll.AddEmployeeLeavesTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.AddEmployeeLeavesTest -->
+      <class name="com.nomisma.scriptspayroll.LinkedWithAccountsTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- com.nomisma.scriptspayroll.LinkedWithAccountsTest -->
+    </classes>
+  </test> <!-- 45. P32ReportCISSuffered(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

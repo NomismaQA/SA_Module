@@ -1,0 +1,182 @@
+[
+{
+		"TestCaseId": "addBusiness",
+		"Keys": [
+	{
+		"TestCase_ID": "addBusiness",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "BusinessTrailBalance",
+		"sData5": "01/01/2010",
+		"sData6": "New",
+		"sData7": "cust1"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddIncome",
+		"Keys": [
+			{
+		"TestCase_ID": "AddIncome",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Customer1",
+		"sData6": "1",
+		"sData7": "Monhly Income",
+		"sData8": "1000",
+		"sData9": "5"
+	}
+		]
+	},
+	{
+		"TestCaseId": "ExpensesDetails",
+		"Keys": [
+			{
+		"TestCase_ID": "ExpensesDetails",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Supplier1",
+		"sData6": "1",
+		"sData7": "Adding Supplier bill",
+		"sData8": "100.00"
+	}
+		]
+	},
+	{
+		"TestCaseId": "RepeatInvoice",
+		"Keys": [
+			{
+		"TestCase_ID": "RepeatInvoice",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Cust1",
+		"sData6": "2",
+		"sData7": "weekly Invoice",
+		"sData8": "1000",
+		"sData9": "10"
+	}
+		]
+	},
+	{
+		"TestCaseId": "BatchInvoice",
+		"Keys": [
+			{
+		"TestCase_ID": "BatchInvoice",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Anjali",
+		"sData6": "1",
+		"sData7": "2",
+		"sData8": "Invoice for selling 10 Items",
+		"sData9": "1000.00"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddCustomer",
+		"Keys": [
+			{
+		"TestCase_ID": "AddCustomer",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Anjali",
+		"sData6": "anjali@nomismasolution.co.uk"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddVatOnlyInvoice",
+		"Keys": [
+			{
+		"TestCase_ID": "AddVatOnlyInvoice",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Anjali",
+		"sData6": "1",
+		"sData7": "1000",
+		"sData8": "Invoice including Vat Amount"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddNewQuote",
+		"Keys": [
+			{
+		"TestCase_ID": "AddNewQuote",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Anjali",
+		"sData6": "Q1",
+		"sData7": "Adding Quote",
+		"sData8": "1000",
+		"sData9": "5"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddSubContractor",
+		"Keys": [
+			{
+		"TestCase_ID": "AddSubContractor",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Supplier1",
+		"sData6": "1",
+		"sData7": "2000",
+		"sData8": "200",
+		"sData9": "500",
+		"sData10": "Adding Sub Contractor Bill"
+	}
+		]
+	},
+	{
+		"TestCaseId": "SupplierBillDebitNoteBatchEntry",
+		"Keys": [
+			{
+		"TestCase_ID": "SupplierBillDebitNoteBatchEntry",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Supplier1",
+		"sData6": "1",
+		"sData7": "Adding expenses",
+		"sData8": "2000.00",
+		"sData9": "500.00"
+	}
+		]
+	},
+	{
+		"TestCaseId": "AddVatOnlySupplierBill",
+		"Keys": [
+			{
+		"TestCase_ID": "AddVatOnlySupplierBill",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "TestBookKeeping",
+		"sData4": "Business1",
+		"sData5": "Supplier1",
+		"sData6": "1",
+		"sData7": "1000",
+		"sData8": "Invoice including Vat Amount"	
+	}
+		]
+	}
+]

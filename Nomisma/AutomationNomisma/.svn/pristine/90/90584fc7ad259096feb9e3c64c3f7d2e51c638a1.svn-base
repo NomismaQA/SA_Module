@@ -1,0 +1,5 @@
+url: http://sandbox.nomismasolution.co.uk:8080/
+
+chromePath: C:\\Nomisma\\Softwares\\chromedriver_win32\\chromedriver.exe
+
+IEPath: F:\\Softwares\\IEDriverServer_x64_3.11.1\\IEDriverServer.exe

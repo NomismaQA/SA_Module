@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="4">
+<!-- <suite name="RegressionSuite" parallel="tests" verbose="10"> -->
+<!-- <suite name="Suite" verbose="10"> -->
+<!--  <listeners>
+<listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+</listeners>-->
+<test name= "addEmploymentIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddEmploymentIncome"/>
+  			</classes> 
+  	</test> 
+  <test name= "PDFVerificationEmployment">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.readpdfreport"/>
+  			</classes> 
+  	</test>
+  	  	 <test name= "SubmitTaxToHMRCEmployment">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>
+  	  	 	
+  <test name= "DeleteEmploymentIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.EmpIncomDel"/>
+  			</classes> 
+  	</test> 
+  	<test name= "AddBankInterest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddDividentIncome"/>
+  			</classes> 
+  	</test> 
+  		 <test name= "BankInterestPDFVerification">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.readpdfreportDivident"/>
+  			</classes> 
+  	</test>
+  	
+  	<test name= "BankInterestSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>  	 
+  	 		<test name= "DelInterestAndBank">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelDividentIncome"/>
+  			</classes> 
+  	</test> 
+  	 <test name= "AddBankInterestUnTaxed">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddDividentIncomeWithoutUKTax"/>
+  			</classes> 
+  	</test> 
+  	 <test name= "UnTaxedBankInterestReadPDF">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.readpdfreportUnTaxedDivident"/>
+  			</classes> 
+  	</test> 
+    <test name= "UnTaxedBankInterestSubmittax">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test> 
+  	
+   	<test name= "DelUnTaxedBankInterest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelUnTaxedUKIncome"/>
+  			</classes> 
+  	</test>   
+  	<test name= "AddBankInterestforForeign">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddUKbanksForeignInterest"/>
+  			</classes> 
+  	</test> 
+  	 
+  		 <test name= "ForeignBankInterestVerifyPDF">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.readpdfreportforeignIncome"/>
+  			</classes> 
+  	</test> 
+  	
+  	<test name= "ForeignBankInterestSubmitTax">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>
+  	  	
+  	<test name= "DelForeignBankInterest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelForeignukIncomeScenario"/>
+  			</classes> 
+  	</test>
+  <test name= "AddOtherUKIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddOtherUKIncome"/>
+  			</classes> 
+  	</test> 
+  	<test name= "OtherUKIncomePDFVerification">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ReadpdfOtherUkDivident"/>
+  			</classes> 
+  	</test>
+  	
+  	 <test name= "OtherUKIncomeSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test> 
+  	 
+  	<test name= "DelOtherUKIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelOtherUKIncome"/>
+  			</classes> 
+  	</test> 
+  	 <test name= "AddPropertyLossIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.IncomeFromPropertyLoss"/>
+  			</classes> 
+  	</test>	
+  <test name= "PropertyLossVerifySubmission">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+  <test name= "DeletePropertyLoss">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelIncomeFromProperty"/>
+  			</classes> 
+  	</test> 
+  	  <test name= "AddPropertyProfit">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.IncomeFromPropertyProfit"/>
+  			</classes> 
+  	</test>	
+  <test name= "PropertyProfitSubmitToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test> 
+  	<test name= "DeletePropertyProfit">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelIncomeFromProperty"/>
+  			</classes> 
+  	</test>
+  	 <test name= "AddPropertyEAALoss">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.EEALossIncome"/>
+  			</classes> 
+  	</test>	
+  <test name= "PropertyEAALossVerifySubmission">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+   <test name= "DeletePropertyEAALoss">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelIncomeFromProperty"/>
+  			</classes> 
+  	</test> 
+  	<test name= "AddIncomePropertyEAAProfit">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.EEAProfitIncome"/>
+  			</classes> 
+  	</test>	
+  <test name= "PropertyEAAProfitVerifySubmission">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+   <test name= "DelPropertyEAAProfit">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelIncomeFromProperty"/>
+  			</classes> 
+  	</test>  
+  	 <test name= "AddPropertyIncomeExpenses">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PropertyIncomeExpenses"/>
+  			</classes> 
+  	</test>  
+ <test name= "PropertyIncomeExpensesSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>
+  	<test name= "DelPropertyIncomeExpenses">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelIncomeFromProperty"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddIncomeSelfEmploymentShort">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SelfEmploymentShort1"/>
+  			</classes> 
+  	</test> 
+  	<test name= "SelfEmploymentShortVerifyPDF">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.readpdfreportSE"/>
+  			</classes> 
+  	</test> 
+  
+   	 <test name= "SelfEmploymentShortSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>
+  
+  <test name= "DelSelfEmploymentShortIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelSelfEmpShort"/>
+  			</classes> 
+  	</test> 
+  	<test name= "AddIncomeSelfEmploymentFull">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SelfEmploymentFull"/>
+  			</classes> 
+  	</test> 
+  	<test name= "SelfEmploymentFullVerifyPDF">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ReadpdfreportSEFull"/>
+  			</classes> 
+  	</test> 
+     	 <test name= "SelfEmploymentFullSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test> 	 	 	
+  <test name= "DelSelfEmploymentFullIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelSelEmploymenFull"/>
+  			</classes> 
+  	</test>   
+  	 <test name= "CapitalGainIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.CapitalGainIncome"/>
+  			</classes> 
+  	</test>
+  	<test name= "CapitalGainVeriFyPdf">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVeriFyCapitalGain"/>
+  			</classes> 
+  	</test> 
+  	
+  	 <test name= "CapitalGainVerifySubmission">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTaxNew"/>
+  			</classes> 
+  	</test>
+  	<test name= "DelCapitalGain">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelCapitalGain"/>
+  			</classes> 
+  	</test> 
+  	 <test name= "AddTaxReleifPensionBenefit">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.TaxReliefsPensionSchemes"/>
+  			</classes> 
+  	</test> 
+  	<test name= "TaxReleifPensionVerifyPdf">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PensionTaxReliefVerifyPdf"/>
+  			</classes> 
+  	</test>  
+  	
+   <test name= "ReleifPensionSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+  	 	<test name= "DelTaxReleifPensionBenefit">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelPensionTaxReliefs"/>
+  			</classes> 
+  	</test> 
+  		<test name= "AddTaxReleifChritableGiving">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.TaxReliefsCharitableGiving"/>
+  			</classes> 
+  	</test> 
+  	 <test name= "TaxReleifCharitableGivingVerifyPdf">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVeriFyCharitableGiving"/>
+  			</classes> 
+  	</test>  
+  	
+  	<test name= "ReleifCharitableSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	 
+  	<test name= "DelTaxReleifCharitableGiving">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelCharitableGiving"/>
+  			</classes> 
+  	</test>  
+  	 <test name= "AddTaxReleifGiftAid">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.TaxReliefsGiftAid"/>
+  			</classes> 
+  	</test> 
+  	<test name= "TaxReleifGiftAidVerifyPdf">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVeriFyGiftAid"/>
+  			</classes> 
+  	</test>  
+  	 	<test name= "GiftAidSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+  	<test name= "DeleteGiftAid">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelGiftAid"/>
+  			</classes> 
+  	</test>   
+  	
+  	<test name= "BlindPersonAddIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddBlindPersonAllowance"/>
+  			</classes> 
+  	</test> 
+  	<test name= "VerifyPdfForBlind">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVerifyForBlind"/>
+  			</classes> 
+  	</test>
+  	  		<test name= "BlindPersonSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTaxBlindPerson"/>
+  			</classes> 
+  	</test>	
+  		<test name= "BlindPersonDeleteInfo">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelBlindPersonAllowance"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MarriageAllowanceAddIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.TaxReliefsMarriageAllowance"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MarriageAllowanceVerifyPdf">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.VerifyPdfForMarriageAllowance"/>
+  			</classes> 
+  	</test> 
+  		
+  		<test name= "MarriageAllowanceSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+  	<test name= "DelMarriageAllowanceDetails">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelMarriageAllowance"/>
+  			</classes> 
+  	</test> 
+  	<test name= "AddStudentLoanRepayPlan1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.StudentLoanRepayCls"/>
+  			</classes> 
+  	</test> 
+  	<test name= "PdfVerifyStudentLoanPlan1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVeriFyStudentLoan"/>
+  			</classes> 
+  	</test>
+  	<test name= "StudentLoanSubmitTaxToHMRCPlan1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+  	<test name= "DelStudentLoanPlan1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelStudentLoanCls"/>
+  			</classes> 
+  	</test>  
+  	<test name= "AddStudentLoanRepayPlan2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.StudentLoanRepayCls2"/>
+  			</classes> 
+  	</test> 
+  	<test name= "PdfVerifyStudentLoanPlan2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVeriFyStudentLoan"/>
+  			</classes> 
+  	</test>
+  	
+  <test name= "StudentLoanSubmitTaxToHMRCPlan2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+  	<test name= "DelStudentLoanPlan2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelStudentLoanCls"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddStudentLoanRepayPlan1_2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.StudentLoanRepayCls3"/>
+  			</classes> 
+  	</test> 
+  	<test name= "PdfVerifyStudentLoanPlan1_2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVeriFyStudentLoan"/>
+  			</classes> 
+  	</test>
+  	  <test name= "StudentLoanSubmitTaxToHMRCPlan1_2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+  	<test name= "DelStudentLoanPlan1_2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelStudentLoanCls"/>
+  			</classes> 
+  	</test>
+  	 <test name= "AddChildBenefit">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ChildBenefitChargeCls"/>
+  			</classes> 
+  	</test> 
+  	  <test name= "PdfVerifyChildBenefit">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVerifyChildBenefit"/>
+  			</classes> 
+  	</test>
+  	 <test name= "ChildBenefitSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test>	
+  	<test name= "DelChildBenefit">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelChildBenefitCharge"/>
+  			</classes> 
+  	</test>
+  	<test name= "VerifyTaxAddPaymentOnAccount">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddPaymentOnAccount"/>
+  			</classes> 
+  	</test> 
+  	<test name= "AddPaymentOnAccountVerifyPdf">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVerifyPaymentonAccount"/>
+  			</classes> 
+  	</test>   
+  	  <test name= "PaymentonAccountSubmitTaxToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+  	</test> 
+  	<test name= "PaymentOnAccountDelete">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelPaymentAccount"/>
+  			</classes> 
+  	</test> 
+  	<test name= "AddFinishingTax">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddFinishingTaxReturn"/>
+  			</classes> 
+  	</test> 
+  	<test name= "FininshingTaxSubmitToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+	</test>
+	<test name= "PDFVerifyPdfVerifyFinishingTax">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVerifyFinishingTax"/>
+  			</classes> 
+	</test> 
+  	<test name= "DelFinishingTax">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelFinishingTaxReturnCls"/>
+  			</classes> 
+  	</test>
+  	 <test name= "AddUnderpaidTax">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddUnderpaidTaxCls"/>
+  			</classes> 
+  	</test>
+  	<test name= "UnderpaidTaxVerifyPdf">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVerifyUnderPaidTax"/>
+  			</classes> 
+	</test>
+  	<test name= "UnderpaidTaxSubmitToHMRC">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+	</test>
+	
+  	 <test name= "DelUnderpaidTax">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelUnderpaidTaxCls"/>
+  			</classes> 
+  	</test>  
+  	 <test name= "testForAdditionalInfo">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.AddAdditionalInfoCls"/>
+  			</classes> 
+  	</test> 
+  	 <test name= "AdditionalInfoVerifyPDF">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PdfVerifyAdditionalInformation"/>
+  			</classes> 
+  	</test>
+  		<test name= "SubmitToHMRCAdditionalInfo">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SubmitTax"/>
+  			</classes> 
+	</test> 
+  	 <test name= "testForDelAdditionalInfo">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelAdditionalInfoCls"/>
+  			</classes> 
+  	</test>  
+  	 <test name= "PAYECODETest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PAYEcodeCls1"/>
+  			</classes> 
+  	</test>  
+  	 <test name= "EmailSendTest1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SendEmailTestCase"/>
+  			</classes> 
+  	</test>      
+  	 <test name= "EmailSendTest2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ScheduledEmailTestCase"/>
+  			</classes> 
+  	</test> 
+  	 <test name= "addTaxPaymentsTestcase">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.TaxPaymentsAlreadyMadeTestCase"/>
+  			</classes> 
+  	</test> 
+  	 <test name= "DeladdTaxPaymentsTestcase">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelTaxPaymentTestCase"/>
+  			</classes> 
+  	</test> 
+  	<test name= "SADashBoardStatusTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.VerifySADashboard"/>
+  			</classes> 
+  	</test>  
+  <test name= "SAAccountantPage">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.VerifyClientListOnAccountantPage"/>
+  			</classes> 
+  	</test>  
+  <test name= "ImportClientTestcase">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ImportClientCls"/>
+  			</classes> 
+  	</test> 
+  	<test name= "EmailTemptlateTestcase">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.EmailTemplateCls"/>
+  			</classes> 
+  	</test> 
+  	<test name= "ScheduleEmailtestcase">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ScheduleEmailCls"/>
+  			</classes> 
+  	</test>
+  	 <test name= "AddOverseasForeignIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ForeignIncomeOverseasWithTaxCls"/>
+  			</classes> 
+  	</test>
+  	 <test name= "DelOverseasForeignIncome">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelForeignIncomeOverSeas"/>
+  			</classes> 
+  	</test>	 	
+  	<test name= "AddOverseasForeignIncome1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ForeignIncomeOverseasWithoutTaxCls"/>
+  			</classes> 
+  	</test>  
+  	 <test name= "DelOverseasForeignIncome1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelForeignIncomeOverSeas"/>
+  			</classes> 
+  	</test>
+  	<test name= "Addtestcase33">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.TestCase33FOR"/>
+  			</classes> 
+  	</test> 
+  	<test name= "Deltestcase33">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelTestCase33FOR"/>
+  			</classes> 
+  	</test> 	 
+</suite>

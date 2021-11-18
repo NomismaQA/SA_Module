@@ -1,0 +1,766 @@
+<html>
+<head>
+<title>TestNG:  MTR Testcase33</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MTR Testcase33</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 20 18:09:59 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>77 seconds (77017 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.testcase16_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase16_DefaultProfile2</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;SAList.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (110, 266). Other element would receive the click: &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51711}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: fe00108ed32e29c34b964797a3d02be1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:339)
+	at tests.testcase16_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase16_DefaultProfile2.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1735962278", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1735962278'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;SAList.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (110, 266). Other element would receive the click: &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51711}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: fe00108ed32e29c34b964797a3d02be1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:339)
+	at tests.testcase16_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase16_DefaultProfile2.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>23</td>
+<td>tests.testcase16_DefaultProfile2@4b41dd5c</td></tr>
+<tr>
+<td title='tests.testcase17_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase17_DefaultProfile2</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a id=&quot;ctl00_ctl00_ParentContent_cPHFilter_btnSearch&quot; class=&quot;green_btn manually_add_btn&quot; href=&quot;javascript:__doPostBack(&apos;ctl00$ctl00$ParentContent$cPHFilter$btnSearch&apos;,&apos;&apos;)&quot;&gt;...&lt;/a&gt; is not clickable at point (574, 467). Other element would receive the click: &lt;div id=&quot;walkme-overlay-all&quot; style=&quot;position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; z-index: 2147483632; background-color: rgb(0, 0, 0); opacity: 0.5;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51755}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: fe8b936fdd92482b0e75fe7b001b0b39
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Update(SA_Left_menu.java:391)
+	at tests.testcase17_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase17_DefaultProfile2.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1029148906", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1029148906'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a id=&quot;ctl00_ctl00_ParentContent_cPHFilter_btnSearch&quot; class=&quot;green_btn manually_add_btn&quot; href=&quot;javascript:__doPostBack(&apos;ctl00$ctl00$ParentContent$cPHFilter$btnSearch&apos;,&apos;&apos;)&quot;&gt;...&lt;/a&gt; is not clickable at point (574, 467). Other element would receive the click: &lt;div id=&quot;walkme-overlay-all&quot; style=&quot;position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; z-index: 2147483632; background-color: rgb(0, 0, 0); opacity: 0.5;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51755}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: fe8b936fdd92482b0e75fe7b001b0b39
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Update(SA_Left_menu.java:391)
+	at tests.testcase17_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase17_DefaultProfile2.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>tests.testcase17_DefaultProfile2@13ad5cd3</td></tr>
+<tr>
+<td title='tests.testcase22_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase22_DefaultProfile2</td>
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52055}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 90b433d51633049143fa561f71f19350
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:339)
+	at tests.testcase22_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase22_DefaultProfile2.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1289454852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1289454852'><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52055}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 90b433d51633049143fa561f71f19350
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:339)
+	at tests.testcase22_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase22_DefaultProfile2.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>25</td>
+<td>tests.testcase22_DefaultProfile2@31c7528f</td></tr>
+<tr>
+<td title='tests.testcase26_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase26_DefaultProfile2</td>
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52302}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: d61cc437183d365d9746bef5288f904e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:339)
+	at tests.testcase26_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase26_DefaultProfile2.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace663119869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace663119869'><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DEEPIKA-2AT30NI&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52302}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: d61cc437183d365d9746bef5288f904e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.SA_Left_menu.Click_Client_List(SA_Left_menu.java:339)
+	at tests.testcase26_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase26_DefaultProfile2.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>21</td>
+<td>tests.testcase26_DefaultProfile2@72437d8d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.Testcase1_DefaultProfile.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.Testcase1_DefaultProfile<br/>
+<a href="#Output-754707140" onClick='toggleBox("Output-754707140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-754707140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-754707140">
+Income tax due verified successfully: 10.27<br/>
+Balance Tax for the year verified successfully: 10.27<br/>
+</div>
+</td>
+<td></td>
+<td>106</td>
+<td>tests.Testcase1_DefaultProfile@571c5681</td></tr>
+<tr>
+<td title='tests.testcase2_DefaultProfile.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase2_DefaultProfile<br/>
+<a href="#Output-1980560788" onClick='toggleBox("Output-1980560788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1980560788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1980560788">
+Income tax due verified successfully: 5804.57<br/>
+Balance Tax for the year verified successfully: 5014.27<br/>
+</div>
+</td>
+<td></td>
+<td>65</td>
+<td>tests.testcase2_DefaultProfile@31add175</td></tr>
+<tr>
+<td title='tests.testcase3_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase3_DefaultProfile2<br/>
+<a href="#Output-793808700" onClick='toggleBox("Output-793808700", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-793808700" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-793808700">
+Income tax due verified successfully: 7328.37<br/>
+Balance Tax for the year verified successfully: 3322.3<br/>
+</div>
+</td>
+<td></td>
+<td>54</td>
+<td>tests.testcase3_DefaultProfile2@73d983ea</td></tr>
+<tr>
+<td title='tests.testcase4_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase4_DefaultProfile2<br/>
+<a href="#Output-1658273453" onClick='toggleBox("Output-1658273453", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1658273453" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1658273453">
+Income tax due verified successfully: 9904.1<br/>
+Balance Tax for the year verified successfully: 3984.1<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>tests.testcase4_DefaultProfile2@5ddcc487</td></tr>
+<tr>
+<td title='tests.testcase5_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase5_DefaultProfile2<br/>
+<a href="#Output-750795985" onClick='toggleBox("Output-750795985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-750795985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-750795985">
+Income tax due verified successfully: 0.0<br/>
+Balance Tax for the year verified successfully: 386.84<br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>tests.testcase5_DefaultProfile2@7d446ed1</td></tr>
+<tr>
+<td title='tests.testcase7_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase7_DefaultProfile2<br/>
+<a href="#Output-664969353" onClick='toggleBox("Output-664969353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-664969353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-664969353">
+Income tax due verified successfully: 3910.8<br/>
+Balance Tax for the year verified successfully: 1707.1<br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>tests.testcase7_DefaultProfile2@19c65cdc</td></tr>
+<tr>
+<td title='tests.testcase8_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase8_DefaultProfile2<br/>
+<a href="#Output-1702178880" onClick='toggleBox("Output-1702178880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1702178880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1702178880">
+Income tax due verified successfully: 1609.0<br/>
+Balance Tax for the year verified successfully: 1213.18<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>tests.testcase8_DefaultProfile2@7164ca4c</td></tr>
+<tr>
+<td title='tests.testcase9_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase9_DefaultProfile2<br/>
+<a href="#Output-492045670" onClick='toggleBox("Output-492045670", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-492045670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-492045670">
+Income tax due verified successfully: 298.4<br/>
+Balance Tax for the year verified successfully: 128.75<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>tests.testcase9_DefaultProfile2@62010f5c</td></tr>
+<tr>
+<td title='tests.testcase10_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase10_DefaultProfile2<br/>
+<a href="#Output-1081159401" onClick='toggleBox("Output-1081159401", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1081159401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1081159401">
+Income tax due verified successfully: 4266.6<br/>
+Balance Tax for the year verified successfully: 3306.6<br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>tests.testcase10_DefaultProfile2@6cc558c6</td></tr>
+<tr>
+<td title='tests.testcase11_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase11_DefaultProfile2<br/>
+<a href="#Output-679613617" onClick='toggleBox("Output-679613617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-679613617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-679613617">
+Income tax due verified successfully: 6676.58<br/>
+Balance Tax for the year verified successfully: 4176.58<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>tests.testcase11_DefaultProfile2@492691d7</td></tr>
+<tr>
+<td title='tests.testcase12_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase12_DefaultProfile2<br/>
+<a href="#Output-297031141" onClick='toggleBox("Output-297031141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-297031141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-297031141">
+Income tax due verified successfully: 6587.2<br/>
+Balance Tax for the year verified successfully: 6511.97<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>tests.testcase12_DefaultProfile2@4716be8b</td></tr>
+<tr>
+<td title='tests.testcase13_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase13_DefaultProfile2<br/>
+<a href="#Output-1583816224" onClick='toggleBox("Output-1583816224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1583816224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1583816224">
+Income tax due verified successfully: 53180.49<br/>
+Balance Tax for the year verified successfully: 18197.99<br/>
+</div>
+</td>
+<td></td>
+<td>67</td>
+<td>tests.testcase13_DefaultProfile2@5505ae1a</td></tr>
+<tr>
+<td title='tests.testcase14_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase14_DefaultProfile2<br/>
+<a href="#Output-345893819" onClick='toggleBox("Output-345893819", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-345893819" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-345893819">
+Income tax due verified successfully: 11795.35<br/>
+Balance Tax for the year verified successfully: 5962.55<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>tests.testcase14_DefaultProfile2@1800a575</td></tr>
+<tr>
+<td title='tests.testcase15_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase15_DefaultProfile2<br/>
+<a href="#Output-2189588" onClick='toggleBox("Output-2189588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2189588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2189588">
+Income tax due verified successfully: 9825.35<br/>
+Balance Tax for the year verified successfully: 14449.05<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>tests.testcase15_DefaultProfile2@3abada5a</td></tr>
+<tr>
+<td title='tests.testcase18_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase18_DefaultProfile2<br/>
+<a href="#Output-1408043496" onClick='toggleBox("Output-1408043496", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1408043496" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1408043496">
+Income tax due verified successfully: 8945.6<br/>
+Balance Tax for the year verified successfully: 1109.8<br/>
+</div>
+</td>
+<td></td>
+<td>67</td>
+<td>tests.testcase18_DefaultProfile2@764faa6</td></tr>
+<tr>
+<td title='tests.testcase19_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase19_DefaultProfile2<br/>
+<a href="#Output-180489140" onClick='toggleBox("Output-180489140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-180489140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-180489140">
+Income tax due verified successfully: 1182.6<br/>
+Balance Tax for the year verified successfully: 684.0<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>tests.testcase19_DefaultProfile2@32c726ee</td></tr>
+<tr>
+<td title='tests.testcase20_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase20_DefaultProfile2<br/>
+<a href="#Output-538132628" onClick='toggleBox("Output-538132628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-538132628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-538132628">
+Income tax due verified successfully: 2607.1<br/>
+Balance Tax for the year verified successfully: 2710.35<br/>
+</div>
+</td>
+<td></td>
+<td>67</td>
+<td>tests.testcase20_DefaultProfile2@49ff7d8c</td></tr>
+<tr>
+<td title='tests.testcase21_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase21_DefaultProfile2<br/>
+<a href="#Output-1713453581" onClick='toggleBox("Output-1713453581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1713453581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1713453581">
+Income tax due verified successfully: 13677.15<br/>
+Balance Tax for the year verified successfully: 12570.75<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>tests.testcase21_DefaultProfile2@e70f13a</td></tr>
+<tr>
+<td title='tests.testcase23_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase23_DefaultProfile2<br/>
+<a href="#Output-678654833" onClick='toggleBox("Output-678654833", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-678654833" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-678654833">
+Income tax due verified successfully: 7133.15<br/>
+Balance Tax for the year verified successfully: 7133.15<br/>
+</div>
+</td>
+<td></td>
+<td>65</td>
+<td>tests.testcase23_DefaultProfile2@39a2bb97</td></tr>
+<tr>
+<td title='tests.testcase24_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase24_DefaultProfile2<br/>
+<a href="#Output-309271464" onClick='toggleBox("Output-309271464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-309271464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-309271464">
+Income tax due verified successfully: 6672.03<br/>
+Balance Tax for the year verified successfully: -1741.42<br/>
+</div>
+</td>
+<td></td>
+<td>64</td>
+<td>tests.testcase24_DefaultProfile2@3c7c886c</td></tr>
+<tr>
+<td title='tests.testcase25_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase25_DefaultProfile2<br/>
+<a href="#Output-1762378078" onClick='toggleBox("Output-1762378078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1762378078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1762378078">
+Income tax due verified successfully: 6091.85<br/>
+Balance Tax for the year verified successfully: 5652.55<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>tests.testcase25_DefaultProfile2@21fd5faa</td></tr>
+<tr>
+<td title='tests.testcase27_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase27_DefaultProfile2<br/>
+<a href="#Output-950729555" onClick='toggleBox("Output-950729555", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-950729555" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-950729555">
+Income tax due verified successfully: 6537.87<br/>
+Balance Tax for the year verified successfully: 5835.87<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>tests.testcase27_DefaultProfile2@4ed5eb72</td></tr>
+<tr>
+<td title='tests.testcase28_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase28_DefaultProfile2<br/>
+<a href="#Output-1903051549" onClick='toggleBox("Output-1903051549", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1903051549" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1903051549">
+Income tax due verified successfully: 7277.9<br/>
+Balance Tax for the year verified successfully: 7142.9<br/>
+</div>
+</td>
+<td></td>
+<td>87</td>
+<td>tests.testcase28_DefaultProfile2@2631f68c</td></tr>
+<tr>
+<td title='tests.testcase29_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase29_DefaultProfile2<br/>
+<a href="#Output-1107201631" onClick='toggleBox("Output-1107201631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1107201631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1107201631">
+Income tax due verified successfully: 70599.24<br/>
+Balance Tax for the year verified successfully: 20398.98<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>tests.testcase29_DefaultProfile2@5443d039</td></tr>
+<tr>
+<td title='tests.testcase30_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase30_DefaultProfile2<br/>
+<a href="#Output-72615125" onClick='toggleBox("Output-72615125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-72615125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-72615125">
+Income tax due verified successfully: 78556.05<br/>
+Balance Tax for the year verified successfully: 36433.35<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>tests.testcase30_DefaultProfile2@4b6e2263</td></tr>
+<tr>
+<td title='tests.testcase31_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase31_DefaultProfile2<br/>
+<a href="#Output-556662073" onClick='toggleBox("Output-556662073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-556662073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-556662073">
+Income tax due verified successfully: 0.0<br/>
+Balance Tax for the year verified successfully: -2700.0<br/>
+</div>
+</td>
+<td></td>
+<td>63</td>
+<td>tests.testcase31_DefaultProfile2@1f3f02ee</td></tr>
+<tr>
+<td title='tests.testcase33_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase33_DefaultProfile2<br/>
+<a href="#Output-1821580597" onClick='toggleBox("Output-1821580597", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821580597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821580597">
+Income tax due verified successfully: 323229.69<br/>
+Balance Tax for the year verified successfully: 321218.89<br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>tests.testcase33_DefaultProfile2@6138e79a</td></tr>
+</table><p>
+</body>
+</html>

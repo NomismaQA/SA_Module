@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>TestNG:  123. CT600 -------  VerifyProfitsfromPLReport</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>123. CT600 -------  VerifyProfitsfromPLReport</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 05 19:36:28 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41708 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.scriptsCT600.VerifyProfitsfromPLReport.VerifyProfitsfromPL()'><b>VerifyProfitsfromPL</b><br>Test class: com.nomisma.scriptsCT600.VerifyProfitsfromPLReport<br/>
+<a href="#Output-2133612542" onClick='toggleBox("Output-2133612542", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2133612542" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2133612542">
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]] clicked<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //a[@id='ui-id-2']]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //a[@id='ui-id-2']]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //a[@id='ui-id-2']] clicked<br/>
+Company opened successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //span[@class='side_nav_text'][contains(text(),'Reports')]]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //span[@class='side_nav_text'][contains(text(),'Reports')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //span[@class='side_nav_text'][contains(text(),'Reports')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> link text: Profit & Loss]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> link text: Profit & Loss]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> link text: Profit & Loss] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_ddlFinancialYear]] -> xpath: .//option[normalize-space(.) = "Jan 2017 - Dec 2017"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_ddlFinancialYear]] -> xpath: .//option[normalize-space(.) = "Jan 2017 - Dec 2017"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_ddlFinancialYear]] -> xpath: .//option[normalize-space(.) = "Jan 2017 - Dec 2017"]] clicked<br/>
+Title verified successfully<br/>
+NetPL = £1,010.00<br/>
+NetPL1 = 1010.00<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //span[contains(text(),'Final Accounts')]]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //span[contains(text(),'Final Accounts')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //span[contains(text(),'Final Accounts')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //span[contains(text(),'Settings')]]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //span[contains(text(),'Settings')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //span[contains(text(),'Settings')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //a[contains(text(),'CT Adjustments Settings')]]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //a[contains(text(),'CT Adjustments Settings')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> xpath: //a[contains(text(),'CT Adjustments Settings')]] clicked<br/>
+Title verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cpHeaderRight_btnEdit] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cPH_tbContainer_TabPanel1_tab]<br/>
+After click [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cPH_tbContainer_TabPanel1_tab]<br/>
+WebElement [[ChromeDriver: chrome on XP (db11b992f7a2746e0cf39c07517e328e)] -> id: ctl00_cPH_tbContainer_TabPanel1_tab] clicked<br/>
+Title verified successfully<br/>
+Value verified successfully<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'VerifyProfitsfromPL'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.nomisma.scriptsCT600.VerifyProfitsfromPLReport@2b72cb8a</td></tr>
+</table><p>
+</body>
+</html>

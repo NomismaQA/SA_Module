@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SA 2019-20 HMRC Cases">
+  
+  <test name="MTR Testcase1">
+    <classes>
+      <class name="tests.Testcase1_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase2">
+    <classes>
+      <class name="tests.testcase2_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase3">
+    <classes>
+      <class name="tests.testcase3_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase4">
+    <classes>
+      <class name="tests.testcase4_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase5">
+    <classes>
+      <class name="tests.testcase5_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase6">
+    <classes>
+      <class name="tests.testcase6_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase7">
+    <classes>
+      <class name="tests.testcase7_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase8">
+    <classes>
+      <class name="tests.testcase8_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase9">
+    <classes>
+      <class name="tests.testcase9_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      
+      
+      <test name="MTR Testcase11">
+    <classes>
+      <class name="tests.testcase11_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase12">
+    <classes>
+      <class name="tests.testcase12_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase13">
+    <classes>
+      <class name="tests.testcase13_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase14">
+    <classes>
+      <class name="tests.testcase14_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase15">
+    <classes>
+      <class name="tests.testcase15_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase16">
+    <classes>
+      <class name="tests.testcase16_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase17">
+    <classes>
+      <class name="tests.testcase17_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase18">
+    <classes>
+      <class name="tests.testcase18_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase19">
+    <classes>
+      <class name="tests.testcase19_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase20">
+    <classes>
+      <class name="tests.testcase20_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase21">
+    <classes>
+      <class name="tests.testcase21_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase22">
+    <classes>
+      <class name="tests.testcase22_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase23">
+    <classes>
+      <class name="tests.Testcase1_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase25">
+    <classes>
+      <class name="tests.testcase25_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase26">
+    <classes>
+      <class name="tests.testcase26_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase27">
+    <classes>
+      <class name="tests.testcase27_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase28">
+    <classes>
+      <class name="tests.testcase28_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase29">
+    <classes>
+      <class name="tests.testcase29_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase30">
+    <classes>
+      <class name="tests.testcase30_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase33">
+    <classes>
+      <class name="tests.testcase33_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase34">
+    <classes>
+      <class name="tests.testcase34_DefaultProfile2"/>
+      </classes>
+      </test>
+      <test name="MTR Testcase35">
+      
+    <classes>
+      <class name="tests.testcase35_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase36">
+    <classes>
+      <class name="tests.Ttestcase36_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase37">
+    <classes>
+      <class name="tests.testcase37_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase38">
+    <classes>
+      <class name="tests.testcase38_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase39">
+    <classes>
+      <class name="tests.testcase39_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase40">
+    <classes>
+      <class name="tests.testcase40_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase41">
+    <classes>
+      <class name="tests.testcase41_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase42">
+    <classes>
+      <class name="tests.testcase42_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase43">
+    <classes>
+      <class name="tests.testcase43_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase44">
+    <classes>
+      <class name="tests.testcase44_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase45">
+    <classes>
+      <class name="tests.testcase45_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase46">
+    <classes>
+      <class name="tests.testcase46_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase47">
+    <classes>
+      <class name="tests.testcase47_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase48">
+    <classes>
+      <class name="tests.testcase48_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase49">
+    <classes>
+      <class name="tests.testcase49_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase50">
+    <classes>
+      <class name="tests.testcase50_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="MTR Testcase51">
+    <classes>
+      <class name="tests.testcase51_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard client search with no selection and validation">
+    <classes>
+      <class name="tests.clientsearchwithvalidation_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      
+      
+      <test name="SA Dashboard client search and quick jump verification">
+      <classes>
+      <class name="tests.clientsearchwithquickjumpverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire frame with no client selection and validation verification ">
+      <classes>
+      <class name="tests.Taxquestionnairewithoutselectingclient_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire frame with client selection,no subject of email and validation verification ">
+      <classes>
+      <class name="tests.taxquestionnairewithoutmessagebody_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire frame with client selection,no message of email and validation verification ">
+      <classes>
+      <class name="tests.taxquestionnairewithblanksubject_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire reminder frame without  client selection and validation verification ">
+      <classes>
+      <class name="tests.questionnairereminderwithoutselectingclient_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire reminder frame with client selection,no subject of email and validation verification ">
+      <classes>
+      <class name="tests.questionnairereminderwithoutsubject_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard tax questionnaire reminder frame with client selection,no message of email and validation verification ">
+      <classes>
+      <class name="tests.questionnairereminderwithoutmessagebody_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-accountant search and verification of records as per search ">
+      <classes>
+      <class name="tests.assignedaccountantcountverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+     <test name="SA Dashboard-verification of work status: NOt STarted wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.notstartedworkstatusverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of work status:INprogress wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.inprogressworkstatuisverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of work status:Awaiting review count wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.awaitingrevieworkstatusverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      <test name="SA Dashboard-verification of work status:tOtal count wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.accountanttotalverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of Tax year wise search  ">
+      <classes>
+      <class name="tests.taxyearsearch_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:questionnaire sent wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.questionnairesentverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:Response recevied wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.responsereceivedverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      <test name="SA Dashboard-verification of work status:Queries sent wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.queriessentworkstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of work status:sent for approvalt wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.sentforapprovalworkstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:to be filed wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.tobefiledworkstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+       <test name="SA Dashboard-verification of work status:not to submit wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.nottosubmitworksttausverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      <test name="SA Dashboard-verification of work status:approved wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.approvedstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:filed wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.filedstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:filed status count of progress bar wrt to accountant ">
+      <classes>
+      <class name="tests.filedstatusprogressbarverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of work status:total client count of progress bar wrt to accountant ">
+      <classes>
+      <class name="tests.totalclientlcountprogressbarverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-Tax questionnaire at accountant level and verification of validation with no selection of client ">
+      <classes>
+      <class name="tests.taxquestionnaireatacclevelwithoutclientselection_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-Tax questionnaire at accountant level and verification of validation with client selection but no message body of an email ">
+      <classes>
+      <class name="tests.taxquestionnaireatacclevelwithoutmessage_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+       <test name="SA Dashboard-Tax questionnaire at accountant level and verification of validation with client selection but no subject of an email ">
+      <classes>
+      <class name="tests.taxquestionnaireacclevelwithoutsubjectofemail_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-Tax questionnaire reminder at accountant level and verification of validation with no  client selection  ">
+      <classes>
+      <class name="tests.reminderatacclevelwithoutclientselection_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-Tax questionnaire reminder at accountant level and verification of validation with client selection but no message body of an email  ">
+      <classes>
+      <class name="tests.reminderatacclevelwithoutmessagebody_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-Tax questionnaire reminder at accountant level and verification of validation with client selection but no subject of an email  ">
+      <classes>
+      <class name="tests.reminderatacclevelwithoutsubject_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      <test name="SA Dashboard-Aged approvals count verification on progress bar ">
+      <classes>
+      <class name="tests.progressbaragedapprovalsverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      
+      <test name="SA Dashboard-Aged questionnaire count verification on progress bar ">
+      <classes>
+      <class name="tests.progressbaragedquestionnaireverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-TOtal count match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.totalcountverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-TOtal count:not started match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.NotstartedTotalcountverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-TOtal count:questionnaire sent match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.totalcountquestionnairesentverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-TOtal count:Response received match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.TotalcountResponsereceivedverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+       <test name="SA Dashboard-TOtal count:iN Progress match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.TOtalcountofinprogressstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-TOtal count:queries sent match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.Totalcountofqueriessent_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-TOtal count:awaiting review match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.totalcountofawaitingreviewverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-TOtal count:Sent for approval match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.Totalcountofsentforapprovalverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-TOtal count:to be filed status match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.totalcountverificationoftobefiledstatus_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+       <test name="SA Dashboard-TOtal count:Not to submit status match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.totalcountverificationofnottosubmitstatus_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-TOtal count:Approved status match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.totalcountverificationofapprovedstatus_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-TOtal count:filed status match wrt to all accountants in Accountant status:SHow all ">
+      <classes>
+      <class name="tests.totalcountverificationoffiledstatus_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-Total client count comparison of 2 tax years ">
+      <classes>
+      <class name="tests.totalclientcomparison_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-Filed client count comparison of 2 tax years ">
+      <classes>
+      <class name="tests.Filedclientscomparison_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      
+      
+      <!-- Test -->
+</suite> <!-- Functional Suite -->
+
+   
+      

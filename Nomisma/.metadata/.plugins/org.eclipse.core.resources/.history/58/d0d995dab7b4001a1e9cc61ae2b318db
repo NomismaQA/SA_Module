@@ -1,0 +1,454 @@
+package pages;
+
+import pages.BasePage;
+
+import java.util.ArrayList;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import utilities.reports.ExtentReportManager;
+import utilities.testmodeller.TestModellerLogger;
+import ie.curiositysoftware.testmodeller.TestModellerModule;
+
+// http://newspace.cloud.testinsights.io/app/#!/module-collection/guid/fa4aeb53-9ed6-43a8-88c4-386e3b026de7
+@TestModellerModule(guid = "fa4aeb53-9ed6-43a8-88c4-386e3b026de7")
+public class custom_test extends BasePage
+{
+	public custom_test (WebDriver driver)
+	{
+		super(driver);
+	}
+
+
+	
+	private By ctl00cPHloginElem = By.xpath("//*[@id=\"ctl00_cPH_login\"]");
+
+	private By ctl00cPHpassElem = By.xpath("//*[@id=\"ctl00_cPH_pass\"]");
+
+	private By LoginElem = By.xpath("//*[@id=\"ctl00_cPH_btnLogin\"]");
+
+	private By ctl00cPHFiltertxtAgentNameElem = By.xpath("//*[@id=\"ctl00_cPHFilter_txtAgentName\"]");
+
+	private By SearchagentElem = By.xpath("//*[@id=\"ctl00_cPHFilter_btnSearch\"]");
+
+	private By _Deepika_Elem = By.xpath("/html/body/form/main/div/div[3]/div/div[3]/div/div/table/tbody/tr[2]/td[1]");
+
+	private By Self_AssessmentElem = By.xpath("//LI[@id='selfAssessmentMenu']/A/SPAN[@class='side_nav_text']");
+
+	private By Client_ListElem = By.xpath("/html/body/form/main/div[4]/div[2]/ul/li[4]/ul/li[3]/a");
+
+	private By ctl00ctl00ParentContentcPHFiltertxtFirstNameElem = By.xpath("//*[@id=\"ctl00_ctl00_ParentContent_cPHFilter_txtFirstName\"]");
+
+	private By SearchElem = By.xpath("//*[@id=\"ctl00_ctl00_ParentContent_cPHFilter_btnSearch\"]");
+
+	private By _Test_case_Elem = By.xpath("/html/body/form/main/div[4]/div[3]/div/div[3]/table/tbody/tr[2]/td[2]/a");
+
+	private By Additional_InformationElem = By.xpath("/html/body/form/main/div[3]/div[3]/div[2]/div[3]/table/tbody/tr[6]/td[3]/a");
+
+	private By EditElem = By.xpath("//A[@id='ctl00_cpHeaderRight_btnEditIncome']/SPAN");
+
+	private By ctl00cPHtxtAmountSavedExceedingAnnualAllowanceElem = By.xpath("//*[@id=\"ctl00_cPH_txtAmountSavedExceedingAnnualAllowance\"]");
+
+	private By SaveElem = By.xpath("//*[@id=\"ctl00_cPH_btnSaveIncome\"]");
+
+
+	
+	public void GoToUrl()
+	{
+		m_Driver.get("http://sandbox.nomismasolution.co.uk/ssoui/Signin.aspx?token=364e92a0-71e8-46e8-b928-ce0b67c2f2e5");
+		
+	
+		ExtentReportManager.passStepWithScreenshot(m_Driver, "Go to URL", "Go to URL - http://sandbox.nomismasolution.co.uk/AgentUI/SAList.aspx?UserCode=0&UTRNo=&Status=-1&FirstName=test&LastName=&AcMngrCode=0&SATaxYearCode=7");
+
+		TestModellerLogger.PassStepWithScreenshot(m_Driver, "Go to URL", "Go to URL - http://sandbox.nomismasolution.co.uk/AgentUI/SAList.aspx?UserCode=0&UTRNo=&Status=-1&FirstName=test&LastName=&AcMngrCode=0&SATaxYearCode=7");
+	}
+
+     
+	/**
+ 	 * AssertUrl
+     * @name AssertUrl
+     */
+   public void AssertUrl()
+    {
+       
+    }
+
+      
+	/**
+ 	 * Enter ctl00$cPH$login
+     * @name Enter ctl00$cPH$login
+     */
+ 	public void Enter_ctl00cPHlogin(String ctl00cPHlogin)
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(ctl00cPHloginElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHlogin", "Enter_ctl00cPHlogin failed. Unable to locate object: " + ctl00cPHloginElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHlogin", "Enter_ctl00cPHlogin failed. Unable to locate object: " + ctl00cPHloginElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHloginElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHlogin);
+ 		
+
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHlogin " + ctl00cPHlogin);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHlogin " + ctl00cPHlogin);
+ 	}
+      
+	/**
+ 	 * Enter ctl00$cPH$pass
+     * @name Enter ctl00$cPH$pass
+     */
+ 	public void Enter_ctl00cPHpass(String ctl00cPHpass)
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(ctl00cPHpassElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHpass", "Enter_ctl00cPHpass failed. Unable to locate object: " + ctl00cPHpassElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHpass", "Enter_ctl00cPHpass failed. Unable to locate object: " + ctl00cPHpassElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHpassElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHpass);
+ 		
+
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHpass " + ctl00cPHpass);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHpass " + ctl00cPHpass);
+ 	}
+     
+	/**
+ 	 * Click Login
+     * @name Click Login
+     */
+	public void Click_Login()
+	{
+        
+		WebElement elem = getWebElement(LoginElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Login", "Click_Login failed. Unable to locate object: " + LoginElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Login", "Click_Login failed. Unable to locate object: " + LoginElem.toString());
+
+			Assert.fail("Unable to locate object: " + LoginElem.toString());
+        }
+
+		elem.click();
+        
+
+		ExtentReportManager.passStep(m_Driver, "Click_Login");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Login");
+	}
+      
+	/**
+ 	 * Enter ctl00$cPHFilter$txtAgentName
+     * @name Enter ctl00$cPHFilter$txtAgentName
+     */
+ 	public void Enter_ctl00cPHFiltertxtAgentName(String ctl00cPHFiltertxtAgentName)
+ 	{
+ 	
+ 		WebElement elem = getWebElement(ctl00cPHFiltertxtAgentNameElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHFiltertxtAgentName", "Enter_ctl00cPHFiltertxtAgentName failed. Unable to locate object: " + ctl00cPHFiltertxtAgentNameElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHFiltertxtAgentName", "Enter_ctl00cPHFiltertxtAgentName failed. Unable to locate object: " + ctl00cPHFiltertxtAgentNameElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHFiltertxtAgentNameElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHFiltertxtAgentName);
+ 		
+
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHFiltertxtAgentName " + ctl00cPHFiltertxtAgentName);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHFiltertxtAgentName " + ctl00cPHFiltertxtAgentName);
+ 	}
+     
+	/**
+ 	 * Click Searchagent
+     * @name Click Searchagent
+     */
+	public void Click_Searchagent()
+	{
+        
+		WebElement elem = getWebElement(SearchagentElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Searchagent", "Click_Searchagent failed. Unable to locate object: " + SearchagentElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Searchagent", "Click_Searchagent failed. Unable to locate object: " + SearchagentElem.toString());
+
+			Assert.fail("Unable to locate object: " + SearchagentElem.toString());
+        }
+
+		elem.click();
+        
+
+		ExtentReportManager.passStep(m_Driver, "Click_Searchagent");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Searchagent");
+	}
+     
+	/**
+ 	 * Click  Deepika 
+     * @name Click  Deepika 
+     */
+	public void Click__Deepika_()
+	{
+        
+		WebElement elem = getWebElement(_Deepika_Elem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__Deepika_", "Click__Deepika_ failed. Unable to locate object: " + _Deepika_Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__Deepika_", "Click__Deepika_ failed. Unable to locate object: " + _Deepika_Elem.toString());
+
+			Assert.fail("Unable to locate object: " + _Deepika_Elem.toString());
+        }
+
+		elem.click();
+        
+		m_Driver.get("http://sandbox.nomismasolution.co.uk/AgentUI/Default.aspx?p=true");
+		ExtentReportManager.passStep(m_Driver, "Click__Deepika_");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__Deepika_");
+	}
+	
+	
+     
+	/**
+ 	 * Click Self Assessment
+     * @name Click Self Assessment
+     */
+	public void Click_Self_Assessment()
+	{
+		
+	 	String Url= m_Driver.getCurrentUrl();
+		WebElement elem = getWebElement(Self_AssessmentElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Self_Assessment", "Click_Self_Assessment failed. Unable to locate object: " + Self_AssessmentElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Self_Assessment", "Click_Self_Assessment failed. Unable to locate object: " + Self_AssessmentElem.toString());
+
+			Assert.fail("Unable to locate object: " + Self_AssessmentElem.toString());
+        }
+
+		elem.click();
+        
+
+		ExtentReportManager.passStep(m_Driver, "Click_Self_Assessment");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Self_Assessment");
+	}
+     
+	/**
+ 	 * Click Client List
+     * @name Click Client List
+     */
+	public void Click_Client_List()
+	{
+        
+		WebElement elem = getWebElement(Client_ListElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Client_List", "Click_Client_List failed. Unable to locate object: " + Client_ListElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Client_List", "Click_Client_List failed. Unable to locate object: " + Client_ListElem.toString());
+
+			Assert.fail("Unable to locate object: " + Client_ListElem.toString());
+        }
+
+		elem.click();
+        
+
+		ExtentReportManager.passStep(m_Driver, "Click_Client_List");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Client_List");
+	}
+      
+	/**
+ 	 * Enter ctl00$ctl00$ParentContent$cPHFilter$txtFirstName
+     * @name Enter ctl00$ctl00$ParentContent$cPHFilter$txtFirstName
+     */
+ 	public void Enter_ctl00ctl00ParentContentcPHFiltertxtFirstName(String ctl00ctl00ParentContentcPHFiltertxtFirstName)
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(ctl00ctl00ParentContentcPHFiltertxtFirstNameElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00ctl00ParentContentcPHFiltertxtFirstName", "Enter_ctl00ctl00ParentContentcPHFiltertxtFirstName failed. Unable to locate object: " + ctl00ctl00ParentContentcPHFiltertxtFirstNameElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00ctl00ParentContentcPHFiltertxtFirstName", "Enter_ctl00ctl00ParentContentcPHFiltertxtFirstName failed. Unable to locate object: " + ctl00ctl00ParentContentcPHFiltertxtFirstNameElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00ctl00ParentContentcPHFiltertxtFirstNameElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00ctl00ParentContentcPHFiltertxtFirstName);
+ 		
+
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00ctl00ParentContentcPHFiltertxtFirstName " + ctl00ctl00ParentContentcPHFiltertxtFirstName);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00ctl00ParentContentcPHFiltertxtFirstName " + ctl00ctl00ParentContentcPHFiltertxtFirstName);
+ 	}
+     
+	/**
+ 	 * Click Search
+     * @name Click Search
+     */
+	public void Click_Search()
+	{
+        
+		
+	}
+     
+	/**
+ 	 * Click  Test case .
+     * @name Click  Test case .
+     */
+	public void Click__Test_case_()
+	{
+        
+		WebElement elem = getWebElement(_Test_case_Elem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click__Test_case_", "Click__Test_case_ failed. Unable to locate object: " + _Test_case_Elem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click__Test_case_", "Click__Test_case_ failed. Unable to locate object: " + _Test_case_Elem.toString());
+
+			Assert.fail("Unable to locate object: " + _Test_case_Elem.toString());
+        }
+
+		elem.click();
+        
+
+		ExtentReportManager.passStep(m_Driver, "Click__Test_case_");
+
+		TestModellerLogger.PassStep(m_Driver, "Click__Test_case_");
+	}
+     
+	/**
+ 	 * Click Additional Information
+     * @name Click Additional Information
+     */
+	public void Click_Additional_Information()
+	{
+		m_Driver.get("http://sandbox.nomismasolution.co.uk/SAUI/Default.aspx?SAPersonCode=ax+Ijqqxne/ue0MZWcdg6A==&SATaxYearCode=7");
+		WebElement elem = getWebElement(Additional_InformationElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Additional_Information", "Click_Additional_Information failed. Unable to locate object: " + Additional_InformationElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Additional_Information", "Click_Additional_Information failed. Unable to locate object: " + Additional_InformationElem.toString());
+
+			Assert.fail("Unable to locate object: " + Additional_InformationElem.toString());
+        }
+
+		elem.click();
+        
+
+		ExtentReportManager.passStep(m_Driver, "Click_Additional_Information");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Additional_Information");
+	}
+     
+	/**
+ 	 * Click Edit
+     * @name Click Edit
+     */
+	public void Click_Edit()
+	{
+        
+		WebElement elem = getWebElement(EditElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Edit", "Click_Edit failed. Unable to locate object: " + EditElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Edit", "Click_Edit failed. Unable to locate object: " + EditElem.toString());
+
+			Assert.fail("Unable to locate object: " + EditElem.toString());
+        }
+
+		elem.click();
+        
+
+		ExtentReportManager.passStep(m_Driver, "Click_Edit");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Edit");
+	}
+      
+	/**
+ 	 * Enter ctl00$cPH$txtAmountSavedExceedingAnnualAllowance
+     * @name Enter ctl00$cPH$txtAmountSavedExceedingAnnualAllowance
+     */
+ 	public void Enter_ctl00cPHtxtAmountSavedExceedingAnnualAllowance(String ctl00cPHtxtAmountSavedExceedingAnnualAllowance)
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(ctl00cPHtxtAmountSavedExceedingAnnualAllowanceElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_ctl00cPHtxtAmountSavedExceedingAnnualAllowance", "Enter_ctl00cPHtxtAmountSavedExceedingAnnualAllowance failed. Unable to locate object: " + ctl00cPHtxtAmountSavedExceedingAnnualAllowanceElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_ctl00cPHtxtAmountSavedExceedingAnnualAllowance", "Enter_ctl00cPHtxtAmountSavedExceedingAnnualAllowance failed. Unable to locate object: " + ctl00cPHtxtAmountSavedExceedingAnnualAllowanceElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + ctl00cPHtxtAmountSavedExceedingAnnualAllowanceElem.toString());
+         }
+
+ 		elem.sendKeys(ctl00cPHtxtAmountSavedExceedingAnnualAllowance);
+ 		
+
+  		ExtentReportManager.passStep(m_Driver, "Enter_ctl00cPHtxtAmountSavedExceedingAnnualAllowance " + ctl00cPHtxtAmountSavedExceedingAnnualAllowance);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_ctl00cPHtxtAmountSavedExceedingAnnualAllowance " + ctl00cPHtxtAmountSavedExceedingAnnualAllowance);
+ 	}
+     
+	/**
+ 	 * Click Save
+     * @name Click Save
+     */
+	public void Click_Save()
+	{
+		JavascriptExecutor js ;
+		js= ( JavascriptExecutor) m_Driver;
+		
+		String Url= m_Driver.getCurrentUrl();
+		WebElement elem = getWebElement(SaveElem);
+		js.executeScript("arguments[0].scrollIntoView();", SaveElem);
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_Save", "Click_Save failed. Unable to locate object: " + SaveElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_Save", "Click_Save failed. Unable to locate object: " + SaveElem.toString());
+
+			Assert.fail("Unable to locate object: " + SaveElem.toString());
+        }
+
+		elem.click();
+        
+
+		ExtentReportManager.passStep(m_Driver, "Click_Save");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_Save");
+	}
+
+
+	public void Switch_Tab() 
+	{
+		// TODO Auto-generated method stub
+	}
+	}

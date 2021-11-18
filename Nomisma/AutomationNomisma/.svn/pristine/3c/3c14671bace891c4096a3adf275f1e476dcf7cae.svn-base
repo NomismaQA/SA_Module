@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <test name="2. AddEmployeeLeavesTest(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.java.com.nomisma.scriptspayroll.ImportEmployee">
+        <methods>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.ImportEmployee -->
+      <class name="test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest">
+        <methods>
+          <include name="addSPPLeavesTest"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.RunPayrollTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.RunPayrollTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered -->
+    </classes>
+  </test> <!-- 2. AddEmployeeLeavesTest(failed)(failed) -->
+  <test name="7. DeRegistrationCompanyTest(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.java.com.nomisma.scriptspayroll.ImportEmployee">
+        <methods>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.ImportEmployee -->
+      <class name="test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest">
+        <methods>
+          <include name="deRegisterationTest"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.RunPayrollTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.RunPayrollTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered -->
+    </classes>
+  </test> <!-- 7. DeRegistrationCompanyTest(failed)(failed) -->
+  <test name="15. LinkedWithAccountsTest(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.java.com.nomisma.scriptspayroll.ImportEmployee">
+        <methods>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.ImportEmployee -->
+      <class name="test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.RunPayrollTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.RunPayrollTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest">
+        <methods>
+          <include name="lnkWithAccountsTest"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered -->
+    </classes>
+  </test> <!-- 15. LinkedWithAccountsTest(failed)(failed) -->
+  <test name="17. RunPayrollTest(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.java.com.nomisma.scriptspayroll.ImportEmployee">
+        <methods>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.ImportEmployee -->
+      <class name="test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.RunPayrollTest">
+        <methods>
+          <include name="runPayrollTest"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.RunPayrollTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered -->
+    </classes>
+  </test> <!-- 17. RunPayrollTest(failed)(failed) -->
+  <test name="45. P32ReportCISSuffered(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.java.com.nomisma.scriptspayroll.ImportEmployee">
+        <methods>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+          <include name="configBeforeTest"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.ImportEmployee -->
+      <class name="test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.AddEmployeeLeavesTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.DeRegistrationCompanyTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.RunPayrollTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.RunPayrollTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.LinkedWithAccountsTest -->
+      <class name="test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="P32Report"/>
+        </methods>
+      </class> <!-- test.java.com.nomisma.scriptspayroll.P32ReportCISSuffered -->
+    </classes>
+  </test> <!-- 45. P32ReportCISSuffered(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

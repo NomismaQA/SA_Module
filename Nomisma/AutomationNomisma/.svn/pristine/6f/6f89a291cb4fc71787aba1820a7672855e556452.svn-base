@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PortalValidation">
+  <test name="SmokeScenario" verbose="10">
+    <classes>
+      	<!-- <class name="com.nomisma.accountsbookkeepingscripts.AccountsUITestCases"></class>--> 
+    	 
+   	<!--	<class name="com.nomisma.accountsbookkeepingscripts.BusinessTestCase"></class> -->
+   		
+   <!--	<class name="com.nomisma.accountsbookkeepingscripts.VerifyLoginAndAgentTestCase"/> -->
+      
+    <!--	  <class name="com.nomisma.accountsbookkeepingscripts.SupplierTestCase"></class> -->
+      
+      <!-- <class name="com.nomisma.accountsbookkeepingscripts.ExpensesTestCases"></class> -->
+      
+       <!--<class name="com.nomisma.accountsbookkeepingscripts.BankCreditCardTestCases"></class>-->
+      
+     
+      <!-- <class name="com.nomisma.accountsbookkeepingscripts.ReconcilationTestCases"></class>-->  
+      
+    <!--  <class name="com.nomisma.accountsbookkeepingscripts.ReportsTestCases"></class>-->
+     
+    <!-- <class name="com.nomisma.accountsbookkeepingscripts.BalanceSheetTestCases"></class>-->
+    
+      <!-- <class name="com.nomisma.accountsbookkeepingscripts.ProfitAndLossTestCase"></class>-->
+       
+     <!--   <class name="com.nomisma.accountsbookkeepingscripts.PreviousProfitLossComparisionTestCases"></class>-->
+     
+     <!-- <class name="com.nomisma.accountsbookkeepingscripts.TrialBalanceTestCases"></class>-->
+     
+     <!-- <class name="com.nomisma.accountsbookkeepingscripts.SupplierDetailTestCases"></class>-->
+      
+    <!--  <class name="com.nomisma.accountsbookkeepingscripts.LedgerBookTestCases"></class>--> 
+    <!-- <class name="com.nomisma.accountsbookkeepingscripts.LogoutTestCase"></class>-->
+       <!--<class name="com.nomisma.accountsbookkeepingscripts.SalesCreditNoteTestcase"></class>-->
+         <!--<class name="com.nomisma.accountsbookkeepingscripts.SalesAddBatchTestCase"></class>-->
+      <!-- <class name="com.nomisma.accountsbookkeepingscripts.CustomerTestCase"></class>-->
+       <!--  <class name="com.nomisma.accountsbookkeepingscripts.EditInvoiceTestCase"></class>-->
+        <!--<class name="com.nomisma.accountsbookkeepingscripts.DeleteInvoice"></class>-->
+       <!--  <class name="com.nomisma.accountsbookkeepingscripts.SalesRepeatInvoiceTestCase"></class>-->
+       <!--  <class name="com.nomisma.accountsbookkeepingscripts.Expenses_AddDebitNoteTestCases"></class> -->
+      <!-- <class name="com.nomisma.accountsbookkeepingscripts.Expenses_AddBatchTestCases"></class> -->
+    <class name="com.nomisma.accountsbookkeepingscripts.Expenses_AddVATOnly"></class>
+    
+     </classes>
+  </test> <!-- SmokeScenario -->
+</suite> <!-- PortalValidation -->

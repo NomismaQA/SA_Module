@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>TestNG:  Testcase 20-Tax due amount on client list when work status is filed</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testcase 20-Tax due amount on client list when work status is filed</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 15 13:31:49 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>68 seconds (68388 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.testcase32_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase32_DefaultProfile2</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&quot;my_table&quot;]/tbody/tr[5]/td[3]/a
+	at pages.Testcase32new.Click_SA110_Underpaid_Tax(Testcase32new.java:1348)
+	at tests.testcase32_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase32_DefaultProfile2.java:214)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace404152906", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace404152906'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&quot;my_table&quot;]/tbody/tr[5]/td[3]/a
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Testcase32new.Click_SA110_Underpaid_Tax(Testcase32new.java:1348)
+	at tests.testcase32_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg(testcase32_DefaultProfile2.java:214)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>64</td>
+<td>tests.testcase32_DefaultProfile2@36b4091c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.testcase40_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase40_DefaultProfile2<br/>
+<a href="#Output-1771687225" onClick='toggleBox("Output-1771687225", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1771687225" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1771687225">
+Tax due at client list and client dashboard verified successfully when work status is failed: 3803.6<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>tests.testcase40_DefaultProfile2@44c73c26</td></tr>
+<tr>
+<td title='tests.testcase3_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase3_DefaultProfile2<br/>
+<a href="#Output-577682023" onClick='toggleBox("Output-577682023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-577682023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-577682023">
+Tax due at client list and client dashboard verified successfully when work status is In progress: 3803.6<br/>
+</div>
+</td>
+<td></td>
+<td>56</td>
+<td>tests.testcase3_DefaultProfile2@f107c50</td></tr>
+<tr>
+<td title='tests.testcase30_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase30_DefaultProfile2<br/>
+<a href="#Output-277697988" onClick='toggleBox("Output-277697988", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-277697988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-277697988">
+Tax due at client list and client dashboard verified successfully when work status is submitted: 3803.6<br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>tests.testcase30_DefaultProfile2@ae3540e</td></tr>
+<tr>
+<td title='tests.testcase31_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase31_DefaultProfile2<br/>
+<a href="#Output-413946856" onClick='toggleBox("Output-413946856", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-413946856" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-413946856">
+Tax due at client list and client dashboard verified successfully when work status is Approved: 3803.6<br/>
+</div>
+</td>
+<td></td>
+<td>61</td>
+<td>tests.testcase31_DefaultProfile2@73d983ea</td></tr>
+<tr>
+<td title='tests.testcase33_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase33_DefaultProfile2<br/>
+<a href="#Output-203409962" onClick='toggleBox("Output-203409962", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-203409962" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-203409962">
+Tax due at client list and client dashboard verified successfully when work status is Not to submit: 3803.6<br/>
+</div>
+</td>
+<td></td>
+<td>65</td>
+<td>tests.testcase33_DefaultProfile2@1f53a5dc</td></tr>
+<tr>
+<td title='tests.testcase34_DefaultProfile2.GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg()'><b>GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg</b><br>Test class: tests.testcase34_DefaultProfile2<br/>
+<a href="#Output-922547904" onClick='toggleBox("Output-922547904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-922547904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-922547904">
+Tax due at client list and client dashboard verified successfully when work status is filed: 3803.6<br/>
+</div>
+</td>
+<td></td>
+<td>62</td>
+<td>tests.testcase34_DefaultProfile2@19c65cdc</td></tr>
+</table><p>
+</body>
+</html>

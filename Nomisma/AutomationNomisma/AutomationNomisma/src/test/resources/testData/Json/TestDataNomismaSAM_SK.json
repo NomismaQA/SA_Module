@@ -1,0 +1,288 @@
+[	
+	{
+		"TestCaseId": "TestCase241",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase241",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "SandeepAgent",
+		"B_name1": "Bank of America",
+		"B_name2": "Bank of America",
+		"Account_no": "31926818", 
+        "INC_2": "21005.00",
+		"Cname": "NoMismaSolution",
+		"Desc": "Description",
+		"d_amt": "16000.00",
+		"LumSum5": "15000.00",
+		"LumSum6": "3000.00",
+		"Emp_name": "Canvas Private LTD",
+		"Emp_1": "14000.00",
+		"Emp_2": "300.00",
+		"Emp_4": "477/WA4671"
+
+    }
+		]
+	},
+	
+	{
+	"TestCaseId": "TestCase244",
+	"Keys": [
+	{
+		"TestCase_ID": "TestCase244",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "SandeepAgent",
+		"sData4": "Bank of scotland",
+		"sData5": "345467876567",
+		"sData6": "453.00",
+		"sData7": "151.00",
+		"sData8": "49849.00",
+		"sData9": "12439.60",
+		"sData10": "1073.00"
+		
+    }
+	]
+},
+    {
+	"TestCaseId": "TestCase245",
+	"Keys": [
+	{
+		"TestCase_ID": "TestCase245",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "SandeepAgent",
+		"sData4": "Bank of Scotland HOBS",
+		"sData5": "345467876567",
+		"sData6": "18.00",
+		"sData7": "98038.00",
+		"sData8": "1073.00",
+		"sData9": "325/300",
+		"sData10": "1000050020",
+	    "sData11": "Partnership11",
+		"sData12": "06/04/2019",
+		"sData13": "29/11/2019",
+		"sData14": "-70250",
+		"sData15": "70250",
+		"sData16": "50000.00",
+		"sData17": "20616",
+		"sData18": "1",
+		"sData19": "3300",
+		"sData20": "128.00",
+		"sData21": "340.00",
+		"sData22": "104.00",
+		"sData23": "177.00"
+	
+		
+    }
+	]
+}
+,
+{
+		"TestCaseId": "TestCase242",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase242",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "SandeepAgent",
+		"sData4": "Bank of Scotland HOBS",
+		"sData5": "345467876567",
+		"sData6": "20000.00",
+		"sData7": "10000.00",
+		"sData8": "10000.00",
+		"sData9": "2000.00",
+		"sData10": "financier",
+	    "sData11": "10000.00",
+		"sData12": "2000.00"
+		
+    }
+		]
+	},
+	
+  {
+		"TestCaseId": "TestCase81",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase81",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "SandeepAgent",
+		"sData4": "Bank of scotland",
+		"sData5": "345467876567",
+		"sData6": "321.00",
+		"sData7": "1625.00",
+		"sData8": "128.00",
+		"sData9": "2092.00",
+		"sData10": "418.40",
+	    "sData11": "2400.00"
+		
+    }
+		]
+	},
+	{
+		"TestCaseId": "TestCase81",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase81",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "SandeepAgent",
+		"sData4": "Bank of scotland",
+		"sData5": "345467876567",
+		"sData6": "321.00",
+		"sData7": "1625.00",
+		"sData8": "128.00",
+		"sData9": "2092.00",
+		"sData10": "418.40",
+	    "sData11": "2400.00"
+		
+    }
+		]
+	},
+	{
+	"TestCaseId": "TestCase89",
+	"Keys": [
+	{
+		"TestCase_ID": "TestCase89",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "SandeepAgent",
+		"sData4": "Matt",
+		"sData5": "Barbarena",
+		"sData6": "AA999999A",
+		"sData7": "29/03/1970",
+		"sData8": "12/03/1993",
+		"sData9": "18500.00",
+		"sData10": "1320.00",
+	    "sData11": "525/236",
+		"sData12": "600.00",
+		"sData13": "150.00",
+		"sData14": "85.00",
+		"sData15": "florist",
+		"sData16": "06/04/2019",
+		"sData17": "05/04/2020",
+		"sData18": "27643.00",
+		"sData19": "1200.00",
+		"sData20": "5200.00",
+	    "sData21": "3900.00",
+		"sData22": "7320.00",
+		"sData23": "1109.00",
+		"sData24": "4200.00",
+		"sData25": "13642.00",
+		"sData26": "1602.00",
+		"sData27": "38173.00",
+		"sData28": "10530.00",
+		"sData29": "1260.00",
+		"sData30": "1340.00",
+		"sData31": "10450.00",
+		"sData32": "10450.00"
+	
+		       
+    }
+	]
+},
+{
+	"TestCaseId": "TestCase102",
+	"Keys": [
+	{
+		"TestCase_ID": "TestCase102",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "SandeepAgent",
+		"sData4": "UBS bank",
+		"sData5": "345467876567",
+		"sData6": "56447",
+		"sData7": "77283",
+		"sData8": "165",
+		"sData9": "14.9",
+		"sData10": "400912",
+	    "sData11": "15334",
+		"sData12": "6133.6",
+		"sData13": "455/225",
+		"sData14": "320347",
+		"sData15": "129156.15",
+		"sData16": "600",
+		"sData17": "150",
+		"sData18": "85"
+		
+ }
+	]
+},
+{
+	"TestCaseId": "TestCase112",
+	"Keys": [
+	{
+		"TestCase_ID": "TestCase112",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "SandeepAgent",
+		"sData4": "Co-operative Bank 2",
+	    "sData5": "345467876529",
+		"sData6": "22",
+		"sData7": "2099.88",
+		"sData8": "2200",
+		"sData9": "440",
+		"sData10": "300",
+	    "sData11": "101000",
+		"sData12": "20300",
+		"sData13": "750/451",
+		"sData14": "500",
+		"sData15": "5000",
+		"sData16": "7500",
+		"sData17": "175",
+		"sData18": "18500",
+		"sData19": "1320",
+		"sData20": "600",
+	    "sData21": "150",
+		"sData22": "85.00",
+		"sData23": "5",
+		"sData24": "38247.00",
+		"sData25": "Y",
+		"sData26": "26542",
+		"sData27": "9023",
+		"sData28": "48014",
+		"sData29": "45332",
+		"sData30": "45332",
+		"sData31": "38400",
+		"sData32": "5900",
+		"sData33": "4216",
+		"sData34": "29168",
+		"sData35": "900",
+		"sData36": "1521",
+		"sData37": "3621",
+		"sData38": "3884",
+		"sData39": "2100",
+		"sData40": "1784",
+		"sData41": "9722.66666666667",
+	    "sData42": "2999.99"
+		
+	
+		       
+    }
+	]
+}
+	
+	
+ ]
+          
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          

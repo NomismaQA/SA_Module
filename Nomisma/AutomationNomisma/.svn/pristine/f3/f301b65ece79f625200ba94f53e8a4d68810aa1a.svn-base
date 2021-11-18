@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>TestNG:  78. Auto Enrolment --------  SearchandEditPensionSchemeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>78. Auto Enrolment --------  SearchandEditPensionSchemeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 05 18:54:41 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>86 seconds (86070 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.scriptsAutoEnrolment.SearchandEditPensionSchemeTest.SearchandEditPension()'><b>SearchandEditPension</b><br>Test class: com.nomisma.scriptsAutoEnrolment.SearchandEditPensionSchemeTest<br/>
+<a href="#Output-637524006" onClick='toggleBox("Output-637524006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-637524006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-637524006">
+WebElement to be clicked [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'Nomisma')]]<br/>
+After click [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'Nomisma')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'Nomisma')]] clicked<br/>
+Agent window is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //span[contains(text(),'Payroll')]]<br/>
+After click [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //span[contains(text(),'Payroll')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //span[contains(text(),'Payroll')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //ul[@id='ctl00_ctl00_ParentContent_SideMenu1_PRMenuChildren']//..//a[contains(text(),'Dashboard')]]<br/>
+After click [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //ul[@id='ctl00_ctl00_ParentContent_SideMenu1_PRMenuChildren']//..//a[contains(text(),'Dashboard')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //ul[@id='ctl00_ctl00_ParentContent_SideMenu1_PRMenuChildren']//..//a[contains(text(),'Dashboard')]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ui-id-1]] -> tag name: li]<br/>
+After click [[[[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ui-id-1]] -> tag name: li]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ui-id-1]] -> tag name: li] clicked<br/>
+Payroll Company window is displayed<br/>
+Payroll Company page opened successfully<br/>
+Payroll page title verified successfully<br/>
+Payroll Page title verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //a[@class='menuText']]<br/>
+After click [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //a[@class='menuText']]<br/>
+WebElement [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> xpath: //a[@class='menuText']] clicked<br/>
+Pension Scheme's Title: Pension Schemes<br/>
+Pension Scheme's Title is verified successfully<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_ddlDestId]] -> xpath: .//option[@value = "NST"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_ddlDestId]] -> xpath: .//option[@value = "NST"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_ddlDestId]] -> xpath: .//option[@value = "NST"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_btnGetScheme]<br/>
+After click [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_btnGetScheme]<br/>
+WebElement [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_btnGetScheme] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearchPension]<br/>
+After click [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearchPension]<br/>
+WebElement [[ChromeDriver: chrome on XP (f099c8512ad45560276c8bfc85066750)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearchPension] clicked<br/>
+Unable to Search Schemes. Please add a scheme with name TestSA so that it should appear in Search results<br/>
+Pension scheme unavailable<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'SearchandEditPension'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>com.nomisma.scriptsAutoEnrolment.SearchandEditPensionSchemeTest@69504ae9</td></tr>
+</table><p>
+</body>
+</html>

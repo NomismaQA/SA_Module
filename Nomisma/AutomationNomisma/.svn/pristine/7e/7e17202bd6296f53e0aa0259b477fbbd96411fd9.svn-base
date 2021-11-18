@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite" parallel="tests" thread-count="4"> -->
+<suite name="Suite" verbose="10">
+<listeners>
+<listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+</listeners>
+<!-- <test name= "RegressionPayroll">
+   <parameter name= "browser" value="chrome"/>
+   <classes> -->
+   <!--<class name= "com.nomisma.scriptspayroll.AddEmployeeTest"/>-->
+   <!--<class name= "com.nomisma.scriptspayroll.AddEmployeeLeavesTest"/>--><!-- Some Fixes needed -->
+   <!--<class name= "com.nomisma.scriptspayroll.AutoEnrolTest"/>--><!-- Some Fixes needed -->
+   <!--<class name= "com.nomisma.scriptspayroll.AddHmrcAdjustmentsTest"/>--><!-- Working fine -->
+   <!--<class name= "com.nomisma.scriptspayroll.DeleteEmployeeTest"/>--><!-- Bug -->
+   <!--<class name= "com.nomisma.scriptspayroll.DeleteEmployeeLeavesTest"/>--><!-- Working fine if SMP leaves exists -->
+   <!--<class name= "com.nomisma.scriptspayroll.DeRegistrationCompanyTest"/>--><!-- Working fine -->
+   <!--<class name= "com.nomisma.scriptspayroll.EditAutoenrollDetailsTest"/>--><!-- Not Working, Input data not exists in Excel sheet -->
+   <!--<class name= "com.nomisma.scriptspayroll.EditEmployeeDetailsTest"/>--><!-- Bug -->
+   <!--<class name= "com.nomisma.scriptspayroll.EditEmployeeLeavesTest"/>--><!-- Working fine  if SMP leaves exists  -->
+   <!--<class name= "com.nomisma.scriptspayroll.EmailPayslipsTest"/>--><!-- Partly working  -->
+   <!--<class name= "com.nomisma.scriptspayroll.EmployeeAllowanceTest"/>--><!-- Working fine -->
+   <!--<class name= "com.nomisma.scriptspayroll.EmployeePayDetailsTest"/>--><!-- Working fine, need to change hard coded values -->
+   <!--<class name= "com.nomisma.scriptspayroll.FailedRTITest"/>--><!-- Working fine -->
+   <!--<class name= "com.nomisma.scriptspayroll.LinkedWithAccountsTest"/>--><!-- Working fine -->
+   <!--<class name= "com.nomisma.scriptspayroll.PayrollDashboardTest"/>--><!-- Bug -->
+   <!--<class name= "com.nomisma.scriptspayroll.RunPayrollTest"/>--><!-- Working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.EmployeePayDetailsReportTest"/>-->
+   <!--<class name= "com.nomisma.scriptspayroll.SearchBusinessAndEditCompanyTest"/>--><!-- Working fine -->
+   <!--<class name= "com.nomisma.scriptspayroll.UndoPayrollTest"/>--><!-- Some Fixes needed -->
+  <!-- </classes> 
+ </test>  --> 
+   <!-- Payroll Reports -->
+	<test name= "AccountSubmissionByCompanyReportTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.AccountSubmissionByCompanyReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "CompanyPaySummaryReportTest"> 
+   		<parameter name= "browser" value="chrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.CompanyPaySummaryReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+    <test name= "EmployeeListReportTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.EmployeeListReportTest"/> <!-- working fine -->
+  			</classes> 
+  	</test>
+  	
+	<test name= "EmployeePayDetailsReportTest"> 
+   		<parameter name= "browser" value="chrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.EmployeePayDetailsReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+    	<test name= "EmployeePaysummaryReportTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.EmployeePaysummaryReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "P11DeductionsReportTest"> 
+   		<parameter name= "browser" value="chrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.P11DeductionsReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "P32ReportTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.P32ReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "P45FormsReportTest"> 
+   		<parameter name= "browser" value="chrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.P45FormsReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "P60FormsReportTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.P60FormsReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "PayslipByCompanyReportTest"> 
+   		<parameter name= "browser" value="chrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.PayslipByCompanyReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "PendingSubmissionReportTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.PendingSubmissionReportTest"/> <!-- working fine --> <!-- Bug -->
+  			</classes> 
+  			
+	</test>
+	<test name= "PeriodTotalReportTest"> 
+   		<parameter name= "browser" value="chrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.PeriodTotalReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+<!-- 	<test name= "RTIFailedReportTest">   -->
+<!--  		<parameter name= "browser" value="chrome"/> -->
+<!--  			<classes> -->
+<!--    				<class name= "com.nomisma.scriptspayrollreports.RTIFailedReportTest"/> Some Fixes needed Need to fix these-->
+<!--   			</classes>  -->
+  			
+<!-- 	</test> -->
+	<test name= "RTISubmissionReportTest"> 
+   		<parameter name= "browser" value="chrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.RTISubmissionReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "StatutoryMaternityPayReportTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.StatutoryMaternityPayReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "StatutoryParentingPayReportTest"> 
+   		<parameter name= "browser" value="chrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.StatutoryParentingPayReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+    
+     <!-- Payroll Reports -->
+	<test name= "StatutoryPayRecovaryReportTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.StatutoryPayRecovaryReportTest"/> <!-- working fine -->
+  			</classes> 
+  			
+	</test>
+	<test name= "StatutorySickPayReportTest"> 
+   		<parameter name= "browser" value="chrome"/> 
+ 			<classes>
+   				<class name= "com.nomisma.scriptspayrollreports.StatutorySickPayReportTest"/><!-- working fine -->
+   			</classes>
+    </test>
+   <!--<class name= "com.nomisma.scriptspayrollreports.EmployeeListReportTest"/>--> <!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.EmployeePayDetailsReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.EmployeePaysummaryReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.P11DeductionsReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.P32ReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.P45FormsReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.P60FormsReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.PayslipByCompanyReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.PendingSubmissionReportTest"/>--><!-- working fine --> <!-- Bug -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.PeriodTotalReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.RTIFailedReportTest"/>--><!-- Some Fixes needed -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.RTISubmissionReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.StatutoryMaternityPayReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.StatutoryParentingPayReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.StatutoryPayRecovaryReportTest"/>--><!-- working fine -->
+   <!--<class name= "com.nomisma.scriptspayrollreports.StatutorySickPayReportTest"/>--><!-- working fine -->
+  <!--  </classes> 
+</test>-->
+</suite>

@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  MTRtestCase109_2019</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MTRtestCase109_2019</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 21 14:27:18 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>61 seconds (61554 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario109.funcAddTestCase109()'><b>funcAddTestCase109</b><br>Test class: com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario109<br/>
+<a href="#Output-775574071" onClick='toggleBox("Output-775574071", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-775574071" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-775574071">
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2019')]]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2019')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //table//tbody//tr//td[contains(text(),'MTRTestCases2019')]] clicked<br/>
+Agent window is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //span[contains(text(),'Self Assessment')]]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //span[contains(text(),'Self Assessment')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //span[contains(text(),'Self Assessment')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'Client List')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'Client List')]] clicked<br/>
+Client Link Clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_ctl00_ParentContent_cpHeaderRight_LinkButtonEx1] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'MTRTestCase109')]]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'MTRTestCase109')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'MTRTestCase109')]] clicked<br/>
+Client Selected for Test Case 109<br/>
+Exceuting MTR Test Case 109<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //span[contains(text(),'Additional Information')]]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //span[contains(text(),'Additional Information')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //span[contains(text(),'Additional Information')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cpHeaderRight_btnEditIncome]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cpHeaderRight_btnEditIncome]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cpHeaderRight_btnEditIncome] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPH_btnSaveIncome]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPH_btnSaveIncome]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPH_btnSaveIncome] clicked<br/>
+Share Scheme taxable amount added successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //main/div/div[2]/ul/li[5]/a/span]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //main/div/div[2]/ul/li[5]/a/span]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //main/div/div[2]/ul/li[5]/a/span] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'Self Employment')]]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'Self Employment')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'Self Employment')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: img5]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: img5]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: img5] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPH_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPH_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> id: ctl00_cPH_btnSave] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //span[contains(text(),'Tax Return')]]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //span[contains(text(),'Tax Return')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //span[contains(text(),'Tax Return')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'Tax Calculation Summary')]]<br/>
+After click [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'Tax Calculation Summary')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (af042c83b114d4ccfe0e3134c787e7a4)] -> xpath: //a[contains(text(),'Tax Calculation Summary')]] clicked<br/>
+Amount of Profit From Self Employment is Verified: £21,875.00<br/>
+Share schemes amount on Tax Summary page is verified: £3,020.00<br/>
+Total Income Received verified: £24,895.00<br/>
+Total Income On Which Tax is Due verified: £13,045.00<br/>
+Basic Rate of Pay Pension: 13045.0<br/>
+Income Tax due verifired successfully£2,609.00<br/>
+Upper rate amount of Class 4 National Insurance contributions verified:£1,210.59<br/>
+Class 2 National Insurance contributions: 153.4<br/>
+Total of Class 2 and Class 4 National Insurance contributions due verified successfully£1,363.99<br/>
+Income Tax Cls 2 and Cls 4 National Insurrance Contribution Minus tax deducted is verified:£3,972.99<br/>
+Balance for this year: £3,972.99<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'funcAddTestCase109'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario109@13df2a8c</td></tr>
+</table><p>
+</body>
+</html>

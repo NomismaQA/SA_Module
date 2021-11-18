@@ -1,0 +1,1098 @@
+﻿[
+	{
+		"TestCaseId": "VerifyPLReportTest",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Maynard Golden Ltd",
+				"sData4": "CDS Labour Ltd",
+				"sData5": "Jul 2018 - Jun 2019",
+				"sData6": "Jul 2017 - Jun 2018",
+				"sData7": "Jul 2016 - Jun 2017",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest2",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest2",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "BRIGHT ACCOUNTING SERVICES LIMITED",
+				"sData4": "Aldanle Ltd",
+				"sData5": "Jan 2019 - Jan 2020",
+				"sData6": "Jan 2018 - Jan 2019",
+				"sData7": "Jan 2017 - Jan 2018",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest3",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest3",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Limelight Accountancy Limited",
+				"sData4": "Ardena Limited",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest4",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest4",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Coppersun Accountants",
+				"sData4": "Shreyas IT Limited",
+				"sData5": "Oct 2018 - Sep 2019",
+				"sData6": "Oct 2017 - Sep 2018",
+				"sData7": "Oct 2016 - Sep 2017",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest5",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest5",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Target Accounting",
+				"sData4": "M J STONE LIMITED",
+				"sData5": "Apr 2018 - Mar 2019",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Mar 2016 - Mar 2017",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest6",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest6",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Audacia Ltd",
+				"sData4": "CR CONTRACTING NORTH LTD.",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest7",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest7",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Vichag Limited",
+				"sData5": "Dec 2018 - Nov 2019",
+				"sData6": "Dec 2017 - Nov 2018",
+				"sData7": "Dec 2016 - Nov 2017",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest8",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest8",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Affluent Technology Limited",
+				"sData5": "Apr 2018 - Dec 2018",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Apr 2016 - Mar 2017",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest9",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest9",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "DNS Accountants - Bromley",
+				"sData4": "A Just in Time Services Ltd",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyPLReportTest10",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyPLReportTest10",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "DNSGROUP",
+				"sData4": "DNS ACCOUNTANTS LLP",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Profit & Loss Report",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPLComparison",
+				"sData12": "Profit & Loss"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest1",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest1",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Maynard Golden Ltd",
+				"sData4": "CDS Labour Ltd",
+				"sData5": "Jul 2018 - Jun 2019",
+				"sData6": "Jul 2017 - Jun 2018",
+				"sData7": "Jul 2016 - Jun 2017",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest2",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest2",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "BRIGHT ACCOUNTING SERVICES LIMITED",
+				"sData4": "Aldanle Ltd",
+				"sData5": "Jan 2019 - Jan 2020",
+				"sData6": "Jan 2018 - Jan 2019",
+				"sData7": "Jan 2017 - Jan 2018",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest3",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest3",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Limelight Accountancy Limited",
+				"sData4": "Ardena Limited",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest4",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest4",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Coppersun Accountants",
+				"sData4": "Shreyas IT Limited",
+				"sData5": "Oct 2018 - Sep 2019",
+				"sData6": "Oct 2017 - Sep 2018",
+				"sData7": "Oct 2016 - Sep 2017",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest5",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest5",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Target Accounting",
+				"sData4": "M J STONE LIMITED",
+				"sData5": "Apr 2018 - Mar 2019",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Mar 2016 - Mar 2017",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest6",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest6",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Audacia Ltd",
+				"sData4": "CR CONTRACTING NORTH LTD.",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest7",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest7",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Vichag Limited",
+				"sData5": "Dec 2018 - Nov 2019",
+				"sData6": "Dec 2017 - Nov 2018",
+				"sData7": "Dec 2016 - Nov 2017",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest8",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest8",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Affluent Technology Limited",
+				"sData5": "Apr 2018 - Mar 2019",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Apr 2016 - Mar 2017",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest9",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest9",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "DNS Accountants - Bromley",
+				"sData4": "A Just in Time Services Ltd",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyTrialBalanceReportTest10",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyTrialBalanceReportTest10",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "DNSGROUP",
+				"sData4": "DNS ACCOUNTANTS LLP",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Trial Balance",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportTrialBalance",
+				"sData12": "Trial Balance"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest1",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest1",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Maynard Golden Ltd",
+				"sData4": "CDS Labour Ltd",
+				"sData5": "Jul 2018 - Jun 2019",
+				"sData6": "Jul 2017 - Jun 2018",
+				"sData7": "Jul 2016 - Jun 2017",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Customer",
+				"sData11": "Bank",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest2",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest2",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "BRIGHT ACCOUNTING SERVICES LIMITED",
+				"sData4": "Aldanle Ltd",
+				"sData5": "Jan 2019 - Jan 2020",
+				"sData6": "Jan 2018 - Jan 2019",
+				"sData7": "Jan 2017 - Jan 2018",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Customer",
+				"sData11": "Bank",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest3",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest3",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Limelight Accountancy Limited",
+				"sData4": "Ardena Limited",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Customer",
+				"sData11": "Bank",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest4",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest4",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Coppersun Accountants",
+				"sData4": "Shreyas IT Limited",
+				"sData5": "Oct 2018 - Sep 2019",
+				"sData6": "Oct 2017 - Sep 2018",
+				"sData7": "Oct 2016 - Sep 2017",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Customer",
+				"sData11": "Bank",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest5",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest5",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Target Accounting",
+				"sData4": "M J STONE LIMITED",
+				"sData5": "Apr 2018 - Mar 2019",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Mar 2016 - Mar 2017",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Customer",
+				"sData11": "Bank",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest6",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest6",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Audacia Ltd",
+				"sData4": "CR CONTRACTING NORTH LTD.",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Expense Type",
+				"sData11": "Creditors due within one year",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest7",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest7",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Vichag Limited",
+				"sData5": "Dec 2018 - Nov 2019",
+				"sData6": "Dec 2017 - Nov 2018",
+				"sData7": "Dec 2016 - Nov 2017",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Customer",
+				"sData11": "Bank",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest8",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest8",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Affluent Technology Limited",
+				"sData5": "Apr 2018 - Mar 2019",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Apr 2016 - Mar 2017",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Customer",
+				"sData11": "Bank",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest9",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest9",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "DNS Accountants - Bromley",
+				"sData4": "A Just in Time Services Ltd",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Customer",
+				"sData11": "Bank",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyLedgerReportTest10",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyLedgerReportTest10",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "DNSGROUP",
+				"sData4": "DNS ACCOUNTANTS LLP",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Ledger Book",
+				"sData9": "Supplier",
+				"sData10": "Customer",
+				"sData11": "Bank",
+				"sData12": ""
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest1",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest1",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Maynard Golden Ltd",
+				"sData4": "CDS Labour Ltd",
+				"sData5": "Jul 2018 - Jun 2019",
+				"sData6": "Jul 2017 - Jun 2018",
+				"sData7": "Jul 2016 - Jun 2017",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest2",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest2",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "BRIGHT ACCOUNTING SERVICES LIMITED",
+				"sData4": "Aldanle Ltd",
+				"sData5": "Jan 2019 - Jan 2020",
+				"sData6": "Jan 2018 - Jan 2019",
+				"sData7": "Jan 2017 - Jan 2018",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest3",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest3",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Limelight Accountancy Limited",
+				"sData4": "Ardena Limited",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest4",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest4",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Coppersun Accountants",
+				"sData4": "Shreyas IT Limited",
+				"sData5": "Oct 2018 - Sep 2019",
+				"sData6": "Oct 2017 - Sep 2018",
+				"sData7": "Oct 2016 - Sep 2017",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest5",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest5",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Target Accounting",
+				"sData4": "M J STONE LIMITED",
+				"sData5": "Apr 2018 - Mar 2019",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Mar 2016 - Mar 2017",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest6",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest6",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Audacia Ltd",
+				"sData4": "CR CONTRACTING NORTH LTD.",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest7",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest7",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Vichag Limited",
+				"sData5": "Dec 2018 - Nov 2019",
+				"sData6": "Dec 2017 - Nov 2018",
+				"sData7": "Dec 2016 - Nov 2017",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest8",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest8",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Affluent Technology Limited",
+				"sData5": "Apr 2018 - Mar 2019",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Apr 2016 - Mar 2017",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest9",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest9",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "DNS Accountants - Bromley",
+				"sData4": "A Just in Time Services Ltd",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyBalanceSheetTest10",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyBalanceSheetTest10",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "DNSGROUP",
+				"sData4": "DNS ACCOUNTANTS LLP",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Balance Sheet",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "BalanceSheetPDF",
+				"sData12": "Balance Sheet"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest1",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest1",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Maynard Golden Ltd",
+				"sData4": "CDS Labour Ltd",
+				"sData5": "Jul 2018 - Jun 2019",
+				"sData6": "Jul 2017 - Jun 2018",
+				"sData7": "Jul 2016 - Jun 2017",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest2",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest2",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "BRIGHT ACCOUNTING SERVICES LIMITED",
+				"sData4": "Aldanle Ltd",
+				"sData5": "Jan 2019 - Jan 2020",
+				"sData6": "Jan 2018 - Jan 2019",
+				"sData7": "Jan 2017 - Jan 2018",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest3",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest3",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Limelight Accountancy Limited",
+				"sData4": "Ardena Limited",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest4",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest4",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Coppersun Accountants",
+				"sData4": "Shreyas IT Limited",
+				"sData5": "Oct 2018 - Sep 2019",
+				"sData6": "Oct 2017 - Sep 2018",
+				"sData7": "Oct 2016 - Sep 2017",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest5",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest5",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Target Accounting",
+				"sData4": "M J STONE LIMITED",
+				"sData5": "Apr 2018 - Mar 2019",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Mar 2016 - Mar 2017",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest6",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest6",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Audacia Ltd",
+				"sData4": "CR CONTRACTING NORTH LTD.",
+				"sData5": "Sep 2018 - Aug 2019",
+				"sData6": "Sep 2017 - Aug 2018",
+				"sData7": "Sep 2016 - Aug 2017",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest7",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest7",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Vichag Limited",
+				"sData5": "Dec 2018 - Nov 2019",
+				"sData6": "Dec 2017 - Nov 2018",
+				"sData7": "Dec 2016 - Nov 2017",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest8",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest8",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Affluent Technology Limited",
+				"sData5": "Apr 2018 - Mar 2019",
+				"sData6": "Apr 2017 - Mar 2018",
+				"sData7": "Apr 2016 - Mar 2017",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest9",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest9",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "DNS Accountants - Bromley",
+				"sData4": "A Just in Time Services Ltd",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyGeneralLedgerReportTest10",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyGeneralLedgerReportTest10",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "DNSGROUP",
+				"sData4": "DNS ACCOUNTANTS LLP",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "General Ledger",
+				"sData9": "\\Downloads",
+				"sData10": "\\Downloads\\",
+				"sData11": "ReportPeriodTrialBalance",
+				"sData12": "Ledger Summary"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifySupplierSummaryTest1",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifySupplierSummaryTest1",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Maynard Golden Ltd",
+				"sData4": "CDS Labour Ltd",
+				"sData5": "Jul 2018 - Jun 2019",
+				"sData6": "Jul 2017 - Jun 2018",
+				"sData7": "Jul 2016 - Jun 2017",
+				"sData8": "Creditors Report"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifySupplierSummaryTest2",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifySupplierSummaryTest2",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Vichag Limited",
+				"sData5": "Dec 2018 - Nov 2019",
+				"sData6": "Dec 2017 - Nov 2018",
+				"sData7": "Dec 2016 - Nov 2017",
+				"sData8": "Creditors Report"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifySupplierSummaryTest3",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifySupplierSummaryTest3",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "DNSGROUP",
+				"sData4": "DNS ACCOUNTANTS LLP",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Creditors Report"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyCustomerSummaryTest1",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyCustomerSummaryTest1",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "Maynard Golden Ltd",
+				"sData4": "CDS Labour Ltd",
+				"sData5": "Jul 2018 - Jun 2019",
+				"sData6": "Jul 2017 - Jun 2018",
+				"sData7": "Jul 2016 - Jun 2017",
+				"sData8": "Debtors Report"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyCustomerSummaryTest2",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyCustomerSummaryTest2",
+				"sData1": "support2",
+				"sData2": "support404",
+				"sData3": "Dns Associates Head office",
+				"sData4": "Vichag Limited",
+				"sData5": "Dec 2018 - Nov 2019",
+				"sData6": "Dec 2017 - Nov 2018",
+				"sData7": "Dec 2016 - Nov 2017",
+				"sData8": "Debtors Report"
+			}
+		]
+	},
+	{
+		"TestCaseId": "VerifyCustomerSummaryTest3",
+		"Keys": [
+			{
+				"TestCase_ID": "VerifyCustomerSummaryTest3",
+				"sData1": "support2",
+				"sData2": "support202",
+				"sData3": "DNSGROUP",
+				"sData4": "DNS ACCOUNTANTS LLP",
+				"sData5": "Nov 2018 - Oct 2019",
+				"sData6": "Nov 2017 - Oct 2018",
+				"sData7": "Oct 2016 - Oct 2017",
+				"sData8": "Debtors Report"
+			}
+		]
+	}
+]

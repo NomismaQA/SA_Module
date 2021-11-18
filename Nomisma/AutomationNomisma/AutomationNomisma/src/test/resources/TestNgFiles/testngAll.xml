@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite" parallel="tests" thread-count="4"> -->
+<!-- <suite name="RegressionSuite" parallel="tests" verbose="10"> -->
+<suite name="Suite" verbose="10">
+ <listeners>
+ <listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+<listener class-name="com.nomisma.generic.CustomizedEmailableReport" />
+<!-- <listener class-name="com.nomisma.generic.ScreenshotUtility" /> -->
+</listeners>
+	
+<!--  	<test name= "3. Bookkeeping AddExpenseTest">
+	   
+	   <parameter name= "browser" value="chrome"/>
+	   <classes>
+	      <class name= "com.nomisma.scriptsBookkeeping.AddExpenseTest"/>
+	   </classes>
+	</test>  --> 
+	
+
+
+  	
+  	<test name= "62. CIS Report--------- CIS300MonthlyReturnReport">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.CIS300MonthlyReturnReport"/>
+  			</classes> 
+  	</test> 
+  	  	
+ 	<test name= "63. CISDeleteContractorTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptscis.DeleteContractorTest"/>
+  			</classes> 
+  	</test> 
+
+ 
+  	
+</suite>

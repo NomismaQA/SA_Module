@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SA 2020-21 HMRC Cases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MTR Testcase2(failed)">
+    <classes>
+      <class name="tests.testcase2_DefaultProfile">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase2_DefaultProfile -->
+    </classes>
+  </test> <!-- MTR Testcase2(failed) -->
+  <test thread-count="5" name="MTR Testcase18(failed)">
+    <classes>
+      <class name="tests.testcase18_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase18_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase18(failed) -->
+  <test thread-count="5" name="MTR Testcase54(failed)">
+    <classes>
+      <class name="tests.testcase54_DefaultProfile2">
+        <methods>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase54_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase54(failed) -->
+  <test thread-count="5" name="MTR Testcase55(failed)">
+    <classes>
+      <class name="tests.testcase55_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase55_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase55(failed) -->
+  <test thread-count="5" name="MTR Testcase57(failed)">
+    <classes>
+      <class name="tests.testcase57_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase57_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase57(failed) -->
+  <test thread-count="5" name="MTR Testcase70(failed)">
+    <classes>
+      <class name="tests.testcase70_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase70_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase70(failed) -->
+  <test thread-count="5" name="MTR Testcase76(failed)">
+    <classes>
+      <class name="tests.testcase76_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase76_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase76(failed) -->
+  <test thread-count="5" name="MTR Testcase82(failed)">
+    <classes>
+      <class name="tests.testcase82_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase82_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase82(failed) -->
+  <test thread-count="5" name="MTR Testcase83(failed)">
+    <classes>
+      <class name="tests.testcase83_DefaultProfile2">
+        <methods>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase83_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase83(failed) -->
+  <test thread-count="5" name="MTR Testcase88(failed)">
+    <classes>
+      <class name="tests.testcase88_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase88_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase88(failed) -->
+  <test thread-count="5" name="MTR Testcase99(failed)">
+    <classes>
+      <class name="tests.testcase99_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase99_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase99(failed) -->
+  <test thread-count="5" name="MTR Testcase104(failed)">
+    <classes>
+      <class name="tests.testcase104_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase104_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase104(failed) -->
+  <test thread-count="5" name="MTR Testcase110(failed)">
+    <classes>
+      <class name="tests.testcase110_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase110_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase110(failed) -->
+  <test thread-count="5" name="MTR Testcase134(failed)">
+    <classes>
+      <class name="tests.testcase134_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase134_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase134(failed) -->
+  <test thread-count="5" name="MTR Testcase137(failed)">
+    <classes>
+      <class name="tests.testcase137_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase137_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase137(failed) -->
+  <test thread-count="5" name="MTR Testcase159(failed)">
+    <classes>
+      <class name="tests.testcase159_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase159_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase159(failed) -->
+  <test thread-count="5" name="MTR Testcase160(failed)">
+    <classes>
+      <class name="tests.testcase160_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase160_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase160(failed) -->
+  <test thread-count="5" name="MTR Testcase161(failed)">
+    <classes>
+      <class name="tests.testcase161_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase161_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase161(failed) -->
+  <test thread-count="5" name="MTR Testcase163(failed)">
+    <classes>
+      <class name="tests.testcase163_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase163_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase163(failed) -->
+  <test thread-count="5" name="MTR Testcase164(failed)">
+    <classes>
+      <class name="tests.testcase164_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase164_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase164(failed) -->
+  <test thread-count="5" name="MTR Testcase165(failed)">
+    <classes>
+      <class name="tests.testcase165_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase165_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase165(failed) -->
+  <test thread-count="5" name="MTR Testcase167(failed)">
+    <classes>
+      <class name="tests.testcase167_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase167_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase167(failed) -->
+  <test thread-count="5" name="MTR Testcase168(failed)">
+    <classes>
+      <class name="tests.testcase168_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase168_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase168(failed) -->
+  <test thread-count="5" name="MTR Testcase169(failed)">
+    <classes>
+      <class name="tests.testcase169_DefaultProfile2">
+        <methods>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase169_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase169(failed) -->
+  <test thread-count="5" name="MTR Testcase170(failed)">
+    <classes>
+      <class name="tests.testcase170_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase170_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase170(failed) -->
+  <test thread-count="5" name="MTR Testcase178(failed)">
+    <classes>
+      <class name="tests.testcase178_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase178_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase178(failed) -->
+  <test thread-count="5" name="MTR Testcase181(failed)">
+    <classes>
+      <class name="tests.testcase181_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase181_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase181(failed) -->
+  <test thread-count="5" name="MTR Testcase195(failed)">
+    <classes>
+      <class name="tests.testcase195_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase195_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase195(failed) -->
+  <test thread-count="5" name="MTR Testcase196(failed)">
+    <classes>
+      <class name="tests.testcase196_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase196_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase196(failed) -->
+  <test thread-count="5" name="MTR Testcase197(failed)">
+    <classes>
+      <class name="tests.testcase197_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase197_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase197(failed) -->
+  <test thread-count="5" name="MTR Testcase203(failed)">
+    <classes>
+      <class name="tests.testcase203_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase203_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase203(failed) -->
+  <test thread-count="5" name="MTR Testcase209(failed)">
+    <classes>
+      <class name="tests.testcase209_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase209_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase209(failed) -->
+  <test thread-count="5" name="MTR Testcase224(failed)">
+    <classes>
+      <class name="tests.testcase224_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase224_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase224(failed) -->
+  <test thread-count="5" name="MTR Testcase243(failed)">
+    <classes>
+      <class name="tests.testcase243_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase243_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase243(failed) -->
+</suite> <!-- Failed suite [SA 2020-21 HMRC Cases] -->

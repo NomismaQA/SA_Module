@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SA 2020-21 tax year-HMRC Testcases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MTR Testcase236(failed)">
+    <classes>
+      <class name="tests.testcase236_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase236_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase236(failed) -->
+  <test thread-count="5" name="MTR Testcase240(failed)">
+    <classes>
+      <class name="tests.testcase240_DefaultProfile2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlusernamepositiveinputPositiveEnterctl00cPHpassClickLoginPositiveEnterctl00cPHFiltertxtAg"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.testcase240_DefaultProfile2 -->
+    </classes>
+  </test> <!-- MTR Testcase240(failed) -->
+</suite> <!-- Failed suite [SA 2020-21 tax year-HMRC Testcases] -->

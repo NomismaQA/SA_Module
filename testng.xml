@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Exempt from class 4 NIC automatic check verification ">
+  
+  
+  
+
+<test name="Scenario 31:Verification of exempt from paying class4 NIC checkbox in tax year 2019-20">
+    <classes>
+      <class name="tests.testcaseSELFEMP89_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 32:Verification of exempt from paying class4 NIC checkbox in tax year 2018-19">
+    <classes>
+      <class name="tests.testcaseSELFEMP90_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 33:Verification of exempt from paying class4 NIC checkbox in tax year 2020-21">
+    <classes>
+      <class name="tests.testcaseSELFEMP91_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 34:Verification of exempt from paying class4 NIC checkbox in tax year 2019-20">
+    <classes>
+      <class name="tests.testcaseSELFEMP92_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 35:Verification of exempt from paying class4 NIC checkbox in tax year 2018-19">
+    <classes>
+      <class name="tests.testcaseSELFEMP93_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 36:Verification of exempt from paying class4 NIC checkbox in tax year 2020-21">
+    <classes>
+      <class name="tests.testcaseSELFEMP94_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 37:Verification of exempt from paying class4 NIC checkbox in tax year 2019-20">
+    <classes>
+      <class name="tests.testcaseSELFEMP95_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 38:Verification of exempt from paying class4 NIC checkbox in tax year 2018-19">
+    <classes>
+      <class name="tests.testcaseSELFEMP96_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 39:Verification of exempt from paying class4 NIC checkbox in tax year 2020-21">
+    <classes>
+      <class name="tests.testcaseSELFEMP97_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 40:Verification of exempt from paying class4 NIC checkbox in tax year 2019-20">
+    <classes>
+      <class name="tests.testcaseSELFEMP98_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 41:Verification of exempt from paying class4 NIC checkbox in tax year 2018-19">
+    <classes>
+      <class name="tests.testcaseSELFEMP99_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+
+<test name="Scenario 42:Verification of exempt from paying class4 NIC checkbox in tax year 2020-21">
+    <classes>
+      <class name="tests.testcaseSELFEMP100_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 43:Verification of exempt from paying class4 NIC checkbox in tax year 2019-20">
+    <classes>
+      <class name="tests.testcaseSELFEMP101_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 44:Verification of exempt from paying class4 NIC checkbox in tax year 2018-19">
+    <classes>
+      <class name="tests.testcaseSELFEMP102_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+<test name="Scenario 45:Verification of exempt from paying class4 NIC checkbox in tax year 2020-21">
+    <classes>
+      <class name="tests.testcaseSELFEMP103_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 46:Verification of exempt from paying class4 NIC checkbox in tax year 2019-20">
+    <classes>
+      <class name="tests.testcaseSELFEMP10_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 47:Verification of exempt from paying class4 NIC checkbox in tax year 2018-19">
+    <classes>
+      <class name="tests.testcaseSELFEMP105_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 48:Verification of exempt from paying class4 NIC checkbox in tax year 2020-21">
+    <classes>
+      <class name="tests.testcaseSELFEMP106_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 49:Verification of exempt from paying class4 NIC checkbox in tax year 2019-20">
+    <classes>
+      <class name="tests.testcaseSELFEMP107_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 50:Verification of exempt from paying class4 NIC checkbox in tax year 2018-19">
+    <classes>
+      <class name="tests.testcaseSELFEMP108_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 51:Verification of exempt from paying class4 NIC checkbox in tax year 2020-21">
+    <classes>
+      <class name="tests.testcaseSELFEMP109_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 52:Verification of exempt from paying class4 NIC checkbox in tax year 2019-20">
+    <classes>
+      <class name="tests.testcaseSELFEMP110_DefaultProfile2"/>
+      </classes>
+      </test>
+
+<test name="Scenario 53:Verification of exempt from paying class4 NIC checkbox in tax year 2018-19">
+    <classes>
+      <class name="tests.testcaseSELFEMP111_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      
+      
+ 
+ 
+  
+       
+      
+      </suite>
+
+     
+  
+      
+      
+ 
+
+ 
+      
+      
+      
+      
+          
+
+ 

@@ -1,0 +1,988 @@
+[
+{
+		"TestCaseId": "addClient",
+		"Keys": [
+	{
+		"TestCase_ID": "addClient",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "1000000110",
+		"sData5": "TestClient",
+		"sData6": "Test",
+		"sData7": "27 Old Gloucester Street",
+		"sData8": " London WC1N 3AX",
+		"sData9": "WC1N 3AE"}
+		]
+	},
+	{
+		"TestCaseId": "addEmpIncome",
+		"Keys": [
+			{
+		"TestCase_ID": "addEmpIncome",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "1000",
+		"sData9": "500",
+		"sData10": "200"}
+		]
+	},
+	{
+		"TestCaseId": "addEmpIncome1",
+		"Keys": [
+			{
+		"TestCase_ID": "addEmpIncome1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "12000",
+		"sData9": "1000",
+		"sData10": "1499"}
+		]
+	},
+	{
+		"TestCaseId": "addEmpIncome2",
+		"Keys": [
+			{
+		"TestCase_ID": "addEmpIncome2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "22000",
+		"sData9": "2000",
+		"sData10": "2500"}
+		]
+	},
+	{
+		"TestCaseId": "addEmpIncome3",
+		"Keys": [
+			{
+		"TestCase_ID": "addEmpIncome3",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "44000",
+		"sData9": "2000",
+		"sData10": "1000"}
+		]
+	},
+	{
+		"TestCaseId": "addEmpIncome4",
+		"Keys": [
+			{
+		"TestCase_ID": "addEmpIncome4",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "44001",
+		"sData9": "2000",
+		"sData10": "1000",
+		"sData11": "Anna",
+		"sData12": "N'abbi-Sandu",
+		"sData13": "SR382775D",
+		"sData14": "18/11/1970",
+		"sData15": "06/06/2001"}
+		]
+	},
+	{
+		"TestCaseId": "addEmpIncome5",
+		"Keys": [
+			{
+		"TestCase_ID": "addEmpIncome5",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "103000",
+		"sData9": "3502",
+		"sData10": "6500",
+		"sData11": "5000",
+		"sData12": "Given to my Son",
+		"sData13": "1000",
+		"sData14": "2000",
+		"sData15": "1500"
+		}
+		]
+	},
+	{
+		"TestCaseId": "addEmpIncome6",
+		"Keys": [
+			{
+		"TestCase_ID": "addEmpIncome6",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "151000",
+		"sData9": "1500",
+		"sData10": "2500",
+		"sData11": "1000",
+		"sData12": "Given to NGO",
+		"sData13": "2000",
+		"sData14": "2500"}
+		]
+	},
+	{
+		"TestCaseId": "addEmpIncome7",
+		"Keys": [
+			{
+		"TestCase_ID": "addEmpIncome7",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "151001",
+		"sData9": "2000",
+		"sData10": "3000",
+		"sData11": "1500",
+		"sData12": "2500",
+		"sData13": "3500",
+		"sData14": "4500"}
+		]
+	},
+	{
+		"TestCaseId": "newDownloadpdf",
+		"Keys": [
+			{
+		"TestCase_ID": "newDownloadpdf",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "\\Downloads",
+		"sData5": "SA2018-19.pdf",
+		"sData6": "\\Downloads\\",
+		"sData7": "TaxCalculation.pdf",
+		"sData8": "Summary.pdf",
+		"sData9": "Schedule.pdf",
+		"sData10": "1000",
+		"sData11": "25000",
+		"sData12": "100",
+		"sData13": "200",
+		"sData14": "500",
+		"sData15": "300",
+		"sData16": "700"
+		}
+		]
+	},
+	{
+		"TestCaseId": "newDownloadpdf1",
+		"Keys": [
+			{
+		"TestCase_ID": "newDownloadpdf1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "\\Downloads",
+		"sData5": "SA2018-19.pdf",
+		"sData6": "\\Downloads\\",
+		"sData7": "TaxCalculation.pdf",
+		"sData8": "Summary.pdf",
+		"sData9": "Schedule.pdf",
+		"sData10": "5000",
+		"sData11": "100000",
+		"sData12": "100",
+		"sData13": "200",
+		"sData14": "500",
+		"sData15": "300",
+		"sData16": "700",
+		"sData17": "2500"}
+		]
+	},
+	{
+		"TestCaseId": "pdfVrfyForgnIncm",
+		"Keys": [
+			{
+		"TestCase_ID": "pdfVrfyForgnIncm",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "\\Downloads",
+		"sData5": "SA2018-19.pdf",
+		"sData6": "\\Downloads\\",
+		"sData7": "TaxCalculation.pdf",
+		"sData8": "Summary.pdf",
+		"sData9": "Schedule.pdf",
+		"sData10": "1000",
+		"sData11": "150000",
+		"sData12": "200",
+		"sData13": "400",
+		"sData14": "500",
+		"sData15": "700",
+		"sData16": "900",
+		"sData17": "Abc Corp."}
+		]
+	},
+	{
+		"TestCaseId": "BankName",
+		"Keys": [
+			{
+		"TestCase_ID": "BankName",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Bank of America",
+		"sData5": "Bank of America",
+		"sData6": "31926819",
+		"sData7": "06/04/2018",
+		"sData8": "weekly Interest",
+		"sData9": "1000",
+		"sData10": "Abc Corp.",
+		"sData11": "AB56789",
+		"sData12": "07/04/2018",
+		"sData13": "04/04/2019",
+		"sData14": "25000",
+		"sData15": "4000",
+		"sData16": "2500",
+		"sData17": "100",
+		"sData18": "200",
+		"sData19": "500",
+		"sData20": "300",
+		"sData21": "700"}
+		]
+	},
+	{
+		"TestCaseId": "UntaxedUKInterest",
+		"Keys": [
+			{
+		"TestCase_ID": "UntaxedUKInterest",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Bank of America",
+		"sData5": "Bank of America",
+		"sData6": "31926819",
+		"sData7": "06/04/2018",
+		"sData8": "weekly Interest",
+		"sData9": "5000",
+		"sData10": "Abc Corp.",
+		"sData11": "AB56789",
+		"sData12": "07/04/2018",
+		"sData13": "04/04/2019",
+		"sData14": "100000",
+		"sData15": "2000",
+		"sData16": "2500",
+		"sData17": "100",
+		"sData18": "200",
+		"sData19": "500",
+		"sData20": "300",
+		"sData21": "700",
+		"sData22": "2500"}
+		]
+	},
+	{
+		"TestCaseId": "ForeignInterestCheck",
+		"Keys": [
+			{
+		"TestCase_ID": "ForeignInterestCheck",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Bank of America",
+		"sData5": "Bank of America",
+		"sData6": "31926819",
+		"sData7": "06/04/2018",
+		"sData8": "weekly Interest",
+		"sData9": "2000",
+		"sData10": "Abc Corp.",
+		"sData11": "AB56789",
+		"sData12": "07/04/2018",
+		"sData13": "04/04/2019",
+		"sData14": "Arcadia Group",
+		"sData15": "Clothing",
+		"sData16": "1000",
+		"sData17": "150000",
+		"sData18": "2000",
+		"sData19": "2500",
+		"sData20": "200",
+		"sData21": "400",
+		"sData22": "500",
+		"sData23": "700",
+		"sData24": "900",
+		"sData25": "1000",
+		"sData26": "300",
+		"sData27": "200"
+		}
+		]
+	},
+	{
+		"TestCaseId": "AddOtherUKIncome",
+		"Keys": [
+			{
+		"TestCase_ID": "AddOtherUKIncome",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Bank of America",
+		"sData5": "Bank of America",
+		"sData6": "31926819",
+		"sData7": "Arcadia Group",
+		"sData8": "Clothing",
+		"sData9": "556",
+		"sData10": "Abc Corp.",
+		"sData11": "AB56789",
+		"sData12": "07/04/2018",
+		"sData13": "04/04/2019",
+		"sData14": "10000",
+		"sData15": "4449",
+		"sData16": "3339",
+		"sData17": "667",
+		"sData18": "556",
+		"sData19": "445",
+		"sData20": "778",
+		"sData21": "Adding Other Uk Income",
+		"sData22": "501",
+		"sData23": "701",
+		"sData24": "901",
+		"sData25": "10001",
+		"sData26": "301",
+		"sData27": "601",
+		"sData28": "204",
+		"sData29": "105",
+		"sData30": "06/04/2018",
+		"sData31": "weekly Interest",
+		"sData32": "1500"}
+		]
+	},
+	{
+		"TestCaseId": "pdfVrfyOtherUKIncome",
+		"Keys": [
+			{
+		"TestCase_ID": "pdfVrfyOtherUKIncome",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "\\Downloads",
+		"sData5": "SA2018-19.pdf",
+		"sData6": "\\Downloads\\",
+		"sData7": "TaxCalculation.pdf",
+		"sData8": "Summary.pdf",
+		"sData9": "Schedule.pdf",
+		"sData10": "Abc Corp.",
+		"sData11": "10000",
+		"sData12": "4449",
+		"sData13": "3339",
+		"sData14": "445",
+		"sData15": "556",
+		"sData16": "889",
+		"sData17": "778",
+		"sData18": "501",
+		"sData19": "701",
+		"sData20": "901",
+		"sData21": "10001",
+		"sData22": "301",
+		"sData23": "601",
+		"sData24": "105",
+		"sData25": "204",
+		"sData26": "1500"}
+		]
+	},
+	{
+		"TestCaseId": "IncomFromPropertyFHLprofit",
+		"Keys": [
+			{
+		"TestCase_ID": "IncomFromPropertyFHLprofit",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "2",
+		"sData5": "1500",
+		"sData6": "200",
+		"sData7": "201",
+		"sData8": "202",
+		"sData9": "203",
+		"sData10": "299",
+		"sData11": "900",
+		"sData12": "300",
+		"sData13": "1100",
+		"sData14": "400"}
+		]
+	},
+	{
+		"TestCaseId": "PropertyIncomeExpensesLS",
+		"Keys": [
+			{
+		"TestCase_ID": "PropertyIncomeExpensesLS",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "2",
+		"sData5": "1500",
+		"sData6": "1000",
+		"sData7": "1100",
+		"sData8": "1200",
+		"sData9": "1300",
+		"sData10": "299",
+		"sData11": "900",
+		"sData12": "700",
+		"sData13": "400",
+		"sData14": "150",
+		"sData15": "400",
+		"sData16": "450",
+		"sData17": "100",
+		"sData18": "750",
+		"sData19": "800",
+		"sData20": "200"}
+		]
+	},
+	{
+		"TestCaseId": "IncomFromPropertyFHLEssProfit",
+		"Keys": [
+			{
+		"TestCase_ID": "IncomFromPropertyFHLEssProfit",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "2",
+		"sData5": "2000",
+		"sData6": "100",
+		"sData7": "200",
+		"sData8": "300",
+		"sData9": "400",
+		"sData10": "500",
+		"sData11": "600",
+		"sData12": "700",
+		"sData13": "800",
+		"sData14": "900"
+		}
+		]
+	},
+	{
+		"TestCaseId": "PropertyIncomeExpensesESLS",
+		"Keys": [
+			{
+		"TestCase_ID": "PropertyIncomeExpensesESLS",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "2",
+		"sData5": "100",
+		"sData6": "900",
+		"sData7": "800",
+		"sData8": "700",
+		"sData9": "600",
+		"sData10": "500",
+		"sData11": "400",
+		"sData12": "300",
+		"sData13": "100"}
+		]
+	},
+	{
+		"TestCaseId": "PropertyIncomeExpenses",
+		"Keys": [
+			{
+		"TestCase_ID": "PropertyIncomeExpenses",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "2",
+		"sData5": "5000",
+		"sData6": "250",
+		"sData7": "300",
+		"sData8": "1000",
+		"sData9": "500",
+		"sData10": "700",
+		"sData11": "350",
+		"sData12": "250",
+		"sData13": "600",
+		"sData14": "150",
+		"sData15": "400",
+		"sData16": "450",
+		"sData17": "100",
+		"sData18": "750",
+		"sData19": "800",
+		"sData20": "200"
+		}
+		]
+	},
+	{
+		"TestCaseId": "SelEmplymentShort",
+		"Keys": [
+			{
+		"TestCase_ID": "SelEmplymentShort",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Service Based company",
+		"sData5": "CM14 4YD",
+		"sData6": "84999",
+		"sData7": "10000",
+		"sData8": "100",
+		"sData9": "200",
+		"sData10": "300",
+		"sData11": "400",
+		"sData12": "500",
+		"sData13": "600",
+		"sData14": "700",
+		"sData15": "800",
+		"sData16": "900",
+		"sData17": "1100",
+		"sData18": "1200",
+		"sData19": "11500",
+		"sData20": "3500",
+		"sData21": "11600",
+		"sData22": "2000",
+		"sData23": "10000",
+		"sData24": "3500",
+		"sData25": "2200"
+		}
+		]
+	},
+	{
+		"TestCaseId": "pdfVrfySelfEmp",
+		"Keys": [
+			{
+		"TestCase_ID": "pdfVrfySelfEmp",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "\\Downloads",
+		"sData5": "SA2018-19.pdf",
+		"sData6": "\\Downloads\\",
+		"sData7": "TaxCalculation.pdf",
+		"sData8": "Summary.pdf",
+		"sData9": "Schedule.pdf",
+		"sData10": "84999"
+		}
+		]
+	},
+	{
+		"TestCaseId": "SelEmplymentFull",
+		"Keys": [
+			{
+		"TestCase_ID": "SelEmplymentFull",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Test corp.",
+		"sData5": "Dealing in testing",
+		"sData6": "Toft Hall",
+		"sData7": " Heaton",
+		"sData8": " Rushton",
+		"sData9": "SK11 0SJ",
+		"sData10": "30000.00",
+		"sData11": "10000.00",
+		"sData12": "200.00",
+		"sData13": "100.00",
+		"sData14": "400.00",
+		"sData15": "200.00",
+		"sData16": "500.00",
+		"sData17": "300.00",
+		"sData18": "700.00",
+		"sData19": "500.00",
+		"sData20": "1000.00",
+		"sData21": "500.00",
+		"sData22": "900.00",
+		"sData23": "2500.00",
+		"sData24": "700.00",
+		"sData25": "2000.00",
+		"sData26": "750.00",
+		"sData27": "1500.00",
+		"sData28": "10000.00",
+		"sData29": "100",
+		"sData30": "700.00",
+		"sData31": "600.00",
+		"sData32": "5000.00",
+		"sData33": "2000.00",
+		"sData34": "100.00",
+		"sData35": "500.00",
+		"sData36": "2500.00",
+		"sData37": "1000.00",
+		"sData38": "1150.00",
+		"sData39": "6000.00",
+		"sData40": "7000.00",
+		"sData41": "9000.00",
+		"sData42": "20000.00",
+		"sData43": "11000.00",
+		"sData44": "1200.00",
+		"sData45": "9999.00",
+		"sData46": "1230.00",
+		"sData47": "2800.00",
+		"sData48": "200.00"
+	}
+		]
+	},
+	{
+		"TestCaseId": "pdfVrfySelfEmpFull",
+		"Keys": [
+			{
+		"TestCase_ID": "pdfVrfySelfEmpFull",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "\\Downloads",
+		"sData5": "SA2018-19.pdf",
+		"sData6": "\\Downloads\\",
+		"sData7": "TaxCalculation.pdf",
+		"sData8": "Summary.pdf",
+		"sData9": "Schedule.pdf",
+		"sData10": "28850"
+		}
+		]
+	},
+	{
+		"TestCaseId": "PropertyIncomeExpenses1",
+		"Keys": [
+			{
+		"TestCase_ID": "PropertyIncomeExpenses1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "2",
+		"sData5": "1500",
+		"sData6": "1000",
+		"sData7": "1100",
+		"sData8": "1200",
+		"sData9": "1300",
+		"sData10": "299",
+		"sData11": "900",
+		"sData12": "700",
+		"sData13": "400"}
+		]
+	},
+	{
+		"TestCaseId": "PartnershipData",
+		"Keys": [
+			{
+		"TestCase_ID": "PartnershipData",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "My Partnership",
+		"sData5": "4000.00",
+		"sData6": "100.00",
+		"sData7": "450.00",
+		"sData8": "300.00",
+		"sData9": "500.00",
+		"sData10": "700.00",
+		"sData11": "100",
+		"sData12": "200.00",
+		"sData13": "2000.00",
+		"sData14": "150.00",
+		"sData15": "15000.00",
+		"sData16": "250.00",
+		"sData17": "350.00"
+		}
+		]
+	},
+	{
+		"TestCaseId": "CapitalGain",
+		"Keys": [
+			{
+		"TestCase_ID": "CapitalGain",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "1",
+		"sData5": "500",
+		"sData6": "2500",
+		"sData7": "10000",
+		"sData8": "300",
+		"sData9": "ESH",
+		"sData10": "1100",
+		"sData11": "1200",
+		"sData12": "400",
+		"sData13": "1400",
+		"sData14": "1500",
+		"sData15": "40000",
+		"sData16": "2100",
+		"sData17": "ROR",
+		"sData18": "450",
+		"sData19": "1000",
+		"sData20": "GHO",
+		"sData21": "2300",
+		"sData22": "ERL",
+		"sData23": "700",
+		"sData24": "800",
+		"sData25": "900",
+		"sData26": "200",
+		"sData27": "capital gain record",
+		"sData28": "C:\\Users\\Administrator\\Desktop\\SA2018-19.pdf",
+		"sData29": "test"
+		}
+		]
+	},
+	{
+		"TestCaseId": "StudentRepay",
+		"Keys": [
+			{
+		"TestCase_ID": "StudentRepay",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "35000",
+		"sData9": "1000"}
+		]
+	},
+	{
+		"TestCaseId": "ChildBenefit",
+		"Keys": [
+			{
+		"TestCase_ID": "ChildBenefit",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "51000",
+		"sData9": "100",
+		"sData10": "2",
+		"sData11": "05/04/2019"}
+		]
+	},
+	{
+		"TestCaseId": "ChildBenefit1",
+		"Keys": [
+			{
+		"TestCase_ID": "ChildBenefit1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "60000",
+		"sData9": "200",
+		"sData10": "2",
+		"sData11": "05/04/2019"}
+		]
+	},
+	{
+		"TestCaseId": "ChildBenefit2",
+		"Keys": [
+			{
+		"TestCase_ID": "ChildBenefit2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "49000",
+		"sData9": "300",
+		"sData10": "2",
+		"sData11": "05/04/2019"}
+		]
+	},
+	{
+		"TestCaseId": "PaymentsAccount",
+		"Keys": [
+			{
+		"TestCase_ID": "PaymentsAccount",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "45000",
+		"sData9": "2000.00",
+		"sData10": "Tax for Next Year"
+		}
+		]
+	},
+	{
+		"TestCaseId": "FinishingTaxReturn",
+		"Keys": [
+			{
+		"TestCase_ID": "FinishingTaxReturn",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "45000",
+		"sData9": "2000",
+		"sData10": "Request for Finishing Tax "
+		}
+		]
+	},
+	{
+		"TestCaseId": "UnderpaidTax",
+		"Keys": [
+			{
+		"TestCase_ID": "UnderpaidTax",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "45000",
+		"sData9": "2500",
+		"sData10": "1000",
+		"sData11": "500"
+		}
+		]
+	},
+	{
+		"TestCaseId": "PayCodeCheck",
+		"Keys": [
+			{
+		"TestCase_ID": "PayCodeCheck",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "26499.00",
+		"sData9": "26500.00"
+		}
+		]
+	},
+	{
+		"TestCaseId": "addTaxPaymentAdvanced",
+		"Keys": [
+			{
+		"TestCase_ID": "addTaxPaymentAdvanced",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "07/04/2018",
+		"sData7": "04/04/2019",
+		"sData8": "Making Part payment",
+		"sData9": "2000",
+		"sData10": "35000"
+		}
+		]
+	},
+	{
+		"TestCaseId": "addAdditionalInfo",
+		"Keys": [
+			{
+		"TestCase_ID": "addAdditionalInfo",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "Abc Corp.",
+		"sData5": "AB56789",
+		"sData6": "06/04/2018",
+		"sData7": "05/04/2019",
+		"sData8": "35000",
+		"sData9": "2000",
+		"sData10": "20000",
+		"sData11": "1500",
+		"sData12": "2",
+		"sData13": "700",
+		"sData14": "800",
+		"sData15": "2500",
+		"sData16": "1600",
+		"sData17": "1800",
+		"sData18": "800",
+		"sData19": "400",
+		"sData20": "250",
+		"sData21": "1800",
+		"sData22": "500",
+		"sData23": "1500",
+		"sData24": "100",
+		"sData25": "150",
+		"sData26": "200",
+		"sData27": "250",
+		"sData28": "300",
+		"sData29": "350",
+		"sData30": "400",
+		"sData31": "100",
+		"sData32": "500",
+		"sData33": "550",
+		"sData34": "600"
+	}
+		]
+	},
+	{
+		"TestCaseId": "ForeignIncome",
+		"Keys": [
+			{
+		"TestCase_ID": "ForeignIncome",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "15000",
+		"sData5": "5000",
+		"sData6": "500",
+		"sData7": "300",
+		"sData8": "Abc Corp.",
+		"sData9": "AB56789",
+		"sData10": "07/04/2017",
+		"sData11": "04/04/2018"
+		}
+		]
+	},
+	{
+		"TestCaseId": "ForeignIncomeTestCase33",
+		"Keys": [
+			{
+		"TestCase_ID": "ForeignIncomeTestCase33",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "anjali1",
+		"sData4": "33254",
+		"sData5": "4350.8",
+		"sData6": "1393.11",
+		"sData7": "24850",
+		"sData8": "4970",
+		"sData9": "1000000506",
+		"sData10": "2261.67",
+		"sData11": "3562",
+		"sData12": "356",
+		"sData13": "2679",
+		"sData14": "401",
+		"sData15": "6741",
+		"sData16": "1685",
+		"sData17": "3602.00",
+		"sData18": "2510.00",
+		"sData19": "1",
+		"sData20": "90.00",
+		"sData21": "360.00",
+		"sData22": "120.00",
+		"sData23": "822",
+		"sData24": "320.00"
+		
+	}
+		]
+	}
+]

@@ -1,0 +1,15 @@
+testModeller.apiHost=https://api.cloud.testinsights.io
+testModeller.apiKey=VR-I8_W6PLcJO9rp-BnVfoBGp
+testModeller.serverName=VIP-James
+
+# defaults
+#testModeller.uploadResults=true
+#testModeller.analyseFailures=false
+
+selenium.browserType=Chrome
+
+selenium.runLocation=local
+#sauceLabs.platform=Windows 10
+#sauceLabs.version=latest
+#sauceLabs.username=
+#sauceLabs.accessKey=

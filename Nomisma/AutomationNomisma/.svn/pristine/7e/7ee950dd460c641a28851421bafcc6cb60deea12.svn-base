@@ -1,0 +1,342 @@
+<html>
+<head>
+<title>TestNG:  Test13-Verify3_59To3_62TextBox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test13-Verify3_59To3_62TextBox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 16 11:34:35 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>225 seconds (225657 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.businesstypeScripts.Verify3_59To3_62TextBox.funcVerify3_59To3_62BoxPTRFull()'><b>funcVerify3_59To3_62BoxPTRFull</b><br>Test class: com.nomisma.businesstypeScripts.Verify3_59To3_62TextBox<br/>
+<a href="#Output-1412564235" onClick='toggleBox("Output-1412564235", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1412564235" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1412564235">
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'testingPTR')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'testingPTR')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'testingPTR')]] clicked<br/>
+Agent window is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Businesses')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Businesses')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Businesses')]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlType]] -> xpath: .//option[normalize-space(.) = "Partnership"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlType]] -> xpath: .//option[normalize-space(.) = "Partnership"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ctl00_ParentContent_cPHFilter_ddlType]] -> xpath: .//option[normalize-space(.) = "Partnership"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ctl00_ParentContent_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //tr[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_rowCompany']/td[1]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //tr[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_rowCompany']/td[1]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //tr[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_rowCompany']/td[1]] clicked<br/>
+opening searched business<br/>
+Nomisma1Partnership<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Accountant')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Accountant')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Accountant')]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ddlFinancialYear]] -> xpath: .//option[normalize-space(.) = "Jan 2018 - Dec 2018"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ddlFinancialYear]] -> xpath: .//option[normalize-space(.) = "Jan 2018 - Dec 2018"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_ddlFinancialYear]] -> xpath: .//option[normalize-space(.) = "Jan 2018 - Dec 2018"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Income')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Reports')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Reports')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Reports')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //table/tbody/tr/td/a[contains(text(),'Profit & Loss')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //table/tbody/tr/td/a[contains(text(),'Profit & Loss')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //table/tbody/tr/td/a[contains(text(),'Profit & Loss')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: chkShowDetail]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: chkShowDetail]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: chkShowDetail] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Final Accounts')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Final Accounts')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Final Accounts')]] clicked<br/>
+Sales amount for turnover compared successfully with profit and loss: 120000<br/>
+Bank interest receivable Value of Balance sheet is compared successfully with profit and loss: 22000<br/>
+Bad Debts Amount of Balance sheet is compared successfully with profit and loss: 2100<br/>
+Bad Debts Recovered amount of Balance sheetis compared successfully with profit and loss: 2200<br/>
+General Provision for Doubtful debts amount of Balance sheet is compared successfully with profit and loss: 2300<br/>
+Bank Hire Purchase Mortgage and Other amount of Balance sheet is compared successfully with profit and loss: 2400<br/>
+Bank Card and Over Draft Charges amount of Balance sheet is compared successfully with profit and loss: 2500<br/>
+Amortisation of Purchased Goodwill Amount of Balance sheet is  compared successfully with profit and loss: 2600<br/>
+Depreciation of Plant and Machinery amount of Balance sheet is compared successfully with profit and loss: 2700<br/>
+Depreciation of Commercial Vehicles amount of Balance sheet is compared successfully with profit and loss: 2800<br/>
+Depreciation of Fixtures And Fittings amount of Balance sheet is compared successfully with profit and loss: 2900<br/>
+Depreciation of Equipment amount of Balance sheet is compared successfully with profit and loss: 3000<br/>
+Depreciation Of Motor Cars amount of Balance sheet is compared successfully with profit and loss: <br/>
+Depreciation Of Assets Under Hp Or Financ amount of Balance sheet is compared successfully with profit and loss: <br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Partnership Tax Return')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Partnership Tax Return')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Partnership Tax Return')]] clicked<br/>
+Nomisma1Partnership<br/>
+Dashboard of Partnership Tax Return opened successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Partnership - SA800')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Partnership - SA800')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Partnership - SA800')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //ul/li/a[contains(text(),'Trading & Professional Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //ul/li/a[contains(text(),'Trading & Professional Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //ul/li/a[contains(text(),'Trading & Professional Income')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_btnEdit] clicked<br/>
+edit button clicked in first go<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_rdbManualAuto_0]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_rdbManualAuto_0]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_rdbManualAuto_0] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_btnOk]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_btnOk]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_btnOk] clicked<br/>
+Auto Turnover is Verified successfully: 120000.00<br/>
+ Value of box 3.49 of Income and expenses for this accounting period is verified successfully: 120000.0<br/>
+ Value of box 3.50 of Income and expenses for this accounting period is verified successfully: 22000.0<br/>
+ Value of box 3.59 of Income and expenses for this accounting period is verified successfully: 6600.0<br/>
+ Value of box 3.60 of Income and expenses for this accounting period is verified successfully: 2400.0<br/>
+ Value of box 3.61 of Income and expenses for this accounting period is verified successfully: 2500.0<br/>
+ Value of box 3.62 of Income and expenses for this accounting period is verified successfully: 20300.0<br/>
+ Value of box 3.64 of Income and expenses for this accounting period is verified successfully: 31800.0<br/>
+ Value of box 3.65 without expenses of Income and expenses for this accounting period is verified successfully: 110200.0<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_btnEdit]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_btnEdit] clicked<br/>
+edit button clicked in first go<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHeaderRight_btnDelete] clicked<br/>
+Trading Professional Income deleted successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Accountant')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Accountant')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Accountant')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //h3[contains(text(),'Journals')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //h3[contains(text(),'Journals')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //h3[contains(text(),'Journals')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_cbSelect] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+Records not available in Journal<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //span[contains(text(),'Income')]] clicked<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div[@id='ctl00_cPH_filtrec']/table/tbody/tr[1]/td[11]/a/img]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div[@id='ctl00_cPH_filtrec']/table/tbody/tr[1]/td[11]/a/img]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div[@id='ctl00_cPH_filtrec']/table/tbody/tr[1]/td[11]/a/img] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cpHFooter_btnDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div[@id='ctl00_divMainContent']/header/div[1]/div[2]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div[@id='ctl00_divMainContent']/header/div[1]/div[2]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div[@id='ctl00_divMainContent']/header/div[1]/div[2]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div/ul/li/a[contains(text(),'Customer')]]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div/ul/li/a[contains(text(),'Customer')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> xpath: //div/ul/li/a[contains(text(),'Customer')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrRecordsLimited_ctl00_lnkDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrRecordsLimited_ctl00_lnkDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cPH_rptrRecordsLimited_ctl00_lnkDelete] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+After click [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete]<br/>
+WebElement [[ChromeDriver: chrome on XP (f2fc61e6aeddd2d6e1c76ddbfd8f566c)] -> id: ctl00_cphFooter_btnDelete] clicked<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'funcVerify3_59To3_62BoxPTRFull'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>211</td>
+<td>com.nomisma.businesstypeScripts.Verify3_59To3_62TextBox@34f5090e</td></tr>
+</table><p>
+</body>
+</html>

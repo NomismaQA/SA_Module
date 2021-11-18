@@ -1,0 +1,3442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--  <suite name="Suite" thread-count="4">-->
+<suite name="Suite" verbose="10">
+ <listeners>
+ <listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+<listener class-name="com.nomisma.generic.CustomizedEmailableReport" />
+</listeners>
+ 
+ 	<test name= "AddMTRtestCase1_2019">
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario1"/>
+  			</classes> 
+  	</test>
+ 	<test name= "MTRtestCase2_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario2"/>
+  			</classes> 
+  	</test>
+  <test name= "MTRtestCase3_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario3"/>
+  			</classes> 
+  	</test>
+    	<test name= "MTRtestCase4_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario4"/>
+  			</classes> 
+  	</test>
+  <test name= "MTRtestCase5_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario5"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase6_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario6"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase7_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario7"/>
+  			</classes> 
+  	</test>
+  	
+  <test name= "MTRtestCase8_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario8"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase9_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario9"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MTRtestCase10_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario10"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase11_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario11"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase12_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario12"/>
+  			</classes>
+  				</test>
+     <test name= "MTRtestCase13_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario13"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase14_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario14"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase15_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario15"/>
+  			</classes> 
+  	</test>
+ <test name= "AddMTRtestCase16_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario16"/>
+  			</classes> 
+  	</test>
+  	 <test name= "AddMTRtestCase17_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario17"/>
+  			</classes> 
+  	</test>	
+  	<test name= "AddMTRtestCase18_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario18"/>
+  			</classes> 
+  	</test>	
+  	<test name= "AddMTRtestCase19_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario19"/>
+  			</classes> 
+  	</test>	
+  	 <test name= "AddMTRtestCase20_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario20"/>
+  			</classes> 
+  	</test>	
+  	<test name= "AddMTRtestCase21_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario21"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase22_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario22"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MTRtestCase23_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario23"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MTRtestCase24_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario24"/>
+  			</classes> 
+  	</test>	
+  	<test name= "AddMTRtestCase25_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario25"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase28_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario28"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase29_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario29"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase30_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario30"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase31_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario31"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase32_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario32"/>
+  			</classes> 
+  	</test>
+  <test name= "AddMTRtestCase33_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario33"/>
+  			</classes> 
+  	</test>
+  <test name= "AddMTRtestCase35_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario35"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MTRtestCase36_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario36"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase37_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario37"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase38_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario38"/>
+  			</classes> 
+  	</test>	
+  
+  <test name= "AddMTRtestCase40_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario40"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase41_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario41"/>
+  			</classes> 
+</test>
+<test name= "MTRtestCase42_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario42"/>
+  			</classes> 
+</test>
+<test name= "MTRtestCase43_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario43"/>
+  			</classes> 
+</test>
+  	  <test name= "MTRtestCase44_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario44"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase45_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario45"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase48_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario48"/>
+  			</classes> 
+  	</test>		
+  	<test name= "AddMTRtestCase49_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario49"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase50_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario50"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase51_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario51"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase52_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario52"/>
+  			</classes> 
+ </test>
+  	<test name= "MTRtestCase53_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario53"/>
+  			</classes> 
+ </test>
+  	<test name= "MTRtestCase54_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario54"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase56">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario56"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase57_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario57"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase58_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario58"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase59">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario59"/>
+  			</classes> 
+  	</test>
+  		<test name= "MTRtestCase60_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario60"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase61_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario61"/>
+  			</classes> 
+  	</test>	
+  			 <test name= "MTRtestCase62_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario62"/>
+  			</classes> 
+  	</test>
+  	 <test name= "MTRtestCase63_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario63"/>
+  			</classes> 
+ </test>
+    <test name= "MTRtestCase64_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario64"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase65_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario65"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase66_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario66"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase67_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario67"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase68_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario68"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase69_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario69"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase70_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario70"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase71_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario71"/>
+  			</classes> 
+ </test>
+  	<test name= "MTRtestCase73_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario73"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase74_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario74"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase75_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario75"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase76_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario76"/>
+  			</classes> 
+  	</test>		
+	<test name= "AddMTRtestCase77_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario77"/>
+  			</classes> 
+  	</test>
+  <test name= "MTRtestCase78_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario78"/>
+  			</classes> 
+  	</test>
+  <test name= "MTRtestCase79_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario79"/>
+  			</classes> 
+</test>
+  	<test name= "MTRtestCase80_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario80"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase82_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario82"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase84_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario84"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase85_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario85"/>
+  			</classes> 
+  	</test>	
+  	 <test name= "MTRtestCase87_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario87"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase88_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario88"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MTRtestCase90_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario90"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase91_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario91"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase92_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario92"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase93_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario93"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase94_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario94"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase95_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario95"/>
+  			</classes> 
+  	</test>		
+  	 <test name= "MTRtestCase96_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario96"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase97_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario97"/>
+  			</classes> 
+  	</test>	
+  	  <test name= "MTRtestCase98_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario98"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase99_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario99"/>
+  			</classes> 
+  	</test>
+  		<test name= "AddMTRtestCase100_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario100"/>
+  			</classes> 
+  	</test>
+   <test name= "AddMTRtestCase101_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario101"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase102_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario102"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase103_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario103"/>
+  			</classes> 
+  	</test>	
+  <test name= "AddMTRtestCase104_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario104"/>
+  			</classes> 
+  	</test>	
+	<test name= "MTRtestCase107_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario107"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase109_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario109"/>
+  			</classes> 
+  	</test>
+  	
+  	<test name= "MTRtestCase110_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario110"/>
+  			</classes> 
+  	</test>
+  	
+  	  <test name= "MTRtestCase114_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario114"/>
+  			</classes> 
+</test>
+<test name= "MTRtestCase115_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario115"/>
+  			</classes> 
+</test>
+  	<test name= "MTRtestCase116_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario116"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase117_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario117"/>
+  			</classes> 
+  	</test>	
+  	<test name= "AddMTRtestCase118_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario118"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase119_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario119"/>
+  			</classes> 
+  	</test>
+  	 <test name= "MTRtestCase120_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario120"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase125_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario125"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase126_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario126"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase127_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario127"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase128_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario128"/>
+  			</classes> 
+  	</test>	
+  	<test name= "AddMTRtestCase129_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario129"/>
+  			</classes> 
+  	</test>
+  	 <test name= "MTRtestCase130_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario130"/>
+  			</classes> 
+  	</test>
+  	 <test name= "MTRtestCase131_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario131"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase132_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario132"/>
+  			</classes> 
+  	</test>
+  	 <test name= "MTRtestCase133_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario133"/>
+  			</classes> 
+  	</test>	
+  	 <test name= "MTRtestCase136_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario136"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase137_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario137"/>
+  			</classes> 
+</test>
+<test name= "MTRtestCase149_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario149"/>
+  			</classes> 
+</test>
+  	 <test name= "MTRtestCase150_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario150"/>
+  			</classes> 
+  	</test>
+  	 <test name= "MTRtestCase151_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario151"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase152_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario152"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MTRtestCase153_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario153"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MTRtestCase154_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario154"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase178_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario178"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase179_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario179"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase188_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario188"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase190_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario190"/>
+  			</classes> 
+ </test>
+  	 <test name= "MTRtestCase191_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario191"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase195_2019">  
+ 	<parameter name= "browser" value="chrome"/>
+ 		<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario195"/>
+  		</classes> 
+ </test>  
+  	<test name= "AddMTRtestCase155_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario155"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MTRtestCase156_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario156"/>
+  			</classes> 
+  	</test>
+  	
+  	<test name= "MTRtestCase157_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario157"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase158_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario158"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase159_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario159"/>
+  			</classes> 
+  	</test>
+  	
+  	<test name= "MTRtestCase160_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario160"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase161_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario161"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase162_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario162"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase163_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario163"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase165_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario165"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase166_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario166"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase167_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario167"/>
+  			</classes> 
+</test>
+<test name= "MTRtestCase168_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario168"/>
+  			</classes> 
+</test>
+<test name= "MTRtestCase169_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario169"/>
+  			</classes> 
+</test>
+  	<test name= "MTRtestCase172_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario172"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase173_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario173"/>
+  			</classes> 
+</test>
+
+  	<test name= "MTRtestCase174_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario174"/>
+  			</classes> 
+ </test>
+<test name= "MTRtestCase176_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario176"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase177_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario177"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase182_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario182"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase184_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario184"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase185_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario185"/>
+  			</classes> 
+  	</test>	
+  	<test name= "MTRtestCase186_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario186"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase187_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario187"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase189_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario189"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase192_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario192"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase198_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario198"/>
+  			</classes> 
+  	</test>	
+  	<test name= "AddMTRtestCase201_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario201"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase202_2019">  
+ 	<parameter name= "browser" value="chrome"/>
+ 		<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario202"/>
+  		</classes> 
+ </test>
+   <test name= "MTRtestCase203_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario203"/>
+  			</classes> 
+</test>  
+ <test name= "MTRtestCase204_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario204"/>
+  			</classes> 
+</test>
+  	<test name= "MTRtestCase207_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario207"/>
+  			</classes> 
+  	</test>
+   	<test name= "MTRtestCase208_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario208"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase209_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario209"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase210_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario210"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase211_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario211"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase212_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario212"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase213_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario213"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase214_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario214"/>
+  			</classes> 
+ </test>
+   <test name= "MTRtestCase215_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario215"/>
+  			</classes> 
+</test>
+ <test name= "MTRtestCase216_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario216"/>
+  			</classes> 
+ </test>
+  	<test name= "MTRtestCase218_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario218"/>
+  			</classes> 
+  	</test>
+  	
+  	<test name= "MTRtestCase219_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario219"/>
+  			</classes> 
+  	</test>	
+  	  <test name= "MTRtestCase220_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario220"/>
+  			</classes> 
+</test>
+  	<test name= "MTRtestCase221_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario221"/>
+  			</classes> 
+  </test>
+  
+<test name= "MTRtestCase222_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario222"/>
+  			</classes> 
+ </test>
+ <test name= "MTRtestCase223_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario223"/>
+  			</classes> 
+ </test>
+ <test name= "MTRtestCase224_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario224"/>
+  			</classes> 
+ </test>
+  <test name= "MTRtestCase225_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario225"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase226_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario226"/>
+  			</classes> 
+ </test>
+  	<test name= "MTRtestCase227_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario227"/>
+  			</classes> 
+  	</test>
+  	<test name= "AddMTRtestCase228_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario228"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase229_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario229"/>
+  			</classes> 
+ </test>
+  	<test name= "AddMTRtestCase230_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario230"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase231_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario231"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase232_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario232"/>
+  			</classes> 
+ </test>
+  	<test name= "AddMTRtestCase233_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario233"/>
+  			</classes> 
+  	</test> 
+  	<test name= "MTRtestCase234_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario234"/>
+  			</classes> 
+</test>
+  	<test name= "AddMTRtestCase235_2019">  
+	<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario235"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase236_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario236"/>
+  			</classes> 
+  	</test>
+  	<test name= "MTRtestCase237_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario237"/>
+  			</classes> 
+</test>
+<test name= "MTRtestCase238_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario238"/>
+  			</classes> 
+</test>
+  	<test name= "MTRtestCase239_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario239"/>
+  			</classes> 
+ </test>
+  	<test name= "MTRtestCase240_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2019_sandbox.MTRTestScenario240"/>
+  			</classes> 
+  	</test>
+  	  <test name= "Addtestcase33">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.TestCase33FOR"/>
+  			</classes> 
+  	</test> 
+  	<test name= "Deltestcase33">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.DelTestCase33FOR"/>
+  			</classes> 
+  	</test>
+ 	<test name= "EmailSendTest1">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.SendEmailTestCase"/>
+  			</classes> 
+  	</test>      
+  	 <test name= "EmailSendTest2">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ScheduledEmailTestCase"/>
+  			</classes> 
+  	</test> 
+  	<test name= "PAYECODETest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.PAYEcodeCls1"/>
+  			</classes> 
+  	</test> 
+  	 <test name= "SADashBoardStatusTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.VerifySADashboard"/>
+  			</classes> 
+  	</test> 
+  <test name= "SAAccountantPage">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.VerifyClientListOnAccountantPage"/>
+  			</classes> 
+  	</test>  
+  <test name= "ImportClientTestcase">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ImportClientCls"/>
+  			</classes> 
+  	</test> 
+  	<test name= "EmailTemptlateTestcase">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.EmailTemplateCls"/>
+  			</classes> 
+  	</test> 
+  	<test name= "ScheduleEmailtestcase">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment.ScheduleEmailCls"/>
+  			</classes> 
+  	</test>
+  	
+  	  <test name= "ScheduledEmail_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment2019.ScheduledEmailTestCase"/>
+  			</classes> 
+  	</test>
+  	<test name= "Schedule_Email_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment2019.ScheduleEmailCls"/>
+  			</classes> 
+  	</test>
+  	
+  		<test name= "VerifyClientListOnAccountantPage_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment2019.VerifyClientListOnAccountantPage"/>
+  			</classes> 
+  	</test>
+  	<test name= "VerifySADashboard_2019">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.SelfAssessment2019.VerifySADashboard"/>
+  			</classes> 
+  	</test>  
+<!-- Adding test cases of 2019-20 with new data --> 	 
+<test name= "MTRTestScenario1_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario1"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario2_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario2"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario5_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario5"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario6_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario6"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario7_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario7"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario8_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario8"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario9_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario9"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario184_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario184"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario127_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario127"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario128_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario128"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario130_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario130"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario133_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario133"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario134_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario134"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario135_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario135"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario10_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario10"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario12_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario12"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario13_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario13"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario14_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario14"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario15_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario15"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario18_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario18"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario19_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario19"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario20_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario20"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario21_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario21"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario22_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario22"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario23_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario23"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario25_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario25"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario26_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario26"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario28_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario28"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario30_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario30"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario35_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario35"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario36_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario36"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario38_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario38"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario40_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario40"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario41_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario41"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario42_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario42"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario43_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario43"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario45_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario45"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario46_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario46"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario47_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario47"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario48_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario48"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario49_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario49"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario50_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario50"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario53_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario53"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario54_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario54"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario55_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario55"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario56_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario56"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario57_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario57"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario58_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario58"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario59_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario59"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario61_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario61"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario62_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario62"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario63_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario63"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario64_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario64"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario65_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario65"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario66_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario66"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario67_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario67"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario68_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario68"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario69_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario69"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario70_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario70"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario71_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario71"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario72_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario72"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario73_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario73"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario74_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario74"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario75_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario75"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario78_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario78"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario80_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario80"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario82_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario82"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario84_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario84"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario85_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario85"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario87_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario87"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario90_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario90"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario95_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario95"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario97_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario97"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario98_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario98"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario99_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario99"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario100_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario100"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario101_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario101"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario102_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario102"/>
+  			</classes> 
+</test>
+
+<test name= "MTRTestScenario103_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario103"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario104_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario104"/>
+   				
+  			</classes> 
+</test>
+<test name= "MTRTestScenario105_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario105"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario106_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario106"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario107_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario107"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario109_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario109"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario112_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario112"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario114_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario114"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario115_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario115"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario119_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario119"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario120_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario120"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario121_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario121"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario122_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario122"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario123_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario123"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario124_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario124"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario125_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario125"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario126_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario126"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario131_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario131"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario132_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario132"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario137_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario137"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario157_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario157"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario159_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario159"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario161_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario161"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario164_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario164"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario165_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario165"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario166_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario166"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario171_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario171"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario172_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario172"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario174_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario174"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario177_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario177"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario178_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario178"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario179_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario179"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario180_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario180"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario181_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario181"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario182_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario182"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario183_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario183"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario186_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario186"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario189_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario189"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario190_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario190"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario191_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario191"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario192_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario192"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario193_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario193"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario194_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario194"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario195_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario195"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario196_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario196"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario202_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario202"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario203_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario203"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario207_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario207"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario208_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario208"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario209_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario209"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario212_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario212"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario213_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario213"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario215_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario215"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario216_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario216"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario217_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario217"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario218_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario218"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario219_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario219"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario220_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario220"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario221_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario221"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario224_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario224"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario225_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario225"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario226_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario226"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario227_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario227"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario228_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario228"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario229_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario229"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario230_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario230"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario231_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario231"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario232_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario232"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario238_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario238"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario240_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario240"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario3_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario3"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario4_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario4"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario11_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario11"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario16_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario16"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario17_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario17"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario24_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario24"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario29_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario29"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario31_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario31"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario33_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario33"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario37_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario37"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario91_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario91"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario92_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario92"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario136_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario136"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario154_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario154"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario155_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario155"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario156_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario156"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario158_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario158"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario160_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario160"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario162_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario162"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario163_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario163"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario167_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario167"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario168_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario168"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario198_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario198"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario214_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario214"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario223_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario223"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario233_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario233"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario234_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario234"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario235_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario235"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario236_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario236"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario237_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario237"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario239_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario239"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario96_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario96"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario27_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario27"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario34_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario34"/>
+  			</classes> 
+</test>
+  <test name= "MTRTestScenario200_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario200"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario206_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario206"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario243_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario243"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario247_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario247"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario248_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario248"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario249_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario249"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario250_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario250"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario251_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario251"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario252_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario252"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario253_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario253"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario254_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario254"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario255_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario255"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario256_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario256"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario257_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario257"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario258_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario258"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario259_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario259"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario260_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario260"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario261_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario261"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario262_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario262"/>
+  			</classes> 
+</test>
+<!-- Adding test cases of 2019-20 with Previous year data --> 
+<test name= "MTRTestScenario1_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario1"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario2_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario2"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario28_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario28"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario35_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario35"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario36_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario36"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario38_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario38"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario40_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario40"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario41_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario41"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario42_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario42"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario43_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario43"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario45_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario45"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario48_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario48"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario49_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario49"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario50_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario50"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario53_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario53"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario54_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario54"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario56_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario56"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario57_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario57"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario58_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario58"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario59_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario59"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario61_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario61"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario62_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario62"/>
+  			</classes> 
+</test>
+
+<test name= "MTRTestScenario63_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario63"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario64_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario64"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario65_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario65"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario66_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario66"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario67_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario67"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario68_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario68"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario69_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario69"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario70_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario70"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario71_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario71"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario73_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario73"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario74_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario74"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario75_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario75"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario78_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario78"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario80_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario80"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario82_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario82"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario84_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario84"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario85_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario85"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario87_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario87"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario89_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario89"/>
+  			</classes> 
+</test> 
+<test name= "MTRTestScenario90_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario90"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario93_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario93"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario95_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario95"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario97_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario97"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario98_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario98"/>
+  			</classes> 
+</test>
+
+<test name= "MTRTestScenario99_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario99"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario100_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario100"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario101_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario101"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario102_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario102"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario103_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario103"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario104_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario104"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario107_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario107"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario109_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario109"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario114_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario114"/>
+  			</classes> 
+</test>
+
+<test name= "MTRTestScenario115_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario115"/>
+  			</classes> 
+</test>
+
+<test name= "MTRTestScenario119_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario119"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario120_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario120"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario121_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario121"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario125_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario125"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario126_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario126"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario131_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario131"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario132_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario132"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario137_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario137"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario157_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario157"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario159_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario159"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario161_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario161"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario165_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario165"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario166_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario166"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario172_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario172"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario174_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario174"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario177_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario177"/>
+  			</classes> 
+</test>
+	
+<test name= "MTRTestScenario178_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario178"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario179_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario179"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario182_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario182"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario186_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario186"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario189_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario189"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario190_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario190"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario191_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario191"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario192_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario192"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario195_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario195"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario202_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario202"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario203_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario203"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario207_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario207"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario208_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario208"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario209_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario209"/>
+  			</classes> 
+</test>
+
+<test name= "MTRTestScenario212_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario212"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario213_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario213"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario215_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario215"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario216_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario216"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario218_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario218"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario219_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario219"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario220_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario220"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario221_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario221"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario224_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario224"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario225_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario225"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario226_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario226"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario227_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario227"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario228_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario228"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario229_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario229"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario230_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario230"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario231_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario231"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario232_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario232"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario238_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario238"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario240_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario240"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario241_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario241"/>
+  			</classes> 
+</test> 
+<test name= "MTRTestScenario242_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario242"/>
+  			</classes> 
+</test> 
+<test name= "MTRTestScenario244_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario244"/>
+  			</classes> 
+</test> 
+<test name= "MTRTestScenario245_2020">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020.MTRTestScenario245"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario11_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario11"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario24_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario24"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario29_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario29"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario31_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario31"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario33_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario33"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario37_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario37"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario91_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario91"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario92_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario92"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario136_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario136"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario154_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario154"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario155_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario155"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario156_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario156"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario158_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario158"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario160_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario160"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario162_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario162"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario163_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario163"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario167_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario167"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario168_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario168"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario198_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario198"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario214_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario214"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario223_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario223"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario233_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario233"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario234_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario234"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario235_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario235"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario236_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario236"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario237_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario237"/>
+  			</classes> 
+</test>
+<test name= "MTRTestScenario239_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario239"/>
+  			</classes> 
+</test>
+ <test name= "MTRTestScenario96_2020_1">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.SAMTR_Scripts2020_Old.MTRTestScenario96"/>
+  			</classes> 
+</test>
+<!-- Adding test cases of PTR --> 
+<!--<test name= "Test1-verifyQuestionSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800BusinessInvestmentBusinessQues1"/>
+  			</classes> 
+ </test> 
+ <test name= "Test2-verifyQuestionSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800BusinessInvestmentBusinessQues2"/>
+  			</classes> 
+ </test>
+ <test name= "Test3-verifyQuestionSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800BusinessInvestmentBusinessQues3"/>
+  			</classes> 
+ </test> 
+ <test name= "Test4-verifyQuestionSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800BusinessInvestmentBusinessQues4"/>
+  			</classes> 
+ </test>
+ <test name= "Test1-verifyBoxesSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800TaxableProfitLossBoxes"/>
+  			</classes> 
+ </test>
+ <test name= "Test1-VerifyTrading_professionalIncome">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800Trading_professionalIncome1"/>
+  			</classes> 
+</test>
+<test name= "Test2-VerifyTrading_professionalIncome">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800Trading_professionalIncome2"/>
+  			</classes> 
+</test>
+<test name= "Test3-TaxableProfitorLoss">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800TaxableProfit_Loss"/>
+  			</classes> 
+</test>
+ <test name= "Test4-SummaryOfBalanceSheetAuto">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifySummaryOfBalanceSheetAuto"/>
+  			</classes> 
+</test>
+ <test name= "Test5-BusinessIncomeTradingIncomeAutoAndManualPTRShort">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifyBusinessIncomeTradingIncomeAutoAndManualPTRShort"/>
+  			</classes> 
+</test>
+<test name= "Test6-BusinessIncomeTradingIncomeAutoAndManualPTRFull">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifyBusinessIncomeTradingIncomeAutoAndManualPTRFull"/>
+  			</classes> 
+</test>
+<test name= "Test7-VerifySA802PTRFull">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifySA802PTRFull"/>
+  			</classes> 
+</test>
+<test name= "Test8-VerifySA803PTRFull">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifySA803PTRFull"/>
+  			</classes> 
+</test>
+<test name= "Test1-VerifyTurnoverIncomeForPTRShort">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CheckingBoxesPTRshortAuto"/>
+  			</classes> 
+</test>
+<test name= "Test2-VerifyTurnoverIncomeForPTRFull">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CheckingBoxesPTRFullAuto"/>
+  			</classes> 
+</test>
+<test name= "Test3-CheckingBoxesVATRelated">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CheckingBoxesVATRelated"/>
+  			</classes> 
+</test>
+<test name= "Test4-CheckingExpensesAuto">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifyExpensesPTRFull"/>
+  			</classes> 
+</test>
+
+<test name= "Test5-Verify3.46TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_46TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test6-Verify3.48TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_48TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test7-Verify3.50TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_50TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test8-Verify3.51TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_51TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test9-Verify3.52TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_52TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test10-Verify3_53And3_54TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_53And3_54TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test11-Verify3_55And3_56TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_55And3_56TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test12-Verify3_57And3_58TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_57And3_58TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test13-Verify3_59To3_62TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_59To3_62TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test14-Verify3_63TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_63TextBox"/>
+  			</classes> 
+</test>-->
+
+</suite>

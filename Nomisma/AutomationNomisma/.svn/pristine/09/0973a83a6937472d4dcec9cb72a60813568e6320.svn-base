@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>TestNG:  TestCaseCreateBusiness</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestCaseCreateBusiness</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 28 16:10:37 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16655 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.Business.CreateBusinessCls.funcCreateBusiness()'><b>funcCreateBusiness</b><br>Test class: com.nomisma.Business.CreateBusinessCls<br/>
+<a href="#Output-288797801" onClick='toggleBox("Output-288797801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-288797801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-288797801">
+WebElement to be clicked [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestBookKeeping')]]<br/>
+After click [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestBookKeeping')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestBookKeeping')]] clicked<br/>
+Agent window is displayed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> xpath: //span[contains(text(),'Businesses')]]<br/>
+After click [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> xpath: //span[contains(text(),'Businesses')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> xpath: //span[contains(text(),'Businesses')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> xpath: //span[contains(text(),'Add Business')]]<br/>
+After click [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> xpath: //span[contains(text(),'Add Business')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> xpath: //span[contains(text(),'Add Business')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_ctl00_ParentContent_cPH_btnLimitedCompany]<br/>
+After click [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_ctl00_ParentContent_cPH_btnLimitedCompany]<br/>
+WebElement [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_ctl00_ParentContent_cPH_btnLimitedCompany] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_ctl00_ParentContent_cPH_chkIsEmployee]<br/>
+After click [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_ctl00_ParentContent_cPH_chkIsEmployee]<br/>
+WebElement [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_ctl00_ParentContent_cPH_chkIsEmployee] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_ctl00_ParentContent_cPH_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_ctl00_ParentContent_cPH_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (ca1c9a95296be15e474bdc6c658f6e7e)] -> id: ctl00_ctl00_ParentContent_cPH_btnSave] clicked<br/>
+Page Refreshed<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'funcCreateBusiness'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.nomisma.Business.CreateBusinessCls@34f5090e</td></tr>
+</table><p>
+</body>
+</html>

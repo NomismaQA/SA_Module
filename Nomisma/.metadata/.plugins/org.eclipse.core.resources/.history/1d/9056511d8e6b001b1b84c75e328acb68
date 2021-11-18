@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SA Dashboard Suite">
+  
+  <test name="SA Dashboard client search with no selection and validation">
+    <classes>
+      <class name="tests.clientsearchwithvalidation_DefaultProfile2"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard client search and quick jump verification">
+      <classes>
+      <class name="tests.clientsearchwithquickjumpverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire frame with no client selection and validation verification ">
+      <classes>
+      <class name="tests.Taxquestionnairewithoutselectingclient_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire frame with client selection,no subject of email and validation verification ">
+      <classes>
+      <class name="tests.taxquestionnairewithoutmessagebody_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire frame with client selection,no message of email and validation verification ">
+      <classes>
+      <class name="tests.taxquestionnairewithblanksubject_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire reminder frame without  client selection and validation verification ">
+      <classes>
+      <class name="tests.questionnairereminderwithoutselectingclient_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard tax questionnaire reminder frame with client selection,no subject of email and validation verification ">
+      <classes>
+      <class name="tests.questionnairereminderwithoutsubject_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard tax questionnaire reminder frame with client selection,no message of email and validation verification ">
+      <classes>
+      <class name="tests.questionnairereminderwithoutmessagebody_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-accountant search and verification of records as per search ">
+      <classes>
+      <class name="tests.assignedaccountantcountverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+     <test name="SA Dashboard-verification of work status: NOt STarted wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.notstartedworkstatusverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of work status:INprogress wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.inprogressworkstatuisverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of work status:Awaiting review count wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.awaitingrevieworkstatusverification_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      <test name="SA Dashboard-verification of work status:tOtal count wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.accountanttotalverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of Tax year wise search  ">
+      <classes>
+      <class name="tests.taxyearsearch_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:questionnaire sent wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.questionnairesentverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:Response recevied wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.responsereceivedverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      <test name="SA Dashboard-verification of work status:Queries sent wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.queriessentworkstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of work status:sent for approvalt wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.sentforapprovalworkstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:to be filed wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.tobefiledworkstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+       <test name="SA Dashboard-verification of work status:not to submit wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.nottosubmitworksttausverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      
+      <test name="SA Dashboard-verification of work status:approved wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.approvedstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:filed wrt to accountant and client list records ">
+      <classes>
+      <class name="tests.filedstatusverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+       <test name="SA Dashboard-verification of work status:filed status count of progress bar wrt to accountant ">
+      <classes>
+      <class name="tests.filedstatusprogressbarverify_DefaultProfile"/>
+      </classes>
+      </test>
+      
+      <test name="SA Dashboard-verification of work status:total client count of progress bar wrt to accountant ">
+      <classes>
+      <class name="tests.totalclientlcountprogressbarverify_DefaultProfile.java"/>
+      </classes>
+      </test>
+      
+      
+      
+    
+   <!-- Test -->
+</suite> <!-- Functional Suite -->

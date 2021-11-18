@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--  <suite name="Suite" thread-count="4">-->
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+ <listener class-name="com.nomisma.generic.CustomizedEmailableReport" />
+</listeners>
+<test name= "Test1-LimitedCompany">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CreateLimitedBusiness"/>
+  			</classes> 
+  	</test> 
+  <test name= "Test2-SoleTraderCompany">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CreateSoleTraderBusiness"/>
+  			</classes> 
+ </test> 
+ <test name= "Test3-PartnershipCompany">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CreatePartnershipBusiness"/>
+  			</classes> 
+ </test> 
+ <test name= "Test4-LLPCompany">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CreateLLPBusiness"/>
+  			</classes> 
+ </test> 
+ <test name= "Test5-PublicLtdCompany">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CreatePLCBusiness"/>
+  			</classes> 
+ </test> 
+ <test name= "Test6-AddNewPartner">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.AddNewPartner"/>
+  			</classes> 
+ </test> 
+ <test name= "Test7-AddNewRatio">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.AddNewRatio"/>
+  			</classes> 
+ </test> 
+ <test name= "Test1-verifyQuestionSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800BusinessInvestmentBusinessQues1"/>
+  			</classes> 
+ </test> 
+ <test name= "Test2-verifyQuestionSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800BusinessInvestmentBusinessQues2"/>
+  			</classes> 
+ </test>
+ <test name= "Test3-verifyQuestionSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800BusinessInvestmentBusinessQues3"/>
+  			</classes> 
+ </test> 
+ <test name= "Test4-verifyQuestionSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800BusinessInvestmentBusinessQues4"/>
+  			</classes> 
+ </test>
+ <test name= "Test1-verifyBoxesSA800">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800TaxableProfitLossBoxes"/>
+  			</classes> 
+ </test>
+ <test name= "Test1-VerifyTrading_professionalIncome">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800Trading_professionalIncome1"/>
+  			</classes> 
+</test>
+<test name= "Test2-VerifyTrading_professionalIncome">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800Trading_professionalIncome2"/>
+  			</classes> 
+</test>
+<test name= "Test3-TaxableProfitorLoss">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.SA800TaxableProfit_Loss"/>
+  			</classes> 
+</test>
+<test name= "Test4-SummaryOfBalanceSheetAuto">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifySummaryOfBalanceSheetAuto"/>
+  			</classes> 
+</test>
+<test name= "Test5-BusinessIncomeTradingIncomeAutoAndManualPTRShort">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifyBusinessIncomeTradingIncomeAutoAndManualPTRShort"/>
+  			</classes> 
+</test>
+<test name= "Test6-BusinessIncomeTradingIncomeAutoAndManualPTRFull">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifyBusinessIncomeTradingIncomeAutoAndManualPTRFull"/>
+  			</classes> 
+</test>
+<test name= "Test7-VerifySA802PTRFull">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifySA802PTRFull"/>
+  			</classes> 
+</test>
+<test name= "Test8-VerifySA803PTRFull">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifySA803PTRFull"/>
+  			</classes> 
+</test>
+<test name= "Test1-VerifyTurnoverIncomeForPTRShort">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CheckingBoxesPTRshortAuto"/>
+  			</classes> 
+</test>
+<test name= "Test2-VerifyTurnoverIncomeForPTRFull">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CheckingBoxesPTRFullAuto"/>
+  			</classes> 
+</test>
+<test name= "Test3-CheckingBoxesVATRelated">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.CheckingBoxesVATRelated"/>
+  			</classes> 
+</test>
+<test name= "Test4-CheckingExpensesAuto">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.VerifyExpensesPTRFull"/>
+  			</classes> 
+</test>
+
+<test name= "Test5-Verify3.46TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_46TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test6-Verify3.48TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_48TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test7-Verify3.50TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_50TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test8-Verify3.51TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_51TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test9-Verify3.52TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_52TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test10-Verify3_53And3_54TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_53And3_54TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test11-Verify3_55And3_56TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_55And3_56TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test12-Verify3_57And3_58TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_57And3_58TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test13-Verify3_59To3_62TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_59To3_62TextBox"/>
+  			</classes> 
+</test>
+<test name= "Test14-Verify3_63TextBox">  
+ 		<parameter name= "browser" value="SandBox"/>
+ 			<classes>
+   				<class name= "com.nomisma.businesstypeScripts.Verify3_63TextBox"/>
+  			</classes> 
+</test>
+</suite>

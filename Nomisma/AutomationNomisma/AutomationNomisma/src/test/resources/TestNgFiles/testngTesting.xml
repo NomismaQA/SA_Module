@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite" parallel="tests" thread-count="4"> -->
+<!-- <suite name="RegressionSuite" parallel="tests" verbose="10"> -->
+<suite name="Suite" verbose="10">
+ <listeners>
+<listener class-name="com.nomisma.generic.NomismaProjectListeners"/>
+<listener class-name="com.nomisma.generic.CustomizedEmailableReport" />
+</listeners> 
+
+
+ 	 <test name= "1. Bookkeeping  EmailInvoiceTest">
+<!-- 	    <groups>
+	      <run>
+	         <include name="pre-tests"></include>
+	      </run>
+	   </groups> -->
+	   <parameter name= "browser" value="chrome"/>
+	   <classes>
+	      <class name= "com.nomisma.scriptsBookkeeping.EmailInvoiceTest"/>
+	   </classes>
+	</test>
+	<test name= "2. Bookkeeping InvoiceLinkTest">
+	   <!-- <groups>
+	      <run>
+	         <include name="Regression"></include>
+	      </run>
+	   </groups> -->
+	   <parameter name= "browser" value="chrome"/>
+	   <classes>
+	      <class name= "com.nomisma.scriptsBookkeeping.InvoiceLinkTest"/>
+	   </classes>
+	</test> 
+	<test name= "3. Bookkeeping AddExpenseTest">
+	   <!-- <groups>
+	      <run>
+	         <include name="Regression"></include>
+	      </run>
+	   </groups> -->
+	   <parameter name= "browser" value="chrome"/>
+	   <classes>
+	      <class name= "com.nomisma.scriptsBookkeeping.AddExpenseTest"/>
+	   </classes>
+	</test>
+	<test name= "4. Bookkeeping  EmailInvoiceTest2">
+	  <!--  <groups>
+	      <run>
+	         <include name="Regression"></include>
+	      </run>
+	   </groups> -->
+	   <parameter name= "browser" value="chrome"/>
+	   <classes>
+	      <class name= "com.nomisma.scriptsBookkeeping.EmailInvoiceTest2"/>
+	   </classes>
+	</test>
+	  <test name= "5. Bookkeeping AddPaymentTest">
+	   <!-- <groups>
+	      <run>
+	         <include name="Regression"></include>
+	      </run>
+	   </groups> -->
+	   <parameter name= "browser" value="chrome"/>
+	   <classes>
+	      <class name= "com.nomisma.scriptsBookkeeping.AddPaymentTest"/>
+	   </classes>
+	</test>  	
+	<test name= "6. Bookkeeping RepeatingInvoiceLstTest">
+	   <parameter name= "browser" value="chrome"/>
+	   <classes>
+	      <class name= "com.nomisma.scriptsBookkeeping.RepeatingInvoiceLst"/>
+	   </classes>
+	</test> 
+  	 
+<!--     	  		 	  	   	    	<test name= "221. Bookkeeping InvoiceLinkTest">  
+ 		<parameter name= "browser" value="chrome"/>
+ 			<classes>
+   				<class name= "com.nomisma.scriptsBookkeeping.InvoiceLinkTest"/>
+  			</classes> 
+  	</test>   -->
+
+  	
+</suite>

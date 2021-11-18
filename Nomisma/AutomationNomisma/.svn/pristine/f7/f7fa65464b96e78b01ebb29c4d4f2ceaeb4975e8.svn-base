@@ -1,0 +1,853 @@
+[
+{
+		"TestCaseId": "addNewLtdBusiness",
+		"Keys": [
+	{
+		"TestCase_ID": "addNewLtdBusiness",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Lmt",
+		"sData5": "01/01/2010",
+		"sData6": "User1",
+		"sData7": "Nomisma"
+	}
+		]
+	},
+	{
+		"TestCaseId": "addNewSoleTraderBusiness",
+		"Keys": [
+	{
+		"TestCase_ID": "addNewSoleTraderBusiness",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1soletrader",
+		"sData5": "01/01/2010",
+		"sData6": "User1",
+		"sData7": "soletrader"
+	}
+		]
+	}	
+	,
+	{
+		"TestCaseId": "addPartnershipBusiness",
+		"Keys": [
+	{
+		"TestCase_ID": "addPartnershipBusiness",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "01/01/2000",
+		"sData6": "Partner1",
+		"sData7": "Nomisma"
+	}
+		]
+	}	
+	,
+	{
+		"TestCaseId": "addLLPBusiness",
+		"Keys": [
+	{
+		"TestCase_ID": "addLLPBusiness",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1LLPBusiness",
+		"sData5": "01/01/2000",
+		"sData6": "user1LLP",
+		"sData7": "Nomisma",
+		"sData8": "user2LLP",
+		"sData9": "Nomisma"
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "addPLCBusiness",
+		"Keys": [
+	{
+		"TestCase_ID": "addPLCBusiness",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1PLC",
+		"sData5": "01/01/2000",
+		"sData6": "PLCUser1",
+		"sData7": "Nomisma"
+	}
+		]
+	}	
+,
+	{
+		"TestCaseId": "AddNewPartner",
+		"Keys": [
+	{
+		"TestCase_ID": "AddNewPartner",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "Partner2",
+		"sData7": "Nomisma",
+		"sData8": "27 Old Gloucester Street, London",
+		"sData9": "anjali@nomismasolution.co.uk",
+		"sData10": "WC1N 3AE",
+		"sData11": "8800987650"
+	}
+		]
+	}	,
+	{
+		"TestCaseId": "AddNewPartnerRatio",
+		"Keys": [
+	{
+		"TestCase_ID": "AddNewPartnerRatio",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "40",
+		"sData7": "60"
+	}
+		]
+	}		
+	,
+	{
+		"TestCaseId": "BusinessQuesSA800",
+		"Keys": [
+	{
+		"TestCase_ID": "BusinessQuesSA800",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "5000"
+	}
+		]
+	}	
+	,
+	{
+		"TestCaseId": "BusinessQues4SA800",
+		"Keys": [
+	{
+		"TestCase_ID": "BusinessQues4SA800",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "House",
+		"sData7": "10000"
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "TaxableProfitLossSA800",
+		"Keys": [
+	{
+		"TestCase_ID": "TaxableProfitLossSA800",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "5000",
+		"sData7": "2000"
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "CheckTaxableProfitLoss",
+		"Keys": [
+	{
+		"TestCase_ID": "CheckTaxableProfitLoss",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "100000",
+		"sData7": "1000",
+		"sData8": "2000"
+	}
+		]
+	}		
+	,
+	{
+		"TestCaseId": "SA800_SummaryOfBalanceSheet",
+		"Keys": [
+	{
+		"TestCase_ID": "SA800_SummaryOfBalanceSheet",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "10000",
+		"sData7": "2000",
+		"sData8": "2500",
+		"sData9": "3100",
+		"sData10": "3200",
+		"sData11": "3300",
+		"sData12": "5000",
+		"sData13": "6000",
+		"sData14": "7000",
+		"sData15": "4000",
+		"sData16": "2200",
+		"sData17": "2600",
+		"sData18": "2700",
+		"sData19": "5000"
+	}
+		]
+	}	
+	,
+	
+	{
+		"TestCaseId": "SA800_AutoSummaryOfBalanceSheet",
+		"Keys": [
+	{
+		"TestCase_ID": "SA800_AutoSummaryOfBalanceSheet",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "custBalnceEntry",
+		"sData7": "01",
+		"sData8": "40000",
+		"sData9": "2",
+		"sData10": "01/12/2018",
+		"sData11": "BalanceSheetEntry",
+		"sData12": "1000",
+		"sData13": "1500",
+		"sData14": "2000",
+		"sData15": "2500",
+		"sData16": "3000",
+		"sData17": "3500",
+		"sData18": "4000",
+		"sData19": "4500",
+		"sData20": "5000",
+		"sData21": "5500",
+		"sData22": "6000"
+	}
+		]
+	}
+	,
+	
+	{
+		"TestCaseId": "SA800_AutoPartnershipFull",
+		"Keys": [
+	{
+		"TestCase_ID": "SA800_AutoPartnershipFull",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "custBalnceEntry",
+		"sData7": "01",
+		"sData8": "50000",
+		"sData9": "2",
+		"sData10": "01/12/2018",
+		"sData11": "PTRFull",
+		"sData12": "1000",
+		"sData13": "1100",
+		"sData14": "1200",
+		"sData15": "1300",
+		"sData16": "1400",
+		"sData17": "1500",
+		"sData18": "1600",
+		"sData19": "1700",
+		"sData20": "1800",
+		"sData21": "1900",
+		"sData22": "2000",
+		"sData23": "100",
+		"sData24": "200",
+		"sData25": "300",
+		"sData26": "400",
+		"sData27": "500"
+	}
+		]
+	}
+	,	
+	{
+		"TestCaseId": "TradingprofessionalIncome1",
+		"Keys": [
+	{
+		"TestCase_ID": "TradingprofessionalIncome1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "84999",
+		"sData7": "2000",
+		"sData8": "1000",
+		"sData9": "85000",
+		"sData10": "500"
+	}
+		]
+	}		
+	,
+	{
+		"TestCaseId": "TradingprofessionalIncome2",
+		"Keys": [
+	{
+		"TestCase_ID": "TradingprofessionalIncome2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "90000",
+		"sData7": "500",
+		"sData8": "600",
+		"sData9": "1000",
+		"sData10": "4000"
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "DataPTRShortAuto",
+		"Keys": [
+	{
+		"TestCase_ID": "DataPTRShortAuto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust_3_26",
+		"sData7": "01",
+		"sData8": "15000",
+		"sData9": "4",
+		"sData10": "01/12/2018",
+		"sData11": "Adding Jornal Entry",
+		"sData12": "1000",
+		"sData13": "1000",
+		"sData14": "500",
+		"sData15": "600"
+	}
+		]
+	}	
+	,
+	{
+		"TestCaseId": "DataPTRFullAuto",
+		"Keys": [
+	{
+		"TestCase_ID": "DataPTRFullAuto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust_3_29",
+		"sData7": "01",
+		"sData8": "85000",
+		"sData9": "1",
+		"sData10": "01/12/2018",
+		"sData11": "Adding Jornal Entry",
+		"sData12": "1000",
+		"sData13": "1000"
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "DataForVATVerification",
+		"Keys": [
+	{
+		"TestCase_ID": "DataForVATVerification",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "GB999 9999 73",
+		"sData7": "01/01/2010"
+		}
+		]
+	}	
+	,
+	{
+		"TestCaseId": "DataExpensesAuto",
+		"Keys": [
+	{
+		"TestCase_ID": "DataExpensesAuto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "custExpenses",
+		"sData7": "01",
+		"sData8": "45000",
+		"sData9": "2",
+		"sData10": "01/12/2018",
+		"sData11": "AddingJornal",
+		"sData12": "1000",
+		"sData13": "1000",
+		"sData14": "2000",
+		"sData15": "2000",
+		"sData16": "3000",
+		"sData17": "3000"
+		
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "Data3.46Auto",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.46Auto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.46",
+		"sData7": "01",
+		"sData8": "45000",
+		"sData9": "2",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.46",
+		"sData12": "1000",
+		"sData13": "1000",
+		"sData14": "2000",
+		"sData15": "2000",
+		"sData16": "3000",
+		"sData17": "3000",
+		"sData18": "4000",
+		"sData19": "4000"
+		
+	}
+		]
+	},
+		{
+		"TestCaseId": "Data3.48Auto",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.48Auto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.48",
+		"sData7": "01",
+		"sData8": "45000",
+		"sData9": "2",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.48",
+		"sData12": "1000",
+		"sData13": "1000",
+		"sData14": "1500",
+		"sData15": "1500",
+		"sData16": "2000",
+		"sData17": "2000",
+		"sData18": "2500",
+		"sData19": "2500",
+		"sData20": "3000",
+		"sData21": "3000",
+		"sData22": "3500",
+		"sData23": "3500"
+		
+	}
+		]
+	}	
+	,
+		{
+		"TestCaseId": "Data3.50Auto",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.50Auto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.50",
+		"sData7": "01",
+		"sData8": "33000",
+		"sData9": "3",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.50",
+		"sData12": "100",
+		"sData13": "100",
+		"sData14": "200",
+		"sData15": "200",
+		"sData16": "300",
+		"sData17": "300",
+		"sData18": "400",
+		"sData19": "400",
+		"sData20": "500",
+		"sData21": "500",
+		"sData22": "600",
+		"sData23": "600"
+		
+	}
+		]
+	}	
+	,
+	{
+		"TestCaseId": "Data3.51Auto",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.51Auto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.51",
+		"sData7": "01",
+		"sData8": "45000",
+		"sData9": "2",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.51",
+		"sData12": "10000",
+		"sData13": "10000",
+		"sData14": "1000",
+		"sData15": "1000",
+		"sData16": "1100",
+		"sData17": "1100",
+		"sData18": "1200",
+		"sData19": "1200",
+		"sData20": "1300",
+		"sData21": "1300",
+		"sData22": "1400",
+		"sData23": "1400",
+		"sData24": "1500",
+		"sData25": "1500",
+		"sData26": "1600",
+		"sData27": "1600",
+		"sData28": "1700",
+		"sData29": "1700",
+		"sData30": "1800",
+		"sData31": "1800",
+		"sData32": "1900",
+		"sData33": "1900"
+		
+	}
+		]
+	}	
+	,
+	{
+		"TestCaseId": "Data3.52Auto",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.52Auto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.52",
+		"sData7": "01",
+		"sData8": "30000",
+		"sData9": "3",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.52",
+		"sData12": "15000",
+		"sData13": "15000",
+		"sData14": "200",
+		"sData15": "200",
+		"sData16": "400",
+		"sData17": "400",
+		"sData18": "600",
+		"sData19": "600",
+		"sData20": "800",
+		"sData21": "800",
+		"sData22": "1000",
+		"sData23": "1000",
+		"sData24": "1200",
+		"sData25": "1200",
+		"sData26": "1400",
+		"sData27": "1400",
+		"sData28": "1600",
+		"sData29": "1600"
+		
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "Data3.53_3.54Auto",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.53_3.54Auto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.53_3.54",
+		"sData7": "01",
+		"sData8": "20000",
+		"sData9": "5",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.53_3.54",
+		"sData12": "12000",
+		"sData13": "12000",
+		"sData14": "100",
+		"sData15": "100",
+		"sData16": "300",
+		"sData17": "300",
+		"sData18": "500",
+		"sData19": "500",
+		"sData20": "700",
+		"sData21": "700",
+		"sData22": "900",
+		"sData23": "900",
+		"sData24": "1100",
+		"sData25": "1100",
+		"sData26": "1300",
+		"sData27": "1300",
+		"sData28": "1500",
+		"sData29": "1500",
+		"sData30": "1700",
+		"sData31": "1700"
+		
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "Data3.55_3.56Auto",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.55_3.56Auto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.55_3.56",
+		"sData7": "01",
+		"sData8": "50000",
+		"sData9": "2",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.55_3.56",
+		"sData12": "17000",
+		"sData13": "17000",
+		"sData14": "150",
+		"sData15": "150",
+		"sData16": "200",
+		"sData17": "200",
+		"sData18": "250",
+		"sData19": "250",
+		"sData20": "300",
+		"sData21": "300",
+		"sData22": "350",
+		"sData23": "350",
+		"sData24": "400",
+		"sData25": "400",
+		"sData26": "450",
+		"sData27": "450",
+		"sData28": "500",
+		"sData29": "500"
+		
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "Data3.57_3.58Auto",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.57_3.58Auto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.57_3.58",
+		"sData7": "01",
+		"sData8": "35000",
+		"sData9": "3",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.57_3.58",
+		"sData12": "11000",
+		"sData13": "11000",
+		"sData14": "1150",
+		"sData15": "1150",
+		"sData16": "1200",
+		"sData17": "1200",
+		"sData18": "1250",
+		"sData19": "1250",
+		"sData20": "1300",
+		"sData21": "1300",
+		"sData22": "1350",
+		"sData23": "1350",
+		"sData24": "1400",
+		"sData25": "1400",
+		"sData26": "1450",
+		"sData27": "1450",
+		"sData28": "1500",
+		"sData29": "1500"
+		
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "Data3.59To3.62Auto",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.59To3.62Auto",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.59To3.62",
+		"sData7": "01",
+		"sData8": "15000",
+		"sData9": "8",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.59To3.62",
+		"sData12": "22000",
+		"sData13": "22000",
+		"sData14": "2100",
+		"sData15": "2100",
+		"sData16": "2200",
+		"sData17": "2200",
+		"sData18": "2300",
+		"sData19": "2300",
+		"sData20": "2400",
+		"sData21": "2400",
+		"sData22": "2500",
+		"sData23": "2500",
+		"sData24": "2600",
+		"sData25": "2600",
+		"sData26": "2700",
+		"sData27": "2700",
+		"sData28": "2800",
+		"sData29": "2800",
+		"sData30": "2900",
+		"sData31": "2900",
+		"sData32": "3000",
+		"sData33": "3000",
+		"sData34": "3100",
+		"sData35": "3100",
+		"sData36": "3200",
+		"sData37": "3200"		
+	}
+		]
+	}
+	,
+	{
+		"TestCaseId": "Data3.63",
+		"Keys": [
+	{
+		"TestCase_ID": "Data3.63",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "cust3.63",
+		"sData7": "01",
+		"sData8": "10000",
+		"sData9": "10",
+		"sData10": "01/12/2018",
+		"sData11": "ValueFor3.63",
+		"sData12": "45000",
+		"sData13": "45000",
+		"sData14": "500",
+		"sData15": "500",
+		"sData16": "550",
+		"sData17": "550",
+		"sData18": "600",
+		"sData19": "600",
+		"sData20": "650",
+		"sData21": "650",
+		"sData22": "700",
+		"sData23": "700",
+		"sData24": "750",
+		"sData25": "750",
+		"sData26": "800",
+		"sData27": "800",
+		"sData28": "850",
+		"sData29": "850",
+		"sData30": "900",
+		"sData31": "900",
+		"sData32": "950",
+		"sData33": "950",
+		"sData34": "1000",
+		"sData35": "1000"
+		
+	}
+		]
+	}
+	,
+	
+	{
+		"TestCaseId": "SA802_PartnershipFull",
+		"Keys": [
+	{
+		"TestCase_ID": "SA802_PartnershipFull",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "custForIncome",
+		"sData7": "01",
+		"sData8": "50000",
+		"sData9": "2",
+		"sData10": "01-12-2018",
+		"sData11": "20000",
+		"sData12": "100",
+		"sData13": "200",
+		"sData14": "300",
+		"sData15": "400",
+		"sData16": "500",
+		"sData17": "600",
+		"sData18": "700",
+		"sData19": "800",
+		"sData20": "900",
+		"sData21": "1000",
+		"sData22": "1100",
+		"sData23": "1300",
+		"sData24": "1400",
+		"sData25": "1500",
+		"sData26": "1600",
+		"sData27": "1700",
+		"sData28": "Checking PTR Full Statement"
+	}
+		]
+	}	
+	,
+	
+	{
+		"TestCaseId": "SA803_PartnershipFull",
+		"Keys": [
+	{
+		"TestCase_ID": "SA803_PartnershipFull",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "testingPTR",
+		"sData4": "Nomisma1Partnership",
+		"sData5": "Partnership",
+		"sData6": "custForIncome",
+		"sData7": "01",
+		"sData8": "50000",
+		"sData9": "2",
+		"sData10": "01-12-2018",
+		"sData11": "My Asset",
+		"sData12": "2000",
+		"sData13": "testing",
+		"sData14": "Checking PTR Full"
+		}
+		]
+		}														
+]

@@ -1,0 +1,461 @@
+[
+{
+		"TestCaseId": "addClient",
+		"Keys": [
+	{
+		"TestCase_ID": "addClient",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "1000000110",
+		"sData5": "MTRTestCase191",
+		"sData6": "SA",
+		"sData7": "27 Old Gloucester Street",
+		"sData8": " London WC1N 3AX",
+		"sData9": "WC1N 3AE"
+		
+	}
+		]
+	},
+	{
+		"TestCaseId": "TestCase1",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase1",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Abc Corp.",
+		"sData5": "AB510/200",
+		"sData6": "45000",
+		"sData7": "6700.00",
+		"sData8": "18.00",
+		"sData9": "2000.00",
+		"sData10": "Bank of scotland",
+		"sData11": "31926819"
+		
+	}
+		]
+	},
+	{
+		"TestCaseId": "TestCase2",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase2",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Abc Corp.",
+		"sData5": "AB510/200",
+		"sData6": "33254",
+		"sData7": "2000.00",
+		"sData8": "3678.00",
+		"sData9": "1",
+		"sData10": "7800.00",
+		"sData11": "4200.00",
+		"sData12": "Bank of America",
+		"sData13": "31926819"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase3",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase3",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of America",
+		"sData5": "31926819",
+		"sData6": "3678.00",
+		"sData7": "12750.00",
+		"sData8": "1200.00",
+		"sData9": "Abc Corp.",
+		"sData10": "AB510/200",
+		"sData11": "33254.00",
+		"sData12": "2000.00",
+		"sData13": "Trade5",
+		"sData14": "trader",
+		"sData15": "06/04/2017",
+		"sData16": "30/12/2017",
+		"sData17": "74900.00",
+		"sData18": "25000.00",
+		"sData19": "2000.00",
+		"sData20": "12000.00",
+		"sData21": "10800.00",
+		"sData22": "1400.00",
+		"sData23": "5800.00",
+		"sData24": "1500.00",
+		"sData25": "1500.00",
+		"sData26": "06/04/2017",
+		"sData27": "05/04/2018",
+		"sData28": "-1010.00",
+		"sData29": "300.00",
+		"sData30": "2600.00"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase4",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase4",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of scotland",
+		"sData5": "31926819",
+		"sData6": "14324.00",
+		"sData7": "company",
+		"sData8": "5999.00",
+		"sData9": "1976"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase9",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase9",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of scotland",
+		"sData5": "31926819",
+		"sData6": "365.00",
+		"sData7": "7283.00",
+		"sData8": "1510.00",
+		"sData9": "1500.00",
+		"sData10": "300.00",
+		"sData11": "bee keeper",
+		"sData12": "2400.00",
+		"sData13": "Courier",
+		"sData14": "31/03/2018",
+		"sData15": "14560.00",
+		"sData16": "13603.00",
+		"sData17": "1700.00",
+		"sData18": "3926.00",
+		"sData19": "720.00",
+		"sData20": "250.00",
+		"sData21": "7800.00",
+		"sData22": "4200.00"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase10",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase10",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of scotland",
+		"sData5": "31926819",
+		"sData6": "21005.00",
+		"sData7": "16000.00",
+		"sData8": "8239.00",
+		"sData9": "4800",
+		"sData10": "960",
+		"sData11": "2400"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase14",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase14",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "12750.00",
+		"sData5": "Abc Corp.",
+		"sData6": "AB510/200",
+		"sData7": "33254.00",
+		"sData8": "2000.00",
+		"sData9": "1102.86"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase15",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase15",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of America",
+		"sData5": "31926819",
+		"sData6": "3678.00",
+		"sData7": "12750.00",
+		"sData8": "1200.00",
+		"sData9": "Trade5",
+		"sData10": "trader",
+		"sData11": "06/04/2017",
+		"sData12": "30/12/2017",
+		"sData13": "74900.00",
+		"sData14": "25000.00",
+		"sData15": "2000.00",
+		"sData16": "12000.00",
+		"sData17": "10800.00",
+		"sData18": "1400.00",
+		"sData19": "5800.00",
+		"sData20": "1500.00",
+		"sData21": "1500.00",
+		"sData22": "-1010.00",
+		"sData23": "300.00",
+		"sData24": "2600.00"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase16",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase16",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of America",
+		"sData5": "31926819",
+		"sData6": "3678.00",
+		"sData7": "12750.00",
+		"sData8": "6200",
+		"sData9": "1",
+		"sData10": "131731.00",
+		"sData11": "12218.00",
+		"sData12": "14935",
+		"sData13": "26882",
+		"sData14": "5527",
+		"sData15": "7059",
+		"sData16": "13171",
+		"sData17": "1197"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase17",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase17",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of America",
+		"sData5": "31926819",
+		"sData6": "3678.00",
+		"sData7": "12750.00",
+		"sData8": "Abc Corp.",
+		"sData9": "AB510/200",
+		"sData10": "33254.00",
+		"sData11": "2000.00",
+		"sData12": "1",
+		"sData13": "7800.00",
+		"sData14": "4200.00",
+		"sData15": "1800",
+		"sData16": "13171",
+		"sData17": "1197"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase24",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase24",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of America",
+		"sData5": "31926819",
+		"sData6": "21.00",
+		"sData7": "811.00",
+		"sData8": "11166.00",
+		"sData9": "1500.00",
+		"sData10": "300.00",
+		"sData11": "bee keeper",
+		"sData12": "36541.00",
+		"sData13": "7308.20"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase38",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase38",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of America",
+		"sData5": "31926819",
+		"sData6": "3678.00",
+		"sData7": "12750.00",
+		"sData8": "Abc Corp.",
+		"sData9": "AB510/200",
+		"sData10": "101000.00",
+		"sData11": "20500.00",
+		"sData12": "500.00",
+		"sData13": "5000.00",
+		"sData14": "7500.00",
+		"sData15": "175.00",
+		"sData16": "2",
+		"sData17": "37000.00",
+		"sData18": "12000.00",
+		"sData19": "25000.00",
+		"sData20": "ERL",
+		"sData21": "1",
+		"sData22": "25000.00",
+		"sData23": "25000.00",
+		"sData24": "20000.00",
+		"sData25": "computation"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase38",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase38",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of America",
+		"sData5": "31926819",
+		"sData6": "21.00",
+		"sData7": "811.00"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase48",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase48",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of America",
+		"sData5": "31926819",
+		"sData6": "22.00",
+		"sData7": "2099.88",
+		"sData8": "trader",
+		"sData9": "32495.00",
+		"sData10": "8620.00",
+		"sData11": "1200.00",
+		"sData12": "800.00"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase50",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase50",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "7000.00",
+		"sData5": "1400.00",
+		"sData6": "accounts",
+		"sData7": "2400.00",
+		"sData8": "Abc Corp.",
+		"sData9": "AB510/200",
+		"sData10": "33254.00",
+		"sData11": "4350.80",
+		"sData12": "1",
+		"sData13": "7800.00",
+		"sData14": "4200.00"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase54",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase54",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Bank of America",
+		"sData5": "31926819",
+		"sData6": "6710.40",
+		"sData7": "5009.93",
+		"sData8": "224.47",
+		"sData9": "6200.00",
+		"sData10": "1500.00",
+		"sData11": "300.00",
+		"sData12": "bee keeper"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase191",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase191",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "Abc Corp.",
+		"sData5": "AB510/200",
+		"sData6": "37950",
+		"sData7": "5879.00",
+		"sData8": "450.00",
+		"sData9": "Bank of scotland",
+		"sData10": "31926819",
+		"sData11": "3678.00",
+		"sData12": "12750.00",
+		"sData13": "14418.00",
+		"sData14": "4539.00",
+		"sData15": "3"
+		}
+		]
+	},
+	{
+		"TestCaseId": "TestCase59",
+		"Keys": [
+			{
+		"TestCase_ID": "TestCase59",
+		"sData1": "admin",
+		"sData2": "admin1",
+		"sData3": "MTRTestCases",
+		"sData4": "6200.00",
+		"sData5": "1500.00",
+		"sData6": "300.00",
+		"sData7": "bee keeper",
+		"sData8": "2400.00",
+		"sData9": "Trade5",
+		"sData10": "trader",
+		"sData11": "06/04/2017",
+		"sData12": "30/12/2017",
+		"sData13": "74900.00",
+		"sData14": "25000.00",
+		"sData15": "2000.00",
+		"sData16": "12000.00",
+		"sData17": "10800.00",
+		"sData18": "1400.00",
+		"sData19": "5800.00",
+		"sData20": "1500.00",
+		"sData21": "1500.00",
+		"sData22": "06/04/2017",
+		"sData23": "05/04/2018",
+		"sData24": "-1010.00",
+		"sData25": "300.00",
+		"sData26": "2600.00",
+		"sData27": "1",
+		"sData28": "12000.00",
+		"sData29": "12000.00",
+		"sData30": "ERL",
+		"sData31": "1",
+		"sData32": "27000.00",
+		"sData33": "27000.00",
+		"sData34": "9000.00",
+		"sData35": "12000.00"
+	}
+		]
+	}
+]

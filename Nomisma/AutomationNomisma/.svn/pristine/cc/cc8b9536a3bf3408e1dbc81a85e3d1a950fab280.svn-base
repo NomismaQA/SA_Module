@@ -1,0 +1,412 @@
+<html>
+<head>
+<title>TestNG:  102.------------- VAT AddEUCustomerInvoiceTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>102.------------- VAT AddEUCustomerInvoiceTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 05 19:15:02 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>311 seconds (311858 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nomisma.scriptsvat.AddEUCustomerInvoiceTest.BankTransactionsEUInvoices()'><b>BankTransactionsEUInvoices</b><br>Test class: com.nomisma.scriptsvat.AddEUCustomerInvoiceTest<br/>
+<a href="#Output-143357682" onClick='toggleBox("Output-143357682", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-143357682" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-143357682">
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]] clicked<br/>
+Agent window is displayed<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //a[@id='ui-id-2']]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //a[@id='ui-id-2']]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //a[@id='ui-id-2']] clicked<br/>
+Company opened successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+Title verified successfully<br/>
+Random Integer: 55127617<br/>
+num1: 55127617<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave] clicked<br/>
+Bank & Credit Card Transaction added successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+Title verified successfully<br/>
+Random Integer: 84197814<br/>
+num1: 84197814<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave] clicked<br/>
+Bank & Credit Card Transaction added successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+Title verified successfully<br/>
+Random Integer: 98687669<br/>
+num1: 98687669<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave] clicked<br/>
+Bank & Credit Card Transaction added successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //span[contains(text(),'Banking')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+Title verified successfully<br/>
+Random Integer: 99106671<br/>
+num1: 99106671<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> xpath: //*[@id='ctl00_cPH_rptRecord_ctl00_AccountUC1_AutoCompleteExtender1_completionListElem']/li[1]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cPH_rptRecord_ctl00_txtDescription] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (a5423d4ad48a6e52db0c73d7211aea46)] -> id: ctl00_cpHeaderRight_btnSave] clicked<br/>
+Bank & Credit Card Transaction added successfully<br/>
+Test execution completed successfully for adding Bank Transactions<br/>
+TestScript Name: 'BankTransactionsEUInvoices'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>97</td>
+<td>com.nomisma.scriptsvat.AddEUCustomerInvoiceTest@1169afe1</td></tr>
+<tr>
+<td title='com.nomisma.scriptsvat.AddEUCustomerInvoiceTest.InvoiceEUInvoices()'><b>InvoiceEUInvoices</b><br>Test class: com.nomisma.scriptsvat.AddEUCustomerInvoiceTest<br/>
+<a href="#Output-1280512370" onClick='toggleBox("Output-1280512370", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1280512370" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1280512370">
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]] clicked<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //a[@id='ui-id-2']]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //a[@id='ui-id-2']]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //a[@id='ui-id-2']] clicked<br/>
+Company opened successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //span[contains(text(),'Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //span[contains(text(),'Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //span[contains(text(),'Income')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+Title verified successfully<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_UK"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_UK"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_UK"]] clicked<br/>
+UK Customer verified successfully<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_VAT"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_VAT"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_VAT"]] clicked<br/>
+EU Customer having VAT amd Business type verified successfully<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_NOVAT"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_NOVAT"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_NOVAT"]] clicked<br/>
+EU Customer having Non-VAT amd Business type verified successfully<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_NoVAT_NB"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_NoVAT_NB"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_NoVAT_NB"]] clicked<br/>
+EU Customer having Non-VAT amd Non-Business type verified successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: cboxClose]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: cboxClose]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: cboxClose] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_UK"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_UK"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_UK"]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave] clicked<br/>
+Invoice added successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_VAT"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_VAT"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_VAT"]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave] clicked<br/>
+Invoice added successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave] clicked<br/>
+Invoice added successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> xpath: //div[@class='dropdown search_filter_each dashOpt-e fa fa-plus']] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cpHeaderRight_btnAdd] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_NoVAT_NB"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_NoVAT_NB"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddlCustomer]] -> xpath: .//option[normalize-space(.) = "SA_EU_NoVAT_NB"]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddProduct]] -> xpath: .//option[normalize-space(.) = "Sale"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtQuantity] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_txtDiscountRate] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_rptrProduct_ctl00_ddVATRate]] -> xpath: .//option[normalize-space(.) = "STD 20%"]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cPH_ddBank]] -> xpath: .//option[normalize-space(.) = "YES BANK"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave]<br/>
+After click [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave]<br/>
+WebElement [[ChromeDriver: chrome on XP (5b3905778b0b1b250de6cb80717e828c)] -> id: ctl00_cphFooter_btnSave] clicked<br/>
+Invoice added successfully<br/>
+Test execution completed successfully for Adding EU Invoices<br/>
+TestScript Name: 'InvoiceEUInvoices'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>168</td>
+<td>com.nomisma.scriptsvat.AddEUCustomerInvoiceTest@1169afe1</td></tr>
+<tr>
+<td title='com.nomisma.scriptsvat.AddEUCustomerInvoiceTest.ReconcileEUInvoices()'><b>ReconcileEUInvoices</b><br>Test class: com.nomisma.scriptsvat.AddEUCustomerInvoiceTest<br/>
+<a href="#Output-590414408" onClick='toggleBox("Output-590414408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-590414408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-590414408">
+WebElement to be clicked [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPH_btnLogin]<br/>
+After click [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPH_btnLogin]<br/>
+WebElement [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPH_btnLogin] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+After click [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPHFilter_btnSearch]<br/>
+WebElement [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPHFilter_btnSearch] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]]<br/>
+After click [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: //div[@class='outerT-dash outerT-dash_Print']//table//tbody//tr//td[contains(text(),'TestAutomation')]] clicked<br/>
+Agent window is displayed<br/>
+Page Refreshed<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: //a[@id='ui-id-2']]<br/>
+After click [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: //a[@id='ui-id-2']]<br/>
+WebElement [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: //a[@id='ui-id-2']] clicked<br/>
+Company opened successfully<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: //span[contains(text(),'Income')]]<br/>
+After click [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: //span[contains(text(),'Income')]]<br/>
+WebElement [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: //span[contains(text(),'Income')]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: /html[1]/body[1]/form[1]/main[1]/div[1]/div[3]/header[1]/div[1]/div[3]/div[1]/a[5]]<br/>
+After click [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: /html[1]/body[1]/form[1]/main[1]/div[1]/div[3]/header[1]/div[1]/div[3]/div[1]/a[5]]<br/>
+WebElement [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> xpath: /html[1]/body[1]/form[1]/main[1]/div[1]/div[3]/header[1]/div[1]/div[3]/div[1]/a[5]] clicked<br/>
+WebElement to be clicked [[[[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPHFilter_ddlAccountType]] -> xpath: .//option[normalize-space(.) = "Customer"]]<br/>
+After click [[[[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPHFilter_ddlAccountType]] -> xpath: .//option[normalize-space(.) = "Customer"]]<br/>
+WebElement [[[[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPHFilter_ddlAccountType]] -> xpath: .//option[normalize-space(.) = "Customer"]] clicked<br/>
+WebElement to be clicked [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPH_lnkReconcileAll]<br/>
+After click [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPH_lnkReconcileAll]<br/>
+WebElement [[ChromeDriver: chrome on XP (47fda2e9955b8180bf674dbf69493f38)] -> id: ctl00_cPH_lnkReconcileAll] clicked<br/>
+Test execution completed successfully<br/>
+TestScript Name: 'ReconcileEUInvoices'  /Status--->Pass :)<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.nomisma.scriptsvat.AddEUCustomerInvoiceTest@1169afe1</td></tr>
+</table><p>
+</body>
+</html>
